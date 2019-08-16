@@ -13,11 +13,13 @@ For my Master's Thesis, I will be conducting research using Hearthone to dedect 
 ## Prerequisites
 .NetCore 2.0
 
-## Sample CMS Runs
+## Sample CMD Runs
 
 
 ## Benchmarks
-
+| Title | Time |
+| ----- | ---- |
+| Local | 4 mins | 
 
 ## Noteworthy Observations
 
