@@ -34,8 +34,8 @@ namespace SabberStoneCoreAi
 			Console.WriteLine("Starting test setup.");
 
 			//OneTurn();
-			//FullGame();
-			RandomGames();
+			FullGame();
+			//RandomGames();
 			//TestFullGames();
 
 			Console.WriteLine("Test end!");
@@ -261,6 +261,15 @@ namespace SabberStoneCoreAi
 					Console.WriteLine($"- Player 1 - <{game.CurrentPlayer.Name}> ---------------------------");
 					foreach (PlayerTask task in solution)
 					{
+						if (task.PlayerTaskType.Equals(PlayerTaskType.END_TURN))
+						{
+							Console.WriteLine(">>>>>>>>>TASK TYPE CHECK");
+							Console.WriteLine(task.PlayerTaskType.Equals(PlayerTaskType.END_TURN));
+							Console.WriteLine(">>>>>>>>>");
+							Console.WriteLine(task.PlayerTaskType);
+							Console.WriteLine(game.CurrentPlayer.NumCardsDrawnThisTurn);
+							//Console.WriteLine(game.CurrentPlayer.);
+						}
 						Console.WriteLine(task.FullPrint());
 						game.Process(task);
 						if (game.CurrentPlayer.Choice != null)
@@ -269,6 +278,8 @@ namespace SabberStoneCoreAi
 							break;
 						}
 					}
+					Console.WriteLine("Testing>>>>>>>>>>>>>>>>>>>>>");
+					Console.WriteLine(game.CurrentPlayer.NumCardsPlayedThisTurn);
 				}
 
 				// Random mode for Player 2

@@ -1214,6 +1214,9 @@ namespace SabberStoneCore.Model
 			if (!_gameConfig.Logging)
 				return;
 
+			Console.WriteLine("Time: " + DateTime.Now + ", Level: " + level +
+			", Location: " + location + ", Blocktype: " + block + ", Text" + text);
+
 			Logs.Enqueue(new LogEntry()
 			{
 				TimeStamp = DateTime.Now,

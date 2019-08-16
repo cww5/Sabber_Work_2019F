@@ -364,6 +364,8 @@ namespace SabberStoneCore.Model.Entities
 
 			//	EndTurnTask
 			var allOptions = new List<PlayerTask>(20) { EndTurnTask.Any(this) };
+			//Console.WriteLine(">>>>>>>>>>>>>>>>>>TESTING");
+			//Console.WriteLine(allOptions.ToString());
 
 			#region PlayCardTasks
 			int mana = RemainingMana;
@@ -875,8 +877,10 @@ namespace SabberStoneCore.Model.Entities
 		public int NumCardsDrawnThisTurn
 		{
 			get
-			{
+			{ 
 				_data.TryGetValue(GameTag.NUM_CARDS_DRAWN_THIS_TURN, out int value);
+				//Console.WriteLine(">>>>>>TESTING");
+				//Console.WriteLine(value);
 				return value;
 			}
 			set { this[GameTag.NUM_CARDS_DRAWN_THIS_TURN] = value; }
