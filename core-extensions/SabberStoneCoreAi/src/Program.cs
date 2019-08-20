@@ -263,12 +263,16 @@ namespace SabberStoneCoreAi
 					{
 						if (task.PlayerTaskType.Equals(PlayerTaskType.END_TURN))
 						{
-							Console.WriteLine(">>>>>>>>>TASK TYPE CHECK");
-							Console.WriteLine(task.PlayerTaskType.Equals(PlayerTaskType.END_TURN));
-							Console.WriteLine(">>>>>>>>>");
-							Console.WriteLine(task.PlayerTaskType);
-							Console.WriteLine(game.CurrentPlayer.NumCardsDrawnThisTurn);
-							//Console.WriteLine(game.CurrentPlayer.);
+							Console.WriteLine($">>>>>>>>>TASK TYPE CHECK (is EOD?): {task.PlayerTaskType.Equals(PlayerTaskType.END_TURN)}");
+							Console.WriteLine($">>>>>>>>>TASK TYPE: {task.PlayerTaskType}");
+							Console.WriteLine($"AMOUNTHEALEDTHISTURN {game.CurrentPlayer.AmountHeroHealedThisTurn}");
+							Console.WriteLine($"HEROPOWERACTIVATIONSTHIS TURN {game.CurrentPlayer.HeroPowerActivationsThisTurn}");
+							Console.WriteLine($"NUMATTACKSTHISTURN {game.CurrentPlayer.NumAttacksThisTurn}");
+							Console.WriteLine($"NUMCARDSDRAWNTHISTURN {game.CurrentPlayer.NumCardsDrawnThisTurn}");
+							Console.WriteLine($"NUMCARDSPLAYEDTHISTURN {game.CurrentPlayer.NumCardsPlayedThisTurn}");
+							Console.WriteLine($"NUMCARDSTODRAW {game.CurrentPlayer.NumCardsToDraw}");
+							Console.WriteLine($"NUMELEMENTALSPLAYEDLASTTURN {game.CurrentPlayer.NumElementalsPlayedLastTurn}");
+							Console.WriteLine($"NUMELEMENTALSPLAYEDTHISTURN {game.CurrentPlayer.NumElementalsPlayedThisTurn}");
 						}
 						Console.WriteLine(task.FullPrint());
 						game.Process(task);
