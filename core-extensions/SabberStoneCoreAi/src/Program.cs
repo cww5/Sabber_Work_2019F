@@ -263,8 +263,13 @@ namespace SabberStoneCoreAi
 					{
 						if (task.PlayerTaskType.Equals(PlayerTaskType.END_TURN))
 						{
-							Console.WriteLine($">>>>>>>>>TASK TYPE CHECK (is EOD?): {task.PlayerTaskType.Equals(PlayerTaskType.END_TURN)}");
+							Console.WriteLine("______________________________________________________________________");
+							Console.WriteLine($"Player1: {game.Player1.PlayState} / Player2: {game.Player2.PlayState} - tyrn no " + game.Turn);
+								//$"ROUND {(game.Turn + 1) / 2} - {game.CurrentPlayer.Name}");
+							Console.WriteLine($"Hero[P1]: {game.Player1.Hero.Health} / Hero[P2]: {game.Player2.Hero.Health}");
+							Console.WriteLine($">>>>>>>>>TASK TYPE CHECK (is EOT?): {task.PlayerTaskType.Equals(PlayerTaskType.END_TURN)}");
 							Console.WriteLine($">>>>>>>>>TASK TYPE: {task.PlayerTaskType}");
+							
 							Console.WriteLine($"AMOUNTHEALEDTHISTURN {game.CurrentPlayer.AmountHeroHealedThisTurn}");
 							Console.WriteLine($"HEROPOWERACTIVATIONSTHIS TURN {game.CurrentPlayer.HeroPowerActivationsThisTurn}");
 							Console.WriteLine($"NUMATTACKSTHISTURN {game.CurrentPlayer.NumAttacksThisTurn}");
@@ -273,6 +278,17 @@ namespace SabberStoneCoreAi
 							Console.WriteLine($"NUMCARDSTODRAW {game.CurrentPlayer.NumCardsToDraw}");
 							Console.WriteLine($"NUMELEMENTALSPLAYEDLASTTURN {game.CurrentPlayer.NumElementalsPlayedLastTurn}");
 							Console.WriteLine($"NUMELEMENTALSPLAYEDTHISTURN {game.CurrentPlayer.NumElementalsPlayedThisTurn}");
+							Console.WriteLine($"NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN {game.CurrentPlayer.NumFriendlyMinionsThatAttackedThisTurn}");
+							Console.WriteLine($"NUMFRIENDLYMINIONSTHATDIEDTHISTURN {game.CurrentPlayer.NumFriendlyMinionsThatDiedThisTurn}");
+							Console.WriteLine($"NUMMINIONSPLAYEDTHISTURN {game.CurrentPlayer.NumMinionsPlayedThisTurn}");
+							Console.WriteLine($"NUMMINIONSPLAYERKILLEDTHISTURN {game.CurrentPlayer.NumMinionsPlayerKilledThisTurn}");
+							Console.WriteLine($"NUMOPTIONSPLAYEDTHISTURN {game.CurrentPlayer.NumOptionsPlayedThisTurn}");
+							Console.WriteLine($"NUMSECRETSPLAYEDTHISGAME {game.CurrentPlayer.NumSecretsPlayedThisGame}");
+							Console.WriteLine($"NUMSPELLSPLAYEDTHISGAME {game.CurrentPlayer.NumSpellsPlayedThisGame}");
+							Console.WriteLine($"NUMTIMESHEROPOWERUSEDTHISGAME {game.CurrentPlayer.NumTimesHeroPowerUsedThisGame}");
+							Console.WriteLine($"REMAININGMANA {game.CurrentPlayer.RemainingMana}");
+							Console.WriteLine($"TOTALMANASPENTTHISGAME {game.CurrentPlayer.TotalManaSpentThisGame}");
+							Console.WriteLine($"USEDMANATHISTURN {game.CurrentPlayer.UsedMana}"); //This represents how much was used this turn
 						}
 						Console.WriteLine(task.FullPrint());
 						game.Process(task);
@@ -282,8 +298,8 @@ namespace SabberStoneCoreAi
 							break;
 						}
 					}
-					Console.WriteLine("Testing>>>>>>>>>>>>>>>>>>>>>");
-					Console.WriteLine(game.CurrentPlayer.NumCardsPlayedThisTurn);
+					//Console.WriteLine("Testing>>>>>>>>>>>>>>>>>>>>>");
+					//Console.WriteLine(game.CurrentPlayer.NumCardsPlayedThisTurn);
 				}
 
 				// Random mode for Player 2
