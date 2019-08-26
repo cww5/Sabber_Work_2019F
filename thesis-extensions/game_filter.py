@@ -1,48 +1,49 @@
-'''
+"""
 TO DO:
-1) Investigate the Blocktypes lines further.
---There should be a way to save the name of the players like
-Garrosh Hellscream, and then check in a given line in the name
-of the player with their atk/health is in the line
-
+1) Parse through the new logs
 
 2) Make a function that takes the data and forms a dataframe per game:
+turn number		P1_health	P2_health	health_difference   AMOUNTHEALEDTHISTURN .... etc etc
 
-turn number		P1_health	P2_health	health_difference
+3) Find a way to run the C# script N number of times and write to output files
 
-test comment
-
-
-
+4) python script should read all N files
 
 
-Player1: PLAYING / Player2: PLAYING - ROUND 2 - WARRIOR Player1
+
+End Of Turn Logs look like:
+
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 1
 Hero[P1]: 30 / Hero[P2]: 30
+#>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+#>>>>>>>>>TASK TYPE: END_TURN
+CURRENT PLAYER: P1 FitzVonGerald
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 1
+USEDMANATHISTURN 1
+______________________________________________________________________|
 
-* Calculating solutions *** Player 1 ***
-Depth: 1 --> 10/11 options! [SOLUTIONS:1]
-Depth: 2 --> 45/52 options! [SOLUTIONS:8]
-Depth: 3 --> 140/171 options! [SOLUTIONS:39]
-Depth: 4 --> 342/454 options! [SOLUTIONS:151]
-Depth: 5 --> 0/342 options! [SOLUTIONS:493]
-- Player 1 - <WARRIOR Player1> ---------------------------
-MinionAttackTask => [WARRIOR Player1] 'Southsea Deckhand[28]'(MINION) attack 'Garrosh Hellscream[6]'
-Time: 4/3/2019 10:25:36 AM, Level: INFO, Location: Game, Blocktype: PLAY, TextMinionAttackTask => [WARRIOR Player1] 'Southsea Deckhand[28]'(MINION) attack 'Garrosh Hellscream[6]'
-Time: 4/3/2019 10:25:36 AM, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[28]' set data ATTACKING to 1
-Time: 4/3/2019 10:25:36 AM, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Garrosh Hellscream[6]' set data DEFENDING to 1
-Time: 4/3/2019 10:25:36 AM, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Garrosh Hellscream[6]' set data PREDAMAGE to 2
-Time: 4/3/2019 10:25:36 AM, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Garrosh Hellscream[6]' set data PREDAMAGE to 0
-Time: 4/3/2019 10:25:36 AM, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Garrosh Hellscream[6]' set data DAMAGE to 2
-Time: 4/3/2019 10:25:36 AM, Level: INFO, Location: Character, Blocktype: ACTION, Text'Garrosh Hellscream[6]' took damage for 2(2).
-Time: 4/3/2019 10:25:36 AM, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[28]' set data ATTACKING to 0
-Time: 4/3/2019 10:25:36 AM, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Garrosh Hellscream[6]' set data DEFENDING to 0
-Time: 4/3/2019 10:25:36 AM, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 1
-Time: 4/3/2019 10:25:36 AM, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_FRIENDLY_MINIONS_THAT_ATTACKED_THIS_TURN to 1
-Time: 4/3/2019 10:25:36 AM, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text'Southsea Deckhand[28]' is now exhausted.
-Time: 4/3/2019 10:25:36 AM, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[28]' set data EXHAUSTED to 1
-Time: 4/3/2019 10:25:36 AM, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[28]' set data NUM_ATTACKS_THIS_TURN to 1
-Time: 4/3/2019 10:25:36 AM, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text[AttackPhase]'Southsea Deckhand[28]'[ATK:2/HP:1] attacked 'Garrosh Hellscream[6]'[ATK:0/HP:28].
-'''
+
+The two lines above with the >>>>>> don't begin with '#', added that there because PyCharm threw errors on those lines.
+
+"""
 import numpy as np
 import pandas as pd
 import matplotlib
