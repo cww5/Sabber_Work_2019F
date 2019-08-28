@@ -40,7 +40,8 @@ TOTALMANASPENTTHISGAME 1
 USEDMANATHISTURN 1
 ______________________________________________________________________|
 
-
+this contains 25 lines from index of ______ to index of _____|
+shuold be range(i, i+26)
 The two lines above with the >>>>>> don't begin with '#', added that there because PyCharm threw errors on those lines.
 
 """
@@ -80,8 +81,33 @@ def parse_options():
 	return ret_args
 
 
-class Game_Filter:
-	'''class to filter key info from fullgame.txt'''
+class GameFilter:
+	"""class to parse through the game.txt file"""
+
+	def __init__(self, infile):
+		self.lines = []
+		with open(infile) as f:
+			for line in f:
+				self.lines.append(line.strip('\n'))
+		self.df = pd.DataFrame()
+
+	def parse_file(self):
+		for i in range(len(self.lines)):
+			line = self.lines[i]
+			if len(line) > 0:
+				if line[0] == '_' and line[-1] == '_':
+					self.parse_turn(self.lines[i:i+26])
+					i += 26
+		return
+
+	def parse_turn(self, turn_text_list):
+		for line in turn_text_list:
+			print(line)
+		return
+
+
+class GameFilterOriginal:
+	"""class to filter key info from fullgame.txt"""
 
 	def __init__(self, infile):
 		self.lines = []
@@ -101,20 +127,20 @@ class Game_Filter:
 			line = self.lines[i]
 			prev = self.lines[i - 1]
 			block_query = re.search("Blocktype: [A-Z]+", line)
-			if block_query != None:
+			if block_query is not None:
 				blockF = True
 				# self.blocktypes[i] = block_query.group()
 				self.blocktypes[i] = line
 
 			health_query = re.search("Hero\[P1\]: [0-9]+ / Hero\[P2\]: [0-9]+", line)
-			if health_query != None:
+			if health_query is not None:
 				healthF = True
 				cur = health_query.group().strip('\n')
 				health_list = [prev.strip('\n'), cur]
 				self.healths.append(health_list)
 
 			endturn_query = re.search(">>>Player [0-9] HEALTH", line)
-			if endturn_query != None:
+			if endturn_query is not None:
 				endturnF = True
 				end = line.strip("\n")
 				self.end_turns.append(end)
@@ -158,14 +184,14 @@ class Game_Filter:
 			logging.info(key, self.blocktypes[key])
 
 	def process_endturn_health(self, p_flag):
-		'''
+		"""
 		MAJOR PROBLEM HERE - turn number in DF is calculated manually. There
 		is an error in the text files with how the turn number is calculated.
 		Please check .sln file
 
 
 		:return:
-		'''
+		"""
 		if p_flag: self.print_header("ENDTURN_HEALTH")
 		p1_health = 30
 		p2_health = 30
@@ -208,6 +234,7 @@ class Game_Filter:
 		plt.ylabel('Health Dif')
 		plt.show()
 
+
 def main():
 	args = parse_options()
 	# C:\Users\watson\Desktop\fullgame01_060219.txt
@@ -215,11 +242,14 @@ def main():
 	logging.debug(f'Numpy: {np.__version__}')
 	logging.debug(f'Pandas: {pd.__version__}')
 	game_name = args.data_file
-	game_obj = Game_Filter(game_name)
-	game_obj.line_parser()
-	game_obj.print_options(args)
-	logging.info('\n{}'.format(game_obj.df))
-	game_obj.plot_data()
+	#game_obj = GameFilterOriginal(game_name)
+	#game_obj.line_parser()
+	#game_obj.print_options(args)
+	#logging.info('\n{}'.format(game_obj.df))
+	#game_obj.plot_data()
+
+	game_obj = GameFilter(game_name)
+	game_obj.parse_file()
 
 
 if __name__ == "__main__":
