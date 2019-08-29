@@ -42,7 +42,7 @@ def parse_cards_xml(fname, cards_eng_path):
 def find_card(card, lines):
 	found = False
 	for line in lines:
-		if card in line.lower():
+		if card.lower() in line.lower():
 			found = True
 			print(card + ' found')
 			break
@@ -62,7 +62,7 @@ def parse_decklist(fname, cards_eng_path):
 	f.close()
 
 	for line_ in deck:
-		card_parts = line_.lower().strip('\n').split('><')
+		card_parts = line_.strip('\n').split('><')
 		card_ = card_parts[0]
 		#amount = card_parts[1]
 		find_card(card_, lines_)
