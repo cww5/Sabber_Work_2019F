@@ -61,8 +61,10 @@ def parse_decklist(fname, cards_eng_path):
 	lines_ = f.readlines()
 	f.close()
 
-	for card_ in deck:
-		card_ = card_.lower().strip('\n')
+	for line_ in deck:
+		card_parts = line_.lower().strip('\n').split('><')
+		card_ = card_parts[0]
+		#amount = card_parts[1]
 		find_card(card_, lines_)
 	deck.close()
 
