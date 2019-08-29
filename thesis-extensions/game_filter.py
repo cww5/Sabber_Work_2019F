@@ -75,7 +75,7 @@ def parse_options():
 
 	if ret_args.log_file is not None:
 		log_file = ret_args.log_file
-		logging.basicConfig(level=log_lvl, filename=log_file, format = log_fmt)
+		logging.basicConfig(level=log_lvl, filename=log_file, format=log_fmt)
 	else:
 		logging.basicConfig(level=log_lvl, format=log_fmt)
 	return ret_args
@@ -102,7 +102,7 @@ class GameFilter:
 
 	def parse_turn(self, turn_text_list):
 		for line in turn_text_list:
-			print(line)
+			logging.info(line)
 		return
 
 
