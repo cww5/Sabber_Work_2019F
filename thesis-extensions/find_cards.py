@@ -10,7 +10,6 @@ Both runs REQUIRE that the second argument is the path to the parsed list of Eng
 contains any lines of xml with english text, since the search parameter in Option 1 is <enUS>"""
 
 import argparse
-import sys
 
 
 def get_arguments():
