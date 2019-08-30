@@ -1,4 +1,4 @@
-"""This is a simple script to conduct some simple data mining. There are two possible configurations:
+desc = """This is a simple script to conduct some simple data mining. There are two possible configurations:
 
 Option 1: Create the set of English cards:
 C:|...\thesis-extensions\python test.py  ..\thesis-output\CardDefs.xml ..\thesis-output\CardsEng.txt
@@ -9,8 +9,16 @@ C:\...\thesis-extensions\python test.py ..\thesis-output\<decklist>/txt ..\thesi
 Both runs REQUIRE that the second argument is the path to the parsed list of English cards (which also
 contains any lines of xml with english text, since the search parameter in Option 1 is <enUS>"""
 
+import argparse
 import sys
 
+
+def arguments():
+	parser = argparse.ArgumentParser(description=desc)
+	parser.add_argument()
+	parser.add_argument()
+	args = parser.parse_args()
+	return args
 
 def parse_cards_xml(fname, cards_eng_path):
 	enc = 'utf-8'
