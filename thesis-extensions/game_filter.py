@@ -1,13 +1,8 @@
 """
 TO DO:
-1) Parse through the new logs
+1) Find a way to run the C# script N number of times and write to output files
 
-2) Make a function that takes the data and forms a dataframe per game:
-turn number		P1_health	P2_health	health_difference   AMOUNTHEALEDTHISTURN .... etc etc
-
-3) Find a way to run the C# script N number of times and write to output files
-
-4) python script should read all N files
+2) python script should read all N files
 
 
 
@@ -89,6 +84,7 @@ class GameFilter:
 		with open(infile) as f:
 			for line in f:
 				self.lines.append(line.strip('\n'))
+		self.end_of_turn_data = {}
 		self.df = pd.DataFrame()
 
 	def parse_file(self):
@@ -98,133 +94,47 @@ class GameFilter:
 				if line[0] == '_' and line[-1] == '_':
 					self.parse_turn(self.lines[i:i+26])
 					i += 26
-		return
+		self.df = pd.DataFrame.from_dict(self.end_of_turn_data, orient='index')
+		self.df.to_csv('..\\thesis-output\\test.csv')
 
 	def parse_turn(self, turn_text_list):
+		turn_dict = {}
+		turn_num = -1
 		for line in turn_text_list:
 			logging.info(line)
-		return
+			if 'turn no' in line:
+				logging.debug('>>>>>>>>>>>>>>>>>>>>>>TURN NUMBER QUERY')
+				parts = line.split()
+				turn_num = int(parts[-1])
+				turn_dict[turn_num] = {'TURN_NO': turn_num}
+				continue
 
-
-class GameFilterOriginal:
-	"""class to filter key info from fullgame.txt"""
-
-	def __init__(self, infile):
-		self.lines = []
-		with open(infile) as f:
-			for line in f:
-				self.lines.append(line.strip("\n"))
-		self.blocktypes = {}
-		self.healths = []
-		self.cur_round = []
-		self.end_turns = []
-		self.others = []
-		self.df = pd.DataFrame(columns=['turn_no', 'p1_end_health', 'p2_end_health', 'health_dif'])
-
-	def line_parser(self):
-		for i in range(len(self.lines)):
-			blockF, healthF, endturnF = False, False, False
-			line = self.lines[i]
-			prev = self.lines[i - 1]
-			block_query = re.search("Blocktype: [A-Z]+", line)
-			if block_query is not None:
-				blockF = True
-				# self.blocktypes[i] = block_query.group()
-				self.blocktypes[i] = line
-
-			health_query = re.search("Hero\[P1\]: [0-9]+ / Hero\[P2\]: [0-9]+", line)
+			health_query = re.search('Hero\[P[12]\]: [0-9]+ / Hero\[P[12]\]: [0-9]+', line)
 			if health_query is not None:
-				healthF = True
-				cur = health_query.group().strip('\n')
-				health_list = [prev.strip('\n'), cur]
-				self.healths.append(health_list)
+				logging.debug('>>>>>>>>>>>>>>>>>>>>>>HEALTH DIF QUERY')
+				health_parts = line.split(' / ')
+				hero_1_parts = health_parts[0].split()
+				hero_2_parts = health_parts[1].split()
+				turn_dict[turn_num]['P1_HEALTH'] = int(hero_1_parts[-1])
+				turn_dict[turn_num]['P2_HEALTH'] = int(hero_2_parts[-1])
+				continue
 
-			endturn_query = re.search(">>>Player [0-9] HEALTH", line)
-			if endturn_query is not None:
-				endturnF = True
-				end = line.strip("\n")
-				self.end_turns.append(end)
+			param_query = re.search('[A-Z]+ [0-9]+', line)
+			if param_query is not None:
+				logging.debug('>>>>>>>>>>>>>>>>>>>>>>PARAM QUERY')
+				parts = line.split()
+				turn_dict[turn_num][parts[0]] = int(parts[-1])
+				continue
 
-			if not blockF and not healthF and not endturnF:
-				self.others.append(line)
-
-	def print_header(self, s):
-		for i in range(45):
-			logging.info("_", end="")
-		logging.info(s, end="")
-		for i in range(45):
-			logging.info("_", end="")
-		logging.info()
-
-	def print_summary(self):
-		self.print_header("SUMMARY")
-		logging.info("Number of lines: {}".format(len(self.lines)))
-		logging.info("Number of blocktypes: {}".format(len(self.blocktypes)))
-		logging.info("Number of health declarations: {}".format(len(self.healths)))
-		logging.info("Number of others: {}".format(len(self.others)))
-
-	def print_rounds(self):
-		self.print_header("ROUNDS")
-		for l in self.healths:
-			# logging.info(l[0])
-			logging.info(l[1])
-		logging.info()
-
-	# Hero[P1]: 30 / Hero[P2]: 30
-
-	def print_others(self):
-		self.print_header("OTHERS")
-		for line in self.others:
-			logging.info(line)
-		logging.info()
-
-	def print_blocktypes(self):
-		self.print_header("BLOCKTYPES")
-		for key in self.blocktypes:
-			logging.info(key, self.blocktypes[key])
-
-	def process_endturn_health(self, p_flag):
-		"""
-		MAJOR PROBLEM HERE - turn number in DF is calculated manually. There
-		is an error in the text files with how the turn number is calculated.
-		Please check .sln file
-
-
-		:return:
-		"""
-		if p_flag: self.print_header("ENDTURN_HEALTH")
-		p1_health = 30
-		p2_health = 30
-		for turn_no in range(len(self.end_turns)):
-			turn = self.end_turns[turn_no]
-			parts = turn.split()
-			if turn_no % 2 == 0:
-				p1_health = int(parts[-1])
-			else:
-				p2_health = int(parts[-1])
-			dif = p1_health - p2_health
-
-			row = {'turn_no': turn_no + 1, 'p1_end_health': p1_health, 'p2_end_health': p2_health, 'health_dif': dif}
-			self.df = self.df.append(row, ignore_index=True)
-			if p_flag: logging.info(turn_no, turn)
-
-	def print_options(self, arg_list):
-		if arg_list.sum:
-			self.print_summary()
-		self.process_endturn_health(arg_list.end)
-		if arg_list.ron:
-			self.print_rounds()
-		if arg_list.oth:
-			self.print_others()
-		if arg_list.blk:
-			self.print_blocktypes()
+		logging.debug(turn_dict)
+		self.end_of_turn_data.update(turn_dict)
 
 	def plot_data(self):
 		plt.figure()
-		x = self.df.turn_no
-		y = self.df.health_dif
-		y1 = self.df.p1_end_health
-		y2 = self.df.p2_end_health
+		x = self.df.TURN_NO
+		y1 = self.df['P1_HEALTH']
+		y2 = self.df['P2_HEALTH']
+		y = y1 - y2
 		plt.plot(x, y, label='P1-P2', color='grey')
 		plt.plot(x, y1, label='P1', color='red')
 		plt.plot(x, y2, label='P2', color='blue')
@@ -242,15 +152,10 @@ def main():
 	logging.debug(f'Numpy: {np.__version__}')
 	logging.debug(f'Pandas: {pd.__version__}')
 	game_name = args.data_file
-	#game_obj = GameFilterOriginal(game_name)
-	#game_obj.line_parser()
-	#game_obj.print_options(args)
-	#logging.info('\n{}'.format(game_obj.df))
-	#game_obj.plot_data()
-
 	game_obj = GameFilter(game_name)
 	game_obj.parse_file()
-
+	logging.info('Number of turns: {}'.format(len(game_obj.end_of_turn_data)))
+	game_obj.plot_data()
 
 if __name__ == "__main__":
 	main()
