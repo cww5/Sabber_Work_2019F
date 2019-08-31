@@ -105,11 +105,12 @@ class GameFilter:
 			if 'turn no' in line:
 				logging.debug('>>>>>>>>>>>>>>>>>>>>>>TURN NUMBER QUERY')
 				parts = line.split()
+				logging.info(parts)
 				turn_num = int(parts[-1])
 				turn_dict[turn_num] = {'TURN_NO': turn_num}
 				continue
 
-			health_query = re.search('Hero\[P[12]\]: [0-9]+ / Hero\[P[12]\]: [0-9]+', line)
+			health_query = re.match('Hero\[P[12]\]: \-?[0-9]+ / Hero\[P[12]\]: \-?[0-9]+', line)
 			if health_query is not None:
 				logging.debug('>>>>>>>>>>>>>>>>>>>>>>HEALTH DIF QUERY')
 				health_parts = line.split(' / ')
@@ -119,7 +120,7 @@ class GameFilter:
 				turn_dict[turn_num]['P2_HEALTH'] = int(hero_2_parts[-1])
 				continue
 
-			param_query = re.search('[A-Z]+ [0-9]+', line)
+			param_query = re.match('[A-Z]+ [0-9]+', line)
 			if param_query is not None:
 				logging.debug('>>>>>>>>>>>>>>>>>>>>>>PARAM QUERY')
 				parts = line.split()
