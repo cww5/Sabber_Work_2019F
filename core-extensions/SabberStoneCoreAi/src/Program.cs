@@ -219,8 +219,11 @@ namespace SabberStoneCoreAi
 			Console.WriteLine($"Player1: {game.Player1.PlayState} / Player2: {game.Player2.PlayState} - turn no " + game.Turn);
 			//$"ROUND {(game.Turn + 1) / 2} - {game.CurrentPlayer.Name}");
 			Console.WriteLine($"Hero[P1]: {game.Player1.Hero.Health} / Hero[P2]: {game.Player2.Hero.Health}");
-			Console.WriteLine($">>>>>>>>>TASK TYPE CHECK (is EOT?): {task.PlayerTaskType.Equals(PlayerTaskType.END_TURN)}");
-			Console.WriteLine($">>>>>>>>>TASK TYPE: {task.PlayerTaskType}");
+			if (task != null)
+			{
+				Console.WriteLine($">>>>>>>>>TASK TYPE CHECK (is EOT?): {task.PlayerTaskType.Equals(PlayerTaskType.END_TURN)}");
+				Console.WriteLine($">>>>>>>>>TASK TYPE: {task.PlayerTaskType}");
+			}
 			if (game.CurrentPlayer == game.Player1)
 			{
 				Console.WriteLine($"CURRENT PLAYER: P1 {game.CurrentPlayer.Name}");
@@ -344,6 +347,7 @@ namespace SabberStoneCoreAi
 						}
 					}
 				}
+				PrintEndOfTurnOptions(game, null);
 			}
 			Console.WriteLine($"Game: {game.State}, Player1: {game.Player1.PlayState} / Player2: {game.Player2.PlayState}");
 		}
