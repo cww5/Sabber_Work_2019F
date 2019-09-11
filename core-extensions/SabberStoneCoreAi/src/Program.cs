@@ -39,7 +39,7 @@ namespace SabberStoneCoreAi
 			//TestFullGames();
 
 			Console.WriteLine("Test end!");
-			Console.ReadLine();
+			//Console.ReadLine();
 		}
 
 		public static void RandomGames()
