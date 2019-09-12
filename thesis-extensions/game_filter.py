@@ -39,6 +39,8 @@ this contains 25 lines from index of ______ to index of _____|
 shuold be range(i, i+26)
 The two lines above with the >>>>>> don't begin with '#', added that there because PyCharm threw errors on those lines.
 
+python game_filter.py ..\thesis-output\output_last_turn_health_diff.txt
+
 """
 import numpy as np
 import pandas as pd
@@ -118,6 +120,13 @@ class GameFilter:
 				hero_2_parts = health_parts[1].split()
 				turn_dict[turn_num]['P1_HEALTH'] = int(hero_1_parts[-1])
 				turn_dict[turn_num]['P2_HEALTH'] = int(hero_2_parts[-1])
+				continue
+
+			player_query = re.match('CURRENT PLAYER: P[0-9] [a-zA-Z]+', line)
+			if player_query is not None:
+				logging.debug('>>>>>>>>>>>>>>>>>>>>>>CURRENT PLAYER QUERY')
+				player_parts = line.split(': ')
+				turn_dict[turn_num]['CURRENT_PLAYER'] = player_parts[-1]
 				continue
 
 			param_query = re.match('[A-Z]+ [0-9]+', line)
