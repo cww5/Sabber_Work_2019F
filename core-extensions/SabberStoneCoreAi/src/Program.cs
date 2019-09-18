@@ -12,6 +12,7 @@
 // GNU Affero General Public License for more details.
 #endregion
 using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -29,8 +30,27 @@ namespace SabberStoneCoreAi
 	{
 		private static readonly Random Rnd = new Random();
 
-		private static void Main()
+		private static void Main(string[] args)
 		{
+			Console.WriteLine("Argument length: " + args.Length);
+			Console.WriteLine("Supplied Arguments are:");
+			foreach (object obj in args)
+			{
+				Console.WriteLine(obj);
+			}
+			try
+			{
+				string[] lines = System.IO.File.ReadAllLines(args[1]);
+				foreach (string line in lines)
+				{
+					Console.WriteLine(line);
+				}
+			}
+			catch (IOException e)
+			{
+				Console.WriteLine("The file could not be read:");
+				Console.WriteLine(e.Message);
+			}
 			Console.WriteLine("Starting test setup.");
 
 			//OneTurn();
