@@ -38,28 +38,50 @@ namespace SabberStoneCoreAi
 			{
 				Console.WriteLine(obj);
 			}
-			try
-			{
-				string[] lines = System.IO.File.ReadAllLines(args[1]);
-				foreach (string line in lines)
-				{
-					Console.WriteLine(line);
-				}
-			}
-			catch (IOException e)
-			{
-				Console.WriteLine("The file could not be read:");
-				Console.WriteLine(e.Message);
-			}
+			
+			List<Card> Player1DeckList = CreateDeckFromFile(args[1]);
+			List<Card> Player2DeckList = CreateDeckFromFile(args[2]);
+
 			Console.WriteLine("Starting test setup.");
 
 			//OneTurn();
 			FullGame();
+			//FullGame(Player1DeckList, Player2DeckList);
 			//RandomGames();
 			//TestFullGames();
 
 			Console.WriteLine("Test end!");
 			//Console.ReadLine();
+		}
+
+		public static List<Card> CreateDeckFromFile(string FileName)
+		{
+			var deck = new List<Card>();
+			try
+			{
+				string[] sep = { "><" };
+				short c = 2;
+				string[] lines = System.IO.File.ReadAllLines(FileName);  //opens and closes the file
+				foreach (string line in lines)
+				{
+					//Console.WriteLine(line);
+					string[] parts = line.Split(sep, c, StringSplitOptions.RemoveEmptyEntries);
+					Console.WriteLine(parts[0]);
+					Console.WriteLine(parts[1]);
+					for (int i=0; i<System.Convert.ToInt16(parts[1]); i++)
+					{
+						deck.Add(Cards.FromName(parts[0]));
+					}
+				}
+			}
+			catch (IOException e)
+			{
+				Console.WriteLine("The file could not be read:");
+				//Console.WriteLine(e.Message);
+				deck = Decks.MidrangeJadeShaman;
+			}
+			
+			return deck;
 		}
 
 		public static void RandomGames()
@@ -274,6 +296,7 @@ namespace SabberStoneCoreAi
 			Console.WriteLine("______________________________________________________________________|");
 		}
 
+		//public static void FullGame(List<Card> Player1Cards, List<Card> Player2Cards)
 		public static void FullGame()
 		{
 			var game = new Game(
@@ -283,9 +306,11 @@ namespace SabberStoneCoreAi
 					Player1Name = "FitzVonGerald",
 					Player1HeroClass = CardClass.WARRIOR,
 					Player1Deck = Decks.AggroPirateWarrior,
+					//Player1Deck - Player1Cards,
 					Player2Name = "RehHausZuckFuchs",
 					Player2HeroClass = CardClass.WARRIOR,
 					Player2Deck = Decks.AggroPirateWarrior,
+					//Player2Deck = Player2Cards,
 					FillDecks = false,
 					Shuffle = true,
 					SkipMulligan = false
