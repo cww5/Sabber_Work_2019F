@@ -45,8 +45,8 @@ namespace SabberStoneCoreAi
 			Console.WriteLine("Starting test setup.");
 
 			//OneTurn();
-			FullGame();
-			//FullGame(Player1DeckList, Player2DeckList);
+			//FullGame();
+			FullGame(Player1DeckList, Player2DeckList);
 			//RandomGames();
 			//TestFullGames();
 
@@ -78,7 +78,7 @@ namespace SabberStoneCoreAi
 			{
 				Console.WriteLine("The file could not be read:");
 				//Console.WriteLine(e.Message);
-				deck = Decks.MidrangeJadeShaman;
+				deck = Decks.AggroPirateWarrior;
 			}
 			
 			return deck;
@@ -297,11 +297,16 @@ namespace SabberStoneCoreAi
 			Console.WriteLine($"REMAININGMANA {game.CurrentPlayer.RemainingMana}");
 			Console.WriteLine($"TOTALMANASPENTTHISGAME {game.CurrentPlayer.TotalManaSpentThisGame}");
 			Console.WriteLine($"USEDMANATHISTURN {game.CurrentPlayer.UsedMana}"); //This represents how much was used this turn
+			//game.CurrentPlayer.CardsPlayedThisTurn
+			//game.CurrentPlayer.HandZone
+			//game.CurrentPlayer.BoardZone
+			//string cardsplayedthisturn = "";
+
 			Console.WriteLine("______________________________________________________________________|");
 		}
 
-		//public static void FullGame(List<Card> Player1Cards, List<Card> Player2Cards)
-		public static void FullGame()
+		public static void FullGame(List<Card> Player1Cards, List<Card> Player2Cards)
+		//public static void FullGame()
 		{
 			var game = new Game(
 				new GameConfig()
@@ -309,12 +314,12 @@ namespace SabberStoneCoreAi
 					StartPlayer = 1,
 					Player1Name = "FitzVonGerald",
 					Player1HeroClass = CardClass.WARRIOR,
-					Player1Deck = Decks.AggroPirateWarrior,
-					//Player1Deck - Player1Cards,
+					//Player1Deck = Decks.AggroPirateWarrior,
+					Player1Deck = Player1Cards,
 					Player2Name = "RehHausZuckFuchs",
 					Player2HeroClass = CardClass.WARRIOR,
-					Player2Deck = Decks.AggroPirateWarrior,
-					//Player2Deck = Player2Cards,
+					//Player2Deck = Decks.AggroPirateWarrior,
+					Player2Deck = Player2Cards,
 					FillDecks = false,
 					Shuffle = true,
 					SkipMulligan = false
