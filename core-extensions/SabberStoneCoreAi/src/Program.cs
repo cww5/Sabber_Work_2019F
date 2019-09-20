@@ -274,6 +274,10 @@ namespace SabberStoneCoreAi
 			{
 				Console.WriteLine($"CURRENT PLAYER: P2 {game.CurrentPlayer.Name}");
 			}
+			foreach(Card played_card in game.CurrentPlayer.CardsPlayedThisTurn)
+			{
+				Console.WriteLine(played_card.ToString());
+			}
 			Console.WriteLine($"AMOUNTHEALEDTHISTURN {game.CurrentPlayer.AmountHeroHealedThisTurn}");
 			Console.WriteLine($"HEROPOWERACTIVATIONSTHIS TURN {game.CurrentPlayer.HeroPowerActivationsThisTurn}");
 			Console.WriteLine($"NUMATTACKSTHISTURN {game.CurrentPlayer.NumAttacksThisTurn}");
