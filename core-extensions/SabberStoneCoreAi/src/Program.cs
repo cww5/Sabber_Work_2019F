@@ -38,10 +38,19 @@ namespace SabberStoneCoreAi
 			{
 				Console.WriteLine(obj);
 			}
+			var Player1DeckList = new List<Card>();
+			var Player2DeckList = new List<Card>();
+			if (args.Length > 1)
+			{
+				Player1DeckList = CreateDeckFromFile(args[1]);
+				Player2DeckList = CreateDeckFromFile(args[2]);
+			}
+			else
+			{
+				Player1DeckList = Decks.AggroPirateWarrior;
+				Player2DeckList = Decks.AggroPirateWarrior;
+			}
 			
-			List<Card> Player1DeckList = CreateDeckFromFile(args[1]);
-			List<Card> Player2DeckList = CreateDeckFromFile(args[2]);
-
 			Console.WriteLine("Starting test setup.");
 
 			//OneTurn();
@@ -77,7 +86,7 @@ namespace SabberStoneCoreAi
 			catch (IOException e)
 			{
 				Console.WriteLine("The file could not be read:");
-				//Console.WriteLine(e.Message);
+				Console.WriteLine(e.Message);
 				deck = Decks.AggroPirateWarrior;
 			}
 			
