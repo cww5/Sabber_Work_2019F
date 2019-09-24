@@ -63,6 +63,75 @@ namespace SabberStoneCoreAi
 			//Console.ReadLine();
 		}
 
+		public static void PrintEndOfTurnOptions(Game game, PlayerTask task)
+		{
+			Console.WriteLine("______________________________________________________________________");
+			Console.WriteLine($"Player1: {game.Player1.PlayState} / Player2: {game.Player2.PlayState} - turn no " + game.Turn);
+			//$"ROUND {(game.Turn + 1) / 2} - {game.CurrentPlayer.Name}");
+			Console.WriteLine($"Hero[P1]: {game.Player1.Hero.Health} / Hero[P2]: {game.Player2.Hero.Health}");
+			if (task != null)
+			{
+				Console.WriteLine($">>>>>>>>>TASK TYPE CHECK (is EOT?): {task.PlayerTaskType.Equals(PlayerTaskType.END_TURN)}");
+				Console.WriteLine($">>>>>>>>>TASK TYPE: {task.PlayerTaskType}");
+			}
+			if (game.CurrentPlayer == game.Player1)
+			{
+				Console.WriteLine($"CURRENT PLAYER: P1 {game.CurrentPlayer.Name}");
+			}
+			else
+			{
+				Console.WriteLine($"CURRENT PLAYER: P2 {game.CurrentPlayer.Name}");
+			}
+			foreach (Card played_card in game.CurrentPlayer.CardsPlayedThisTurn)
+			{
+				Console.WriteLine(played_card.ToString());
+			}
+			Console.WriteLine($"AMOUNTHEALEDTHISTURN {game.CurrentPlayer.AmountHeroHealedThisTurn}");
+			Console.WriteLine($"HEROPOWERACTIVATIONSTHIS TURN {game.CurrentPlayer.HeroPowerActivationsThisTurn}");
+			Console.WriteLine($"NUMATTACKSTHISTURN {game.CurrentPlayer.NumAttacksThisTurn}");
+			Console.WriteLine($"NUMCARDSDRAWNTHISTURN {game.CurrentPlayer.NumCardsDrawnThisTurn}");
+			Console.WriteLine($"NUMCARDSPLAYEDTHISTURN {game.CurrentPlayer.NumCardsPlayedThisTurn}");
+			Console.WriteLine($"NUMCARDSTODRAW {game.CurrentPlayer.NumCardsToDraw}");
+			Console.WriteLine($"NUMELEMENTALSPLAYEDLASTTURN {game.CurrentPlayer.NumElementalsPlayedLastTurn}");
+			Console.WriteLine($"NUMELEMENTALSPLAYEDTHISTURN {game.CurrentPlayer.NumElementalsPlayedThisTurn}");
+			Console.WriteLine($"NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN {game.CurrentPlayer.NumFriendlyMinionsThatAttackedThisTurn}");
+			Console.WriteLine($"NUMFRIENDLYMINIONSTHATDIEDTHISTURN {game.CurrentPlayer.NumFriendlyMinionsThatDiedThisTurn}");
+			Console.WriteLine($"NUMMINIONSPLAYEDTHISTURN {game.CurrentPlayer.NumMinionsPlayedThisTurn}");
+			Console.WriteLine($"NUMMINIONSPLAYERKILLEDTHISTURN {game.CurrentPlayer.NumMinionsPlayerKilledThisTurn}");
+			Console.WriteLine($"NUMOPTIONSPLAYEDTHISTURN {game.CurrentPlayer.NumOptionsPlayedThisTurn}");
+			Console.WriteLine($"NUMSECRETSPLAYEDTHISGAME {game.CurrentPlayer.NumSecretsPlayedThisGame}");
+			Console.WriteLine($"NUMSPELLSPLAYEDTHISGAME {game.CurrentPlayer.NumSpellsPlayedThisGame}");
+			Console.WriteLine($"NUMTIMESHEROPOWERUSEDTHISGAME {game.CurrentPlayer.NumTimesHeroPowerUsedThisGame}");
+			Console.WriteLine($"REMAININGMANA {game.CurrentPlayer.RemainingMana}");
+			Console.WriteLine($"TOTALMANASPENTTHISGAME {game.CurrentPlayer.TotalManaSpentThisGame}");
+			Console.WriteLine($"USEDMANATHISTURN {game.CurrentPlayer.UsedMana}"); //This represents how much was used this turn
+																				  //game.CurrentPlayer.HandZone
+																				  //game.CurrentPlayer.BoardZone
+																				  //string cardsplayedthisturn = "";
+
+			//string cardsPlayedThisTurn = "";
+
+			foreach(Card c in game.CurrentPlayer.CardsPlayedThisTurn)
+			{
+				Console.WriteLine($"PlayedCard: {c.ToString()}");
+			}
+			Console.WriteLine("No more cards played this turn.");
+
+			Console.WriteLine("______________________________________________________________________|");
+		}
+
+		public static void PrintDeckOfCards(List<Card> deckOfCards)
+		{
+			Console.WriteLine("***********Deck of cards***********");
+			foreach (Card card in deckOfCards)
+			{
+				Console.WriteLine(card);
+			}
+			Console.WriteLine("The deck size is: ");
+			Console.WriteLine(deckOfCards.Count);
+			Console.WriteLine("***********************************");
+
+		}
 		public static List<Card> CreateDeckFromFile(string FileName)
 		{
 			var deck = new List<Card>();
@@ -89,7 +158,7 @@ namespace SabberStoneCoreAi
 				Console.WriteLine(e.Message);
 				deck = Decks.AggroPirateWarrior;
 			}
-			
+			PrintDeckOfCards(deck);
 			return deck;
 		}
 
@@ -262,56 +331,6 @@ namespace SabberStoneCoreAi
 
 			Console.WriteLine(game.Player1.HandZone.FullPrint());
 			Console.WriteLine(game.Player1.BoardZone.FullPrint());
-		}
-
-		public static void PrintEndOfTurnOptions(Game game, PlayerTask task)
-		{
-			Console.WriteLine("______________________________________________________________________");
-			Console.WriteLine($"Player1: {game.Player1.PlayState} / Player2: {game.Player2.PlayState} - turn no " + game.Turn);
-			//$"ROUND {(game.Turn + 1) / 2} - {game.CurrentPlayer.Name}");
-			Console.WriteLine($"Hero[P1]: {game.Player1.Hero.Health} / Hero[P2]: {game.Player2.Hero.Health}");
-			if (task != null)
-			{
-				Console.WriteLine($">>>>>>>>>TASK TYPE CHECK (is EOT?): {task.PlayerTaskType.Equals(PlayerTaskType.END_TURN)}");
-				Console.WriteLine($">>>>>>>>>TASK TYPE: {task.PlayerTaskType}");
-			}
-			if (game.CurrentPlayer == game.Player1)
-			{
-				Console.WriteLine($"CURRENT PLAYER: P1 {game.CurrentPlayer.Name}");
-			}
-			else
-			{
-				Console.WriteLine($"CURRENT PLAYER: P2 {game.CurrentPlayer.Name}");
-			}
-			foreach(Card played_card in game.CurrentPlayer.CardsPlayedThisTurn)
-			{
-				Console.WriteLine(played_card.ToString());
-			}
-			Console.WriteLine($"AMOUNTHEALEDTHISTURN {game.CurrentPlayer.AmountHeroHealedThisTurn}");
-			Console.WriteLine($"HEROPOWERACTIVATIONSTHIS TURN {game.CurrentPlayer.HeroPowerActivationsThisTurn}");
-			Console.WriteLine($"NUMATTACKSTHISTURN {game.CurrentPlayer.NumAttacksThisTurn}");
-			Console.WriteLine($"NUMCARDSDRAWNTHISTURN {game.CurrentPlayer.NumCardsDrawnThisTurn}");
-			Console.WriteLine($"NUMCARDSPLAYEDTHISTURN {game.CurrentPlayer.NumCardsPlayedThisTurn}");
-			Console.WriteLine($"NUMCARDSTODRAW {game.CurrentPlayer.NumCardsToDraw}");
-			Console.WriteLine($"NUMELEMENTALSPLAYEDLASTTURN {game.CurrentPlayer.NumElementalsPlayedLastTurn}");
-			Console.WriteLine($"NUMELEMENTALSPLAYEDTHISTURN {game.CurrentPlayer.NumElementalsPlayedThisTurn}");
-			Console.WriteLine($"NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN {game.CurrentPlayer.NumFriendlyMinionsThatAttackedThisTurn}");
-			Console.WriteLine($"NUMFRIENDLYMINIONSTHATDIEDTHISTURN {game.CurrentPlayer.NumFriendlyMinionsThatDiedThisTurn}");
-			Console.WriteLine($"NUMMINIONSPLAYEDTHISTURN {game.CurrentPlayer.NumMinionsPlayedThisTurn}");
-			Console.WriteLine($"NUMMINIONSPLAYERKILLEDTHISTURN {game.CurrentPlayer.NumMinionsPlayerKilledThisTurn}");
-			Console.WriteLine($"NUMOPTIONSPLAYEDTHISTURN {game.CurrentPlayer.NumOptionsPlayedThisTurn}");
-			Console.WriteLine($"NUMSECRETSPLAYEDTHISGAME {game.CurrentPlayer.NumSecretsPlayedThisGame}");
-			Console.WriteLine($"NUMSPELLSPLAYEDTHISGAME {game.CurrentPlayer.NumSpellsPlayedThisGame}");
-			Console.WriteLine($"NUMTIMESHEROPOWERUSEDTHISGAME {game.CurrentPlayer.NumTimesHeroPowerUsedThisGame}");
-			Console.WriteLine($"REMAININGMANA {game.CurrentPlayer.RemainingMana}");
-			Console.WriteLine($"TOTALMANASPENTTHISGAME {game.CurrentPlayer.TotalManaSpentThisGame}");
-			Console.WriteLine($"USEDMANATHISTURN {game.CurrentPlayer.UsedMana}"); //This represents how much was used this turn
-			//game.CurrentPlayer.CardsPlayedThisTurn
-			//game.CurrentPlayer.HandZone
-			//game.CurrentPlayer.BoardZone
-			//string cardsplayedthisturn = "";
-
-			Console.WriteLine("______________________________________________________________________|");
 		}
 
 		public static void FullGame(List<Card> Player1Cards, List<Card> Player2Cards)
