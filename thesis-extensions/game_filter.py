@@ -148,25 +148,16 @@ class GameFilter:
 	def plot_data(self, fig_name):
 		fig, axs = plt.subplots(2)
 		fig.suptitle('Player 1 vs Player 2')
-		# plt.figure()
 		x = self.df.TURN_NO
 		y1 = self.df['P1_HEALTH']
 		y2 = self.df['P2_HEALTH']
 		y = abs(y1 - y2)
-		# plt.plot(x, y, label='P1-P2', color='grey')
 		axs[0].plot(x, y1, label='P1', color='red')
 		axs[0].plot(x, y2, label='P2', color='blue')
 		axs[1].plot(x, y, label='|HP_DIF|', color='grey')
-		# plt.plot(x, y1, label='P1', color='red')
-		# plt.plot(x, y2, label='P2', color='blue')
-		# plt.grid()
-		# plt.title('Health Points Per Turn')
-		# plt.legend(loc='upper right')
-		# plt.xlabel('Turn Num')
 		axs[0].set(xlabel='Turn Num', ylabel='Health Points')
 		axs[1].set(xlabel='Turn Num', ylabel='|HP Difference|')
 		plt.tight_layout(rect=[0, 0.03, 1, 0.95])
-		# plt.show()
 		plt.savefig(fig_name)
 
 
