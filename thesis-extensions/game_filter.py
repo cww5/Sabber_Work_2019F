@@ -51,22 +51,23 @@ import re
 import argparse
 import logging
 
-#import os
-#import sys
-#import glob
+# import os
+# import glob
+import sys
 from pathlib import Path
 
 
 def parse_options():
 	parser = argparse.ArgumentParser(description="Class for parsing game data")
-	parser.add_argument('root', help='path to the master folder')
+	parser.add_argument('machine', help='configure to desktop, laptop, or kong')
 	parser.add_argument('--sum', action='store_true', help='flag to print summary')
 	parser.add_argument('--oth', action='store_true', help='flag to print other lines')
 	parser.add_argument('--ron', action='store_true', help='flag to print health_difs')
 	parser.add_argument('--end', action='store_true', help='flag to print end_turn health')
 	parser.add_argument('--blk', action='store_true', help='flag to print blocktypes')
 	parser.add_argument('--log_file', help='file to store logs')
-	parser.add_argument('-vb', '--verbose', action='store_true', default=False, help='turn on verbose logs for debugging')
+	parser.add_argument('-vb', '--verbose', action='store_true', default=False,
+						help='turn on verbose logs for debugging')
 	ret_args = parser.parse_args()
 
 	log_fmt = '%(asctime)s LINE:%(lineno)d LEVEL:%(levelname)s %(message)s'
@@ -94,15 +95,15 @@ class GameFilter:
 		self.end_of_turn_data = {}
 		self.df = pd.DataFrame()
 
-	def parse_file(self):
+	def parse_file(self, df_file_name):
 		for i in range(len(self.lines)):
 			line = self.lines[i]
 			if len(line) > 0:
 				if line[0] == '_' and line[-1] == '_':
-					self.parse_turn(self.lines[i:i+26])
+					self.parse_turn(self.lines[i:i + 26])
 					i += 26
 		self.df = pd.DataFrame.from_dict(self.end_of_turn_data, orient='index')
-		self.df.to_csv('..\\thesis-output\\test.csv')
+		self.df.to_csv(df_file_name)
 
 	def parse_turn(self, turn_text_list):
 		turn_dict = {}
@@ -144,20 +145,29 @@ class GameFilter:
 		logging.debug(turn_dict)
 		self.end_of_turn_data.update(turn_dict)
 
-	def plot_data(self):
-		plt.figure()
+	def plot_data(self, fig_name):
+		fig, axs = plt.subplots(2)
+		fig.suptitle('Player 1 vs Player 2')
+		# plt.figure()
 		x = self.df.TURN_NO
 		y1 = self.df['P1_HEALTH']
 		y2 = self.df['P2_HEALTH']
-		y = y1 - y2
-		plt.plot(x, y, label='P1-P2', color='grey')
-		plt.plot(x, y1, label='P1', color='red')
-		plt.plot(x, y2, label='P2', color='blue')
-		plt.title('Health Difference Player1-Player2')
-		plt.legend(loc='upper right')
-		plt.xlabel('Turn Num')
-		plt.ylabel('Health Dif')
-		plt.show()
+		y = abs(y1 - y2)
+		# plt.plot(x, y, label='P1-P2', color='grey')
+		axs[0].plot(x, y1, label='P1', color='red')
+		axs[0].plot(x, y2, label='P2', color='blue')
+		axs[1].plot(x, y, label='|HP_DIF|', color='grey')
+		# plt.plot(x, y1, label='P1', color='red')
+		# plt.plot(x, y2, label='P2', color='blue')
+		# plt.grid()
+		# plt.title('Health Points Per Turn')
+		# plt.legend(loc='upper right')
+		# plt.xlabel('Turn Num')
+		axs[0].set(xlabel='Turn Num', ylabel='Health Points')
+		axs[1].set(xlabel='Turn Num', ylabel='|HP Difference|')
+		plt.tight_layout(rect=[0, 0.03, 1, 0.95])
+		# plt.show()
+		plt.savefig(fig_name)
 
 
 def main():
@@ -168,20 +178,33 @@ def main():
 	logging.debug(f'Numpy: {np.__version__}')
 	logging.debug(f'Pandas: {pd.__version__}')
 
-	root_dir = args.root
-	logging.info(root_dir)
-	directory = "C:\\Users\\watson\\Documents\\GitHub\\SabberStone-master\\Sabber_Work_2019F\\thesis-output\\Z1vsZ2\\"
-
+	machine = args.machine.lower()
+	logging.info(machine)
+	if machine == 'laptop':
+		# laptop directory
+		directory = "C:\\Users\\watson\\Documents\\GitHub\\SabberStone-master\\Sabber_Work_2019F\\thesis-output\\Z1vsZ2\\"
+	elif machine == 'desktop':
+		# desktop directory
+		directory = "C:\\Users\\watson\\Documents\\SabberStone 2019\\Sabber_Work_2019F\\thesis-output\\Z1vsZ2\\"
+	elif machine == 'kong':
+		directory = "blah"
+	else:
+		logging.warning('UNEXPECTED OPTION IN CMD, CONFIG PROPERLY')
+		sys.exit(0)
 	pathlist = Path(directory).glob('**\\*.txt')
 	for path in pathlist:
 		# because path is object not string
 		game_name = str(path)
+		game_csv_name = game_name.replace('.txt', '.csv')
+		game_plot_name = game_name.replace('.txt', '.png')
 		logging.info(game_name)
+		logging.info(game_csv_name)
+		logging.info(game_plot_name)
 
 		game_obj = GameFilter(game_name)
-		game_obj.parse_file()
+		game_obj.parse_file(game_csv_name)
 		logging.info('Number of turns: {}'.format(len(game_obj.end_of_turn_data)))
-		game_obj.plot_data()
+		game_obj.plot_data(game_plot_name)
 
 
 if __name__ == "__main__":
