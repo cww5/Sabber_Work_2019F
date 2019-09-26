@@ -63,7 +63,7 @@ namespace SabberStoneCoreAi
 			//Console.ReadLine();
 		}
 
-		public static void PrintEndOfTurnOptions(Game game, PlayerTask task)
+		public static void PrintEndOfTurnOptions(Game game, PlayerTask task, string allTurnTasks)
 		{
 			Console.WriteLine("______________________________________________________________________");
 			Console.WriteLine($"Player1: {game.Player1.PlayState} / Player2: {game.Player2.PlayState} - turn no " + game.Turn);
@@ -74,6 +74,7 @@ namespace SabberStoneCoreAi
 				Console.WriteLine($">>>>>>>>>TASK TYPE CHECK (is EOT?): {task.PlayerTaskType.Equals(PlayerTaskType.END_TURN)}");
 				Console.WriteLine($">>>>>>>>>TASK TYPE: {task.PlayerTaskType}");
 			}
+			Console.WriteLine(allTurnTasks);
 			if (game.CurrentPlayer == game.Player1)
 			{
 				Console.WriteLine($"CURRENT PLAYER: P1 {game.CurrentPlayer.Name}");
@@ -382,13 +383,17 @@ namespace SabberStoneCoreAi
 					var solution = new List<PlayerTask>();
 					solutions.OrderByDescending(p => p.Score).First().PlayerTasks(ref solution);
 					Console.WriteLine($"- Player 1 - <{game.CurrentPlayer.Name}> ---------------------------");
+					string allTasks = "ALL TURN TASKS:\n";
 					foreach (PlayerTask task in solution)
 					{
+						string printedTask = task.FullPrint();
+						allTasks = allTasks + printedTask + "\n";
 						if (task.PlayerTaskType.Equals(PlayerTaskType.END_TURN))
 						{
-							PrintEndOfTurnOptions(game, task);
+							allTasks = allTasks + "COMPLETE ALL TURN TASKS";
+							PrintEndOfTurnOptions(game, task, allTasks);
 						}
-						Console.WriteLine(task.FullPrint());
+						Console.WriteLine(printedTask);
 						game.Process(task);
 						if (game.CurrentPlayer.Choice != null)
 						{
@@ -413,14 +418,17 @@ namespace SabberStoneCoreAi
 					var solution = new List<PlayerTask>();
 					solutions.OrderByDescending(p => p.Score).First().PlayerTasks(ref solution);
 					Console.WriteLine($"- Player 2 - <{game.CurrentPlayer.Name}> ---------------------------");
+					string allTasks = "ALL TURN TASKS:\n";
 					foreach (PlayerTask task in solution)
 					{
+						string printedTask = task.FullPrint();
+						allTasks = allTasks + printedTask + "\n";
 						if (task.PlayerTaskType.Equals(PlayerTaskType.END_TURN))
 						{
-							PrintEndOfTurnOptions(game, task);
+							PrintEndOfTurnOptions(game, task, allTasks);
 						}
 
-						Console.WriteLine(task.FullPrint());
+						Console.WriteLine(printedTask);
 						game.Process(task);
 						if (game.CurrentPlayer.Choice != null)
 						{
@@ -429,7 +437,7 @@ namespace SabberStoneCoreAi
 						}
 					}
 				}
-				PrintEndOfTurnOptions(game, null);
+				//PrintEndOfTurnOptions(game, null);
 			}
 			Console.WriteLine($"Game: {game.State}, Player1: {game.Player1.PlayState} / Player2: {game.Player2.PlayState}");
 		}
