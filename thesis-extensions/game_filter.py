@@ -51,17 +51,22 @@ import re
 import argparse
 import logging
 
+#import os
+#import sys
+#import glob
+from pathlib import Path
+
 
 def parse_options():
 	parser = argparse.ArgumentParser(description="Class for parsing game data")
-	parser.add_argument('data_file', help='path to the data file')
+	parser.add_argument('root', help='path to the master folder')
 	parser.add_argument('--sum', action='store_true', help='flag to print summary')
 	parser.add_argument('--oth', action='store_true', help='flag to print other lines')
 	parser.add_argument('--ron', action='store_true', help='flag to print health_difs')
 	parser.add_argument('--end', action='store_true', help='flag to print end_turn health')
 	parser.add_argument('--blk', action='store_true', help='flag to print blocktypes')
 	parser.add_argument('--log_file', help='file to store logs')
-	parser.add_argument('-vb', '--verbose', action='store_true', help='turn on verbose logs for debugging')
+	parser.add_argument('-vb', '--verbose', action='store_true', default=False, help='turn on verbose logs for debugging')
 	ret_args = parser.parse_args()
 
 	log_fmt = '%(asctime)s LINE:%(lineno)d LEVEL:%(levelname)s %(message)s'
@@ -158,14 +163,26 @@ class GameFilter:
 def main():
 	args = parse_options()
 	# C:\Users\watson\Desktop\fullgame01_060219.txt
+
 	logging.debug(f'Matplotlib: {matplotlib.__version__}')
 	logging.debug(f'Numpy: {np.__version__}')
 	logging.debug(f'Pandas: {pd.__version__}')
-	game_name = args.data_file
-	game_obj = GameFilter(game_name)
-	game_obj.parse_file()
-	logging.info('Number of turns: {}'.format(len(game_obj.end_of_turn_data)))
-	game_obj.plot_data()
+
+	root_dir = args.root
+	logging.info(root_dir)
+	directory = "C:\\Users\\watson\\Documents\\GitHub\\SabberStone-master\\Sabber_Work_2019F\\thesis-output\\Z1vsZ2\\"
+
+	pathlist = Path(directory).glob('**\\*.txt')
+	for path in pathlist:
+		# because path is object not string
+		game_name = str(path)
+		logging.info(game_name)
+
+		game_obj = GameFilter(game_name)
+		game_obj.parse_file()
+		logging.info('Number of turns: {}'.format(len(game_obj.end_of_turn_data)))
+		game_obj.plot_data()
+
 
 if __name__ == "__main__":
 	main()
