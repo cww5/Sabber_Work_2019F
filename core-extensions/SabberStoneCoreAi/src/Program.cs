@@ -156,7 +156,7 @@ namespace SabberStoneCoreAi
 						string[] authorParts = line.Split(headerSep, c, StringSplitOptions.RemoveEmptyEntries);
 						playerName = authorParts[1];
 					}
-					else
+					else if (line.Contains("><"))
 					{
 						//Console.WriteLine(line);
 						string[] parts = line.Split(sep, c, StringSplitOptions.RemoveEmptyEntries);
