@@ -1,10 +1,14 @@
+>>Name: Budget Zoolock
+>>Author: Roffle
+>>Date: 20190416
+>>Link:https://www.hearthstonetopdecks.com/decks/budget-zoo-warlock-deck-list-guide-rise-of-shadows/
 Flame Imp><2
 Grim Rally><2
 Soul Infusion><2
 Soulfire><2
 Voidwalker><2
 Witchwood Imp><2
-Void Analyst><2
+Fiendish Circle><2
 Doubling Imp><2
 Abusive Sergeant><2
 Argent Squire><2
