@@ -38,33 +38,32 @@ namespace SabberStoneCoreAi
 			{
 				Console.WriteLine(obj);
 			}
+			Tuple<List<Card>, string> player1Tup;
+			Tuple<List<Card>, string> player2Tup;
 			var Player1DeckList = new List<Card>();
 			var Player2DeckList = new List<Card>();
 			string player1Name = "FitzVonGerald";
 			string player2Name = "RehHausZuckFuchs";
 			if (args.Length > 1)
 			{
-				Player1DeckList = CreateDeckFromFile(args[1]);
-				Player2DeckList = CreateDeckFromFile(args[2]);
-				if (args.Length > 2)
-				{
-					player1Name = args[3];
-					player2Name = args[4];
-				}
+				player1Tup = CreateDeckFromFile(args[1]);
+				Player1DeckList = player1Tup.Item1;
+				player1Name = player1Tup.Item2;
+				player2Tup = CreateDeckFromFile(args[2]);
+				Player2DeckList = player2Tup.Item1;
+				player2Name = player2Tup.Item2;
 			}
 			else
 			{
 				Player1DeckList = Decks.AggroPirateWarrior;
 				Player2DeckList = Decks.AggroPirateWarrior;
-			}
-
-			
+			}			
 
 			Console.WriteLine("Starting test setup.");
 
 			//OneTurn();
 			//FullGame();
-			FullGame(Player1DeckList, Player2DeckList);
+			FullGame(Player1DeckList, Player2DeckList, player1Name, player2Name);
 			//RandomGames();
 			//TestFullGames();
 
@@ -139,23 +138,34 @@ namespace SabberStoneCoreAi
 			Console.WriteLine("***********************************");
 
 		}
-		public static List<Card> CreateDeckFromFile(string FileName)
+		//public static List<Card> CreateDeckFromFile(string FileName)
+		public static Tuple<List<Card>, string> CreateDeckFromFile(string FileName)
 		{
 			var deck = new List<Card>();
+			string playerName = "";
 			try
 			{
 				string[] sep = { "><" };
+				string[] headerSep = { " " };
 				short c = 2;
 				string[] lines = System.IO.File.ReadAllLines(FileName);  //opens and closes the file
 				foreach (string line in lines)
 				{
-					//Console.WriteLine(line);
-					string[] parts = line.Split(sep, c, StringSplitOptions.RemoveEmptyEntries);
-					Console.WriteLine(parts[0]);
-					Console.WriteLine(parts[1]);
-					for (int i=0; i<System.Convert.ToInt16(parts[1]); i++)
+					if (line.Contains(">>Author:"))
 					{
-						deck.Add(Cards.FromName(parts[0]));
+						string[] authorParts = line.Split(headerSep, c, StringSplitOptions.RemoveEmptyEntries);
+						playerName = authorParts[1];
+					}
+					else
+					{
+						//Console.WriteLine(line);
+						string[] parts = line.Split(sep, c, StringSplitOptions.RemoveEmptyEntries);
+						Console.WriteLine(parts[0]);
+						Console.WriteLine(parts[1]);
+						for (int i = 0; i < System.Convert.ToInt16(parts[1]); i++)
+						{
+							deck.Add(Cards.FromName(parts[0]));
+						}
 					}
 				}
 			}
@@ -166,7 +176,7 @@ namespace SabberStoneCoreAi
 				deck = Decks.AggroPirateWarrior;
 			}
 			PrintDeckOfCards(deck);
-			return deck;
+			return Tuple.Create(deck, playerName);
 		}
 
 		public static void RandomGames()

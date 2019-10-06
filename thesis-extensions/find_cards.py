@@ -1,10 +1,10 @@
 desc = """This is a simple script to conduct some simple data mining. There are two possible configurations:
 
 Option 1: Create the set of English cards:
-C:|...\thesis-extensions\python test.py  ..\thesis-output\CardDefs.xml ..\thesis-output\CardsEng.txt
+C:|...\thesis-extensions\python find_cards.py  ..\thesis-output\CardDefs.xml ..\thesis-output\CardsEng.txt
 
 Option 2: Search the set of English cards using a decklist:
-C:\...\thesis-extensions\python test.py ..\thesis-output\<decklist>.txt ..\thesis-output\CardsEng.txt
+C:\...\thesis-extensions\python find_cards.py ..\thesis-decklists\<decklist>.txt ..\thesis-output\CardsEng.txt
 
 Both runs REQUIRE that the second argument is the path to the parsed list of English cards (which also
 contains any lines of xml with english text, since the search parameter in Option 1 is <enUS>"""
@@ -52,10 +52,11 @@ def find_card(card, lines):
 	for line in lines:
 		if card.lower() in line.lower():
 			found = True
-			print(card + ' found')
+			#print(card + ' found')
 			break
 	if not found:
 		print(card + ' NOT FOUND')
+	return found
 
 
 def parse_decklist(fname, cards_eng_path):
@@ -68,12 +69,17 @@ def parse_decklist(fname, cards_eng_path):
 
 	lines_ = f.readlines()
 	f.close()
-
+	allCardsFound = True
 	for line_ in deck:
-		card_parts = line_.strip('\n').split('><')
-		card_ = card_parts[0]
-		#amount = card_parts[1]
-		find_card(card_, lines_)
+		if '><' in line_:
+			card_parts = line_.strip('\n').split('><')
+			card_ = card_parts[0]
+			# amount = card_parts[1]
+			cardFound = find_card(card_, lines_)
+			if not cardFound:
+				allCardsFound = True
+	if allCardsFound:
+		print('All cards were found!')
 	deck.close()
 
 
