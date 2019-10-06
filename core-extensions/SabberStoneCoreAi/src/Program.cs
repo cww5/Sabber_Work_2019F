@@ -40,17 +40,26 @@ namespace SabberStoneCoreAi
 			}
 			var Player1DeckList = new List<Card>();
 			var Player2DeckList = new List<Card>();
+			string player1Name = "FitzVonGerald";
+			string player2Name = "RehHausZuckFuchs";
 			if (args.Length > 1)
 			{
 				Player1DeckList = CreateDeckFromFile(args[1]);
 				Player2DeckList = CreateDeckFromFile(args[2]);
+				if (args.Length > 2)
+				{
+					player1Name = args[3];
+					player2Name = args[4];
+				}
 			}
 			else
 			{
 				Player1DeckList = Decks.AggroPirateWarrior;
 				Player2DeckList = Decks.AggroPirateWarrior;
 			}
+
 			
+
 			Console.WriteLine("Starting test setup.");
 
 			//OneTurn();
@@ -83,10 +92,7 @@ namespace SabberStoneCoreAi
 			{
 				Console.WriteLine($"CURRENT PLAYER: P2 {game.CurrentPlayer.Name}");
 			}
-			foreach (Card played_card in game.CurrentPlayer.CardsPlayedThisTurn)
-			{
-				Console.WriteLine(played_card.ToString());
-			}
+			
 			Console.WriteLine($"AMOUNTHEALEDTHISTURN {game.CurrentPlayer.AmountHeroHealedThisTurn}");
 			Console.WriteLine($"HEROPOWERACTIVATIONSTHIS TURN {game.CurrentPlayer.HeroPowerActivationsThisTurn}");
 			Console.WriteLine($"NUMATTACKSTHISTURN {game.CurrentPlayer.NumAttacksThisTurn}");
@@ -334,19 +340,19 @@ namespace SabberStoneCoreAi
 			Console.WriteLine(game.Player1.BoardZone.FullPrint());
 		}
 
-		public static void FullGame(List<Card> Player1Cards, List<Card> Player2Cards)
+		public static void FullGame(List<Card> Player1Cards, List<Card> Player2Cards, string PlayerOneName, string PlayerTwoName)
 		//public static void FullGame()
 		{
 			var game = new Game(
 				new GameConfig()
 				{
 					StartPlayer = 1,
-					Player1Name = "FitzVonGerald",
-					Player1HeroClass = CardClass.WARRIOR,
+					Player1Name = PlayerOneName,
+					Player1HeroClass = CardClass.WARLOCK,
 					//Player1Deck = Decks.AggroPirateWarrior,
 					Player1Deck = Player1Cards,
-					Player2Name = "RehHausZuckFuchs",
-					Player2HeroClass = CardClass.WARRIOR,
+					Player2Name = PlayerTwoName,
+					Player2HeroClass = CardClass.WARLOCK,
 					//Player2Deck = Decks.AggroPirateWarrior,
 					Player2Deck = Player2Cards,
 					FillDecks = false,
