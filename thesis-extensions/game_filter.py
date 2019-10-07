@@ -39,7 +39,7 @@ this contains 25 lines from index of ______ to index of _____|
 shuold be range(i, i+26)
 The two lines above with the >>>>>> don't begin with '#', added that there because PyCharm threw errors on those lines.
 
-python game_filter.py ..\thesis-output\output_last_turn_health_diff.txt
+python game_filter.py laptop
 
 """
 import numpy as np
