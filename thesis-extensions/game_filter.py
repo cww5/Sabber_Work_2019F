@@ -96,14 +96,24 @@ class GameFilter:
 		self.df = pd.DataFrame()
 
 	def parse_file(self, df_file_name):
+		turn_info = []
+		end_of_turn = False
 		for i in range(len(self.lines)):
 			line = self.lines[i]
 			if len(line) > 0:
 				if line[0] == '_' and line[-1] == '_':
-					self.parse_turn(self.lines[i:i + 26])
-					i += 26
+					end_of_turn = True
+					continue
+				elif line[0] == '_' and line[-1] == '|':
+					self.parse_turn(turn_info)
+					end_of_turn = False
+					turn_info = []
+				if end_of_turn:
+					turn_info.append(line)
 		self.df = pd.DataFrame.from_dict(self.end_of_turn_data, orient='index')
-		self.df.to_csv(df_file_name)
+		logging.info(self.df)
+		with open(df_file_name) as f:
+			self.df.to_csv(df_file_name)
 
 	def parse_turn(self, turn_text_list):
 		turn_dict = {}
@@ -196,7 +206,6 @@ def main():
 		game_obj.parse_file(game_csv_name)
 		logging.info('Number of turns: {}'.format(len(game_obj.end_of_turn_data)))
 		game_obj.plot_data(game_plot_name)
-
 
 if __name__ == "__main__":
 	main()
