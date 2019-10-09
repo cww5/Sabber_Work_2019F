@@ -145,7 +145,7 @@ class GameFilter:
 				turn_dict[turn_num]['CURRENT_PLAYER'] = player_parts[-1]
 				continue
 
-			param_query = re.match('[A-Z]+ [0-9]+', line)
+			param_query = re.match('[A-Z]+ -?[0-9]+', line)
 			if param_query is not None:
 				logging.debug('>>>>>>>>>>>>>>>>>>>>>>PARAM QUERY')
 				parts = line.split()
@@ -196,6 +196,7 @@ def main():
 	for path in pathlist:
 		# because path is object not string
 		game_name = str(path)
+
 		game_csv_name = game_name.replace('.txt', '.csv')
 		game_plot_name = game_name.replace('.txt', '.png')
 		logging.info(game_name)
@@ -206,6 +207,7 @@ def main():
 		game_obj.parse_file(game_csv_name)
 		logging.info('Number of turns: {}'.format(len(game_obj.end_of_turn_data)))
 		game_obj.plot_data(game_plot_name)
+
 
 if __name__ == "__main__":
 	main()
