@@ -3,11 +3,13 @@ For my Master's Thesis, I will be conducting research using Hearthone to dedect 
 
 ## TODO
 
-- [ ] Retrieve relevant turn information per player
+- [x] Retrieve relevant turn information per player from Sabber
+- [ ] Format the tasks and cards into the data set
 - [ ] Create a train / test data set of games
+- [ ] Find an encoding for decisions, and/or extract which features go into the model
 - [ ] Build models to predict which turns are "teachable"
 - [ ] Create some plots / tables
-- [ ] Type up Thesis document first draft (on going)
+- [ ] Type up Thesis document (ongoing)
  
 # Getting Started
 ## Prerequisites
