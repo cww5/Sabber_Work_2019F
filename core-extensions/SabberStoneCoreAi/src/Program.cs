@@ -416,6 +416,11 @@ namespace SabberStoneCoreAi
 							Console.WriteLine($"* Recaclulating due to a final solution ...");
 							break;
 						}
+						if (game.Player1.Hero.Health == 0 || game.Player2.Hero.Health == 0)
+						{
+							allTasks = allTasks + "COMPLETE ALL TURN TASKS";
+							PrintEndOfTurnOptions(game, task, allTasks);
+						}
 					}
 					//Console.WriteLine("Testing>>>>>>>>>>>>>>>>>>>>>");
 					//Console.WriteLine(game.CurrentPlayer.NumCardsPlayedThisTurn);
@@ -450,6 +455,11 @@ namespace SabberStoneCoreAi
 						{
 							Console.WriteLine($"* Recaclulating due to a final solution ...");
 							break;
+						}
+						if (game.Player1.Hero.Health == 0 || game.Player2.Hero.Health == 0)
+						{
+							allTasks = allTasks + "COMPLETE ALL TURN TASKS";
+							PrintEndOfTurnOptions(game, task, allTasks);
 						}
 					}
 				}
