@@ -1,0 +1,1538 @@
+Argument length: 1
+Supplied Arguments are:
+/home/c/cww5/Sabber_Work_2019F/core-extensions/SabberStoneCoreAi/bin/Release/netcoreapp2.0/SabberStoneCoreAi.dll
+Starting test setup.
+Time: 10/15/2019 20:30:23, Level: INFO, Location: Controller, Blocktype: PLAY, TextCreated Controller 'FitzVonGerald'
+Time: 10/15/2019 20:30:24, Level: INFO, Location: Controller, Blocktype: PLAY, TextCreated Controller 'RehHausZuckFuchs'
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Hero, Blocktype: PLAY, TextGul'dan (WARLOCK) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data ZONE to 1
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data HERO_ENTITY to 4
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: HeroPower, Blocktype: PLAY, Text'Life Tap[5]' (WARLOCK) was created.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Hero, Blocktype: PLAY, TextGul'dan (WARLOCK) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data ZONE to 1
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data HERO_ENTITY to 6
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: HeroPower, Blocktype: PLAY, Text'Life Tap[7]' (WARLOCK) was created.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Sir Finley Mrrgglton[8]' (NEUTRAL) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Sir Finley Mrrgglton[8]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Sir Finley Mrrgglton[8]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: INFO, Location: Weapon, Blocktype: PLAY, Text'Fiery War Axe[9]' (WARRIOR) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Fiery War Axe[9]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Fiery War Axe[9]' (WEAPON)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: INFO, Location: Weapon, Blocktype: PLAY, Text'Fiery War Axe[10]' (WARRIOR) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Fiery War Axe[10]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Fiery War Axe[10]' (WEAPON)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Spell, Blocktype: PLAY, TextHeroic Strike (WARRIOR) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Heroic Strike[11]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Heroic Strike[11]' (SPELL)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Spell, Blocktype: PLAY, TextHeroic Strike (WARRIOR) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Heroic Strike[12]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Heroic Strike[12]' (SPELL)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'N'Zoth's First Mate[13]' (WARRIOR) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'N'Zoth's First Mate[13]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''N'Zoth's First Mate[13]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'N'Zoth's First Mate[14]' (WARRIOR) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'N'Zoth's First Mate[14]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''N'Zoth's First Mate[14]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Spell, Blocktype: PLAY, TextUpgrade! (WARRIOR) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Upgrade![15]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Upgrade![15]' (SPELL)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Spell, Blocktype: PLAY, TextUpgrade! (WARRIOR) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Upgrade![16]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Upgrade![16]' (SPELL)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Bloodsail Cultist[17]' (WARRIOR) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Bloodsail Cultist[17]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Bloodsail Cultist[17]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Bloodsail Cultist[18]' (WARRIOR) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Bloodsail Cultist[18]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Bloodsail Cultist[18]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Frothing Berserker[19]' (WARRIOR) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Frothing Berserker[19]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Frothing Berserker[19]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Frothing Berserker[20]' (WARRIOR) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Frothing Berserker[20]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Frothing Berserker[20]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Kor'kron Elite[21]' (WARRIOR) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Kor'kron Elite[21]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Kor'kron Elite[21]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Kor'kron Elite[22]' (WARRIOR) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Kor'kron Elite[22]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Kor'kron Elite[22]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: INFO, Location: Weapon, Blocktype: PLAY, Text'Arcanite Reaper[23]' (WARRIOR) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Arcanite Reaper[23]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Arcanite Reaper[23]' (WEAPON)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: INFO, Location: Weapon, Blocktype: PLAY, Text'Arcanite Reaper[24]' (WARRIOR) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Arcanite Reaper[24]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Arcanite Reaper[24]' (WEAPON)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Patches the Pirate[25]' (NEUTRAL) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Patches the Pirate[25]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Patches the Pirate[25]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Small-Time Buccaneer[26]' (NEUTRAL) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Small-Time Buccaneer[26]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Small-Time Buccaneer[26]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Small-Time Buccaneer[27]' (NEUTRAL) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Small-Time Buccaneer[27]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Small-Time Buccaneer[27]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Southsea Deckhand[28]' (NEUTRAL) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[28]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Southsea Deckhand[28]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Southsea Deckhand[29]' (NEUTRAL) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[29]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Southsea Deckhand[29]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Bloodsail Raider[30]' (NEUTRAL) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Bloodsail Raider[30]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Bloodsail Raider[30]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Bloodsail Raider[31]' (NEUTRAL) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Bloodsail Raider[31]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Bloodsail Raider[31]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Southsea Captain[32]' (NEUTRAL) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Captain[32]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Southsea Captain[32]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Southsea Captain[33]' (NEUTRAL) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Captain[33]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Southsea Captain[33]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Dread Corsair[34]' (NEUTRAL) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Dread Corsair[34]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Dread Corsair[34]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Dread Corsair[35]' (NEUTRAL) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Dread Corsair[35]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Dread Corsair[35]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Naga Corsair[36]' (NEUTRAL) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Naga Corsair[36]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Naga Corsair[36]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Naga Corsair[37]' (NEUTRAL) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Naga Corsair[37]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Naga Corsair[37]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Sir Finley Mrrgglton[38]' (NEUTRAL) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Sir Finley Mrrgglton[38]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Sir Finley Mrrgglton[38]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: INFO, Location: Weapon, Blocktype: PLAY, Text'Fiery War Axe[39]' (WARRIOR) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Fiery War Axe[39]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Fiery War Axe[39]' (WEAPON)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: INFO, Location: Weapon, Blocktype: PLAY, Text'Fiery War Axe[40]' (WARRIOR) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Fiery War Axe[40]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Fiery War Axe[40]' (WEAPON)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Spell, Blocktype: PLAY, TextHeroic Strike (WARRIOR) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Heroic Strike[41]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Heroic Strike[41]' (SPELL)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Spell, Blocktype: PLAY, TextHeroic Strike (WARRIOR) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Heroic Strike[42]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Heroic Strike[42]' (SPELL)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'N'Zoth's First Mate[43]' (WARRIOR) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'N'Zoth's First Mate[43]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''N'Zoth's First Mate[43]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'N'Zoth's First Mate[44]' (WARRIOR) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'N'Zoth's First Mate[44]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''N'Zoth's First Mate[44]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Spell, Blocktype: PLAY, TextUpgrade! (WARRIOR) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Upgrade![45]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Upgrade![45]' (SPELL)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Spell, Blocktype: PLAY, TextUpgrade! (WARRIOR) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Upgrade![46]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Upgrade![46]' (SPELL)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Bloodsail Cultist[47]' (WARRIOR) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Bloodsail Cultist[47]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Bloodsail Cultist[47]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Bloodsail Cultist[48]' (WARRIOR) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Bloodsail Cultist[48]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Bloodsail Cultist[48]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Frothing Berserker[49]' (WARRIOR) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Frothing Berserker[49]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Frothing Berserker[49]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Frothing Berserker[50]' (WARRIOR) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Frothing Berserker[50]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Frothing Berserker[50]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Kor'kron Elite[51]' (WARRIOR) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Kor'kron Elite[51]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Kor'kron Elite[51]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Kor'kron Elite[52]' (WARRIOR) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Kor'kron Elite[52]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Kor'kron Elite[52]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: INFO, Location: Weapon, Blocktype: PLAY, Text'Arcanite Reaper[53]' (WARRIOR) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Arcanite Reaper[53]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Arcanite Reaper[53]' (WEAPON)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: INFO, Location: Weapon, Blocktype: PLAY, Text'Arcanite Reaper[54]' (WARRIOR) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Arcanite Reaper[54]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Arcanite Reaper[54]' (WEAPON)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Patches the Pirate[55]' (NEUTRAL) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Patches the Pirate[55]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Patches the Pirate[55]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Small-Time Buccaneer[56]' (NEUTRAL) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Small-Time Buccaneer[56]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Small-Time Buccaneer[56]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Small-Time Buccaneer[57]' (NEUTRAL) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Small-Time Buccaneer[57]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Small-Time Buccaneer[57]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Southsea Deckhand[58]' (NEUTRAL) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Southsea Deckhand[58]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Southsea Deckhand[59]' (NEUTRAL) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[59]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Southsea Deckhand[59]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Bloodsail Raider[60]' (NEUTRAL) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Bloodsail Raider[60]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Bloodsail Raider[60]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Bloodsail Raider[61]' (NEUTRAL) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Bloodsail Raider[61]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Bloodsail Raider[61]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Southsea Captain[62]' (NEUTRAL) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Captain[62]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Southsea Captain[62]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Southsea Captain[63]' (NEUTRAL) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Captain[63]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Southsea Captain[63]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Dread Corsair[64]' (NEUTRAL) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Dread Corsair[64]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Dread Corsair[64]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Dread Corsair[65]' (NEUTRAL) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Dread Corsair[65]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Dread Corsair[65]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Naga Corsair[66]' (NEUTRAL) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Naga Corsair[66]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Naga Corsair[66]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Minion, Blocktype: PLAY, Text'Naga Corsair[67]' (NEUTRAL) was created.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Naga Corsair[67]' set data ZONE to 2
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Naga Corsair[67]' (MINION)' has been added to zone 'DECK' in position '0'.
+Time: 10/15/2019 20:30:24, Level: INFO, Location: Game, Blocktype: PLAY, TextStarting new game now!
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data PLAYSTATE to 1
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data PLAYSTATE to 1
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data FIRST_PLAYER to 1
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data CURRENT_PLAYER to 0
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data CURRENT_PLAYER to 1
+Time: 10/15/2019 20:30:24, Level: INFO, Location: Game, Blocktype: PLAY, TextStarting Player is FitzVonGerald.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - BEGIN_FIRST
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Game, Blocktype: PLAY, TextBegin First.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - BEGIN_SHUFFLE
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Game, Blocktype: PLAY, TextBegin Shuffle.
+Time: 10/15/2019 20:30:24, Level: INFO, Location: Deck, Blocktype: PLAY, TextFitzVonGerald shuffles its deck.
+Time: 10/15/2019 20:30:24, Level: INFO, Location: Deck, Blocktype: PLAY, TextRehHausZuckFuchs shuffles its deck.
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - BEGIN_DRAW
+Time: 10/15/2019 20:30:24, Level: VERBOSE, Location: Game, Blocktype: PLAY, TextBegin Draw.
+Time: 10/15/2019 20:30:24, Level: INFO, Location: DrawPhase, Blocktype: ACTION, TextFitzVonGerald draws 'Kor'kron Elite[22]'
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_CARDS_DRAWN_THIS_TURN to 1
+Time: 10/15/2019 20:30:24, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data LAST_CARD_DRAWN to 22
+Time: 10/15/2019 20:30:24, Level: INFO, Location: AddHandPhase, Blocktype: PLAY, Textadding to hand 'Kor'kron Elite[22]'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Kor'kron Elite[22]' set data ZONE to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Kor'kron Elite[22]' (MINION)' has been added to zone 'HAND' in position '0'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Kor'kron Elite[22]' set data ZONE_POSITION to 1
+Time: 10/15/2019 20:30:25, Level: INFO, Location: DrawPhase, Blocktype: ACTION, TextFitzVonGerald draws 'Small-Time Buccaneer[27]'
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_CARDS_DRAWN_THIS_TURN to 2
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data LAST_CARD_DRAWN to 27
+Time: 10/15/2019 20:30:25, Level: INFO, Location: AddHandPhase, Blocktype: PLAY, Textadding to hand 'Small-Time Buccaneer[27]'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Small-Time Buccaneer[27]' set data ZONE to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Small-Time Buccaneer[27]' (MINION)' has been added to zone 'HAND' in position '0'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Small-Time Buccaneer[27]' set data ZONE_POSITION to 2
+Time: 10/15/2019 20:30:25, Level: INFO, Location: DrawPhase, Blocktype: ACTION, TextFitzVonGerald draws 'Southsea Captain[32]'
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_CARDS_DRAWN_THIS_TURN to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data LAST_CARD_DRAWN to 32
+Time: 10/15/2019 20:30:25, Level: INFO, Location: AddHandPhase, Blocktype: PLAY, Textadding to hand 'Southsea Captain[32]'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Captain[32]' set data ZONE to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Southsea Captain[32]' (MINION)' has been added to zone 'HAND' in position '0'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Captain[32]' set data ZONE_POSITION to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_TURNS_LEFT to 1
+Time: 10/15/2019 20:30:25, Level: INFO, Location: DrawPhase, Blocktype: ACTION, TextRehHausZuckFuchs draws 'Heroic Strike[41]'
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_CARDS_DRAWN_THIS_TURN to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data LAST_CARD_DRAWN to 41
+Time: 10/15/2019 20:30:25, Level: INFO, Location: AddHandPhase, Blocktype: PLAY, Textadding to hand 'Heroic Strike[41]'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Heroic Strike[41]' set data ZONE to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Heroic Strike[41]' (SPELL)' has been added to zone 'HAND' in position '0'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Heroic Strike[41]' set data ZONE_POSITION to 1
+Time: 10/15/2019 20:30:25, Level: INFO, Location: DrawPhase, Blocktype: ACTION, TextRehHausZuckFuchs draws 'Bloodsail Cultist[47]'
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_CARDS_DRAWN_THIS_TURN to 2
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data LAST_CARD_DRAWN to 47
+Time: 10/15/2019 20:30:25, Level: INFO, Location: AddHandPhase, Blocktype: PLAY, Textadding to hand 'Bloodsail Cultist[47]'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Bloodsail Cultist[47]' set data ZONE to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Bloodsail Cultist[47]' (MINION)' has been added to zone 'HAND' in position '0'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Bloodsail Cultist[47]' set data ZONE_POSITION to 2
+Time: 10/15/2019 20:30:25, Level: INFO, Location: DrawPhase, Blocktype: ACTION, TextRehHausZuckFuchs draws 'Bloodsail Raider[60]'
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_CARDS_DRAWN_THIS_TURN to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data LAST_CARD_DRAWN to 60
+Time: 10/15/2019 20:30:25, Level: INFO, Location: AddHandPhase, Blocktype: PLAY, Textadding to hand 'Bloodsail Raider[60]'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Bloodsail Raider[60]' set data ZONE to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Bloodsail Raider[60]' (MINION)' has been added to zone 'HAND' in position '0'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Bloodsail Raider[60]' set data ZONE_POSITION to 3
+Time: 10/15/2019 20:30:25, Level: INFO, Location: DrawPhase, Blocktype: ACTION, TextRehHausZuckFuchs draws 'Kor'kron Elite[52]'
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_CARDS_DRAWN_THIS_TURN to 4
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data LAST_CARD_DRAWN to 52
+Time: 10/15/2019 20:30:25, Level: INFO, Location: AddHandPhase, Blocktype: PLAY, Textadding to hand 'Kor'kron Elite[52]'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Kor'kron Elite[52]' set data ZONE to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Kor'kron Elite[52]' (MINION)' has been added to zone 'HAND' in position '0'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Kor'kron Elite[52]' set data ZONE_POSITION to 4
+Time: 10/15/2019 20:30:25, Level: VERBOSE, Location: Spell, Blocktype: PLAY, TextThe Coin (NEUTRAL) was created.
+Time: 10/15/2019 20:30:25, Level: INFO, Location: AddHandPhase, Blocktype: PLAY, Textadding to hand 'The Coin[68]'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'The Coin[68]' set data ZONE to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''The Coin[68]' (SPELL)' has been added to zone 'HAND' in position '0'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'The Coin[68]' set data ZONE_POSITION to 5
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_TURNS_LEFT to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data TIMEOUT to 75
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data TIMEOUT to 75
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - BEGIN_MULLIGAN
+Time: 10/15/2019 20:30:25, Level: VERBOSE, Location: Game, Blocktype: PLAY, TextBegin Mulligan.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data MULLIGAN_STATE to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data MULLIGAN_STATE to 1
+Player1: Mulligan 22
+Player2: Mulligan 52
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, TextChooseTask => [FitzVonGerald] choosed 22 to keep
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data MULLIGAN_STATE to 2
+Time: 10/15/2019 20:30:25, Level: INFO, Location: AddHandPhase, Blocktype: PLAY, Textadding to hand 'Frothing Berserker[19]'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Frothing Berserker[19]' set data ZONE to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Frothing Berserker[19]' (MINION)' has been added to zone 'HAND' in position '0'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Frothing Berserker[19]' set data ZONE_POSITION to 4
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Frothing Berserker[19]' set data ZONE_POSITION to 2
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Small-Time Buccaneer[27]' set data ZONE_POSITION to 4
+Time: 10/15/2019 20:30:25, Level: INFO, Location: ShuffleIntoDeck, Blocktype: PLAY, Textadding to deck 'Small-Time Buccaneer[27]'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Small-Time Buccaneer[27]' set data ZONE to 2
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Small-Time Buccaneer[27]' (MINION)' has been added to zone 'DECK' in position '3'.
+Time: 10/15/2019 20:30:25, Level: INFO, Location: AddHandPhase, Blocktype: PLAY, Textadding to hand 'Heroic Strike[12]'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Heroic Strike[12]' set data ZONE to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Heroic Strike[12]' (SPELL)' has been added to zone 'HAND' in position '0'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Heroic Strike[12]' set data ZONE_POSITION to 4
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Heroic Strike[12]' set data ZONE_POSITION to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Captain[32]' set data ZONE_POSITION to 4
+Time: 10/15/2019 20:30:25, Level: INFO, Location: ShuffleIntoDeck, Blocktype: PLAY, Textadding to deck 'Southsea Captain[32]'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Captain[32]' set data ZONE to 2
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Southsea Captain[32]' (MINION)' has been added to zone 'DECK' in position '3'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data MULLIGAN_STATE to 4
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, TextChooseTask => [RehHausZuckFuchs] choosed 52 to keep
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data MULLIGAN_STATE to 2
+Time: 10/15/2019 20:30:25, Level: INFO, Location: AddHandPhase, Blocktype: PLAY, Textadding to hand 'Southsea Deckhand[58]'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data ZONE to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Southsea Deckhand[58]' (MINION)' has been added to zone 'HAND' in position '0'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data ZONE_POSITION to 6
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data ZONE_POSITION to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Heroic Strike[41]' set data ZONE_POSITION to 6
+Time: 10/15/2019 20:30:25, Level: INFO, Location: ShuffleIntoDeck, Blocktype: PLAY, Textadding to deck 'Heroic Strike[41]'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Heroic Strike[41]' set data ZONE to 2
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Heroic Strike[41]' (SPELL)' has been added to zone 'DECK' in position '5'.
+Time: 10/15/2019 20:30:25, Level: INFO, Location: AddHandPhase, Blocktype: PLAY, Textadding to hand 'Heroic Strike[42]'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Heroic Strike[42]' set data ZONE to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Heroic Strike[42]' (SPELL)' has been added to zone 'HAND' in position '0'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Heroic Strike[42]' set data ZONE_POSITION to 6
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Heroic Strike[42]' set data ZONE_POSITION to 2
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Bloodsail Cultist[47]' set data ZONE_POSITION to 6
+Time: 10/15/2019 20:30:25, Level: INFO, Location: ShuffleIntoDeck, Blocktype: PLAY, Textadding to deck 'Bloodsail Cultist[47]'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Bloodsail Cultist[47]' set data ZONE to 2
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Bloodsail Cultist[47]' (MINION)' has been added to zone 'DECK' in position '5'.
+Time: 10/15/2019 20:30:25, Level: INFO, Location: AddHandPhase, Blocktype: PLAY, Textadding to hand 'Southsea Captain[62]'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Captain[62]' set data ZONE to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Southsea Captain[62]' (MINION)' has been added to zone 'HAND' in position '0'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Captain[62]' set data ZONE_POSITION to 6
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Captain[62]' set data ZONE_POSITION to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Bloodsail Raider[60]' set data ZONE_POSITION to 6
+Time: 10/15/2019 20:30:25, Level: INFO, Location: ShuffleIntoDeck, Blocktype: PLAY, Textadding to deck 'Bloodsail Raider[60]'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Bloodsail Raider[60]' set data ZONE to 2
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Bloodsail Raider[60]' (MINION)' has been added to zone 'DECK' in position '5'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data MULLIGAN_STATE to 4
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_CARDS_DRAWN_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_CARDS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_MINIONS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_FRIENDLY_MINIONS_THAT_DIED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_CARDS_DRAWN_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_CARDS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_MINIONS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_FRIENDLY_MINIONS_THAT_DIED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data EXHAUSTED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Life Tap[5]' set data EXHAUSTED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data COMBO_ACTIVE to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_MINIONS_PLAYER_KILLED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_MINIONS_PLAYER_KILLED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_FRIENDLY_MINIONS_THAT_ATTACKED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data HEROPOWER_ACTIVATIONS_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_ELEMENTAL_PLAYED_LAST_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_ELEMENTAL_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data RESOURCES to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data RESOURCES_USED to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data RESOURCES_USED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data TEMP_RESOURCES to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data OVERLOAD_LOCKED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data OVERLOAD_OWED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_START_TRIGGERS
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_START
+Time: 10/15/2019 20:30:25, Level: INFO, Location: DrawPhase, Blocktype: ACTION, TextFitzVonGerald draws 'Naga Corsair[37]'
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_CARDS_DRAWN_THIS_TURN to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data LAST_CARD_DRAWN to 37
+Time: 10/15/2019 20:30:25, Level: INFO, Location: AddHandPhase, Blocktype: PLAY, Textadding to hand 'Naga Corsair[37]'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Naga Corsair[37]' set data ZONE to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Naga Corsair[37]' (MINION)' has been added to zone 'HAND' in position '0'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Naga Corsair[37]' set data ZONE_POSITION to 4
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, Text[T:1/R:0] with CurrentPlayer FitzVonGerald [HP:30/M:1]
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_ACTION
+
+Player1: PLAYING / Player2: PLAYING - ROUND 1 - FitzVonGerald
+Hero[P1]: 30 / Hero[P2]: 30
+
+* Calculating solutions *** Player 1 ***
+- Player 1 - <FitzVonGerald> ---------------------------
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 1
+Hero[P1]: 30 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+EndTurnTask => [FitzVonGerald]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 FitzVonGerald
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 0
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 0
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 1
+TOTALMANASPENTTHISGAME 0
+USEDMANATHISTURN 0
+No more cards played this turn.
+______________________________________________________________________|
+EndTurnTask => [FitzVonGerald]
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, TextEndTurnTask => [FitzVonGerald]
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, TextEnd turn proccessed by player 'Player[2]'
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_CLEANUP
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_NEXT
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_TURNS_LEFT to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_TURNS_LEFT to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data CURRENT_PLAYER to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data CURRENT_PLAYER to 1
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, TextCurentPlayer RehHausZuckFuchs.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_READY
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_CARDS_DRAWN_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_CARDS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_MINIONS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_FRIENDLY_MINIONS_THAT_DIED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_CARDS_DRAWN_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_CARDS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_MINIONS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_FRIENDLY_MINIONS_THAT_DIED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data EXHAUSTED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Life Tap[7]' set data EXHAUSTED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data COMBO_ACTIVE to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_MINIONS_PLAYER_KILLED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_MINIONS_PLAYER_KILLED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_FRIENDLY_MINIONS_THAT_ATTACKED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data HEROPOWER_ACTIVATIONS_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_ELEMENTAL_PLAYED_LAST_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_ELEMENTAL_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data RESOURCES to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data RESOURCES_USED to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data RESOURCES_USED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data TEMP_RESOURCES to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data OVERLOAD_LOCKED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data OVERLOAD_OWED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_START_TRIGGERS
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_START
+Time: 10/15/2019 20:30:25, Level: INFO, Location: DrawPhase, Blocktype: ACTION, TextRehHausZuckFuchs draws 'N'Zoth's First Mate[43]'
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_CARDS_DRAWN_THIS_TURN to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data LAST_CARD_DRAWN to 43
+Time: 10/15/2019 20:30:25, Level: INFO, Location: AddHandPhase, Blocktype: PLAY, Textadding to hand 'N'Zoth's First Mate[43]'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'N'Zoth's First Mate[43]' set data ZONE to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''N'Zoth's First Mate[43]' (MINION)' has been added to zone 'HAND' in position '0'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'N'Zoth's First Mate[43]' set data ZONE_POSITION to 6
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, Text[T:2/R:1] with CurrentPlayer RehHausZuckFuchs [HP:30/M:1]
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_ACTION
+- Player 2 - <RehHausZuckFuchs> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <RehHausZuckFuchs> ---------------------------
+PlayCardTask => [RehHausZuckFuchs] play 'Southsea Deckhand[58]'(MINION) to Pos[0] Option -1
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, TextPlayCardTask => [RehHausZuckFuchs] play 'Southsea Deckhand[58]'(MINION) to Pos[0] Option -1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data TAG_LAST_KNOWN_COST_IN_HAND to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data RESOURCES_USED to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_RESOURCES_SPENT_THIS_GAME to 1
+Time: 10/15/2019 20:30:25, Level: INFO, Location: PayPhase, Blocktype: ACTION, TextPaying 'Southsea Deckhand[58]' for 1 Mana, remaining mana is 0.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'N'Zoth's First Mate[43]' set data ZONE_POSITION to 5
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'The Coin[68]' set data ZONE_POSITION to 4
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Kor'kron Elite[52]' set data ZONE_POSITION to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Captain[62]' set data ZONE_POSITION to 2
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Heroic Strike[42]' set data ZONE_POSITION to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_CARDS_PLAYED_THIS_TURN to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data LAST_CARD_PLAYED to 58
+Time: 10/15/2019 20:30:25, Level: INFO, Location: PlayMinion, Blocktype: ACTION, TextRehHausZuckFuchs plays Minion 'Southsea Deckhand[58]' to board position 0.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_MINIONS_PLAYED_THIS_TURN to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data ZONE to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Southsea Deckhand[58]' (MINION)' has been added to zone 'PLAY' in position '0'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data ZONE_POSITION to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data EXHAUSTED to 1
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Trigger, Blocktype: TRIGGER, Text'Patches the Pirate[55]''s PLAY_MINION Trigger is triggered by 'Southsea Deckhand[58]'.
+Time: 10/15/2019 20:30:25, Level: VERBOSE, Location: TaskQueue, Blocktype: TRIGGER, TextLazyTask['Patches the Pirate[55]']: 'StateTaskList' is processed!'[x]After you play a Pirate, summon this minion from your deck.'
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Trigger, Blocktype: TRIGGER, Text'Patches the Pirate[55]''s PLAY_MINION Trigger is removed.
+Time: 10/15/2019 20:30:25, Level: INFO, Location: SummonPhase, Blocktype: PLAY, TextSummon Minion 'Patches the Pirate[55]' to Board of RehHausZuckFuchs.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Patches the Pirate[55]' set data ZONE to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Patches the Pirate[55]' (MINION)' has been added to zone 'PLAY' in position '0'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Patches the Pirate[55]' set data ZONE_POSITION to 2
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Patches the Pirate[55]' set data EXHAUSTED to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data COMBO_ACTIVE to 1
+PlayCardTask => [RehHausZuckFuchs] play 'The Coin[68]'(SPELL) Option -1
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, TextPlayCardTask => [RehHausZuckFuchs] play 'The Coin[68]'(SPELL) Option -1
+Time: 10/15/2019 20:30:25, Level: INFO, Location: PayPhase, Blocktype: ACTION, TextPaying 'The Coin[68]' for 0 Mana, remaining mana is 0.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'N'Zoth's First Mate[43]' set data ZONE_POSITION to 4
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_CARDS_PLAYED_THIS_TURN to 2
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data LAST_CARD_PLAYED to 68
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'The Coin[68]' set data ZONE to 1
+Time: 10/15/2019 20:30:25, Level: INFO, Location: PlaySpell, Blocktype: ACTION, TextRehHausZuckFuchs plays Spell 'The Coin[68]' to board.
+Time: 10/15/2019 20:30:25, Level: INFO, Location: CastSpell, Blocktype: PLAY, TextSpell 'The Coin[68]' is cast.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'The Coin[68]' set data ZONE to 4
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''The Coin[68]' (SPELL)' has been added to zone 'GRAVEYARD'.
+Time: 10/15/2019 20:30:25, Level: VERBOSE, Location: TaskQueue, Blocktype: TRIGGER, TextLazyTask['The Coin[68]']: 'TempManaTask' is processed!'Gain 1 Mana Crystal this turn only.'
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data TEMP_RESOURCES to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: PlaySpell, Blocktype: ACTION, Texttrigger After Play Phase
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_SPELLS_PLAYED_THIS_GAME to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 2
+PlayCardTask => [RehHausZuckFuchs] play 'N'Zoth's First Mate[43]'(MINION) to Pos[0] Option -1
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, TextPlayCardTask => [RehHausZuckFuchs] play 'N'Zoth's First Mate[43]'(MINION) to Pos[0] Option -1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'N'Zoth's First Mate[43]' set data TAG_LAST_KNOWN_COST_IN_HAND to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data TEMP_RESOURCES to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data RESOURCES_USED to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_RESOURCES_SPENT_THIS_GAME to 2
+Time: 10/15/2019 20:30:25, Level: INFO, Location: PayPhase, Blocktype: ACTION, TextPaying 'N'Zoth's First Mate[43]' for 1 Mana, remaining mana is 0.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_CARDS_PLAYED_THIS_TURN to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data LAST_CARD_PLAYED to 43
+Time: 10/15/2019 20:30:25, Level: INFO, Location: PlayMinion, Blocktype: ACTION, TextRehHausZuckFuchs plays Minion 'N'Zoth's First Mate[43]' to board position 0.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_MINIONS_PLAYED_THIS_TURN to 2
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'N'Zoth's First Mate[43]' set data ZONE to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''N'Zoth's First Mate[43]' (MINION)' has been added to zone 'PLAY' in position '3'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Patches the Pirate[55]' set data ZONE_POSITION to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data ZONE_POSITION to 2
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'N'Zoth's First Mate[43]' set data ZONE_POSITION to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'N'Zoth's First Mate[43]' set data EXHAUSTED to 1
+Time: 10/15/2019 20:30:25, Level: VERBOSE, Location: TaskQueue, Blocktype: TRIGGER, TextLazyTask['N'Zoth's First Mate[43]']: 'ReplaceWeaponTask' is processed!'<b>Battlecry:</b> Equip a 1/3 Rusty Hook.'
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Weapon, Blocktype: PLAY, Text'Rusty Hook[69]' (WARRIOR) was created.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Rusty Hook[69]' set data ZONE to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Rusty Hook[69]' set data ZONE_POSITION to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data WEAPON to 69
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data CHARGE to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data EXHAUSTED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 3
+MinionAttackTask => [RehHausZuckFuchs] 'Southsea Deckhand[58]'(MINION) attack 'Gul'dan[4]'
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, TextMinionAttackTask => [RehHausZuckFuchs] 'Southsea Deckhand[58]'(MINION) attack 'Gul'dan[4]'
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data ATTACKING to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DEFENDING to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data PREDAMAGE to 2
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data PREDAMAGE to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DAMAGE to 2
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Character, Blocktype: ACTION, Text'Gul'dan[4]' took damage for 2(2). 
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data ATTACKING to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DEFENDING to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 4
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_FRIENDLY_MINIONS_THAT_ATTACKED_THIS_TURN to 1
+Time: 10/15/2019 20:30:25, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text'Southsea Deckhand[58]' is now exhausted.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data EXHAUSTED to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data NUM_ATTACKS_THIS_TURN to 1
+Time: 10/15/2019 20:30:25, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text[AttackPhase]'Southsea Deckhand[58]'[ATK:2/HP:1] attacked 'Gul'dan[4]'[ATK:0/HP:28].
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_ACTION
+HeroAttackTask => [RehHausZuckFuchs] 'Gul'dan[6]' attacks 'Gul'dan[4]'
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, TextHeroAttackTask => [RehHausZuckFuchs] 'Gul'dan[6]' attacks 'Gul'dan[4]'
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data ATTACKING to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DEFENDING to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data PREDAMAGE to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data PREDAMAGE to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DAMAGE to 3
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Character, Blocktype: ACTION, Text'Gul'dan[4]' took damage for 1(1). 
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Rusty Hook[69]' set data DAMAGE to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data ATTACKING to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DEFENDING to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 5
+Time: 10/15/2019 20:30:25, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text'Gul'dan[6]' is now exhausted.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data EXHAUSTED to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data NUM_ATTACKS_THIS_TURN to 1
+Time: 10/15/2019 20:30:25, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text[AttackPhase]'Gul'dan[6]'[ATK:1/HP:30/ARM:0] ['Rusty Hook[69]'[A:1/D:2]] attacked 'Gul'dan[4]'[ATK:0/HP:27].
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_ACTION
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 2
+Hero[P1]: 27 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [RehHausZuckFuchs] play 'Southsea Deckhand[58]'(MINION) to Pos[0] Option -1
+PlayCardTask => [RehHausZuckFuchs] play 'The Coin[68]'(SPELL) Option -1
+PlayCardTask => [RehHausZuckFuchs] play 'N'Zoth's First Mate[43]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [RehHausZuckFuchs] 'Southsea Deckhand[58]'(MINION) attack 'Gul'dan[4]'
+HeroAttackTask => [RehHausZuckFuchs] 'Gul'dan[6]' attacks 'Gul'dan[4]'
+EndTurnTask => [RehHausZuckFuchs]
+
+CURRENT PLAYER: P2 RehHausZuckFuchs
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 3
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 2
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 5
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 2
+USEDMANATHISTURN 1
+PlayedCard: [Southsea Deckhand]
+PlayedCard: [The Coin]
+PlayedCard: [N'Zoth's First Mate]
+No more cards played this turn.
+______________________________________________________________________|
+EndTurnTask => [RehHausZuckFuchs]
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, TextEndTurnTask => [RehHausZuckFuchs]
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, TextEnd turn proccessed by player 'Player[3]'
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_CLEANUP
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Rusty Hook[69]' set data EXHAUSTED to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_NEXT
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_TURNS_LEFT to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_TURNS_LEFT to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data CURRENT_PLAYER to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data CURRENT_PLAYER to 1
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, TextCurentPlayer FitzVonGerald.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_READY
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_CARDS_DRAWN_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_CARDS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_MINIONS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_FRIENDLY_MINIONS_THAT_DIED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'N'Zoth's First Mate[43]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Patches the Pirate[55]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_CARDS_DRAWN_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_CARDS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_MINIONS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_FRIENDLY_MINIONS_THAT_DIED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data EXHAUSTED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Life Tap[5]' set data EXHAUSTED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data COMBO_ACTIVE to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_MINIONS_PLAYER_KILLED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_MINIONS_PLAYER_KILLED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_FRIENDLY_MINIONS_THAT_ATTACKED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data HEROPOWER_ACTIVATIONS_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_ELEMENTAL_PLAYED_LAST_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_ELEMENTAL_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data RESOURCES to 2
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data RESOURCES_USED to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data RESOURCES_USED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data TEMP_RESOURCES to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data OVERLOAD_LOCKED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data OVERLOAD_OWED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_START_TRIGGERS
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_START
+Time: 10/15/2019 20:30:25, Level: INFO, Location: DrawPhase, Blocktype: ACTION, TextFitzVonGerald draws 'Sir Finley Mrrgglton[8]'
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_CARDS_DRAWN_THIS_TURN to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data LAST_CARD_DRAWN to 8
+Time: 10/15/2019 20:30:25, Level: INFO, Location: AddHandPhase, Blocktype: PLAY, Textadding to hand 'Sir Finley Mrrgglton[8]'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Sir Finley Mrrgglton[8]' set data ZONE to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Sir Finley Mrrgglton[8]' (MINION)' has been added to zone 'HAND' in position '0'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Sir Finley Mrrgglton[8]' set data ZONE_POSITION to 5
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, Text[T:3/R:1] with CurrentPlayer FitzVonGerald [HP:27/M:2]
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_ACTION
+
+Player1: PLAYING / Player2: PLAYING - ROUND 2 - FitzVonGerald
+Hero[P1]: 27 / Hero[P2]: 30
+
+* Calculating solutions *** Player 1 ***
+- Player 1 - <FitzVonGerald> ---------------------------
+PlayCardTask => [FitzVonGerald] play 'Heroic Strike[12]'(SPELL) Option -1
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, TextPlayCardTask => [FitzVonGerald] play 'Heroic Strike[12]'(SPELL) Option -1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Heroic Strike[12]' set data TAG_LAST_KNOWN_COST_IN_HAND to 2
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data RESOURCES_USED to 2
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_RESOURCES_SPENT_THIS_GAME to 2
+Time: 10/15/2019 20:30:25, Level: INFO, Location: PayPhase, Blocktype: ACTION, TextPaying 'Heroic Strike[12]' for 2 Mana, remaining mana is 0.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Sir Finley Mrrgglton[8]' set data ZONE_POSITION to 4
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Naga Corsair[37]' set data ZONE_POSITION to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_CARDS_PLAYED_THIS_TURN to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data LAST_CARD_PLAYED to 12
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Heroic Strike[12]' set data ZONE to 1
+Time: 10/15/2019 20:30:25, Level: INFO, Location: PlaySpell, Blocktype: ACTION, TextFitzVonGerald plays Spell 'Heroic Strike[12]' to board.
+Time: 10/15/2019 20:30:25, Level: INFO, Location: CastSpell, Blocktype: PLAY, TextSpell 'Heroic Strike[12]' is cast.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Heroic Strike[12]' set data ZONE to 4
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Heroic Strike[12]' (SPELL)' has been added to zone 'GRAVEYARD'.
+Time: 10/15/2019 20:30:25, Level: VERBOSE, Location: TaskQueue, Blocktype: TRIGGER, TextLazyTask['Heroic Strike[12]']: 'AddEnchantmentTask' is processed!'Give your hero +4_Attack this turn.'
+Time: 10/15/2019 20:30:25, Level: VERBOSE, Location: Enchantment, Blocktype: ACTION, TextEnchantment [Heroic Strike] created by 'Heroic Strike[12]' is added to 'Gul'dan[4]'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: PlaySpell, Blocktype: ACTION, Texttrigger After Play Phase
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_SPELLS_PLAYED_THIS_GAME to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data COMBO_ACTIVE to 1
+HeroAttackTask => [FitzVonGerald] 'Gul'dan[4]' attacks 'Gul'dan[6]'
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, TextHeroAttackTask => [FitzVonGerald] 'Gul'dan[4]' attacks 'Gul'dan[6]'
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data ATTACKING to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data DEFENDING to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data PREDAMAGE to 4
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data PREDAMAGE to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data DAMAGE to 4
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Character, Blocktype: ACTION, Text'Gul'dan[6]' took damage for 4(4). 
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data ATTACKING to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data DEFENDING to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 2
+Time: 10/15/2019 20:30:25, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text'Gul'dan[4]' is now exhausted.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data EXHAUSTED to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data NUM_ATTACKS_THIS_TURN to 1
+Time: 10/15/2019 20:30:25, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text[AttackPhase]'Gul'dan[4]'[ATK:4/HP:27/ARM:0] attacked 'Gul'dan[6]'[ATK:0/HP:26].
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_ACTION
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 3
+Hero[P1]: 27 / Hero[P2]: 26
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [FitzVonGerald] play 'Heroic Strike[12]'(SPELL) Option -1
+HeroAttackTask => [FitzVonGerald] 'Gul'dan[4]' attacks 'Gul'dan[6]'
+EndTurnTask => [FitzVonGerald]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 FitzVonGerald
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 2
+USEDMANATHISTURN 2
+PlayedCard: [Heroic Strike]
+No more cards played this turn.
+______________________________________________________________________|
+EndTurnTask => [FitzVonGerald]
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, TextEndTurnTask => [FitzVonGerald]
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, TextEnd turn proccessed by player 'Player[2]'
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_CLEANUP
+Time: 10/15/2019 20:30:25, Level: VERBOSE, Location: Enchantment, Blocktype: ACTION, TextEnchantment 'Heroic Strike[70]' is removed from 'Gul'dan[4]'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_NEXT
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_TURNS_LEFT to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_TURNS_LEFT to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data CURRENT_PLAYER to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data CURRENT_PLAYER to 1
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, TextCurentPlayer RehHausZuckFuchs.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_READY
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_CARDS_DRAWN_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_CARDS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_MINIONS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_FRIENDLY_MINIONS_THAT_DIED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'N'Zoth's First Mate[43]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Patches the Pirate[55]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_CARDS_DRAWN_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_CARDS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_MINIONS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_FRIENDLY_MINIONS_THAT_DIED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data EXHAUSTED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Rusty Hook[69]' set data EXHAUSTED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Life Tap[7]' set data EXHAUSTED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'N'Zoth's First Mate[43]' set data EXHAUSTED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data EXHAUSTED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Patches the Pirate[55]' set data EXHAUSTED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data COMBO_ACTIVE to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_MINIONS_PLAYER_KILLED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_MINIONS_PLAYER_KILLED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_FRIENDLY_MINIONS_THAT_ATTACKED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data HEROPOWER_ACTIVATIONS_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_ELEMENTAL_PLAYED_LAST_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_ELEMENTAL_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data RESOURCES to 2
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data RESOURCES_USED to 2
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data RESOURCES_USED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data TEMP_RESOURCES to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data OVERLOAD_LOCKED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data OVERLOAD_OWED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_START_TRIGGERS
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_START
+Time: 10/15/2019 20:30:25, Level: INFO, Location: DrawPhase, Blocktype: ACTION, TextRehHausZuckFuchs draws 'Upgrade![45]'
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_CARDS_DRAWN_THIS_TURN to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data LAST_CARD_DRAWN to 45
+Time: 10/15/2019 20:30:25, Level: INFO, Location: AddHandPhase, Blocktype: PLAY, Textadding to hand 'Upgrade![45]'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Upgrade![45]' set data ZONE to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Upgrade![45]' (SPELL)' has been added to zone 'HAND' in position '0'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Upgrade![45]' set data ZONE_POSITION to 4
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, Text[T:4/R:2] with CurrentPlayer RehHausZuckFuchs [HP:26/M:2]
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_ACTION
+- Player 2 - <RehHausZuckFuchs> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <RehHausZuckFuchs> ---------------------------
+PlayCardTask => [RehHausZuckFuchs] play 'Heroic Strike[42]'(SPELL) Option -1
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, TextPlayCardTask => [RehHausZuckFuchs] play 'Heroic Strike[42]'(SPELL) Option -1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Heroic Strike[42]' set data TAG_LAST_KNOWN_COST_IN_HAND to 2
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data RESOURCES_USED to 2
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_RESOURCES_SPENT_THIS_GAME to 4
+Time: 10/15/2019 20:30:25, Level: INFO, Location: PayPhase, Blocktype: ACTION, TextPaying 'Heroic Strike[42]' for 2 Mana, remaining mana is 0.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Upgrade![45]' set data ZONE_POSITION to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Kor'kron Elite[52]' set data ZONE_POSITION to 2
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Captain[62]' set data ZONE_POSITION to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_CARDS_PLAYED_THIS_TURN to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data LAST_CARD_PLAYED to 42
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Heroic Strike[42]' set data ZONE to 1
+Time: 10/15/2019 20:30:25, Level: INFO, Location: PlaySpell, Blocktype: ACTION, TextRehHausZuckFuchs plays Spell 'Heroic Strike[42]' to board.
+Time: 10/15/2019 20:30:25, Level: INFO, Location: CastSpell, Blocktype: PLAY, TextSpell 'Heroic Strike[42]' is cast.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Heroic Strike[42]' set data ZONE to 4
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Heroic Strike[42]' (SPELL)' has been added to zone 'GRAVEYARD'.
+Time: 10/15/2019 20:30:25, Level: VERBOSE, Location: TaskQueue, Blocktype: TRIGGER, TextLazyTask['Heroic Strike[42]']: 'AddEnchantmentTask' is processed!'Give your hero +4_Attack this turn.'
+Time: 10/15/2019 20:30:25, Level: VERBOSE, Location: Enchantment, Blocktype: ACTION, TextEnchantment [Heroic Strike] created by 'Heroic Strike[42]' is added to 'Gul'dan[6]'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: PlaySpell, Blocktype: ACTION, Texttrigger After Play Phase
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_SPELLS_PLAYED_THIS_GAME to 2
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data COMBO_ACTIVE to 1
+HeroAttackTask => [RehHausZuckFuchs] 'Gul'dan[6]' attacks 'Gul'dan[4]'
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, TextHeroAttackTask => [RehHausZuckFuchs] 'Gul'dan[6]' attacks 'Gul'dan[4]'
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data ATTACKING to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DEFENDING to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data PREDAMAGE to 5
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data PREDAMAGE to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DAMAGE to 8
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Character, Blocktype: ACTION, Text'Gul'dan[4]' took damage for 5(5). 
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Rusty Hook[69]' set data DAMAGE to 2
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data ATTACKING to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DEFENDING to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 2
+Time: 10/15/2019 20:30:25, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text'Gul'dan[6]' is now exhausted.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data EXHAUSTED to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data NUM_ATTACKS_THIS_TURN to 1
+Time: 10/15/2019 20:30:25, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text[AttackPhase]'Gul'dan[6]'[ATK:5/HP:26/ARM:0] ['Rusty Hook[69]'[A:1/D:1]] attacked 'Gul'dan[4]'[ATK:0/HP:22].
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_ACTION
+MinionAttackTask => [RehHausZuckFuchs] 'Southsea Deckhand[58]'(MINION) attack 'Gul'dan[4]'
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, TextMinionAttackTask => [RehHausZuckFuchs] 'Southsea Deckhand[58]'(MINION) attack 'Gul'dan[4]'
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data ATTACKING to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DEFENDING to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data PREDAMAGE to 2
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data PREDAMAGE to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DAMAGE to 10
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Character, Blocktype: ACTION, Text'Gul'dan[4]' took damage for 2(2). 
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data ATTACKING to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DEFENDING to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_FRIENDLY_MINIONS_THAT_ATTACKED_THIS_TURN to 1
+Time: 10/15/2019 20:30:25, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text'Southsea Deckhand[58]' is now exhausted.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data EXHAUSTED to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data NUM_ATTACKS_THIS_TURN to 1
+Time: 10/15/2019 20:30:25, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text[AttackPhase]'Southsea Deckhand[58]'[ATK:2/HP:1] attacked 'Gul'dan[4]'[ATK:0/HP:20].
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_ACTION
+MinionAttackTask => [RehHausZuckFuchs] 'N'Zoth's First Mate[43]'(MINION) attack 'Gul'dan[4]'
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, TextMinionAttackTask => [RehHausZuckFuchs] 'N'Zoth's First Mate[43]'(MINION) attack 'Gul'dan[4]'
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'N'Zoth's First Mate[43]' set data ATTACKING to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DEFENDING to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data PREDAMAGE to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data PREDAMAGE to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DAMAGE to 11
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Character, Blocktype: ACTION, Text'Gul'dan[4]' took damage for 1(1). 
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'N'Zoth's First Mate[43]' set data ATTACKING to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DEFENDING to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 4
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_FRIENDLY_MINIONS_THAT_ATTACKED_THIS_TURN to 2
+Time: 10/15/2019 20:30:25, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text'N'Zoth's First Mate[43]' is now exhausted.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'N'Zoth's First Mate[43]' set data EXHAUSTED to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'N'Zoth's First Mate[43]' set data NUM_ATTACKS_THIS_TURN to 1
+Time: 10/15/2019 20:30:25, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text[AttackPhase]'N'Zoth's First Mate[43]'[ATK:1/HP:1] attacked 'Gul'dan[4]'[ATK:0/HP:19].
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_ACTION
+MinionAttackTask => [RehHausZuckFuchs] 'Patches the Pirate[55]'(MINION) attack 'Gul'dan[4]'
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, TextMinionAttackTask => [RehHausZuckFuchs] 'Patches the Pirate[55]'(MINION) attack 'Gul'dan[4]'
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Patches the Pirate[55]' set data ATTACKING to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DEFENDING to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data PREDAMAGE to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data PREDAMAGE to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DAMAGE to 12
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Character, Blocktype: ACTION, Text'Gul'dan[4]' took damage for 1(1). 
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Patches the Pirate[55]' set data ATTACKING to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DEFENDING to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 5
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_FRIENDLY_MINIONS_THAT_ATTACKED_THIS_TURN to 3
+Time: 10/15/2019 20:30:25, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text'Patches the Pirate[55]' is now exhausted.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Patches the Pirate[55]' set data EXHAUSTED to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Patches the Pirate[55]' set data NUM_ATTACKS_THIS_TURN to 1
+Time: 10/15/2019 20:30:25, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text[AttackPhase]'Patches the Pirate[55]'[ATK:1/HP:1] attacked 'Gul'dan[4]'[ATK:0/HP:18].
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_ACTION
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 4
+Hero[P1]: 18 / Hero[P2]: 26
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [RehHausZuckFuchs] play 'Heroic Strike[42]'(SPELL) Option -1
+HeroAttackTask => [RehHausZuckFuchs] 'Gul'dan[6]' attacks 'Gul'dan[4]'
+MinionAttackTask => [RehHausZuckFuchs] 'Southsea Deckhand[58]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [RehHausZuckFuchs] 'N'Zoth's First Mate[43]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [RehHausZuckFuchs] 'Patches the Pirate[55]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [RehHausZuckFuchs]
+
+CURRENT PLAYER: P2 RehHausZuckFuchs
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 3
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 5
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 4
+USEDMANATHISTURN 2
+PlayedCard: [Heroic Strike]
+No more cards played this turn.
+______________________________________________________________________|
+EndTurnTask => [RehHausZuckFuchs]
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, TextEndTurnTask => [RehHausZuckFuchs]
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, TextEnd turn proccessed by player 'Player[3]'
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_CLEANUP
+Time: 10/15/2019 20:30:25, Level: VERBOSE, Location: Enchantment, Blocktype: ACTION, TextEnchantment 'Heroic Strike[71]' is removed from 'Gul'dan[6]'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Rusty Hook[69]' set data EXHAUSTED to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_NEXT
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_TURNS_LEFT to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_TURNS_LEFT to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data CURRENT_PLAYER to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data CURRENT_PLAYER to 1
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, TextCurentPlayer FitzVonGerald.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_READY
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_CARDS_DRAWN_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_CARDS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_MINIONS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_FRIENDLY_MINIONS_THAT_DIED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'N'Zoth's First Mate[43]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Patches the Pirate[55]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_CARDS_DRAWN_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_CARDS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_MINIONS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_FRIENDLY_MINIONS_THAT_DIED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data EXHAUSTED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Life Tap[5]' set data EXHAUSTED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data COMBO_ACTIVE to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_MINIONS_PLAYER_KILLED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_MINIONS_PLAYER_KILLED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_FRIENDLY_MINIONS_THAT_ATTACKED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data HEROPOWER_ACTIVATIONS_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_ELEMENTAL_PLAYED_LAST_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_ELEMENTAL_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data RESOURCES to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data RESOURCES_USED to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data RESOURCES_USED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data TEMP_RESOURCES to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data OVERLOAD_LOCKED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data OVERLOAD_OWED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_START_TRIGGERS
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_START
+Time: 10/15/2019 20:30:25, Level: INFO, Location: DrawPhase, Blocktype: ACTION, TextFitzVonGerald draws 'Kor'kron Elite[21]'
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_CARDS_DRAWN_THIS_TURN to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data LAST_CARD_DRAWN to 21
+Time: 10/15/2019 20:30:25, Level: INFO, Location: AddHandPhase, Blocktype: PLAY, Textadding to hand 'Kor'kron Elite[21]'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Kor'kron Elite[21]' set data ZONE to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Kor'kron Elite[21]' (MINION)' has been added to zone 'HAND' in position '0'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Kor'kron Elite[21]' set data ZONE_POSITION to 5
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, Text[T:5/R:2] with CurrentPlayer FitzVonGerald [HP:18/M:3]
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_ACTION
+
+Player1: PLAYING / Player2: PLAYING - ROUND 3 - FitzVonGerald
+Hero[P1]: 18 / Hero[P2]: 26
+
+* Calculating solutions *** Player 1 ***
+- Player 1 - <FitzVonGerald> ---------------------------
+PlayCardTask => [FitzVonGerald] play 'Frothing Berserker[19]'(MINION) to Pos[0] Option -1
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, TextPlayCardTask => [FitzVonGerald] play 'Frothing Berserker[19]'(MINION) to Pos[0] Option -1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Frothing Berserker[19]' set data TAG_LAST_KNOWN_COST_IN_HAND to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data RESOURCES_USED to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_RESOURCES_SPENT_THIS_GAME to 5
+Time: 10/15/2019 20:30:25, Level: INFO, Location: PayPhase, Blocktype: ACTION, TextPaying 'Frothing Berserker[19]' for 3 Mana, remaining mana is 0.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Kor'kron Elite[21]' set data ZONE_POSITION to 4
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Sir Finley Mrrgglton[8]' set data ZONE_POSITION to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Naga Corsair[37]' set data ZONE_POSITION to 2
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_CARDS_PLAYED_THIS_TURN to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data LAST_CARD_PLAYED to 19
+Time: 10/15/2019 20:30:25, Level: INFO, Location: PlayMinion, Blocktype: ACTION, TextFitzVonGerald plays Minion 'Frothing Berserker[19]' to board position 0.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_MINIONS_PLAYED_THIS_TURN to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Frothing Berserker[19]' set data ZONE to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Frothing Berserker[19]' (MINION)' has been added to zone 'PLAY' in position '1'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Frothing Berserker[19]' set data ZONE_POSITION to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Frothing Berserker[19]' set data EXHAUSTED to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data COMBO_ACTIVE to 1
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 5
+Hero[P1]: 18 / Hero[P2]: 26
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [FitzVonGerald] play 'Frothing Berserker[19]'(MINION) to Pos[0] Option -1
+EndTurnTask => [FitzVonGerald]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 FitzVonGerald
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 5
+USEDMANATHISTURN 3
+PlayedCard: [Frothing Berserker]
+No more cards played this turn.
+______________________________________________________________________|
+EndTurnTask => [FitzVonGerald]
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, TextEndTurnTask => [FitzVonGerald]
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, TextEnd turn proccessed by player 'Player[2]'
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_CLEANUP
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_NEXT
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_TURNS_LEFT to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_TURNS_LEFT to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data CURRENT_PLAYER to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data CURRENT_PLAYER to 1
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, TextCurentPlayer RehHausZuckFuchs.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_READY
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Frothing Berserker[19]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_CARDS_DRAWN_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_CARDS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_MINIONS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_FRIENDLY_MINIONS_THAT_DIED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'N'Zoth's First Mate[43]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Patches the Pirate[55]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_CARDS_DRAWN_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_CARDS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_MINIONS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_FRIENDLY_MINIONS_THAT_DIED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data EXHAUSTED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Rusty Hook[69]' set data EXHAUSTED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Life Tap[7]' set data EXHAUSTED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'N'Zoth's First Mate[43]' set data EXHAUSTED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data EXHAUSTED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Patches the Pirate[55]' set data EXHAUSTED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data COMBO_ACTIVE to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_MINIONS_PLAYER_KILLED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_MINIONS_PLAYER_KILLED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_FRIENDLY_MINIONS_THAT_ATTACKED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data HEROPOWER_ACTIVATIONS_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_ELEMENTAL_PLAYED_LAST_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_ELEMENTAL_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data RESOURCES to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data RESOURCES_USED to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data RESOURCES_USED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data TEMP_RESOURCES to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data OVERLOAD_LOCKED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data OVERLOAD_OWED to 0
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_START_TRIGGERS
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_START
+Time: 10/15/2019 20:30:25, Level: INFO, Location: DrawPhase, Blocktype: ACTION, TextRehHausZuckFuchs draws 'Small-Time Buccaneer[57]'
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_CARDS_DRAWN_THIS_TURN to 1
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data LAST_CARD_DRAWN to 57
+Time: 10/15/2019 20:30:25, Level: INFO, Location: AddHandPhase, Blocktype: PLAY, Textadding to hand 'Small-Time Buccaneer[57]'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Small-Time Buccaneer[57]' set data ZONE to 3
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Small-Time Buccaneer[57]' (MINION)' has been added to zone 'HAND' in position '0'.
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Small-Time Buccaneer[57]' set data ZONE_POSITION to 4
+Time: 10/15/2019 20:30:25, Level: INFO, Location: Game, Blocktype: PLAY, Text[T:6/R:3] with CurrentPlayer RehHausZuckFuchs [HP:26/M:3]
+Time: 10/15/2019 20:30:25, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_ACTION
+- Player 2 - <RehHausZuckFuchs> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <RehHausZuckFuchs> ---------------------------
+PlayCardTask => [RehHausZuckFuchs] play 'Southsea Captain[62]'(MINION) to Pos[0] Option -1
+Time: 10/15/2019 20:30:33, Level: INFO, Location: Game, Blocktype: PLAY, TextPlayCardTask => [RehHausZuckFuchs] play 'Southsea Captain[62]'(MINION) to Pos[0] Option -1
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Captain[62]' set data TAG_LAST_KNOWN_COST_IN_HAND to 3
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data RESOURCES_USED to 3
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_RESOURCES_SPENT_THIS_GAME to 7
+Time: 10/15/2019 20:30:33, Level: INFO, Location: PayPhase, Blocktype: ACTION, TextPaying 'Southsea Captain[62]' for 3 Mana, remaining mana is 0.
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Small-Time Buccaneer[57]' set data ZONE_POSITION to 3
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Upgrade![45]' set data ZONE_POSITION to 2
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Kor'kron Elite[52]' set data ZONE_POSITION to 1
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_CARDS_PLAYED_THIS_TURN to 1
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data LAST_CARD_PLAYED to 62
+Time: 10/15/2019 20:30:33, Level: INFO, Location: PlayMinion, Blocktype: ACTION, TextRehHausZuckFuchs plays Minion 'Southsea Captain[62]' to board position 0.
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_MINIONS_PLAYED_THIS_TURN to 1
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Captain[62]' set data ZONE to 1
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Southsea Captain[62]' (MINION)' has been added to zone 'PLAY' in position '0'.
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Patches the Pirate[55]' set data ZONE_POSITION to 4
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data ZONE_POSITION to 3
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'N'Zoth's First Mate[43]' set data ZONE_POSITION to 2
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Captain[62]' set data ZONE_POSITION to 1
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Captain[62]' set data EXHAUSTED to 1
+Time: 10/15/2019 20:30:33, Level: VERBOSE, Location: Enchantment, Blocktype: ACTION, TextEnchantment [Yarrr!] created by 'Southsea Captain[62]' is added to 'N'Zoth's First Mate[43]'.
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Aura.Apply, Blocktype: TRIGGER, Text'Southsea Captain[62]''s aura is applied to 'N'Zoth's First Mate[43]'.
+Time: 10/15/2019 20:30:33, Level: VERBOSE, Location: Enchantment, Blocktype: ACTION, TextEnchantment [Yarrr!] created by 'Southsea Captain[62]' is added to 'Southsea Deckhand[58]'.
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Aura.Apply, Blocktype: TRIGGER, Text'Southsea Captain[62]''s aura is applied to 'Southsea Deckhand[58]'.
+Time: 10/15/2019 20:30:33, Level: VERBOSE, Location: Enchantment, Blocktype: ACTION, TextEnchantment [Yarrr!] created by 'Southsea Captain[62]' is added to 'Patches the Pirate[55]'.
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Aura.Apply, Blocktype: TRIGGER, Text'Southsea Captain[62]''s aura is applied to 'Patches the Pirate[55]'.
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 1
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data COMBO_ACTIVE to 1
+MinionAttackTask => [RehHausZuckFuchs] 'Southsea Deckhand[58]'(MINION) attack 'Gul'dan[4]'
+Time: 10/15/2019 20:30:33, Level: INFO, Location: Game, Blocktype: PLAY, TextMinionAttackTask => [RehHausZuckFuchs] 'Southsea Deckhand[58]'(MINION) attack 'Gul'dan[4]'
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data ATTACKING to 1
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DEFENDING to 1
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data PREDAMAGE to 3
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data PREDAMAGE to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DAMAGE to 15
+Time: 10/15/2019 20:30:33, Level: INFO, Location: Character, Blocktype: ACTION, Text'Gul'dan[4]' took damage for 3(3). 
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data ATTACKING to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DEFENDING to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 2
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_FRIENDLY_MINIONS_THAT_ATTACKED_THIS_TURN to 1
+Time: 10/15/2019 20:30:33, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text'Southsea Deckhand[58]' is now exhausted.
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data EXHAUSTED to 1
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data NUM_ATTACKS_THIS_TURN to 1
+Time: 10/15/2019 20:30:33, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text[AttackPhase]'Southsea Deckhand[58]'[ATK:3/HP:2] attacked 'Gul'dan[4]'[ATK:0/HP:15].
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_ACTION
+MinionAttackTask => [RehHausZuckFuchs] 'N'Zoth's First Mate[43]'(MINION) attack 'Gul'dan[4]'
+Time: 10/15/2019 20:30:33, Level: INFO, Location: Game, Blocktype: PLAY, TextMinionAttackTask => [RehHausZuckFuchs] 'N'Zoth's First Mate[43]'(MINION) attack 'Gul'dan[4]'
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'N'Zoth's First Mate[43]' set data ATTACKING to 1
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DEFENDING to 1
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data PREDAMAGE to 2
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data PREDAMAGE to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DAMAGE to 17
+Time: 10/15/2019 20:30:33, Level: INFO, Location: Character, Blocktype: ACTION, Text'Gul'dan[4]' took damage for 2(2). 
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'N'Zoth's First Mate[43]' set data ATTACKING to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DEFENDING to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 3
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_FRIENDLY_MINIONS_THAT_ATTACKED_THIS_TURN to 2
+Time: 10/15/2019 20:30:33, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text'N'Zoth's First Mate[43]' is now exhausted.
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'N'Zoth's First Mate[43]' set data EXHAUSTED to 1
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'N'Zoth's First Mate[43]' set data NUM_ATTACKS_THIS_TURN to 1
+Time: 10/15/2019 20:30:33, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text[AttackPhase]'N'Zoth's First Mate[43]'[ATK:2/HP:2] attacked 'Gul'dan[4]'[ATK:0/HP:13].
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_ACTION
+MinionAttackTask => [RehHausZuckFuchs] 'Patches the Pirate[55]'(MINION) attack 'Gul'dan[4]'
+Time: 10/15/2019 20:30:33, Level: INFO, Location: Game, Blocktype: PLAY, TextMinionAttackTask => [RehHausZuckFuchs] 'Patches the Pirate[55]'(MINION) attack 'Gul'dan[4]'
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Patches the Pirate[55]' set data ATTACKING to 1
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DEFENDING to 1
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data PREDAMAGE to 2
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data PREDAMAGE to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DAMAGE to 19
+Time: 10/15/2019 20:30:33, Level: INFO, Location: Character, Blocktype: ACTION, Text'Gul'dan[4]' took damage for 2(2). 
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Patches the Pirate[55]' set data ATTACKING to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DEFENDING to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 4
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_FRIENDLY_MINIONS_THAT_ATTACKED_THIS_TURN to 3
+Time: 10/15/2019 20:30:33, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text'Patches the Pirate[55]' is now exhausted.
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Patches the Pirate[55]' set data EXHAUSTED to 1
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Patches the Pirate[55]' set data NUM_ATTACKS_THIS_TURN to 1
+Time: 10/15/2019 20:30:33, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text[AttackPhase]'Patches the Pirate[55]'[ATK:2/HP:2] attacked 'Gul'dan[4]'[ATK:0/HP:11].
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_ACTION
+HeroAttackTask => [RehHausZuckFuchs] 'Gul'dan[6]' attacks 'Gul'dan[4]'
+Time: 10/15/2019 20:30:33, Level: INFO, Location: Game, Blocktype: PLAY, TextHeroAttackTask => [RehHausZuckFuchs] 'Gul'dan[6]' attacks 'Gul'dan[4]'
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data ATTACKING to 1
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DEFENDING to 1
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data PREDAMAGE to 1
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data PREDAMAGE to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DAMAGE to 20
+Time: 10/15/2019 20:30:33, Level: INFO, Location: Character, Blocktype: ACTION, Text'Gul'dan[4]' took damage for 1(1). 
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Rusty Hook[69]' set data DAMAGE to 3
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Rusty Hook[69]' set data TO_BE_DESTROYED to 1
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data ATTACKING to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DEFENDING to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 5
+Time: 10/15/2019 20:30:33, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text'Gul'dan[6]' is now exhausted.
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data EXHAUSTED to 1
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data NUM_ATTACKS_THIS_TURN to 1
+Time: 10/15/2019 20:30:33, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text[AttackPhase]'Gul'dan[6]'[ATK:1/HP:26/ARM:0] ['Rusty Hook[69]'[A:1/D:0]] attacked 'Gul'dan[4]'[ATK:0/HP:10].
+Time: 10/15/2019 20:30:33, Level: INFO, Location: Hero, Blocktype: PLAY, TextButcher's knife incoming to graveyard, say 'gugus' to 'Rusty Hook[69]'
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Rusty Hook[69]' set data ZONE to 4
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Rusty Hook[69]' (WEAPON)' has been added to zone 'GRAVEYARD'.
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data WEAPON to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data CHARGE to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_ACTION
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 6
+Hero[P1]: 10 / Hero[P2]: 26
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [RehHausZuckFuchs] play 'Southsea Captain[62]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [RehHausZuckFuchs] 'Southsea Deckhand[58]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [RehHausZuckFuchs] 'N'Zoth's First Mate[43]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [RehHausZuckFuchs] 'Patches the Pirate[55]'(MINION) attack 'Gul'dan[4]'
+HeroAttackTask => [RehHausZuckFuchs] 'Gul'dan[6]' attacks 'Gul'dan[4]'
+EndTurnTask => [RehHausZuckFuchs]
+
+CURRENT PLAYER: P2 RehHausZuckFuchs
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 3
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 5
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 7
+USEDMANATHISTURN 3
+PlayedCard: [Southsea Captain]
+No more cards played this turn.
+______________________________________________________________________|
+EndTurnTask => [RehHausZuckFuchs]
+Time: 10/15/2019 20:30:33, Level: INFO, Location: Game, Blocktype: PLAY, TextEndTurnTask => [RehHausZuckFuchs]
+Time: 10/15/2019 20:30:33, Level: INFO, Location: Game, Blocktype: PLAY, TextEnd turn proccessed by player 'Player[3]'
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_CLEANUP
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_NEXT
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_TURNS_LEFT to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_TURNS_LEFT to 1
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data CURRENT_PLAYER to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data CURRENT_PLAYER to 1
+Time: 10/15/2019 20:30:33, Level: INFO, Location: Game, Blocktype: PLAY, TextCurentPlayer FitzVonGerald.
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_READY
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Frothing Berserker[19]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_CARDS_DRAWN_THIS_TURN to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_CARDS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_MINIONS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_FRIENDLY_MINIONS_THAT_DIED_THIS_TURN to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Captain[62]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'N'Zoth's First Mate[43]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Patches the Pirate[55]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_CARDS_DRAWN_THIS_TURN to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_CARDS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_MINIONS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_FRIENDLY_MINIONS_THAT_DIED_THIS_TURN to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data EXHAUSTED to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Life Tap[5]' set data EXHAUSTED to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Frothing Berserker[19]' set data EXHAUSTED to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data COMBO_ACTIVE to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_MINIONS_PLAYER_KILLED_THIS_TURN to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_MINIONS_PLAYER_KILLED_THIS_TURN to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_FRIENDLY_MINIONS_THAT_ATTACKED_THIS_TURN to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data HEROPOWER_ACTIVATIONS_THIS_TURN to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_ELEMENTAL_PLAYED_LAST_TURN to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_ELEMENTAL_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data RESOURCES to 4
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data RESOURCES_USED to 4
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data RESOURCES_USED to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data TEMP_RESOURCES to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data OVERLOAD_LOCKED to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data OVERLOAD_OWED to 0
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_START_TRIGGERS
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_START
+Time: 10/15/2019 20:30:33, Level: INFO, Location: DrawPhase, Blocktype: ACTION, TextFitzVonGerald draws 'Frothing Berserker[20]'
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_CARDS_DRAWN_THIS_TURN to 1
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data LAST_CARD_DRAWN to 20
+Time: 10/15/2019 20:30:33, Level: INFO, Location: AddHandPhase, Blocktype: PLAY, Textadding to hand 'Frothing Berserker[20]'.
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Frothing Berserker[20]' set data ZONE to 3
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Frothing Berserker[20]' (MINION)' has been added to zone 'HAND' in position '0'.
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Frothing Berserker[20]' set data ZONE_POSITION to 5
+Time: 10/15/2019 20:30:33, Level: INFO, Location: Game, Blocktype: PLAY, Text[T:7/R:3] with CurrentPlayer FitzVonGerald [HP:10/M:4]
+Time: 10/15/2019 20:30:33, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_ACTION
+
+Player1: PLAYING / Player2: PLAYING - ROUND 4 - FitzVonGerald
+Hero[P1]: 10 / Hero[P2]: 26
+
+* Calculating solutions *** Player 1 ***
+- Player 1 - <FitzVonGerald> ---------------------------
+PlayCardTask => [FitzVonGerald] play 'Kor'kron Elite[22]'(MINION) to Pos[0] Option -1
+Time: 10/15/2019 20:30:36, Level: INFO, Location: Game, Blocktype: PLAY, TextPlayCardTask => [FitzVonGerald] play 'Kor'kron Elite[22]'(MINION) to Pos[0] Option -1
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Kor'kron Elite[22]' set data TAG_LAST_KNOWN_COST_IN_HAND to 4
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data RESOURCES_USED to 4
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_RESOURCES_SPENT_THIS_GAME to 9
+Time: 10/15/2019 20:30:36, Level: INFO, Location: PayPhase, Blocktype: ACTION, TextPaying 'Kor'kron Elite[22]' for 4 Mana, remaining mana is 0.
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Frothing Berserker[20]' set data ZONE_POSITION to 4
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Kor'kron Elite[21]' set data ZONE_POSITION to 3
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Sir Finley Mrrgglton[8]' set data ZONE_POSITION to 2
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Naga Corsair[37]' set data ZONE_POSITION to 1
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_CARDS_PLAYED_THIS_TURN to 1
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data LAST_CARD_PLAYED to 22
+Time: 10/15/2019 20:30:36, Level: INFO, Location: PlayMinion, Blocktype: ACTION, TextFitzVonGerald plays Minion 'Kor'kron Elite[22]' to board position 0.
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_MINIONS_PLAYED_THIS_TURN to 1
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Kor'kron Elite[22]' set data ZONE to 1
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Kor'kron Elite[22]' (MINION)' has been added to zone 'PLAY' in position '0'.
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Frothing Berserker[19]' set data ZONE_POSITION to 2
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Kor'kron Elite[22]' set data ZONE_POSITION to 1
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 1
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data COMBO_ACTIVE to 1
+MinionAttackTask => [FitzVonGerald] 'Kor'kron Elite[22]'(MINION) attack 'Gul'dan[6]'
+Time: 10/15/2019 20:30:36, Level: INFO, Location: Game, Blocktype: PLAY, TextMinionAttackTask => [FitzVonGerald] 'Kor'kron Elite[22]'(MINION) attack 'Gul'dan[6]'
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Kor'kron Elite[22]' set data ATTACKING to 1
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data DEFENDING to 1
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data PREDAMAGE to 4
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data PREDAMAGE to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data DAMAGE to 8
+Time: 10/15/2019 20:30:36, Level: INFO, Location: Character, Blocktype: ACTION, Text'Gul'dan[6]' took damage for 4(4). 
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Kor'kron Elite[22]' set data ATTACKING to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data DEFENDING to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 2
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_FRIENDLY_MINIONS_THAT_ATTACKED_THIS_TURN to 1
+Time: 10/15/2019 20:30:36, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text'Kor'kron Elite[22]' is now exhausted.
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Kor'kron Elite[22]' set data EXHAUSTED to 1
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Kor'kron Elite[22]' set data NUM_ATTACKS_THIS_TURN to 1
+Time: 10/15/2019 20:30:36, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text[AttackPhase]'Kor'kron Elite[22]'[ATK:4/HP:3] attacked 'Gul'dan[6]'[ATK:0/HP:22].
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_ACTION
+MinionAttackTask => [FitzVonGerald] 'Frothing Berserker[19]'(MINION) attack 'Gul'dan[6]'
+Time: 10/15/2019 20:30:36, Level: INFO, Location: Game, Blocktype: PLAY, TextMinionAttackTask => [FitzVonGerald] 'Frothing Berserker[19]'(MINION) attack 'Gul'dan[6]'
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Frothing Berserker[19]' set data ATTACKING to 1
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data DEFENDING to 1
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data PREDAMAGE to 2
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data PREDAMAGE to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data DAMAGE to 10
+Time: 10/15/2019 20:30:36, Level: INFO, Location: Character, Blocktype: ACTION, Text'Gul'dan[6]' took damage for 2(2). 
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Frothing Berserker[19]' set data ATTACKING to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data DEFENDING to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 3
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_FRIENDLY_MINIONS_THAT_ATTACKED_THIS_TURN to 2
+Time: 10/15/2019 20:30:36, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text'Frothing Berserker[19]' is now exhausted.
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Frothing Berserker[19]' set data EXHAUSTED to 1
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Frothing Berserker[19]' set data NUM_ATTACKS_THIS_TURN to 1
+Time: 10/15/2019 20:30:36, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text[AttackPhase]'Frothing Berserker[19]'[ATK:2/HP:4] attacked 'Gul'dan[6]'[ATK:0/HP:20].
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_ACTION
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 7
+Hero[P1]: 10 / Hero[P2]: 20
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [FitzVonGerald] play 'Kor'kron Elite[22]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [FitzVonGerald] 'Kor'kron Elite[22]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [FitzVonGerald] 'Frothing Berserker[19]'(MINION) attack 'Gul'dan[6]'
+EndTurnTask => [FitzVonGerald]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 FitzVonGerald
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 2
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 3
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 9
+USEDMANATHISTURN 4
+PlayedCard: [Kor'kron Elite]
+No more cards played this turn.
+______________________________________________________________________|
+EndTurnTask => [FitzVonGerald]
+Time: 10/15/2019 20:30:36, Level: INFO, Location: Game, Blocktype: PLAY, TextEndTurnTask => [FitzVonGerald]
+Time: 10/15/2019 20:30:36, Level: INFO, Location: Game, Blocktype: PLAY, TextEnd turn proccessed by player 'Player[2]'
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_CLEANUP
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_NEXT
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_TURNS_LEFT to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_TURNS_LEFT to 1
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data CURRENT_PLAYER to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data CURRENT_PLAYER to 1
+Time: 10/15/2019 20:30:36, Level: INFO, Location: Game, Blocktype: PLAY, TextCurentPlayer RehHausZuckFuchs.
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_READY
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Kor'kron Elite[22]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Frothing Berserker[19]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_CARDS_DRAWN_THIS_TURN to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_CARDS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_MINIONS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_FRIENDLY_MINIONS_THAT_DIED_THIS_TURN to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Captain[62]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'N'Zoth's First Mate[43]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Patches the Pirate[55]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data NUM_ATTACKS_THIS_TURN to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_CARDS_DRAWN_THIS_TURN to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_CARDS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_MINIONS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_FRIENDLY_MINIONS_THAT_DIED_THIS_TURN to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[6]' set data EXHAUSTED to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Life Tap[7]' set data EXHAUSTED to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Captain[62]' set data EXHAUSTED to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'N'Zoth's First Mate[43]' set data EXHAUSTED to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data EXHAUSTED to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Patches the Pirate[55]' set data EXHAUSTED to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data COMBO_ACTIVE to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_MINIONS_PLAYER_KILLED_THIS_TURN to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data NUM_MINIONS_PLAYER_KILLED_THIS_TURN to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_FRIENDLY_MINIONS_THAT_ATTACKED_THIS_TURN to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data HEROPOWER_ACTIVATIONS_THIS_TURN to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_ELEMENTAL_PLAYED_LAST_TURN to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_ELEMENTAL_PLAYED_THIS_TURN to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data RESOURCES to 4
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data RESOURCES_USED to 4
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data RESOURCES_USED to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data TEMP_RESOURCES to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data OVERLOAD_LOCKED to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data OVERLOAD_OWED to 0
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_START_TRIGGERS
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_START
+Time: 10/15/2019 20:30:36, Level: INFO, Location: DrawPhase, Blocktype: ACTION, TextRehHausZuckFuchs draws 'Upgrade![46]'
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_CARDS_DRAWN_THIS_TURN to 1
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data LAST_CARD_DRAWN to 46
+Time: 10/15/2019 20:30:36, Level: INFO, Location: AddHandPhase, Blocktype: PLAY, Textadding to hand 'Upgrade![46]'.
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Upgrade![46]' set data ZONE to 3
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Zone, Blocktype: PLAY, TextEntity ''Upgrade![46]' (SPELL)' has been added to zone 'HAND' in position '0'.
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Upgrade![46]' set data ZONE_POSITION to 4
+Time: 10/15/2019 20:30:36, Level: INFO, Location: Game, Blocktype: PLAY, Text[T:8/R:4] with CurrentPlayer RehHausZuckFuchs [HP:20/M:4]
+Time: 10/15/2019 20:30:36, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_ACTION
+- Player 2 - <RehHausZuckFuchs> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <RehHausZuckFuchs> ---------------------------
+MinionAttackTask => [RehHausZuckFuchs] 'Southsea Captain[62]'(MINION) attack 'Gul'dan[4]'
+Time: 10/15/2019 20:30:57, Level: INFO, Location: Game, Blocktype: PLAY, TextMinionAttackTask => [RehHausZuckFuchs] 'Southsea Captain[62]'(MINION) attack 'Gul'dan[4]'
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Captain[62]' set data ATTACKING to 1
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DEFENDING to 1
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data PREDAMAGE to 3
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data PREDAMAGE to 0
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DAMAGE to 23
+Time: 10/15/2019 20:30:57, Level: INFO, Location: Character, Blocktype: ACTION, Text'Gul'dan[4]' took damage for 3(3). 
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Captain[62]' set data ATTACKING to 0
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DEFENDING to 0
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 1
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_FRIENDLY_MINIONS_THAT_ATTACKED_THIS_TURN to 1
+Time: 10/15/2019 20:30:57, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text'Southsea Captain[62]' is now exhausted.
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Captain[62]' set data EXHAUSTED to 1
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Captain[62]' set data NUM_ATTACKS_THIS_TURN to 1
+Time: 10/15/2019 20:30:57, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text[AttackPhase]'Southsea Captain[62]'[ATK:3/HP:3] attacked 'Gul'dan[4]'[ATK:0/HP:7].
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_ACTION
+MinionAttackTask => [RehHausZuckFuchs] 'Southsea Deckhand[58]'(MINION) attack 'Gul'dan[4]'
+Time: 10/15/2019 20:30:57, Level: INFO, Location: Game, Blocktype: PLAY, TextMinionAttackTask => [RehHausZuckFuchs] 'Southsea Deckhand[58]'(MINION) attack 'Gul'dan[4]'
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data ATTACKING to 1
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DEFENDING to 1
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data PREDAMAGE to 3
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data PREDAMAGE to 0
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DAMAGE to 26
+Time: 10/15/2019 20:30:57, Level: INFO, Location: Character, Blocktype: ACTION, Text'Gul'dan[4]' took damage for 3(3). 
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data ATTACKING to 0
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DEFENDING to 0
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 2
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_FRIENDLY_MINIONS_THAT_ATTACKED_THIS_TURN to 2
+Time: 10/15/2019 20:30:57, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text'Southsea Deckhand[58]' is now exhausted.
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data EXHAUSTED to 1
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Southsea Deckhand[58]' set data NUM_ATTACKS_THIS_TURN to 1
+Time: 10/15/2019 20:30:57, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text[AttackPhase]'Southsea Deckhand[58]'[ATK:3/HP:2] attacked 'Gul'dan[4]'[ATK:0/HP:4].
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_ACTION
+MinionAttackTask => [RehHausZuckFuchs] 'N'Zoth's First Mate[43]'(MINION) attack 'Gul'dan[4]'
+Time: 10/15/2019 20:30:57, Level: INFO, Location: Game, Blocktype: PLAY, TextMinionAttackTask => [RehHausZuckFuchs] 'N'Zoth's First Mate[43]'(MINION) attack 'Gul'dan[4]'
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'N'Zoth's First Mate[43]' set data ATTACKING to 1
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DEFENDING to 1
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data PREDAMAGE to 2
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data PREDAMAGE to 0
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DAMAGE to 28
+Time: 10/15/2019 20:30:57, Level: INFO, Location: Character, Blocktype: ACTION, Text'Gul'dan[4]' took damage for 2(2). 
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'N'Zoth's First Mate[43]' set data ATTACKING to 0
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DEFENDING to 0
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 3
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_FRIENDLY_MINIONS_THAT_ATTACKED_THIS_TURN to 3
+Time: 10/15/2019 20:30:57, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text'N'Zoth's First Mate[43]' is now exhausted.
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'N'Zoth's First Mate[43]' set data EXHAUSTED to 1
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'N'Zoth's First Mate[43]' set data NUM_ATTACKS_THIS_TURN to 1
+Time: 10/15/2019 20:30:57, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text[AttackPhase]'N'Zoth's First Mate[43]'[ATK:2/HP:2] attacked 'Gul'dan[4]'[ATK:0/HP:2].
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_ACTION
+MinionAttackTask => [RehHausZuckFuchs] 'Patches the Pirate[55]'(MINION) attack 'Gul'dan[4]'
+Time: 10/15/2019 20:30:57, Level: INFO, Location: Game, Blocktype: PLAY, TextMinionAttackTask => [RehHausZuckFuchs] 'Patches the Pirate[55]'(MINION) attack 'Gul'dan[4]'
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Patches the Pirate[55]' set data ATTACKING to 1
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DEFENDING to 1
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data PREDAMAGE to 2
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data PREDAMAGE to 0
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data TO_BE_DESTROYED to 1
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DAMAGE to 30
+Time: 10/15/2019 20:30:57, Level: INFO, Location: Character, Blocktype: ACTION, Text'Gul'dan[4]' took damage for 2(2). 
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Patches the Pirate[55]' set data ATTACKING to 0
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Gul'dan[4]' set data DEFENDING to 0
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_OPTIONS_PLAYED_THIS_TURN to 4
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data NUM_FRIENDLY_MINIONS_THAT_ATTACKED_THIS_TURN to 4
+Time: 10/15/2019 20:30:57, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text'Patches the Pirate[55]' is now exhausted.
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Patches the Pirate[55]' set data EXHAUSTED to 1
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Patches the Pirate[55]' set data NUM_ATTACKS_THIS_TURN to 1
+Time: 10/15/2019 20:30:57, Level: INFO, Location: AttackPhase, Blocktype: ATTACK, Text[AttackPhase]'Patches the Pirate[55]'[ATK:2/HP:2] attacked 'Gul'dan[4]'[ATK:0/HP:0].
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data PLAYSTATE to 3
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - FINAL_WRAPUP
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[2]' set data PLAYSTATE to 5
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Entity, Blocktype: TRIGGER, Text'Player[3]' set data PLAYSTATE to 4
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - FINAL_GAMEOVER
+Time: 10/15/2019 20:30:57, Level: INFO, Location: Game, Blocktype: PLAY, TextFitzVonGerald has LOST the Game!
+Time: 10/15/2019 20:30:57, Level: INFO, Location: Game, Blocktype: PLAY, TextRehHausZuckFuchs has WON the Game!
+Time: 10/15/2019 20:30:57, Level: DEBUG, Location: Event, Blocktype: TRIGGER, TextNextStepEvent - MAIN_ACTION
+______________________________________________________________________
+Player1: LOST / Player2: WON - turn no 8
+Hero[P1]: 0 / Hero[P2]: 20
+>>>>>>>>>TASK TYPE CHECK (is EOT?): False
+>>>>>>>>>TASK TYPE: MINION_ATTACK
+ALL TURN TASKS:
+MinionAttackTask => [RehHausZuckFuchs] 'Southsea Captain[62]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [RehHausZuckFuchs] 'Southsea Deckhand[58]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [RehHausZuckFuchs] 'N'Zoth's First Mate[43]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [RehHausZuckFuchs] 'Patches the Pirate[55]'(MINION) attack 'Gul'dan[4]'
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 RehHausZuckFuchs
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 0
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 4
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 4
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 4
+TOTALMANASPENTTHISGAME 7
+USEDMANATHISTURN 0
+No more cards played this turn.
+______________________________________________________________________|
+Game: COMPLETE, Player1: LOST / Player2: WON
+Test end!
