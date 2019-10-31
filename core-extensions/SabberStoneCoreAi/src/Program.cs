@@ -416,7 +416,7 @@ namespace SabberStoneCoreAi
 							Console.WriteLine($"* Recaclulating due to a final solution ...");
 							break;
 						}
-						if (game.Player1.Hero.Health == 0 || game.Player2.Hero.Health == 0)
+						if (game.Player1.Hero.Health <= 0 || game.Player2.Hero.Health <= 0)
 						{
 							allTasks = allTasks + "COMPLETE ALL TURN TASKS";
 							PrintEndOfTurnOptions(game, task, allTasks);
@@ -456,14 +456,13 @@ namespace SabberStoneCoreAi
 							Console.WriteLine($"* Recaclulating due to a final solution ...");
 							break;
 						}
-						if (game.Player1.Hero.Health == 0 || game.Player2.Hero.Health == 0)
+						if (game.Player1.Hero.Health <= 0 || game.Player2.Hero.Health <= 0)
 						{
 							allTasks = allTasks + "COMPLETE ALL TURN TASKS";
 							PrintEndOfTurnOptions(game, task, allTasks);
 						}
 					}
 				}
-				//PrintEndOfTurnOptions(game, null);
 			}
 			Console.WriteLine($"Game: {game.State}, Player1: {game.Player1.PlayState} / Player2: {game.Player2.PlayState}");
 		}

@@ -112,7 +112,7 @@ class GameFilter:
 					turn_info.append(line)
 		self.df = pd.DataFrame.from_dict(self.end_of_turn_data, orient='index')
 		logging.info(self.df)
-		with open(df_file_name) as f:
+		with open(df_file_name, 'w') as f:
 			self.df.to_csv(df_file_name)
 
 	def parse_turn(self, turn_text_list):
@@ -186,7 +186,8 @@ def main():
 		directory = "C:\\Users\\watson\\Documents\\GitHub\\SabberStone-master\\Sabber_Work_2019F\\thesis-output\\Z1vsZ2\\"
 	elif machine == 'desktop':
 		# desktop directory
-		directory = "C:\\Users\\watson\\Documents\\SabberStone 2019\\Sabber_Work_2019F\\thesis-output\\Z1vsZ2\\"
+		# directory = "C:\\Users\\watson\\Documents\\SabberStone 2019\\Sabber_Work_2019F\\thesis-output\\Z1vsZ2\\"
+		directory = "C:\\Users\\watson\\Documents\\SabberStone 2019\\Sabber_Work_2019F\\thesis-output\\Z1VSZ2Kong\\"
 	elif machine == 'kong':
 		directory = "blah"
 	else:
