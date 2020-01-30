@@ -427,7 +427,7 @@ namespace SabberStoneCoreAi
 		public static void FullGame(List<Card> Player1Cards, List<Card> Player2Cards, string PlayerOneName, string PlayerTwoName)
 		//public static void FullGame()
 		{
-			//20190130 Connor - Changing Console.WriteLine() calls to agree with logsbuild
+			//20200130 Connor - Changing Console.WriteLine() calls to agree with logsbuild
 
 			string logbuild = "";
 
