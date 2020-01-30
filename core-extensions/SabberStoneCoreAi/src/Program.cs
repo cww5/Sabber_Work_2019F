@@ -24,6 +24,13 @@ using SabberStoneCoreAi.Meta;
 using SabberStoneCoreAi.Nodes;
 using SabberStoneCoreAi.Score;
 
+/*
+ * Original Author - SabberStone Developers (FullGame, etc)
+ *  
+ * Second Author - Connor Watson (Utilized for his research)
+ * 
+ * */
+
 namespace SabberStoneCoreAi
 {
 	internal class Program
