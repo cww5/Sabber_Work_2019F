@@ -24,6 +24,20 @@ using SabberStoneCoreAi.Meta;
 using SabberStoneCoreAi.Nodes;
 using SabberStoneCoreAi.Score;
 
+//20200203 Connor - Some of Fernando's libraries below:
+using System.Collections;
+using SabberStoneCore.Tasks;
+//using GamePlayer.Meta;
+//using GamePlayer.Nodes;
+//using GamePlayer.Score;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Text;
+using System.Xml;
+using System.Xml.Linq;
+
+
+
 /*
  * Original Author - SabberStone Developers (FullGame, etc)
  *  
@@ -63,14 +77,116 @@ namespace SabberStoneCoreAi
 	{
 		private static readonly Random Rnd = new Random();
 
+
+
+		//20200203 Connor - These parameters are for configuration purposes
+		private static int maxDepth; //= 13;//maxDepth = 10 and maxWidth = 500 is optimal 
+		private static int maxWidth; //= 4;//keep maxDepth high(around 13) and maxWidth very low (4) for maximum speed
+									 //private static int parallelThreads = 1;// number of parallel running threads//not important
+									 //private static int testsInEachThread = 1;//number of games in each thread//ae ere
+									 //you are advised not to set more than 3 parallel threads if you are doing this on your laptop, otherwise the laptop will not survive
+									 //private static int parallelThreadsInner = 1;//this his what is important
+									 //private static int testsInEachThreadInner = 2;//linearly
+
+		private static string GPUID;
+		private static string folderName;
+		private static int numGames;
+		private static int stepSize;
+		private static bool record_log;
+		private static string player_decks_file;
+		private static string opponent_decks_file;
+
+		// 20190128 Amy - This function takes command line arguments and parses them.
+		// That is, the strings are converted to variables that the program will understand.
+		
+		#region Region: ParseArgs Function
+		public static void parseArgs(string[] args)
+		{
+			/*
+			 *This function was retrieved from Fernando
+			 *
+			 */
+			for (int i = 0; i < args.Length; i++)
+			{
+				string argument = args[i].ToLower();
+
+				if (argument.Contains("gpuid="))
+				{
+					GPUID = argument.Substring(6);//int.Parse(argument.Substring(6)) - 1;
+				}
+				else if (argument.Contains("folder="))
+				{
+					folderName = args[i].Substring(7);
+				}
+				else if (argument.Contains("numgames="))
+				{
+					numGames = int.Parse(argument.Substring(9));
+				}
+				else if (argument.Contains("stepsize="))
+				{
+					stepSize = int.Parse(argument.Substring(9));
+				}
+				else if (argument.Contains("playerdecks="))
+				{
+					player_decks_file = argument.Substring(12);
+				}
+				else if (argument.Contains("opponentdecks="))
+				{
+					opponent_decks_file = argument.Substring(14);
+				}
+				else if (argument.Contains("log="))
+				{
+					if (argument[4] == 't')
+					{
+						record_log = true;
+					}
+					else
+					{
+						record_log = false;
+					}
+				}
+				/*else if (argument.Contains("nerf="))
+				{
+					string nerf_data_filepath = argument.Substring(5);
+
+					NerfCards(nerf_data_filepath);
+				}*/
+				else if (argument.Contains("maxwidth="))
+				{
+					maxWidth = int.Parse(argument.Substring(9));
+				}
+				else if (argument.Contains("maxdepth="))
+				{
+					maxDepth = int.Parse(argument.Substring(9));
+				}
+			}
+		}
+		#endregion
+		//20200203 Connor - End ParseArgs() function from Fernando
+
+
+
+
+
 		private static void Main(string[] args)
 		{
-			Console.WriteLine("Argument length: " + args.Length);
-			Console.WriteLine("Supplied Arguments are:");
-			foreach (object obj in args)
+			//Console.WriteLine("Argument length: " + args.Length);
+			//Console.WriteLine("Supplied Arguments are:");
+			/*foreach (object obj in args)
 			{
 				Console.WriteLine(obj);
-			}
+			}*/
+
+			//20200203 Connor - Started adding parallelism code
+			//20190128 Amy - No Clue
+			ParallelOptions parallelOptions = new ParallelOptions();
+			parallelOptions.MaxDegreeOfParallelism = 1;
+
+
+
+
+
+
 			Tuple<List<Card>, string> player1Tup;
 			Tuple<List<Card>, string> player2Tup;
 			var Player1DeckList = new List<Card>();
