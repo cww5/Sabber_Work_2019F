@@ -31,6 +31,32 @@ using SabberStoneCoreAi.Score;
  * 
  * */
 
+
+public static class StringExtensions
+{
+	/*
+	 * 20200203 - Obtained from Fernando
+	 */
+	public static string[] Split2(this string source, char delim)
+	{
+		// argument null checking etc omitted for brevity
+		List<string> result = new List<string>();
+
+		int oldIndex = 0, newIndex;
+		while ((newIndex = source.IndexOf(delim, oldIndex)) != -1)
+		{
+			result.Add(source.Substring(oldIndex, newIndex - oldIndex));
+			oldIndex = newIndex + 1;//delim.Length;
+		}
+		result.Add(source.Substring(oldIndex));
+
+		return result.ToArray();
+	}
+}
+
+
+
+
 namespace SabberStoneCoreAi
 {
 	internal class Program
