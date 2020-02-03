@@ -182,8 +182,42 @@ namespace SabberStoneCoreAi
 			ParallelOptions parallelOptions = new ParallelOptions();
 			parallelOptions.MaxDegreeOfParallelism = 1;
 
+			//20190128 Amy - Important variables for the execution of the code.
+			//20190128 Amy - Max Depth and Max Width refer to the game tree for the AI agent
+			maxDepth = 13;
+			maxWidth = 4;
+			GPUID = "0";
+			folderName = "";
+			numGames = 2;
+			stepSize = 0;
 
+			parseArgs(args);
 
+			Console.WriteLine("maxDepth = " + maxDepth);
+			Console.WriteLine("maxWidth = " + maxWidth);
+
+			if (folderName == "") { folderName = DateTime.Now.ToString("yyyy-MM-dd.hh.mm.ss"); }
+
+			if (stepSize == 0) { stepSize = numGames; }
+			if (numGames < stepSize || (numGames % stepSize) > 0)
+			{
+				Console.WriteLine("\'numGames / stepSize\' must result in an integer bigger than 0");
+				return;
+			}
+
+			int number_of_loops = numGames / stepSize;
+
+			//20190128 Amy - Load the data we need for the list of players and opponents
+			//players = getPlayersFromFile(player_decks_file);
+			//opponents = getPlayersFromFile(opponent_decks_file);
+
+			//20200203 Connor - Directory to store stuff
+			/*if (!Directory.Exists(folderName))
+			{
+				Directory.CreateDirectory(folderName);
+			}
+			Thread.Sleep(10000);
+			*/
 
 
 

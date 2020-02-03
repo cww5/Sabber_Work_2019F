@@ -1214,8 +1214,9 @@ namespace SabberStoneCore.Model
 			if (!_gameConfig.Logging)
 				return;
 
-			Console.WriteLine("Time: " + DateTime.Now + ", Level: " + level +
-			", Location: " + location + ", Blocktype: " + block + ", Text" + text);
+
+			//20200203 Connor - Commented this out to prevent printing logs all the time
+			//Console.WriteLine("Time: " + DateTime.Now + ", Level: " + level + ", Location: " + location + ", Blocktype: " + block + ", Text" + text);
 
 			Logs.Enqueue(new LogEntry()
 			{
