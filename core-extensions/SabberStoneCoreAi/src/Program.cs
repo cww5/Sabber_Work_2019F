@@ -89,7 +89,8 @@ namespace SabberStoneCoreAi
 									 //private static int testsInEachThreadInner = 2;//linearly
 
 		private static string GPUID;
-		private static string folderName;
+		private static bool parallelGames;
+ 		private static string folderName;
 		private static int numGames;
 		private static int stepSize;
 		private static bool record_log;
@@ -114,6 +115,7 @@ namespace SabberStoneCoreAi
 				if (argument.Contains("gpuid="))
 				{
 					GPUID = argument.Substring(6);//int.Parse(argument.Substring(6)) - 1;
+					parallelGames = true;
 				}
 				else if (argument.Contains("folder="))
 				{
@@ -176,13 +178,6 @@ namespace SabberStoneCoreAi
 
 		private static void Main(string[] args)
 		{
-			//Console.WriteLine("Argument length: " + args.Length);
-			//Console.WriteLine("Supplied Arguments are:");
-			/*foreach (object obj in args)
-			{
-				Console.WriteLine(obj);
-			}*/
-
 			//20200203 Connor - Started adding parallelism code
 			//20190128 Amy - No Clue
 			ParallelOptions parallelOptions = new ParallelOptions();
@@ -193,6 +188,7 @@ namespace SabberStoneCoreAi
 			maxDepth = 13;
 			maxWidth = 4;
 			GPUID = "0";
+			parallelGames = false;
 			folderName = "";
 			numGames = 2;
 			stepSize = 0;
@@ -220,12 +216,12 @@ namespace SabberStoneCoreAi
 			//opponents = getPlayersFromFile(opponent_decks_file);
 
 			//20200203 Connor - Directory to store stuff
-			/*if (!Directory.Exists(folderName))
+			if (!Directory.Exists(folderName))
 			{
 				Directory.CreateDirectory(folderName);
 			}
 			Thread.Sleep(10000);
-			*/
+			
 
 
 
@@ -256,9 +252,13 @@ namespace SabberStoneCoreAi
 
 			Console.WriteLine("Starting test setup.");
 
+			if(!parallelGames)
+			{
+				FullGame(Player1DeckList, Player2DeckList, player1Name, player2Name, player1DeckName, player2DeckName);
+			}
+
 			//OneTurn();
 			//FullGame();
-			FullGame(Player1DeckList, Player2DeckList, player1Name, player2Name, player1DeckName, player2DeckName);
 			//RandomGames();
 			//TestFullGames();
 
@@ -647,6 +647,7 @@ namespace SabberStoneCoreAi
 
 			//20200130 Connor - Changing Console.WriteLine() calls to agree with logsbuild
 			string logbuild = "";
+			logbuild += "+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n";
 			logbuild += $"Player1: {game.Player1.Name} vs Player2: {game.Player2.Name}\n";
 			logbuild += $"Player1Deck: {P1DeckName} vs Player2Deck: {P2DeckName}\n";
 
@@ -760,6 +761,7 @@ namespace SabberStoneCoreAi
 				}
 			}
 			logbuild += ($"Game: {game.State}, Player1: {game.Player1.PlayState} / Player2: {game.Player2.PlayState}\n");
+			logbuild += "+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n";
 			Console.WriteLine(logbuild);
 		}
 
