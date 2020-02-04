@@ -93,7 +93,8 @@ namespace SabberStoneCoreAi
 		private static int numGames;
 		private static int stepSize;
 		private static bool record_log;
-		private static string player_decks_file;
+		private static string player1_deck_file;
+		private static string player2_deck_file;
 		private static string opponent_decks_file;
 
 		// 20190128 Amy - This function takes command line arguments and parses them.
@@ -126,9 +127,14 @@ namespace SabberStoneCoreAi
 				{
 					stepSize = int.Parse(argument.Substring(9));
 				}
-				else if (argument.Contains("playerdecks="))
+				else if (argument.Contains("player1deck="))
+				{ // 20200204 Connor - Get the remainder of the string string.Substring(N)
+				  // Get the remainder of the string starting from index position N to the end of the string
+					player1_deck_file = argument.Substring(12);
+				}
+				else if (argument.Contains("player2deck="))
 				{
-					player_decks_file = argument.Substring(12);
+					player2_deck_file = argument.Substring(12);
 				}
 				else if (argument.Contains("opponentdecks="))
 				{
@@ -190,6 +196,8 @@ namespace SabberStoneCoreAi
 			folderName = "";
 			numGames = 2;
 			stepSize = 0;
+			player1_deck_file = "";
+			player2_deck_file = "";
 
 			parseArgs(args);
 
@@ -221,18 +229,20 @@ namespace SabberStoneCoreAi
 
 
 
-			Tuple<List<Card>, string> player1Tup;
-			Tuple<List<Card>, string> player2Tup;
+			Tuple<List<Card>, string, string> player1Tup;
+			Tuple<List<Card>, string, string> player2Tup;
 			var Player1DeckList = new List<Card>();
 			var Player2DeckList = new List<Card>();
 			string player1Name = "FitzVonGerald";
 			string player2Name = "RehHausZuckFuchs";
-			if (args.Length > 1)
+			string player1DeckName = "AggroPirateWarrior";
+			string player2DeckName = "AggroPirateWarrior";
+			if ((player1_deck_file != "") && (player2_deck_file != ""))
 			{
-				player1Tup = CreateDeckFromFile(args[1]);
+				player1Tup = CreateDeckFromFile(player1_deck_file);
 				Player1DeckList = player1Tup.Item1;
 				player1Name = player1Tup.Item2;
-				player2Tup = CreateDeckFromFile(args[2]);
+				player2Tup = CreateDeckFromFile(player1_deck_file);
 				Player2DeckList = player2Tup.Item1;
 				player2Name = player2Tup.Item2;
 			}
@@ -246,7 +256,7 @@ namespace SabberStoneCoreAi
 
 			//OneTurn();
 			//FullGame();
-			FullGame(Player1DeckList, Player2DeckList, player1Name, player2Name);
+			FullGame(Player1DeckList, Player2DeckList, player1Name, player2Name, player1DeckName, player2DeckName);
 			//RandomGames();
 			//TestFullGames();
 
@@ -396,19 +406,25 @@ namespace SabberStoneCoreAi
 
 
 		//public static List<Card> CreateDeckFromFile(string FileName)
-		public static Tuple<List<Card>, string> CreateDeckFromFile(string FileName)
+		public static Tuple<List<Card>, string, string> CreateDeckFromFile(string FileName)
 		{
 			var deck = new List<Card>();
 			string playerName = "";
+			string deckName = "";
 			try
 			{
 				string[] sep = { "><" };
-				string[] headerSep = { " " };
+				string[] headerSep = { ": " };
 				short c = 2;
 				string[] lines = System.IO.File.ReadAllLines(FileName);  //opens and closes the file
 				foreach (string line in lines)
 				{
-					if (line.Contains(">>Author:"))
+					if (line.Contains(">>Name:"))
+					{
+						string[] deckNameParts = line.Split(headerSep, c, StringSplitOptions.RemoveEmptyEntries);
+						playerName = deckNameParts[1];
+					}
+					else if (line.Contains(">>Author:"))
 					{
 						string[] authorParts = line.Split(headerSep, c, StringSplitOptions.RemoveEmptyEntries);
 						playerName = authorParts[1];
@@ -433,7 +449,7 @@ namespace SabberStoneCoreAi
 				deck = Decks.AggroPirateWarrior;
 			}
 			//PrintDeckOfCards(deck);
-			return Tuple.Create(deck, playerName);
+			return Tuple.Create(deck, playerName, deckName);
 		}
 
 		public static void RandomGames()
@@ -607,17 +623,9 @@ namespace SabberStoneCoreAi
 			Console.WriteLine(game.Player1.BoardZone.FullPrint());
 		}
 
-		public static void FullGame(List<Card> Player1Cards, List<Card> Player2Cards, string PlayerOneName, string PlayerTwoName)
+		public static void FullGame(List<Card> Player1Cards, List<Card> Player2Cards, string PlayerOneName, string PlayerTwoName, string P1DeckName, string P2DeckName)
 		//public static void FullGame()
 		{
-			//20200130 Connor - Changing Console.WriteLine() calls to agree with logsbuild
-
-			string logbuild = "";
-
-			logbuild += PrintDeckOfCards(Player1Cards);
-			logbuild += PrintDeckOfCards(Player2Cards);
-			//Console.WriteLine(logbuild);
-
 			var game = new Game(
 				new GameConfig()
 				{
@@ -634,6 +642,17 @@ namespace SabberStoneCoreAi
 					Shuffle = true,
 					SkipMulligan = false
 				});
+
+			//20200130 Connor - Changing Console.WriteLine() calls to agree with logsbuild
+			string logbuild = "";
+			logbuild += $"Player1: {game.Player1.Name} vs Player2: {game.Player2.Name}\n";
+			logbuild += $"Player1Deck: {P1DeckName} vs Player2Deck: {P2DeckName}\n";
+
+			logbuild += PrintDeckOfCards(Player1Cards);
+			logbuild += PrintDeckOfCards(Player2Cards);
+			//Console.WriteLine(logbuild);
+
+
 			game.StartGame();
 
 			var aiPlayer1 = new AggroScore();
