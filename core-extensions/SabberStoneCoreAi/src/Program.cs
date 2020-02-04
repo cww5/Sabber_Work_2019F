@@ -252,9 +252,82 @@ namespace SabberStoneCoreAi
 
 			Console.WriteLine("Starting test setup.");
 
-			if(!parallelGames)
+			string allGamesOutput = ""; //20200130 Connor - this is the output of all the parallel games
+			if (!parallelGames)
 			{
-				FullGame(Player1DeckList, Player2DeckList, player1Name, player2Name, player1DeckName, player2DeckName);
+				//20200204 Connor - Here, allGamesOutput is the output of only ONE game
+				allGamesOutput = FullGame(Player1DeckList, Player2DeckList, player1Name, player2Name, player1DeckName, player2DeckName);
+				Console.WriteLine(allGamesOutput);
+			}
+			else
+			{
+				int j = 0;
+
+				while (j < number_of_loops)
+				{
+					bool retry = true;
+					int tries = 0;
+
+					while (retry)
+					{
+						try
+						{
+							//Console.WriteLine("Start Thread");
+							var thread = new Thread(() =>
+							{   //20200130 Connor - This variable is the thing that gets written to the output file
+								allGamesOutput = PlayParallelGames(Player1DeckList, Player2DeckList, player1Name, player2Name, player1DeckName, player2DeckName);
+							});
+
+							thread.Start();
+
+							bool finished = thread.Join(600000);
+
+							//Console.WriteLine("Thread End");
+
+							if (!finished)
+							{
+								retry = true;
+
+								tries++;
+								continue;
+							}
+							else
+							{
+								retry = false;
+
+							}
+						}
+						catch (Exception e)
+						{
+							Console.WriteLine(e.Message);
+						}
+						if (tries > 3)
+						{
+							break;
+						}
+					}
+					//20200204 Connor - It looks like this is the thing that creates the nested directory...unclear if this is needed.
+					string overallGameStat = folderName + "/" + player1Name + "/" + player2Name;
+					if (!Directory.Exists(overallGameStat))
+					{
+						Directory.CreateDirectory(overallGameStat);
+					}
+					try
+					{
+						overallGameStat = overallGameStat + "/Output-" + GPUID + "-" + j + ".txt";
+						using (StreamWriter tw = File.AppendText(overallGameStat))
+						{//20200130 Connor - Changed this WriteLine to write the output of allGamesOutput
+							tw.WriteLine(allGamesOutput);
+							tw.Close();
+						}
+					}
+					catch (Exception e)
+					{
+						Console.WriteLine(e.Message);
+					}
+					j++;
+				}
+
 			}
 
 			//OneTurn();
@@ -265,62 +338,6 @@ namespace SabberStoneCoreAi
 			Console.WriteLine("Test end!");
 			//Console.ReadLine();
 		}
-
-		/*public static void PrintEndOfTurnOptions(Game game, PlayerTask task, string allTurnTasks)
-		{
-			Console.WriteLine("______________________________________________________________________");
-			Console.WriteLine($"Player1: {game.Player1.PlayState} / Player2: {game.Player2.PlayState} - turn no " + game.Turn);
-			//$"ROUND {(game.Turn + 1) / 2} - {game.CurrentPlayer.Name}");
-			Console.WriteLine($"Hero[P1]: {game.Player1.Hero.Health} / Hero[P2]: {game.Player2.Hero.Health}");
-			if (task != null)
-			{
-				Console.WriteLine($">>>>>>>>>TASK TYPE CHECK (is EOT?): {task.PlayerTaskType.Equals(PlayerTaskType.END_TURN)}");
-				Console.WriteLine($">>>>>>>>>TASK TYPE: {task.PlayerTaskType}");
-			}
-			Console.WriteLine(allTurnTasks);
-			if (game.CurrentPlayer == game.Player1)
-			{
-				Console.WriteLine($"CURRENT PLAYER: P1 {game.CurrentPlayer.Name}");
-			}
-			else
-			{
-				Console.WriteLine($"CURRENT PLAYER: P2 {game.CurrentPlayer.Name}");
-			}
-			
-			Console.WriteLine($"AMOUNTHEALEDTHISTURN {game.CurrentPlayer.AmountHeroHealedThisTurn}");
-			Console.WriteLine($"HEROPOWERACTIVATIONSTHIS TURN {game.CurrentPlayer.HeroPowerActivationsThisTurn}");
-			Console.WriteLine($"NUMATTACKSTHISTURN {game.CurrentPlayer.NumAttacksThisTurn}");
-			Console.WriteLine($"NUMCARDSDRAWNTHISTURN {game.CurrentPlayer.NumCardsDrawnThisTurn}");
-			Console.WriteLine($"NUMCARDSPLAYEDTHISTURN {game.CurrentPlayer.NumCardsPlayedThisTurn}");
-			Console.WriteLine($"NUMCARDSTODRAW {game.CurrentPlayer.NumCardsToDraw}");
-			Console.WriteLine($"NUMELEMENTALSPLAYEDLASTTURN {game.CurrentPlayer.NumElementalsPlayedLastTurn}");
-			Console.WriteLine($"NUMELEMENTALSPLAYEDTHISTURN {game.CurrentPlayer.NumElementalsPlayedThisTurn}");
-			Console.WriteLine($"NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN {game.CurrentPlayer.NumFriendlyMinionsThatAttackedThisTurn}");
-			Console.WriteLine($"NUMFRIENDLYMINIONSTHATDIEDTHISTURN {game.CurrentPlayer.NumFriendlyMinionsThatDiedThisTurn}");
-			Console.WriteLine($"NUMMINIONSPLAYEDTHISTURN {game.CurrentPlayer.NumMinionsPlayedThisTurn}");
-			Console.WriteLine($"NUMMINIONSPLAYERKILLEDTHISTURN {game.CurrentPlayer.NumMinionsPlayerKilledThisTurn}");
-			Console.WriteLine($"NUMOPTIONSPLAYEDTHISTURN {game.CurrentPlayer.NumOptionsPlayedThisTurn}");
-			Console.WriteLine($"NUMSECRETSPLAYEDTHISGAME {game.CurrentPlayer.NumSecretsPlayedThisGame}");
-			Console.WriteLine($"NUMSPELLSPLAYEDTHISGAME {game.CurrentPlayer.NumSpellsPlayedThisGame}");
-			Console.WriteLine($"NUMTIMESHEROPOWERUSEDTHISGAME {game.CurrentPlayer.NumTimesHeroPowerUsedThisGame}");
-			Console.WriteLine($"REMAININGMANA {game.CurrentPlayer.RemainingMana}");
-			Console.WriteLine($"TOTALMANASPENTTHISGAME {game.CurrentPlayer.TotalManaSpentThisGame}");
-			Console.WriteLine($"USEDMANATHISTURN {game.CurrentPlayer.UsedMana}"); //This represents how much was used this turn
-																				  //game.CurrentPlayer.HandZone
-																				  //game.CurrentPlayer.BoardZone
-																				  //string cardsplayedthisturn = "";
-
-			//string cardsPlayedThisTurn = "";
-
-			foreach(Card c in game.CurrentPlayer.CardsPlayedThisTurn)
-			{
-				Console.WriteLine($"PlayedCard: {c.ToString()}");
-			}
-			Console.WriteLine("No more cards played this turn.");
-
-			Console.WriteLine("______________________________________________________________________|");
-		}
-		*/
 
 		public static string PrintEndOfTurnOptions(Game game, PlayerTask task, string allTurnTasks)
 		{
@@ -379,19 +396,6 @@ namespace SabberStoneCoreAi
 			return eotbuilder;
 		}
 
-		/*public static void PrintDeckOfCards(List<Card> deckOfCards)
-		{
-			Console.WriteLine("***********Deck of cards***********");
-			foreach (Card card in deckOfCards)
-			{
-				Console.WriteLine(card);
-			}
-			Console.WriteLine("The deck size is: ");
-			Console.WriteLine(deckOfCards.Count);
-			Console.WriteLine("***********************************");
-
-		}
-		*/
 		public static string PrintDeckOfCards(List<Card> deckOfCards)
 		{
 			string deckbuild = "";
@@ -454,6 +458,7 @@ namespace SabberStoneCoreAi
 			return Tuple.Create(deck, playerName, deckName);
 		}
 
+		#region Region: Other Sabber Game Functions (Unused)
 		public static void RandomGames()
 		{
 			int total = 1000;
@@ -625,146 +630,6 @@ namespace SabberStoneCoreAi
 			Console.WriteLine(game.Player1.BoardZone.FullPrint());
 		}
 
-		public static void FullGame(List<Card> Player1Cards, List<Card> Player2Cards, string PlayerOneName, string PlayerTwoName, string P1DeckName, string P2DeckName)
-		//public static void FullGame()
-		{
-			var game = new Game(
-				new GameConfig()
-				{
-					StartPlayer = 1,
-					Player1Name = PlayerOneName,
-					Player1HeroClass = CardClass.WARLOCK,
-					//Player1Deck = Decks.AggroPirateWarrior,
-					Player1Deck = Player1Cards,
-					Player2Name = PlayerTwoName,
-					Player2HeroClass = CardClass.WARLOCK,
-					//Player2Deck = Decks.AggroPirateWarrior,
-					Player2Deck = Player2Cards,
-					FillDecks = false,
-					Shuffle = true,
-					SkipMulligan = false
-				});
-
-			//20200130 Connor - Changing Console.WriteLine() calls to agree with logsbuild
-			string logbuild = "";
-			logbuild += "+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n";
-			logbuild += $"Player1: {game.Player1.Name} vs Player2: {game.Player2.Name}\n";
-			logbuild += $"Player1Deck: {P1DeckName} vs Player2Deck: {P2DeckName}\n";
-
-			logbuild += PrintDeckOfCards(Player1Cards);
-			logbuild += PrintDeckOfCards(Player2Cards);
-			//Console.WriteLine(logbuild);
-
-
-			game.StartGame();
-
-			var aiPlayer1 = new AggroScore();
-			var aiPlayer2 = new AggroScore();
-
-			List<int> mulligan1 = aiPlayer1.MulliganRule().Invoke(game.Player1.Choice.Choices.Select(p => game.IdEntityDic[p]).ToList());
-			List<int> mulligan2 = aiPlayer2.MulliganRule().Invoke(game.Player2.Choice.Choices.Select(p => game.IdEntityDic[p]).ToList());
-
-			logbuild += ($"Player1: Mulligan {String.Join(",", mulligan1)}\n");
-			logbuild += ($"Player2: Mulligan {String.Join(",", mulligan2)}\n");
-
-			game.Process(ChooseTask.Mulligan(game.Player1, mulligan1));
-			game.Process(ChooseTask.Mulligan(game.Player2, mulligan2));
-
-			game.MainReady();
-
-			while (game.State != State.COMPLETE)
-			{
-				//Console.WriteLine("");
-				//Console.WriteLine($"Player1: {game.Player1.PlayState} / Player2: {game.Player2.PlayState} - " +
-				//				  $"ROUND {(game.Turn + 1) / 2} - {game.CurrentPlayer.Name}");
-				//Console.WriteLine($"Hero[P1]: {game.Player1.Hero.Health} / Hero[P2]: {game.Player2.Hero.Health}");
-				//Console.WriteLine("");
-				logbuild += "\n";
-				logbuild += ($"Player1: {game.Player1.PlayState} / Player2: {game.Player2.PlayState} - " +
-									$"ROUND {(game.Turn + 1) / 2} - {game.CurrentPlayer.Name}\n");
-				logbuild += ($"Hero[P1]: {game.Player1.Hero.Health} / Hero[P2]: {game.Player2.Hero.Health}\n");
-				logbuild += "\n";
-
-				while (game.State == State.RUNNING && game.CurrentPlayer == game.Player1)
-				{
-					//Console.WriteLine($"* Calculating solutions *** Player 1 ***");
-					logbuild += $"* Calculating solutions *** Player 1 ***\n";
-					List <OptionNode> solutions = OptionNode.GetSolutions(game, game.Player1.Id, aiPlayer1, 10, 500);
-					var solution = new List<PlayerTask>();
-					solutions.OrderByDescending(p => p.Score).First().PlayerTasks(ref solution);
-					//Console.WriteLine($"- Player 1 - <{game.CurrentPlayer.Name}> ---------------------------");
-					logbuild += $"- Player 1 - <{game.CurrentPlayer.Name}> ---------------------------\n";
-
-					string allTasks = "ALL TURN TASKS:\n";
-					foreach (PlayerTask task in solution)
-					{
-						string printedTask = task.FullPrint()+"\n";
-						allTasks += printedTask;
-						logbuild += (printedTask);
-						if (task.PlayerTaskType.Equals(PlayerTaskType.END_TURN))
-						{
-							allTasks += "COMPLETE ALL TURN TASKS";
-							logbuild += PrintEndOfTurnOptions(game, task, allTasks);
-						}
-						game.Process(task);
-						if (game.CurrentPlayer.Choice != null)
-						{
-							logbuild += ($"* Recaclulating due to a final solution ...\n");
-							break;
-						}
-						if (game.Player1.Hero.Health <= 0 || game.Player2.Hero.Health <= 0)
-						{
-							allTasks += "COMPLETE ALL TURN TASKS";
-							logbuild += PrintEndOfTurnOptions(game, task, allTasks);
-						}
-					}
-					//Console.WriteLine("Testing>>>>>>>>>>>>>>>>>>>>>");
-					//Console.WriteLine(game.CurrentPlayer.NumCardsPlayedThisTurn);
-				}
-
-				// Random mode for Player 2
-				logbuild += ($"- Player 2 - <{game.CurrentPlayer.Name}> ---------------------------\n");
-				while (game.State == State.RUNNING && game.CurrentPlayer == game.Player2)
-				{
-					//var options = game.Options(game.CurrentPlayer);
-					//var option = options[Rnd.Next(options.Count)];
-					//Log.Info($"[{option.FullPrint()}]");
-					//game.Process(option);
-					logbuild += ($"* Calculating solutions *** Player 2 ***\n");
-					List<OptionNode> solutions = OptionNode.GetSolutions(game, game.Player2.Id, aiPlayer2, 10, 500);
-					var solution = new List<PlayerTask>();
-					solutions.OrderByDescending(p => p.Score).First().PlayerTasks(ref solution);
-					logbuild += ($"- Player 2 - <{game.CurrentPlayer.Name}> ---------------------------\n");
-					string allTasks = "ALL TURN TASKS:\n";
-					foreach (PlayerTask task in solution)
-					{
-						string printedTask = task.FullPrint() + "\n";
-						allTasks += printedTask;
-						logbuild += (printedTask);
-						if (task.PlayerTaskType.Equals(PlayerTaskType.END_TURN))
-						{
-							allTasks += "COMPLETE ALL TURN TASKS";
-							logbuild += PrintEndOfTurnOptions(game, task, allTasks);
-						}
-						game.Process(task);
-						if (game.CurrentPlayer.Choice != null)
-						{
-							logbuild += ($"* Recaclulating due to a final solution ...\n");
-							break;
-						}
-						if (game.Player1.Hero.Health <= 0 || game.Player2.Hero.Health <= 0)
-						{
-							allTasks = allTasks + "COMPLETE ALL TURN TASKS";
-							logbuild += PrintEndOfTurnOptions(game, task, allTasks);
-						}
-					}
-				}
-			}
-			logbuild += ($"Game: {game.State}, Player1: {game.Player1.PlayState} / Player2: {game.Player2.PlayState}\n");
-			logbuild += "+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n";
-			Console.WriteLine(logbuild);
-		}
-
 		public static void TestFullGames()
 		{
 
@@ -907,6 +772,214 @@ namespace SabberStoneCoreAi
 			Console.WriteLine($"Player1: {String.Join(",", player1Stats)}");
 			Console.WriteLine($"Player2: {String.Join(",", player2Stats)}");
 		}
+		#endregion
 
+
+		public static string PlayParallelGames(List<Card> Player1Cards, List<Card> Player2Cards, string PlayerOneName, string PlayerTwoName, string P1DeckName, string P2DeckName)
+		{
+			//20200204 Connor - I believe wins is not needed...
+			//int[] wins = Enumerable.Repeat(0, stepSize).ToArray();
+
+			ParallelOptions parallel_options = new ParallelOptions();
+			parallel_options.MaxDegreeOfParallelism = 8;// parallelThreads;// Environment.ProcessorCount;//parallelThreadsInner+10;
+														// Console.WriteLine(Environment.ProcessorCountCount);
+
+			string[] game_log_list = new string[stepSize];
+			//20200130 Connor - This is the list of games and each should contain all the game info
+			for (int k = 0; k < game_log_list.Length; k++)
+			{
+				game_log_list[k] = "";
+			}
+
+			string res = "";
+			Parallel.For(0, stepSize, parallel_options, j =>//parallelThreadsInner * testsInEachThreadInner, parallel_options, j =>
+			{
+				/*20190130 Connor - Run a Parallel For loop to run FullGame on separate threads.
+				 * OUTPUT - the resulting string to write to the output file
+				 */
+				int i = j;
+				//Console.WriteLine(i);
+
+				string s = "";
+				string game_log = "";
+				bool retry = true;
+
+				while (retry)
+				{
+					try
+					{
+						//Console.WriteLine("Start Game!");
+						s = FullGame(Player1Cards, Player2Cards, PlayerOneName, PlayerTwoName, P1DeckName, P2DeckName);
+						game_log_list[j] = game_log;
+						//Console.WriteLine("Game End!");
+					}
+					catch (Exception e)
+					{
+						Console.WriteLine(e.Message);
+						s = e.Message.ToString();
+					}
+
+					if (s.ToLower().Contains("present") || s.ToLower().Contains("instance") || s.ToLower().Contains("zone"))
+					{
+						Console.WriteLine("this was s=" + s + "retrying right here");
+
+						retry = true;
+					}
+					else
+					{
+						retry = false;
+					}
+				}
+			});
+			//_______________________________________________________________________________
+			//20200130 Connor - Added this little block of code to get all the games returned
+			string allGames = "";
+			for (int k = 0; k < game_log_list.Length; k++)
+			{
+				allGames += (game_log_list[k] + "\n");
+			}
+
+			return allGames;
+		}
+
+
+		public static string FullGame(List<Card> Player1Cards, List<Card> Player2Cards, string PlayerOneName, string PlayerTwoName, string P1DeckName, string P2DeckName)
+		{
+			var game = new Game(
+				new GameConfig()
+				{
+					StartPlayer = 1,
+					Player1Name = PlayerOneName,
+					Player1HeroClass = CardClass.WARLOCK,
+					//Player1Deck = Decks.AggroPirateWarrior,
+					Player1Deck = Player1Cards,
+					Player2Name = PlayerTwoName,
+					Player2HeroClass = CardClass.WARLOCK,
+					//Player2Deck = Decks.AggroPirateWarrior,
+					Player2Deck = Player2Cards,
+					FillDecks = false,
+					Shuffle = true,
+					SkipMulligan = false
+				});
+
+			//20200130 Connor - Changing Console.WriteLine() calls to agree with logsbuild
+			string logbuild = "";
+			logbuild += "+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n";
+			logbuild += $"Player1: {game.Player1.Name} vs Player2: {game.Player2.Name}\n";
+			logbuild += $"Player1Deck: {P1DeckName} vs Player2Deck: {P2DeckName}\n";
+
+			logbuild += PrintDeckOfCards(Player1Cards);
+			logbuild += PrintDeckOfCards(Player2Cards);
+			//Console.WriteLine(logbuild);
+
+
+			game.StartGame();
+
+			var aiPlayer1 = new AggroScore();
+			var aiPlayer2 = new AggroScore();
+
+			List<int> mulligan1 = aiPlayer1.MulliganRule().Invoke(game.Player1.Choice.Choices.Select(p => game.IdEntityDic[p]).ToList());
+			List<int> mulligan2 = aiPlayer2.MulliganRule().Invoke(game.Player2.Choice.Choices.Select(p => game.IdEntityDic[p]).ToList());
+
+			logbuild += ($"Player1: Mulligan {String.Join(",", mulligan1)}\n");
+			logbuild += ($"Player2: Mulligan {String.Join(",", mulligan2)}\n");
+
+			game.Process(ChooseTask.Mulligan(game.Player1, mulligan1));
+			game.Process(ChooseTask.Mulligan(game.Player2, mulligan2));
+
+			game.MainReady();
+
+			while (game.State != State.COMPLETE)
+			{
+				//Console.WriteLine("");
+				//Console.WriteLine($"Player1: {game.Player1.PlayState} / Player2: {game.Player2.PlayState} - " +
+				//				  $"ROUND {(game.Turn + 1) / 2} - {game.CurrentPlayer.Name}");
+				//Console.WriteLine($"Hero[P1]: {game.Player1.Hero.Health} / Hero[P2]: {game.Player2.Hero.Health}");
+				//Console.WriteLine("");
+				logbuild += "\n";
+				logbuild += ($"Player1: {game.Player1.PlayState} / Player2: {game.Player2.PlayState} - " +
+									$"ROUND {(game.Turn + 1) / 2} - {game.CurrentPlayer.Name}\n");
+				logbuild += ($"Hero[P1]: {game.Player1.Hero.Health} / Hero[P2]: {game.Player2.Hero.Health}\n");
+				logbuild += "\n";
+
+				while (game.State == State.RUNNING && game.CurrentPlayer == game.Player1)
+				{
+					//Console.WriteLine($"* Calculating solutions *** Player 1 ***");
+					logbuild += $"* Calculating solutions *** Player 1 ***\n";
+					List <OptionNode> solutions = OptionNode.GetSolutions(game, game.Player1.Id, aiPlayer1, 10, 500);
+					var solution = new List<PlayerTask>();
+					solutions.OrderByDescending(p => p.Score).First().PlayerTasks(ref solution);
+					//Console.WriteLine($"- Player 1 - <{game.CurrentPlayer.Name}> ---------------------------");
+					logbuild += $"- Player 1 - <{game.CurrentPlayer.Name}> ---------------------------\n";
+
+					string allTasks = "ALL TURN TASKS:\n";
+					foreach (PlayerTask task in solution)
+					{
+						string printedTask = task.FullPrint()+"\n";
+						allTasks += printedTask;
+						logbuild += (printedTask);
+						if (task.PlayerTaskType.Equals(PlayerTaskType.END_TURN))
+						{
+							allTasks += "COMPLETE ALL TURN TASKS";
+							logbuild += PrintEndOfTurnOptions(game, task, allTasks);
+						}
+						game.Process(task);
+						if (game.CurrentPlayer.Choice != null)
+						{
+							logbuild += ($"* Recaclulating due to a final solution ...\n");
+							break;
+						}
+						if (game.Player1.Hero.Health <= 0 || game.Player2.Hero.Health <= 0)
+						{
+							allTasks += "COMPLETE ALL TURN TASKS";
+							logbuild += PrintEndOfTurnOptions(game, task, allTasks);
+						}
+					}
+					//Console.WriteLine("Testing>>>>>>>>>>>>>>>>>>>>>");
+					//Console.WriteLine(game.CurrentPlayer.NumCardsPlayedThisTurn);
+				}
+
+				// Random mode for Player 2
+				logbuild += ($"- Player 2 - <{game.CurrentPlayer.Name}> ---------------------------\n");
+				while (game.State == State.RUNNING && game.CurrentPlayer == game.Player2)
+				{
+					//var options = game.Options(game.CurrentPlayer);
+					//var option = options[Rnd.Next(options.Count)];
+					//Log.Info($"[{option.FullPrint()}]");
+					//game.Process(option);
+					logbuild += ($"* Calculating solutions *** Player 2 ***\n");
+					List<OptionNode> solutions = OptionNode.GetSolutions(game, game.Player2.Id, aiPlayer2, 10, 500);
+					var solution = new List<PlayerTask>();
+					solutions.OrderByDescending(p => p.Score).First().PlayerTasks(ref solution);
+					logbuild += ($"- Player 2 - <{game.CurrentPlayer.Name}> ---------------------------\n");
+					string allTasks = "ALL TURN TASKS:\n";
+					foreach (PlayerTask task in solution)
+					{
+						string printedTask = task.FullPrint() + "\n";
+						allTasks += printedTask;
+						logbuild += (printedTask);
+						if (task.PlayerTaskType.Equals(PlayerTaskType.END_TURN))
+						{
+							allTasks += "COMPLETE ALL TURN TASKS";
+							logbuild += PrintEndOfTurnOptions(game, task, allTasks);
+						}
+						game.Process(task);
+						if (game.CurrentPlayer.Choice != null)
+						{
+							logbuild += ($"* Recaclulating due to a final solution ...\n");
+							break;
+						}
+						if (game.Player1.Hero.Health <= 0 || game.Player2.Hero.Health <= 0)
+						{
+							allTasks = allTasks + "COMPLETE ALL TURN TASKS";
+							logbuild += PrintEndOfTurnOptions(game, task, allTasks);
+						}
+					}
+				}
+			}
+			logbuild += ($"Game: {game.State}, Player1: {game.Player1.PlayState} / Player2: {game.Player2.PlayState}\n");
+			logbuild += "+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n";
+			return logbuild;
+		}
 	}
 }
