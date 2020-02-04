@@ -242,9 +242,11 @@ namespace SabberStoneCoreAi
 				player1Tup = CreateDeckFromFile(player1_deck_file);
 				Player1DeckList = player1Tup.Item1;
 				player1Name = player1Tup.Item2;
+				player1DeckName = player1Tup.Item3;
 				player2Tup = CreateDeckFromFile(player1_deck_file);
 				Player2DeckList = player2Tup.Item1;
 				player2Name = player2Tup.Item2;
+				player2DeckName = player2Tup.Item3;
 			}
 			else
 			{
@@ -422,7 +424,7 @@ namespace SabberStoneCoreAi
 					if (line.Contains(">>Name:"))
 					{
 						string[] deckNameParts = line.Split(headerSep, c, StringSplitOptions.RemoveEmptyEntries);
-						playerName = deckNameParts[1];
+						deckName = deckNameParts[1];
 					}
 					else if (line.Contains(">>Author:"))
 					{
@@ -433,8 +435,8 @@ namespace SabberStoneCoreAi
 					{
 						//Console.WriteLine(line);
 						string[] parts = line.Split(sep, c, StringSplitOptions.RemoveEmptyEntries);
-						Console.WriteLine(parts[0]);
-						Console.WriteLine(parts[1]);
+						//Console.WriteLine(parts[0]);
+						//Console.WriteLine(parts[1]);
 						for (int i = 0; i < System.Convert.ToInt16(parts[1]); i++)
 						{
 							deck.Add(Cards.FromName(parts[0]));
