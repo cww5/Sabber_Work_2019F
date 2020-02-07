@@ -258,6 +258,7 @@ namespace SabberStoneCoreAi
 				//20200204 Connor - Here, allGamesOutput is the output of only ONE game
 				allGamesOutput = FullGame(Player1DeckList, Player2DeckList, player1Name, player2Name, player1DeckName, player2DeckName);
 				Console.WriteLine(allGamesOutput);
+				Console.ReadLine();
 			}
 			else
 			{
