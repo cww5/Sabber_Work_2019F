@@ -428,7 +428,7 @@ namespace SabberStoneCoreAi
 										}
 										else
 										{
-											allGamesOutput = FullGame(PlayerDeckList, OpponentDeckList, playerName, playerName, playerDeckName, opponentDeckName);
+											allGamesOutput = FullGame(PlayerDeckList, OpponentDeckList, playerName, opponentName, playerDeckName, opponentDeckName);
 										}
 										Console.WriteLine(allGamesOutput);
 									});
