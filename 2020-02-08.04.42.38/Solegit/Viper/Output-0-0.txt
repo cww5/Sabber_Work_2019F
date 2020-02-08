@@ -1,0 +1,719 @@
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+Player1: Solegit vs Player2: Solegit
+Player1Deck: Zoolock_PostNerf_Legend vs Player2Deck: Zoolock_PostNerf_Legend7
+***********Deck of cards***********
+[Flame Imp]
+[Flame Imp]
+[Grim Rally]
+[Grim Rally]
+[Soulfire]
+[The Soularium]
+[Voidwalker]
+[Voidwalker]
+[Witchwood Imp]
+[Fiendish Circle]
+[Fiendish Circle]
+[Abusive Sergeant]
+[Abusive Sergeant]
+[Argent Squire]
+[Argent Squire]
+[Crystallizer]
+[Crystallizer]
+[Mecharoo]
+[Mecharoo]
+[Dire Wolf Alpha]
+[Dire Wolf Alpha]
+[Knife Juggler]
+[Knife Juggler]
+[Scarab Egg]
+[Scarab Egg]
+[Magic Carpet]
+[Magic Carpet]
+[Leeroy Jenkins]
+[Sea Giant]
+[Sea Giant]
+The deck size is: 
+30
+***********************************
+***********Deck of cards***********
+[Flame Imp]
+[Flame Imp]
+[Grim Rally]
+[Grim Rally]
+[The Soularium]
+[Voidwalker]
+[Voidwalker]
+[Witchwood Imp]
+[Witchwood Imp]
+[Fiendish Circle]
+[Fiendish Circle]
+[Abusive Sergeant]
+[Abusive Sergeant]
+[Crystallizer]
+[Crystallizer]
+[Mecharoo]
+[Mecharoo]
+[Dire Wolf Alpha]
+[Dire Wolf Alpha]
+[Knife Juggler]
+[Knife Juggler]
+[Scarab Egg]
+[Scarab Egg]
+[Magic Carpet]
+[Magic Carpet]
+[Microtech Controller]
+[Microtech Controller]
+[Defender of Argus]
+[Sea Giant]
+[Sea Giant]
+The deck size is: 
+30
+***********************************
+Player1: Mulligan 18
+Player2: Mulligan 
+
+Player1: PLAYING / Player2: PLAYING - ROUND 1 - Solegit
+Hero[P1]: 30 / Hero[P2]: 30
+
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Solegit> ---------------------------
+PlayCardTask => [Solegit] play 'Voidwalker[15]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Solegit]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 1
+Hero[P1]: 30 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Solegit] play 'Voidwalker[15]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Solegit]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Solegit
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 1
+USEDMANATHISTURN 1
+PlayedCard: [Voidwalker]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Solegit> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Solegit> ---------------------------
+PlayCardTask => [Solegit] play 'Voidwalker[43]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Solegit] play 'The Coin[68]'(SPELL) Option -1
+PlayCardTask => [Solegit] play 'Abusive Sergeant[50]'(MINION) 'Voidwalker[43]' to Pos[0] Option -1
+EndTurnTask => [Solegit]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 2
+Hero[P1]: 30 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Solegit] play 'Voidwalker[43]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Solegit] play 'The Coin[68]'(SPELL) Option -1
+PlayCardTask => [Solegit] play 'Abusive Sergeant[50]'(MINION) 'Voidwalker[43]' to Pos[0] Option -1
+EndTurnTask => [Solegit]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Solegit
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 3
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 2
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 3
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 2
+USEDMANATHISTURN 1
+PlayedCard: [Voidwalker]
+PlayedCard: [The Coin]
+PlayedCard: [Abusive Sergeant]
+No more cards played this turn.
+______________________________________________________________________|
+
+Player1: PLAYING / Player2: PLAYING - ROUND 2 - Solegit
+Hero[P1]: 30 / Hero[P2]: 30
+
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Solegit> ---------------------------
+MinionAttackTask => [Solegit] 'Voidwalker[15]'(MINION) attack 'Voidwalker[43]'
+EndTurnTask => [Solegit]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 3
+Hero[P1]: 30 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Solegit] 'Voidwalker[15]'(MINION) attack 'Voidwalker[43]'
+EndTurnTask => [Solegit]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Solegit
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 0
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 2
+TOTALMANASPENTTHISGAME 1
+USEDMANATHISTURN 0
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Solegit> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Solegit> ---------------------------
+MinionAttackTask => [Solegit] 'Voidwalker[43]'(MINION) attack 'Voidwalker[15]'
+MinionAttackTask => [Solegit] 'Abusive Sergeant[50]'(MINION) attack 'Voidwalker[15]'
+EndTurnTask => [Solegit]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 4
+Hero[P1]: 30 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Solegit] 'Voidwalker[43]'(MINION) attack 'Voidwalker[15]'
+MinionAttackTask => [Solegit] 'Abusive Sergeant[50]'(MINION) attack 'Voidwalker[15]'
+EndTurnTask => [Solegit]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Solegit
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 0
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 2
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 1
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 2
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 2
+TOTALMANASPENTTHISGAME 2
+USEDMANATHISTURN 0
+No more cards played this turn.
+______________________________________________________________________|
+
+Player1: PLAYING / Player2: PLAYING - ROUND 3 - Solegit
+Hero[P1]: 30 / Hero[P2]: 30
+
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Solegit> ---------------------------
+PlayCardTask => [Solegit] play 'Magic Carpet[33]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Solegit]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 5
+Hero[P1]: 30 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Solegit] play 'Magic Carpet[33]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Solegit]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Solegit
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 4
+USEDMANATHISTURN 3
+PlayedCard: [Magic Carpet]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Solegit> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Solegit> ---------------------------
+MinionAttackTask => [Solegit] 'Voidwalker[43]'(MINION) attack 'Gul'dan[4]'
+PlayCardTask => [Solegit] play 'Witchwood Imp[46]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Solegit]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 6
+Hero[P1]: 29 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Solegit] 'Voidwalker[43]'(MINION) attack 'Gul'dan[4]'
+PlayCardTask => [Solegit] play 'Witchwood Imp[46]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Solegit]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Solegit
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 2
+TOTALMANASPENTTHISGAME 3
+USEDMANATHISTURN 1
+PlayedCard: [Witchwood Imp]
+No more cards played this turn.
+______________________________________________________________________|
+
+Player1: PLAYING / Player2: PLAYING - ROUND 4 - Solegit
+Hero[P1]: 29 / Hero[P2]: 30
+
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Solegit> ---------------------------
+PlayCardTask => [Solegit] play 'Abusive Sergeant[19]'(MINION) 'Magic Carpet[33]' to Pos[0] Option -1
+MinionAttackTask => [Solegit] 'Abusive Sergeant[19]'(MINION) attack 'Voidwalker[43]'
+MinionAttackTask => [Solegit] 'Magic Carpet[33]'(MINION) attack 'Gul'dan[6]'
+EndTurnTask => [Solegit]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 7
+Hero[P1]: 29 / Hero[P2]: 27
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Solegit] play 'Abusive Sergeant[19]'(MINION) 'Magic Carpet[33]' to Pos[0] Option -1
+MinionAttackTask => [Solegit] 'Abusive Sergeant[19]'(MINION) attack 'Voidwalker[43]'
+MinionAttackTask => [Solegit] 'Magic Carpet[33]'(MINION) attack 'Gul'dan[6]'
+EndTurnTask => [Solegit]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Solegit
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 2
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 1
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 2
+NUMOPTIONSPLAYEDTHISTURN 3
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 3
+TOTALMANASPENTTHISGAME 5
+USEDMANATHISTURN 1
+PlayedCard: [Abusive Sergeant]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Solegit> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Solegit> ---------------------------
+PlayCardTask => [Solegit] play 'Defender of Argus[65]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Solegit] 'Witchwood Imp[46]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Solegit]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 8
+Hero[P1]: 27 / Hero[P2]: 27
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Solegit] play 'Defender of Argus[65]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Solegit] 'Witchwood Imp[46]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Solegit]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Solegit
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 7
+USEDMANATHISTURN 4
+PlayedCard: [Defender of Argus]
+No more cards played this turn.
+______________________________________________________________________|
+
+Player1: PLAYING / Player2: PLAYING - ROUND 5 - Solegit
+Hero[P1]: 27 / Hero[P2]: 27
+
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Solegit> ---------------------------
+MinionAttackTask => [Solegit] 'Magic Carpet[33]'(MINION) attack 'Witchwood Imp[46]'
+PlayCardTask => [Solegit] play 'Knife Juggler[29]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Solegit] play 'Scarab Egg[32]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Solegit]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 9
+Hero[P1]: 27 / Hero[P2]: 27
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Solegit] 'Magic Carpet[33]'(MINION) attack 'Witchwood Imp[46]'
+PlayCardTask => [Solegit] play 'Knife Juggler[29]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Solegit] play 'Scarab Egg[32]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Solegit]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Solegit
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 2
+NUMMINIONSPLAYERKILLEDTHISTURN 1
+NUMOPTIONSPLAYEDTHISTURN 3
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 1
+TOTALMANASPENTTHISGAME 9
+USEDMANATHISTURN 4
+PlayedCard: [Knife Juggler]
+PlayedCard: [Scarab Egg]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Solegit> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Solegit> ---------------------------
+PlayCardTask => [Solegit] play 'Microtech Controller[64]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Solegit] play 'Grim Rally[41]'(SPELL) 'Microbot[74]' Option -1
+MinionAttackTask => [Solegit] 'Defender of Argus[65]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Solegit]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 10
+Hero[P1]: 24 / Hero[P2]: 27
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Solegit] play 'Microtech Controller[64]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Solegit] play 'Grim Rally[41]'(SPELL) 'Microbot[74]' Option -1
+MinionAttackTask => [Solegit] 'Defender of Argus[65]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Solegit]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Solegit
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 1
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 1
+NUMOPTIONSPLAYEDTHISTURN 3
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 1
+TOTALMANASPENTTHISGAME 11
+USEDMANATHISTURN 4
+PlayedCard: [Microtech Controller]
+PlayedCard: [Grim Rally]
+No more cards played this turn.
+______________________________________________________________________|
+
+Player1: PLAYING / Player2: PLAYING - ROUND 6 - Solegit
+Hero[P1]: 24 / Hero[P2]: 27
+
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Solegit> ---------------------------
+PlayCardTask => [Solegit] play 'Sea Giant[36]'(MINION) to Pos[2] Option -1
+PlayCardTask => [Solegit] play 'Scarab Egg[31]'(MINION) to Pos[2] Option -1
+MinionAttackTask => [Solegit] 'Magic Carpet[33]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Knife Juggler[29]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Scarab Egg[32]'(MINION) attack 'Microtech Controller[64]'
+EndTurnTask => [Solegit]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 11
+Hero[P1]: 24 / Hero[P2]: 20
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Solegit] play 'Sea Giant[36]'(MINION) to Pos[2] Option -1
+PlayCardTask => [Solegit] play 'Scarab Egg[31]'(MINION) to Pos[2] Option -1
+MinionAttackTask => [Solegit] 'Magic Carpet[33]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Knife Juggler[29]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Scarab Egg[32]'(MINION) attack 'Microtech Controller[64]'
+EndTurnTask => [Solegit]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Solegit
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 3
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 1
+NUMMINIONSPLAYEDTHISTURN 2
+NUMMINIONSPLAYERKILLEDTHISTURN 2
+NUMOPTIONSPLAYEDTHISTURN 5
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 15
+USEDMANATHISTURN 6
+PlayedCard: [Sea Giant]
+PlayedCard: [Scarab Egg]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Solegit> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Solegit> ---------------------------
+MinionAttackTask => [Solegit] 'Defender of Argus[65]'(MINION) attack 'Gul'dan[4]'
+PlayCardTask => [Solegit] play 'Knife Juggler[57]'(MINION) to Pos[2] Option -1
+PlayCardTask => [Solegit] play 'Sea Giant[67]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Solegit] 'Microbot[75]'(MINION) attack 'Gul'dan[4]'
+PlayCardTask => [Solegit] play 'Scarab Egg[59]'(MINION) to Pos[2] Option -1
+PlayCardTask => [Solegit] play 'Scarab Egg[60]'(MINION) to Pos[5] Option -1
+EndTurnTask => [Solegit]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 12
+Hero[P1]: 18 / Hero[P2]: 20
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Solegit] 'Defender of Argus[65]'(MINION) attack 'Gul'dan[4]'
+PlayCardTask => [Solegit] play 'Knife Juggler[57]'(MINION) to Pos[2] Option -1
+PlayCardTask => [Solegit] play 'Sea Giant[67]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Solegit] 'Microbot[75]'(MINION) attack 'Gul'dan[4]'
+PlayCardTask => [Solegit] play 'Scarab Egg[59]'(MINION) to Pos[2] Option -1
+PlayCardTask => [Solegit] play 'Scarab Egg[60]'(MINION) to Pos[5] Option -1
+EndTurnTask => [Solegit]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Solegit
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 4
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 2
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 4
+NUMMINIONSPLAYERKILLEDTHISTURN 1
+NUMOPTIONSPLAYEDTHISTURN 6
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 17
+USEDMANATHISTURN 6
+PlayedCard: [Knife Juggler]
+PlayedCard: [Sea Giant]
+PlayedCard: [Scarab Egg]
+PlayedCard: [Scarab Egg]
+No more cards played this turn.
+______________________________________________________________________|
+
+Player1: PLAYING / Player2: PLAYING - ROUND 7 - Solegit
+Hero[P1]: 18 / Hero[P2]: 20
+
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Solegit> ---------------------------
+MinionAttackTask => [Solegit] 'Sea Giant[36]'(MINION) attack 'Gul'dan[6]'
+PlayCardTask => [Solegit] play 'Fiendish Circle[17]'(SPELL) Option -1
+MinionAttackTask => [Solegit] 'Knife Juggler[29]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Magic Carpet[33]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Scarab[83]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Scarab[84]'(MINION) attack 'Gul'dan[6]'
+EndTurnTask => [Solegit]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 13
+Hero[P1]: 18 / Hero[P2]: 5
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Solegit] 'Sea Giant[36]'(MINION) attack 'Gul'dan[6]'
+PlayCardTask => [Solegit] play 'Fiendish Circle[17]'(SPELL) Option -1
+MinionAttackTask => [Solegit] 'Knife Juggler[29]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Magic Carpet[33]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Scarab[83]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Scarab[84]'(MINION) attack 'Gul'dan[6]'
+EndTurnTask => [Solegit]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Solegit
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 5
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 1
+NUMOPTIONSPLAYEDTHISTURN 6
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 3
+TOTALMANASPENTTHISGAME 19
+USEDMANATHISTURN 4
+PlayedCard: [Fiendish Circle]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Solegit> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Solegit> ---------------------------
+MinionAttackTask => [Solegit] 'Sea Giant[67]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Solegit] 'Knife Juggler[57]'(MINION) attack 'Gul'dan[4]'
+HeroPowerTask => [Solegit] using 'Life Tap[7]'
+PlayCardTask => [Solegit] play 'Dire Wolf Alpha[56]'(MINION) to Pos[2] Option -1
+MinionAttackTask => [Solegit] 'Scarab Egg[59]'(MINION) attack 'Sea Giant[36]'
+MinionAttackTask => [Solegit] 'Defender of Argus[65]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Solegit]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 14
+Hero[P1]: 4 / Hero[P2]: 3
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Solegit] 'Sea Giant[67]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Solegit] 'Knife Juggler[57]'(MINION) attack 'Gul'dan[4]'
+HeroPowerTask => [Solegit] using 'Life Tap[7]'
+PlayCardTask => [Solegit] play 'Dire Wolf Alpha[56]'(MINION) to Pos[2] Option -1
+MinionAttackTask => [Solegit] 'Scarab Egg[59]'(MINION) attack 'Sea Giant[36]'
+MinionAttackTask => [Solegit] 'Defender of Argus[65]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Solegit]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Solegit
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 1
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 2
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 4
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 1
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 3
+NUMOPTIONSPLAYEDTHISTURN 5
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 1
+REMAININGMANA 3
+TOTALMANASPENTTHISGAME 21
+USEDMANATHISTURN 4
+PlayedCard: [Dire Wolf Alpha]
+No more cards played this turn.
+______________________________________________________________________|
+
+Player1: PLAYING / Player2: PLAYING - ROUND 8 - Solegit
+Hero[P1]: 4 / Hero[P2]: 3
+
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Solegit> ---------------------------
+MinionAttackTask => [Solegit] 'Knife Juggler[29]'(MINION) attack 'Gul'dan[6]'
+______________________________________________________________________
+Player1: WON / Player2: LOST - turn no 15
+Hero[P1]: 4 / Hero[P2]: 0
+>>>>>>>>>TASK TYPE CHECK (is EOT?): False
+>>>>>>>>>TASK TYPE: MINION_ATTACK
+ALL TURN TASKS:
+MinionAttackTask => [Solegit] 'Knife Juggler[29]'(MINION) attack 'Gul'dan[6]'
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Solegit
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 0
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 8
+TOTALMANASPENTTHISGAME 19
+USEDMANATHISTURN 0
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Solegit> ---------------------------
+Game: COMPLETE, Player1: WON / Player2: LOST
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+

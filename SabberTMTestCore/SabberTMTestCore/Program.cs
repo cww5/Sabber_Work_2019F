@@ -85,7 +85,6 @@ namespace SabberStoneCoreAi
         {
             /*
 			 *This function was retrieved from Fernando
-			 *
 			 */
             for (int i = 0; i < args.Length; i++)
             {
@@ -255,7 +254,8 @@ namespace SabberStoneCoreAi
 			//__________________________________________________________-
 
             Console.WriteLine("Starting test setup.");
-
+			PlayAllGames(playersList, opponentsList);
+			/*
             string allGamesOutput = ""; //20200130 Connor - this is the output of all the parallel games
             if (!parallelGames)
             {
@@ -299,7 +299,7 @@ namespace SabberStoneCoreAi
 				}
 
 
-
+				
 				/////////////////////////////////////////////////
 
 			}
@@ -372,11 +372,12 @@ namespace SabberStoneCoreAi
                     j++;
                 }
             }
-            Console.WriteLine("Test end!");
+			*/
+			Console.WriteLine("Test end!");
             //Console.ReadLine();
         }//End Main
 
-		public static void PlayAllGames(bool playParallel, string folderName, List<Tuple<List<Card>, string, string, string, string>> allPlayers, List<Tuple<List<Card>, string, string, string, string>> allOpponents)
+		public static void PlayAllGames(List<Tuple<List<Card>, string, string, string, string>> allPlayers, List<Tuple<List<Card>, string, string, string, string>> allOpponents)
 		{
 			string allGamesOutput = "";
 			int j = 0;
@@ -399,18 +400,16 @@ namespace SabberStoneCoreAi
 					string playerName = player.Item3;
 					string opponentName = opponent.Item3;
 
-
-					
-
-
-
-
-					if (!String.Equals(playerName, opponentName) && !previous_matchups.Contains("|" + playerName + "X" + opponentName + "|"))
+					//Console.WriteLine(playerName + " vs " + opponentName);
+					//Console.WriteLine(!String.Equals(playerName, opponentName));
+					//Console.WriteLine(!previous_matchups.Contains("|" + playerName + "X" + opponentName + "|"));
+					//if (!String.Equals(playerName, opponentName) && !previous_matchups.Contains("|" + playerName + "X" + opponentName + "|"))
+					if (!previous_matchups.Contains("|" + playerName + "X" + opponentName + "|"))
 					{
 						j = 0;
 
 						previous_matchups += "|" + playerName + "X" + opponentName + "|";
-
+						//Console.WriteLine("numLoops is " + numLoops.ToString());
 						while (j < numLoops)
 						{
 							bool retry = true;
@@ -423,7 +422,7 @@ namespace SabberStoneCoreAi
 									//Console.WriteLine("Start Thread");
 									var thread = new Thread(() =>
 									{   //20200130 Connor - This variable is the thing that gets written to the output file
-										if (playParallel)
+										if (parallelGames)
 										{
 											allGamesOutput = PlayParallelGames(PlayerDeckList, OpponentDeckList, playerName, opponentName, playerDeckName, opponentDeckName);
 										}
@@ -461,7 +460,7 @@ namespace SabberStoneCoreAi
 								}
 							}// Ends the loop to try and get the games
 							
-							string overallGameStat = folderName + "/" + player + "/" + opponent;
+							string overallGameStat = folderName + "/" + playerName + "/" + opponentName;
 							if (!Directory.Exists(overallGameStat))
 							{
 								Directory.CreateDirectory(overallGameStat);
@@ -623,10 +622,15 @@ namespace SabberStoneCoreAi
 
 			string[] playerInfo = fileLine.Split2(';');
 			string[] cards = playerInfo[4].Split2('*'); //Cards separated by *
+			Console.WriteLine(fileLine);
+			Console.WriteLine(playerInfo);
+			Console.WriteLine(cards);
 
 			for (int j = 0; j < 30; j++)
 			{
-				deck.Add(Cards.FromName(cards[j]));
+				string card = cards[j];
+				Console.WriteLine("Card: " + card + " " + j.ToString());
+				deck.Add(Cards.FromName(card));
 			}
 
 			string deckName = playerInfo[0].Trim(); //name of the deck 
@@ -637,11 +641,11 @@ namespace SabberStoneCoreAi
 			return Tuple.Create(deck, deckName, playerName, heroType, heroStrat);
 		}// End CreatePlayerFromLine
 
-		/*
-		* 20200203 - Obtained from Fernando
-		*/
 		public static string[] Split2(string source, char delim)
 		{
+			/*
+			* 20200203 - Obtained from Fernando
+			*/
 			// argument null checking etc omitted for brevity
 			List<string> result = new List<string>();
 
@@ -655,7 +659,6 @@ namespace SabberStoneCoreAi
 
 			return result.ToArray();
 		}// End Split2
-
 
 		public static List<Tuple<List<Card>, string, string, string, string>> GetPlayersFromFile(string path)
 		{
@@ -677,6 +680,7 @@ namespace SabberStoneCoreAi
 
 			return result;
 		}//End GetPlayersFromFile
+
 		public static string PlayParallelGames(List<Card> Player1Cards, List<Card> Player2Cards, string PlayerOneName, string PlayerTwoName, string P1DeckName, string P2DeckName)
         {
             //20200204 Connor - I believe wins is not needed...
@@ -743,7 +747,6 @@ namespace SabberStoneCoreAi
 
             return allGames;
 		}// End PlayParallelGames
-
 
 		public static string FullGame(List<Card> Player1Cards, List<Card> Player2Cards, string PlayerOneName, string PlayerTwoName, string P1DeckName, string P2DeckName)
         {

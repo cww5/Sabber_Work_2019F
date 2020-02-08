@@ -1,0 +1,485 @@
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+Player1: Pirate1 vs Player2: Pirate1
+Player1Deck: AggroPirateWarrior1 vs Player2Deck: AggroPirateWarrior1
+***********Deck of cards***********
+[Sir Finley Mrrgglton]
+[Fiery War Axe]
+[Fiery War Axe]
+[Heroic Strike]
+[Heroic Strike]
+[N'Zoth's First Mate]
+[N'Zoth's First Mate]
+[Upgrade!]
+[Upgrade!]
+[Bloodsail Cultist]
+[Bloodsail Cultist]
+[Frothing Berserker]
+[Frothing Berserker]
+[Kor'kron Elite]
+[Kor'kron Elite]
+[Arcanite Reaper]
+[Arcanite Reaper]
+[Patches the Pirate]
+[Small-Time Buccaneer]
+[Small-Time Buccaneer]
+[Southsea Deckhand]
+[Southsea Deckhand]
+[Bloodsail Raider]
+[Bloodsail Raider]
+[Southsea Captain]
+[Southsea Captain]
+[Dread Corsair]
+[Dread Corsair]
+[Naga Corsair]
+[Naga Corsair]
+The deck size is: 
+30
+***********************************
+***********Deck of cards***********
+[Sir Finley Mrrgglton]
+[Fiery War Axe]
+[Fiery War Axe]
+[Heroic Strike]
+[Heroic Strike]
+[N'Zoth's First Mate]
+[N'Zoth's First Mate]
+[Upgrade!]
+[Upgrade!]
+[Bloodsail Cultist]
+[Bloodsail Cultist]
+[Frothing Berserker]
+[Frothing Berserker]
+[Kor'kron Elite]
+[Kor'kron Elite]
+[Arcanite Reaper]
+[Arcanite Reaper]
+[Patches the Pirate]
+[Small-Time Buccaneer]
+[Small-Time Buccaneer]
+[Southsea Deckhand]
+[Southsea Deckhand]
+[Bloodsail Raider]
+[Bloodsail Raider]
+[Southsea Captain]
+[Southsea Captain]
+[Dread Corsair]
+[Dread Corsair]
+[Naga Corsair]
+[Naga Corsair]
+The deck size is: 
+30
+***********************************
+Player1: Mulligan 23
+Player2: Mulligan 54
+
+Player1: PLAYING / Player2: PLAYING - ROUND 1 - Pirate1
+Hero[P1]: 30 / Hero[P2]: 30
+
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Pirate1> ---------------------------
+PlayCardTask => [Pirate1] play 'N'Zoth's First Mate[13]'(MINION) to Pos[0] Option -1
+HeroAttackTask => [Pirate1] 'Gul'dan[4]' attacks 'Gul'dan[6]'
+EndTurnTask => [Pirate1]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 1
+Hero[P1]: 30 / Hero[P2]: 29
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Pirate1] play 'N'Zoth's First Mate[13]'(MINION) to Pos[0] Option -1
+HeroAttackTask => [Pirate1] 'Gul'dan[4]' attacks 'Gul'dan[6]'
+EndTurnTask => [Pirate1]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Pirate1
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 1
+USEDMANATHISTURN 1
+PlayedCard: [N'Zoth's First Mate]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Pirate1> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Pirate1> ---------------------------
+PlayCardTask => [Pirate1] play 'Sir Finley Mrrgglton[38]'(MINION) to Pos[0] Option -1
+* Recaclulating due to a final solution ...
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Pirate1> ---------------------------
+ChooseTask => [Pirate1] choosed 70 to pick
+EndTurnTask => [Pirate1]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 2
+Hero[P1]: 30 / Hero[P2]: 29
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+ChooseTask => [Pirate1] choosed 70 to pick
+EndTurnTask => [Pirate1]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Pirate1
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 1
+USEDMANATHISTURN 1
+PlayedCard: [Sir Finley Mrrgglton]
+No more cards played this turn.
+______________________________________________________________________|
+
+Player1: PLAYING / Player2: PLAYING - ROUND 2 - Pirate1
+Hero[P1]: 30 / Hero[P2]: 29
+
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Pirate1> ---------------------------
+MinionAttackTask => [Pirate1] 'N'Zoth's First Mate[13]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pirate1] 'Patches the Pirate[25]'(MINION) attack 'Gul'dan[6]'
+HeroAttackTask => [Pirate1] 'Gul'dan[4]' attacks 'Gul'dan[6]'
+PlayCardTask => [Pirate1] play 'Bloodsail Raider[30]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Pirate1]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 3
+Hero[P1]: 30 / Hero[P2]: 26
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Pirate1] 'N'Zoth's First Mate[13]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pirate1] 'Patches the Pirate[25]'(MINION) attack 'Gul'dan[6]'
+HeroAttackTask => [Pirate1] 'Gul'dan[4]' attacks 'Gul'dan[6]'
+PlayCardTask => [Pirate1] play 'Bloodsail Raider[30]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Pirate1]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Pirate1
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 2
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 4
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 3
+USEDMANATHISTURN 2
+PlayedCard: [Bloodsail Raider]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Pirate1> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Pirate1> ---------------------------
+PlayCardTask => [Pirate1] play 'The Coin[68]'(SPELL) Option -1
+PlayCardTask => [Pirate1] play 'Fiery War Axe[39]'(WEAPON) Option -1
+HeroAttackTask => [Pirate1] 'Gul'dan[6]' attacks 'Gul'dan[4]'
+MinionAttackTask => [Pirate1] 'Sir Finley Mrrgglton[38]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Pirate1]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 4
+Hero[P1]: 26 / Hero[P2]: 26
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Pirate1] play 'The Coin[68]'(SPELL) Option -1
+PlayCardTask => [Pirate1] play 'Fiery War Axe[39]'(WEAPON) Option -1
+HeroAttackTask => [Pirate1] 'Gul'dan[6]' attacks 'Gul'dan[4]'
+MinionAttackTask => [Pirate1] 'Sir Finley Mrrgglton[38]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Pirate1]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Pirate1
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 4
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 4
+USEDMANATHISTURN 2
+PlayedCard: [The Coin]
+PlayedCard: [Fiery War Axe]
+No more cards played this turn.
+______________________________________________________________________|
+
+Player1: PLAYING / Player2: PLAYING - ROUND 3 - Pirate1
+Hero[P1]: 26 / Hero[P2]: 26
+
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Pirate1> ---------------------------
+MinionAttackTask => [Pirate1] 'Bloodsail Raider[30]'(MINION) attack 'Gul'dan[6]'
+PlayCardTask => [Pirate1] play 'Southsea Deckhand[29]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Pirate1] 'Southsea Deckhand[29]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pirate1] 'N'Zoth's First Mate[13]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pirate1] 'Patches the Pirate[25]'(MINION) attack 'Gul'dan[6]'
+HeroAttackTask => [Pirate1] 'Gul'dan[4]' attacks 'Gul'dan[6]'
+PlayCardTask => [Pirate1] play 'Small-Time Buccaneer[27]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Pirate1]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 5
+Hero[P1]: 26 / Hero[P2]: 18
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Pirate1] 'Bloodsail Raider[30]'(MINION) attack 'Gul'dan[6]'
+PlayCardTask => [Pirate1] play 'Southsea Deckhand[29]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Pirate1] 'Southsea Deckhand[29]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pirate1] 'N'Zoth's First Mate[13]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pirate1] 'Patches the Pirate[25]'(MINION) attack 'Gul'dan[6]'
+HeroAttackTask => [Pirate1] 'Gul'dan[4]' attacks 'Gul'dan[6]'
+PlayCardTask => [Pirate1] play 'Small-Time Buccaneer[27]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Pirate1]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Pirate1
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 4
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 2
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 7
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 1
+TOTALMANASPENTTHISGAME 5
+USEDMANATHISTURN 2
+PlayedCard: [Southsea Deckhand]
+PlayedCard: [Small-Time Buccaneer]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Pirate1> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Pirate1> ---------------------------
+PlayCardTask => [Pirate1] play 'Dread Corsair[64]'(MINION) to Pos[0] Option -1
+HeroAttackTask => [Pirate1] 'Gul'dan[6]' attacks 'Gul'dan[4]'
+MinionAttackTask => [Pirate1] 'Sir Finley Mrrgglton[38]'(MINION) attack 'Gul'dan[4]'
+PlayCardTask => [Pirate1] play 'N'Zoth's First Mate[43]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Pirate1]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 6
+Hero[P1]: 22 / Hero[P2]: 18
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Pirate1] play 'Dread Corsair[64]'(MINION) to Pos[0] Option -1
+HeroAttackTask => [Pirate1] 'Gul'dan[6]' attacks 'Gul'dan[4]'
+MinionAttackTask => [Pirate1] 'Sir Finley Mrrgglton[38]'(MINION) attack 'Gul'dan[4]'
+PlayCardTask => [Pirate1] play 'N'Zoth's First Mate[43]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Pirate1]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Pirate1
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 2
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 4
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 1
+TOTALMANASPENTTHISGAME 6
+USEDMANATHISTURN 2
+PlayedCard: [Dread Corsair]
+PlayedCard: [N'Zoth's First Mate]
+No more cards played this turn.
+______________________________________________________________________|
+
+Player1: PLAYING / Player2: PLAYING - ROUND 4 - Pirate1
+Hero[P1]: 22 / Hero[P2]: 18
+
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Pirate1> ---------------------------
+PlayCardTask => [Pirate1] play 'Southsea Captain[32]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Pirate1] 'Southsea Deckhand[29]'(MINION) attack 'Dread Corsair[64]'
+MinionAttackTask => [Pirate1] 'Bloodsail Raider[30]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pirate1] 'Small-Time Buccaneer[27]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pirate1] 'N'Zoth's First Mate[13]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pirate1] 'Patches the Pirate[25]'(MINION) attack 'Gul'dan[6]'
+EndTurnTask => [Pirate1]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 7
+Hero[P1]: 22 / Hero[P2]: 8
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Pirate1] play 'Southsea Captain[32]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Pirate1] 'Southsea Deckhand[29]'(MINION) attack 'Dread Corsair[64]'
+MinionAttackTask => [Pirate1] 'Bloodsail Raider[30]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pirate1] 'Small-Time Buccaneer[27]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pirate1] 'N'Zoth's First Mate[13]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pirate1] 'Patches the Pirate[25]'(MINION) attack 'Gul'dan[6]'
+EndTurnTask => [Pirate1]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Pirate1
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 5
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 1
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 2
+NUMOPTIONSPLAYEDTHISTURN 6
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 1
+TOTALMANASPENTTHISGAME 8
+USEDMANATHISTURN 3
+PlayedCard: [Southsea Captain]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Pirate1> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Pirate1> ---------------------------
+PlayCardTask => [Pirate1] play 'Kor'kron Elite[51]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Pirate1] 'Kor'kron Elite[51]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Pirate1] 'N'Zoth's First Mate[43]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Pirate1] 'Sir Finley Mrrgglton[38]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Pirate1] 'Patches the Pirate[55]'(MINION) attack 'Gul'dan[4]'
+HeroAttackTask => [Pirate1] 'Gul'dan[6]' attacks 'Gul'dan[4]'
+EndTurnTask => [Pirate1]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 8
+Hero[P1]: 14 / Hero[P2]: 8
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Pirate1] play 'Kor'kron Elite[51]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Pirate1] 'Kor'kron Elite[51]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Pirate1] 'N'Zoth's First Mate[43]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Pirate1] 'Sir Finley Mrrgglton[38]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Pirate1] 'Patches the Pirate[55]'(MINION) attack 'Gul'dan[4]'
+HeroAttackTask => [Pirate1] 'Gul'dan[6]' attacks 'Gul'dan[4]'
+EndTurnTask => [Pirate1]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Pirate1
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 4
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 6
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 10
+USEDMANATHISTURN 4
+PlayedCard: [Kor'kron Elite]
+No more cards played this turn.
+______________________________________________________________________|
+
+Player1: PLAYING / Player2: PLAYING - ROUND 5 - Pirate1
+Hero[P1]: 14 / Hero[P2]: 8
+
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Pirate1> ---------------------------
+MinionAttackTask => [Pirate1] 'Bloodsail Raider[30]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pirate1] 'Southsea Captain[32]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pirate1] 'Small-Time Buccaneer[27]'(MINION) attack 'Gul'dan[6]'
+______________________________________________________________________
+Player1: WON / Player2: LOST - turn no 9
+Hero[P1]: 14 / Hero[P2]: -1
+>>>>>>>>>TASK TYPE CHECK (is EOT?): False
+>>>>>>>>>TASK TYPE: MINION_ATTACK
+ALL TURN TASKS:
+MinionAttackTask => [Pirate1] 'Bloodsail Raider[30]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pirate1] 'Southsea Captain[32]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pirate1] 'Small-Time Buccaneer[27]'(MINION) attack 'Gul'dan[6]'
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Pirate1
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 0
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 3
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 3
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 5
+TOTALMANASPENTTHISGAME 8
+USEDMANATHISTURN 0
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Pirate1> ---------------------------
+Game: COMPLETE, Player1: WON / Player2: LOST
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
