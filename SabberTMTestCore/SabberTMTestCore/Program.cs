@@ -75,6 +75,7 @@ namespace SabberStoneCoreAi
 		//private static string player2_deck_file;
 		private static string players_decks_file;
 		private static string opponents_decks_file;
+		private static int numLoops;
 
         // 20190128 Amy - This function takes command line arguments and parses them.
         // That is, the strings are converted to variables that the program will understand.
@@ -185,7 +186,7 @@ namespace SabberStoneCoreAi
                 return;
             }
 
-            int number_of_loops = numGames / stepSize;
+            numLoops = numGames / stepSize;
 
             //20190128 Amy - Load the data we need for the list of players and opponents
             //players = getPlayersFromFile(player_decks_file);
@@ -375,8 +376,9 @@ namespace SabberStoneCoreAi
             //Console.ReadLine();
         }//End Main
 
-		public static void PlayAllGames(bool playParallel, int numLoops, List<Tuple<List<Card>, string, string, string, string>> allPlayers, List<Tuple<List<Card>, string, string, string, string>> allOpponents)
+		public static void PlayAllGames(bool playParallel, string folderName, List<Tuple<List<Card>, string, string, string, string>> allPlayers, List<Tuple<List<Card>, string, string, string, string>> allOpponents)
 		{
+			string allGamesOutput = "";
 			int j = 0;
 			string previous_matchups = "";
 
@@ -384,14 +386,30 @@ namespace SabberStoneCoreAi
 			{
 				for (int y = 0; y < allOpponents.Count; y++)
 				{
+					//DeckOfCards(List), deckName(string), playerName(string), heroCharacter(string), heroStrategy(string)
 					Tuple<List<Card>, string, string, string, string> player = allPlayers[x];
 					Tuple<List<Card>, string, string, string, string> opponent = allOpponents[y];
 
-					if (!string.Equals((string)player[0], (string)opponent[0]) && !previous_matchups.Contains("|" + player[0] + "X" + opponent[0] + "|"))
+					List<Card> PlayerDeckList = player.Item1;
+					List<Card> OpponentDeckList = opponent.Item1;
+
+					string playerDeckName = player.Item2;
+					string opponentDeckName = opponent.Item2;
+
+					string playerName = player.Item3;
+					string opponentName = opponent.Item3;
+
+
+					
+
+
+
+
+					if (!String.Equals(playerName, opponentName) && !previous_matchups.Contains("|" + playerName + "X" + opponentName + "|"))
 					{
 						j = 0;
 
-						previous_matchups += "|" + player[0] + "X" + opponent[0] + "|";
+						previous_matchups += "|" + playerName + "X" + opponentName + "|";
 
 						while (j < numLoops)
 						{
@@ -402,25 +420,24 @@ namespace SabberStoneCoreAi
 							{
 								try
 								{
-									if (playParallel)
-									{
-										//Console.WriteLine("Start Thread");
-										var thread = new Thread(() =>
-										{   //20200130 Connor - This variable is the thing that gets written to the output file
-											allGamesOutput = PlayParallelGames(Player1DeckList, Player2DeckList, player1Name, player2Name, player1DeckName, player2DeckName);
-										});
+									//Console.WriteLine("Start Thread");
+									var thread = new Thread(() =>
+									{   //20200130 Connor - This variable is the thing that gets written to the output file
+										if (playParallel)
+										{
+											allGamesOutput = PlayParallelGames(PlayerDeckList, OpponentDeckList, playerName, opponentName, playerDeckName, opponentDeckName);
+										}
+										else
+										{
+											allGamesOutput = FullGame(PlayerDeckList, OpponentDeckList, playerName, playerName, playerDeckName, opponentDeckName);
+										}
+										Console.WriteLine(allGamesOutput);
+									});
 
-										thread.Start();
+									thread.Start();
 
-										bool finished = thread.Join(600000);
-
-										//Console.WriteLine("Thread End");
-									}
-									else
-									{
-
-									}
-
+									bool finished = thread.Join(600000);
+									//Console.WriteLine("Thread End");
 
 									if (!finished)
 									{
@@ -442,9 +459,9 @@ namespace SabberStoneCoreAi
 								{
 									break;
 								}
-							}
-							//20200204 Connor - It looks like this is the thing that creates the nested directory...unclear if this is needed.
-							string overallGameStat = folderName + "/" + player1Name + "/" + player2Name;
+							}// Ends the loop to try and get the games
+							
+							string overallGameStat = folderName + "/" + player + "/" + opponent;
 							if (!Directory.Exists(overallGameStat))
 							{
 								Directory.CreateDirectory(overallGameStat);
@@ -464,9 +481,9 @@ namespace SabberStoneCoreAi
 							}
 							j++;
 						}
-					}
-				}
-			}
+					}// End matchup
+				}// End opponents loop
+			}// End players loop
 		}// End PlayAllGames
 
         public static string PrintEndOfTurnOptions(Game game, PlayerTask task, string allTurnTasks)
@@ -598,6 +615,8 @@ namespace SabberStoneCoreAi
 			 * playerInfo[2] = Warlock
 			 * playerInfo[3] = Aggro
 			 * playerInfo[4] = Flame Imp*....  (deck of cards)
+			 *
+			 * Output: Tuple ( DeckOfCards(List), deckName(string), playerName(string), heroCharacter(string), heroStrategy(string) ) 
 			*/
 
 			List<Card> deck = new List<Card>();
@@ -614,7 +633,6 @@ namespace SabberStoneCoreAi
 			string playerName = playerInfo[1].Trim(); //name of the player who created the deck
 			string heroType = playerInfo[2].Trim(); //hero character chosen
 			string heroStrat = playerInfo[3].Trim(); //score Function
-
 
 			return Tuple.Create(deck, deckName, playerName, heroType, heroStrat);
 		}// End CreatePlayerFromLine
