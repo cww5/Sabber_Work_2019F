@@ -142,15 +142,10 @@ namespace SabberStoneCoreAi
                     maxDepth = int.Parse(argument.Substring(9));
                 }
             }
-        }
-        #endregion
-        //20200203 Connor - End ParseArgs() function from Fernando
-
-
-
-
-
-        private static void Main(string[] args)
+		}//End ParseArgs() function from Fernando
+		#endregion
+		
+		private static void Main(string[] args)
         {
             //20200203 Connor - Started adding parallelism code
             //20190128 Amy - No Clue
@@ -209,7 +204,8 @@ namespace SabberStoneCoreAi
 			//Tuple<List<Card>, string, string, string, string> opponentsList;
 			if ((players_decks_file != "") && (opponents_decks_file != ""))
 			{
-
+				playersList = GetPlayersFromFile(players_decks_file);
+				opponentsList = GetPlayersFromFile(opponents_decks_file);
 			}
 			else
 			{
@@ -230,7 +226,7 @@ namespace SabberStoneCoreAi
 			}
 
 			//__________________________________________________________-
-			Tuple<List<Card>, string, string> player1Tup;
+			/*Tuple<List<Card>, string, string> player1Tup;
             Tuple<List<Card>, string, string> player2Tup;
             var Player1DeckList = new List<Card>();
             var Player2DeckList = new List<Card>();
@@ -254,7 +250,7 @@ namespace SabberStoneCoreAi
                 Player1DeckList = Decks.AggroPirateWarrior;
                 Player2DeckList = Decks.AggroPirateWarrior;
             }
-
+			*/
 			//__________________________________________________________-
 
             Console.WriteLine("Starting test setup.");
@@ -262,8 +258,29 @@ namespace SabberStoneCoreAi
             string allGamesOutput = ""; //20200130 Connor - this is the output of all the parallel games
             if (!parallelGames)
             {
-                //20200204 Connor - Here, allGamesOutput is the output of only ONE game
-                allGamesOutput = FullGame(Player1DeckList, Player2DeckList, player1Name, player2Name, player1DeckName, player2DeckName);
+
+				int j = 0;
+				string previous_matchups = "";
+
+				for (int x = 0; x < playersList.Count; x++)
+				{
+					//foreach (List<object> opponent in opponents)
+					for (int y = 0; y < opponentsList.Count; y++)
+					{
+						List<object> player = playersList[x];
+						List<object> opponent = opponentsList[y];
+
+						if (!string.Equals((string)player[0], (string)opponent[0]) && !previous_matchups.Contains("|" + player[0] + "X" + opponent[0] + "|"))
+						{
+							j = 0;
+
+							previous_matchups += "|" + player[0] + "X" + opponent[0] + "|";
+						}
+					}
+				}
+
+				//20200204 Connor - Here, allGamesOutput is the output of only ONE game
+				allGamesOutput = FullGame(Player1DeckList, Player2DeckList, player1Name, player2Name, player1DeckName, player2DeckName);
                 Console.WriteLine(allGamesOutput);
 
 				try
@@ -282,7 +299,7 @@ namespace SabberStoneCoreAi
 
 
 
-
+				/////////////////////////////////////////////////
 
 			}
             else
@@ -353,17 +370,104 @@ namespace SabberStoneCoreAi
                     }
                     j++;
                 }
-
             }
-
-            //OneTurn();
-            //FullGame();
-            //RandomGames();
-            //TestFullGames();
-
             Console.WriteLine("Test end!");
             //Console.ReadLine();
-        }
+        }//End Main
+
+		public static void PlayAllGames(bool playParallel, int numLoops, List<Tuple<List<Card>, string, string, string, string>> allPlayers, List<Tuple<List<Card>, string, string, string, string>> allOpponents)
+		{
+			int j = 0;
+			string previous_matchups = "";
+
+			for (int x = 0; x < allPlayers.Count; x++)
+			{
+				for (int y = 0; y < allOpponents.Count; y++)
+				{
+					Tuple<List<Card>, string, string, string, string> player = allPlayers[x];
+					Tuple<List<Card>, string, string, string, string> opponent = allOpponents[y];
+
+					if (!string.Equals((string)player[0], (string)opponent[0]) && !previous_matchups.Contains("|" + player[0] + "X" + opponent[0] + "|"))
+					{
+						j = 0;
+
+						previous_matchups += "|" + player[0] + "X" + opponent[0] + "|";
+
+						while (j < numLoops)
+						{
+							bool retry = true;
+							int tries = 0;
+
+							while (retry)
+							{
+								try
+								{
+									if (playParallel)
+									{
+										//Console.WriteLine("Start Thread");
+										var thread = new Thread(() =>
+										{   //20200130 Connor - This variable is the thing that gets written to the output file
+											allGamesOutput = PlayParallelGames(Player1DeckList, Player2DeckList, player1Name, player2Name, player1DeckName, player2DeckName);
+										});
+
+										thread.Start();
+
+										bool finished = thread.Join(600000);
+
+										//Console.WriteLine("Thread End");
+									}
+									else
+									{
+
+									}
+
+
+									if (!finished)
+									{
+										retry = true;
+
+										tries++;
+										continue;
+									}
+									else
+									{
+										retry = false;
+									}
+								}
+								catch (Exception e)
+								{
+									Console.WriteLine(e.Message);
+								}
+								if (tries > 3)
+								{
+									break;
+								}
+							}
+							//20200204 Connor - It looks like this is the thing that creates the nested directory...unclear if this is needed.
+							string overallGameStat = folderName + "/" + player1Name + "/" + player2Name;
+							if (!Directory.Exists(overallGameStat))
+							{
+								Directory.CreateDirectory(overallGameStat);
+							}
+							try
+							{
+								overallGameStat = overallGameStat + "/Output-" + GPUID + "-" + j + ".txt";
+								using (StreamWriter tw = File.AppendText(overallGameStat))
+								{//20200130 Connor - Changed this WriteLine to write the output of allGamesOutput
+									tw.WriteLine(allGamesOutput);
+									tw.Close();
+								}
+							}
+							catch (Exception e)
+							{
+								Console.WriteLine(e.Message);
+							}
+							j++;
+						}
+					}
+				}
+			}
+		}// End PlayAllGames
 
         public static string PrintEndOfTurnOptions(Game game, PlayerTask task, string allTurnTasks)
         {
@@ -420,9 +524,9 @@ namespace SabberStoneCoreAi
 
             eotbuilder += ("______________________________________________________________________|\n");
             return eotbuilder;
-        }
+		}// End PrintEndOfTurnOptions
 
-        public static string PrintDeckOfCards(List<Card> deckOfCards)
+		public static string PrintDeckOfCards(List<Card> deckOfCards)
         {
             string deckbuild = "";
             deckbuild += "***********Deck of cards***********\n";
@@ -434,9 +538,9 @@ namespace SabberStoneCoreAi
             deckbuild += (deckOfCards.Count.ToString() + "\n");
             deckbuild += ("***********************************\n");
             return deckbuild;
-        }
+		}// End PrintDeckOfCards
 
-        public static Tuple<List<Card>, string, string> CreateDeckFromFile(string FileName)
+		public static Tuple<List<Card>, string, string> CreateDeckFromFile(string FileName)
         {
             var deck = new List<Card>();
             string playerName = "";
@@ -480,7 +584,7 @@ namespace SabberStoneCoreAi
             }
             //PrintDeckOfCards(deck);
             return Tuple.Create(deck, playerName, deckName);
-        }
+		}// End CreateDeckFromFile
 
 		public static Tuple<List<Card>, string, string, string, string> CreatePlayerFromLine(string fileLine)
 		{
@@ -513,7 +617,7 @@ namespace SabberStoneCoreAi
 
 
 			return Tuple.Create(deck, deckName, playerName, heroType, heroStrat);
-		}
+		}// End CreatePlayerFromLine
 
 		/*
 		* 20200203 - Obtained from Fernando
@@ -532,7 +636,7 @@ namespace SabberStoneCoreAi
 			result.Add(source.Substring(oldIndex));
 
 			return result.ToArray();
-		}
+		}// End Split2
 
 
 		public static List<Tuple<List<Card>, string, string, string, string>> GetPlayersFromFile(string path)
@@ -554,7 +658,7 @@ namespace SabberStoneCoreAi
 			}
 
 			return result;
-		}
+		}//End GetPlayersFromFile
 		public static string PlayParallelGames(List<Card> Player1Cards, List<Card> Player2Cards, string PlayerOneName, string PlayerTwoName, string P1DeckName, string P2DeckName)
         {
             //20200204 Connor - I believe wins is not needed...
@@ -620,10 +724,10 @@ namespace SabberStoneCoreAi
             }
 
             return allGames;
-        }
+		}// End PlayParallelGames
 
 
-        public static string FullGame(List<Card> Player1Cards, List<Card> Player2Cards, string PlayerOneName, string PlayerTwoName, string P1DeckName, string P2DeckName)
+		public static string FullGame(List<Card> Player1Cards, List<Card> Player2Cards, string PlayerOneName, string PlayerTwoName, string P1DeckName, string P2DeckName)
         {
             var game = new Game(
                 new GameConfig()
@@ -760,6 +864,6 @@ namespace SabberStoneCoreAi
             logbuild += ($"Game: {game.State}, Player1: {game.Player1.PlayState} / Player2: {game.Player2.PlayState}\n");
             logbuild += "+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n";
             return logbuild;
-        }
-    }
-}
+		}// End FullGame
+	}// End internal class Program
+}//End namespace SabberStoneCoreAi
