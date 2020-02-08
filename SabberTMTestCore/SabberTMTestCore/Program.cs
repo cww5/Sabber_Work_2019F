@@ -71,9 +71,10 @@ namespace SabberStoneCoreAi
         private static int numGames;
         private static int stepSize;
         private static bool record_log;
-        private static string player1_deck_file;
-        private static string player2_deck_file;
-        private static string opponent_decks_file;
+		//private static string player1_deck_file;
+		//private static string player2_deck_file;
+		private static string players_decks_file;
+		private static string opponents_decks_file;
 
         // 20190128 Amy - This function takes command line arguments and parses them.
         // That is, the strings are converted to variables that the program will understand.
@@ -106,18 +107,14 @@ namespace SabberStoneCoreAi
                 {
                     stepSize = int.Parse(argument.Substring(9));
                 }
-                else if (argument.Contains("player1deck="))
+                else if (argument.Contains("playerdecks="))
                 { // 20200204 Connor - Get the remainder of the string string.Substring(N)
                   // Get the remainder of the string starting from index position N to the end of the string
-                    player1_deck_file = argument.Substring(12);
-                }
-                else if (argument.Contains("player2deck="))
-                {
-                    player2_deck_file = argument.Substring(12);
+                    players_decks_file = argument.Substring(12);
                 }
                 else if (argument.Contains("opponentdecks="))
                 {
-                    opponent_decks_file = argument.Substring(14);
+                    opponents_decks_file = argument.Substring(14);
                 }
                 else if (argument.Contains("log="))
                 {
@@ -169,8 +166,8 @@ namespace SabberStoneCoreAi
             folderName = "";
             numGames = 2;
             stepSize = 0;
-            player1_deck_file = "";
-            player2_deck_file = "";
+            players_decks_file = "";
+            opponents_decks_file = "";
 
             parseArgs(args);
 
@@ -206,10 +203,34 @@ namespace SabberStoneCoreAi
             }
             Thread.Sleep(10000);
 
+			List<Tuple<List<Card>, string, string, string, string>> playersList;
+			List<Tuple<List<Card>, string, string, string, string>> opponentsList;
+			//Tuple<List<Card>, string, string, string, string> playersList;
+			//Tuple<List<Card>, string, string, string, string> opponentsList;
+			if ((players_decks_file != "") && (opponents_decks_file != ""))
+			{
 
+			}
+			else
+			{
+				/*
+				 * playerInfo[0] = Budget_Zoolock
+				 * playerInfo[1] = Roffle
+				 * playerInfo[2] = Warlock
+				 * playerInfo[3] = Aggro
+				 * playerInfo[4] = Flame Imp*....  (deck of cards)
+				 * */
+				var player1TempTup = Tuple.Create(Decks.AggroPirateWarrior, "AggroPirateWarrior1", "Pirate1", "Rogue", "Aggro");
+				var player2TempTup = Tuple.Create(Decks.AggroPirateWarrior, "AggroPirateWarrior2", "Pirate2", "Rogue", "Aggro");
+				playersList = new List<Tuple<List<Card>, string, string, string, string>>();
+				opponentsList = new List<Tuple<List<Card>, string, string, string, string>>();
+				playersList.Add(player1TempTup);
+				opponentsList.Add(player1TempTup);
 
+			}
 
-            Tuple<List<Card>, string, string> player1Tup;
+			//__________________________________________________________-
+			Tuple<List<Card>, string, string> player1Tup;
             Tuple<List<Card>, string, string> player2Tup;
             var Player1DeckList = new List<Card>();
             var Player2DeckList = new List<Card>();
@@ -217,7 +238,7 @@ namespace SabberStoneCoreAi
             string player2Name = "RehHausZuckFuchs";
             string player1DeckName = "AggroPirateWarrior";
             string player2DeckName = "AggroPirateWarrior";
-            if ((player1_deck_file != "") && (player2_deck_file != ""))
+            if ((players_decks_file != "") && (opponents_decks_file != ""))
             {
                 player1Tup = CreateDeckFromFile(player1_deck_file);
                 Player1DeckList = player1Tup.Item1;
@@ -233,6 +254,8 @@ namespace SabberStoneCoreAi
                 Player1DeckList = Decks.AggroPirateWarrior;
                 Player2DeckList = Decks.AggroPirateWarrior;
             }
+
+			//__________________________________________________________-
 
             Console.WriteLine("Starting test setup.");
 
@@ -514,6 +537,11 @@ namespace SabberStoneCoreAi
 
 		public static List<Tuple<List<Card>, string, string, string, string>> GetPlayersFromFile(string path)
 		{
+			/*
+			 * Initial code received from Fernando - This takes a csv file and parses each line into a List of players + their attributes
+			 * -- Input : path - a path to a file
+			 * -- Output : List of Tuples: <DeckList, DeckName, PlayerName, HeroCharacter, ScoreStrategy>
+			 */
 			List<Tuple<List<Card>, string, string, string, string>> result = new List<Tuple<List<Card>, string, string, string, string>>();
 
 			string[] file_data = System.IO.File.ReadAllLines(path);
@@ -522,25 +550,6 @@ namespace SabberStoneCoreAi
 			{
 				string playerLine = file_data[i];
 				Tuple<List<Card>, string, string, string, string> playerTup = CreatePlayerFromLine(playerLine);
-
-				/*
-				string[] playerInfo = playerLine.Split2(';');
-
-				string[] cards = playerInfo[3].Split2('*');
-				List<Card> deck = new List<Card>();
-
-				for (int j = 0; j < 30; j++)
-				{
-					deck.Add(Cards.FromName(cards[j]));
-				}
-
-				new_entry.Add(playerInfo[0].Trim());
-				new_entry.Add(playerInfo[1].Trim());
-				new_entry.Add(playerInfo[2].Trim());
-				new_entry.Add(deck);
-
-				result.Add(new_entry);
-				*/
 				result.Add(playerTup);
 			}
 
