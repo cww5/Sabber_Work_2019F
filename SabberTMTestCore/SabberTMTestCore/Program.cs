@@ -706,7 +706,6 @@ namespace SabberStoneCoreAi
                 int i = j;
                 //Console.WriteLine(i);
 
-                string s = "";
                 string game_log = "";
                 bool retry = true;
 
@@ -714,20 +713,20 @@ namespace SabberStoneCoreAi
                 {
                     try
                     {
-                        //Console.WriteLine("Start Game!");
-                        s = FullGame(Player1Cards, Player2Cards, PlayerOneName, PlayerTwoName, P1DeckName, P2DeckName);
+						//Console.WriteLine("Start Game!");
+						game_log = FullGame(Player1Cards, Player2Cards, PlayerOneName, PlayerTwoName, P1DeckName, P2DeckName);
                         game_log_list[j] = game_log;
                         //Console.WriteLine("Game End!");
                     }
                     catch (Exception e)
                     {
                         Console.WriteLine(e.Message);
-                        s = e.Message.ToString();
+						game_log = e.Message.ToString();
                     }
 
-                    if (s.ToLower().Contains("present") || s.ToLower().Contains("instance") || s.ToLower().Contains("zone"))
+                    if (game_log.ToLower().Contains("present") || game_log.ToLower().Contains("instance") || game_log.ToLower().Contains("zone"))
                     {
-                        Console.WriteLine("this was s=" + s + "retrying right here");
+                        Console.WriteLine("this was s=" + game_log + "retrying right here");
 
                         retry = true;
                     }
