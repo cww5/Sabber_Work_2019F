@@ -1,3 +1,6 @@
+import argparse
+
+
 desc = """This is a simple script to conduct some simple data mining. There are two possible configurations:
 
 Option 1: Create the set of English cards:
@@ -8,8 +11,6 @@ C:\...\thesis-extensions\python find_cards.py ..\thesis-decklists\<decklist>.txt
 
 Both runs REQUIRE that the second argument is the path to the parsed list of English cards (which also
 contains any lines of xml with english text, since the search parameter in Option 1 is <enUS>"""
-
-import argparse
 
 
 def get_arguments():
