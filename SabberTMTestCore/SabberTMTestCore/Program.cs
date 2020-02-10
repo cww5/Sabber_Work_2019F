@@ -212,7 +212,7 @@ namespace SabberStoneCoreAi
 				playersList = new List<Tuple<List<Card>, string, string, string, string>>();
 				opponentsList = new List<Tuple<List<Card>, string, string, string, string>>();
 				playersList.Add(player1TempTup);
-				opponentsList.Add(player1TempTup);
+				opponentsList.Add(player2TempTup);
 
 			}
 
@@ -276,12 +276,28 @@ namespace SabberStoneCoreAi
 										if (parallelGames)
 										{
 											//allGamesOutput = PlayParallelGames(PlayerDeckList, OpponentDeckList, playerName, opponentName, playerDeckName, opponentDeckName, playerScore, opponentScore);
-											allGamesOutput = PlayParallelGames(player, opponent);
+											try
+											{
+												allGamesOutput = PlayParallelGames(player, opponent);
+											}
+											catch(Exception e)
+											{
+												allGamesOutput = "\n";
+												Console.WriteLine("!!!!!!!!!!!!!!!!!!Error in the parallel games!");
+											}
 										}
 										else
 										{
 											//allGamesOutput = FullGame(PlayerDeckList, OpponentDeckList, playerName, opponentName, playerDeckName, opponentDeckName, playerScore, opponentScore);
-											allGamesOutput = FullGame(player, opponent);
+											try
+											{
+												allGamesOutput = FullGame(player, opponent);
+											}
+											catch(Exception e)
+											{
+												allGamesOutput = "\n";
+												Console.WriteLine("!!!!!!!!!!!!!!!!!!Error in the game!");
+											}
 										}
 										Console.WriteLine(allGamesOutput);
 									});
@@ -306,6 +322,7 @@ namespace SabberStoneCoreAi
 								catch (Exception e)
 								{
 									Console.WriteLine(e.Message);
+									Console.WriteLine("!!!!!!!!!!!!!!!!!!Error in the PlayAllGames loop!");
 								}
 								if (tries > 3)
 								{
@@ -330,6 +347,7 @@ namespace SabberStoneCoreAi
 							catch (Exception e)
 							{
 								Console.WriteLine(e.Message);
+								Console.WriteLine("!!!!!!!!!!!!!!!!!!Error writing allGamesOutput!");
 							}
 							j++;
 						}
@@ -529,14 +547,14 @@ namespace SabberStoneCoreAi
                     }
                     catch (Exception e)
                     {
-                        Console.WriteLine(e.Message);
+						Console.WriteLine("!!!!!!!!!!!!!!!!!!Error in the PlayParallelGames!");
+						Console.WriteLine(e.Message);
 						game_log = e.Message.ToString();
                     }
 
                     if (game_log.ToLower().Contains("present") || game_log.ToLower().Contains("instance") || game_log.ToLower().Contains("zone"))
                     {
                         Console.WriteLine("this was s=" + game_log + "retrying right here");
-
                         retry = true;
                     }
                     else

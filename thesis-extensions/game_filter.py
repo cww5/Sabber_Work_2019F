@@ -59,7 +59,7 @@ from pathlib import Path
 
 def parse_options():
 	parser = argparse.ArgumentParser(description="Class for parsing game data")
-	parser.add_argument('machine', help='configure to desktop, laptop, or kong')
+	parser.add_argument('machine', help='configure to desktop, laptop, kong, or MIXR')
 	parser.add_argument('--sum', action='store_true', help='flag to print summary')
 	parser.add_argument('--oth', action='store_true', help='flag to print other lines')
 	parser.add_argument('--ron', action='store_true', help='flag to print health_difs')
@@ -183,13 +183,15 @@ def main():
 	logging.info(machine)
 	if machine == 'laptop':
 		# laptop directory
-		directory = "C:\\Users\\watson\\Documents\\GitHub\\SabberStone-master\\Sabber_Work_2019F\\thesis-output\\Z1vsZ2\\"
+		directory = 'C:\\Users\\watson\\Documents\\GitHub\\SabberStone-master\\Sabber_Work_2019F\\thesis-output\\Z1vsZ2\\'
 	elif machine == 'desktop':
 		# desktop directory
-		# directory = "C:\\Users\\watson\\Documents\\SabberStone 2019\\Sabber_Work_2019F\\thesis-output\\Z1vsZ2\\"
-		directory = "C:\\Users\\watson\\Documents\\SabberStone 2019\\Sabber_Work_2019F\\thesis-output\\Z1VSZ2Kong\\"
+		# directory = 'C:\\Users\\watson\\Documents\\SabberStone 2019\\Sabber_Work_2019F\\thesis-output\\Z1vsZ2\\'
+		directory = 'C:\\Users\\watson\\Documents\\SabberStone 2019\\Sabber_Work_2019F\\thesis-output\\Z1VSZ2Kong\\'
 	elif machine == 'kong':
-		directory = "blah"
+		directory = 'blah'
+	elif machine == 'mixr':
+		directory = 'C:\\Users\\watson\\Documents\\SabberStone 2019\\Sabber_Work_2019F\\thesis-output\\'
 	else:
 		logging.warning('UNEXPECTED OPTION IN CMD, CONFIG PROPERLY')
 		sys.exit(0)
