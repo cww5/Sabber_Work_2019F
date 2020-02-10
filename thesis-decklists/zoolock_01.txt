@@ -1,5 +1,7 @@
 >>Name: Budget Zoolock
 >>Author: Roffle
+>>Hero: Warlock
+>>Score: Aggro
 >>Date: 20190416
 >>Link:https://www.hearthstonetopdecks.com/decks/budget-zoo-warlock-deck-list-guide-rise-of-shadows/
 Flame Imp><2
@@ -17,3 +19,4 @@ Saronite Taskmaster><2
 Dire Wolf Alpha><2
 Knife Juggler><2
 Scarab Egg><2
+>>CSV:Budget Zoolock; Roffle; Warlock; Aggro;Flame Imp*Grim Rally*Soul Infusion*Soulfire*Voidwalker*Witchwood Imp*Fiendish Circle*Doubling Imp*Abusive Sergeant*Argent Squire*Mecharoo*Saronite Taskmaster*Dire Wolf Alpha*Knife Juggler*Scarab Egg;

@@ -1,5 +1,7 @@
 >>Name: Zoolock Legend 13 Post Buff
 >>Author: Pizza
+>>Hero: Warlock
+>>Score: Aggro
 >>Date: 20190607
 >>Link: https://www.hearthstonetopdecks.com/decks/zoo-warlock-shadows-post-buff-13-legend-pizza/
 Flame Imp><2
@@ -18,3 +20,4 @@ Scarab Egg><2
 Magic Carpet><2
 SN1P-SN4P><1
 Sea Giant><2
+>>CSV:Zoolock Legend 13 Post Buff; Pizza; Warlock; Aggro;Flame Imp*Grim Rally*The Soularium*Voidwalker*Witchwood Imp*Fiendish Circle*Abusive Sergeant*Argent Squire*Crystallizer*Mecharoo*Dire Wolf Alpha*Knife Juggler*Scarab Egg*Magic Carpet*SN1P-SN4P*Sea Giant;

@@ -1,5 +1,7 @@
 >>Name: Zoolock Early Legend Post Nerf
 >>Author: Solegit
+>>Hero: Warlock
+>>Score: Aggro
 >>Date: 20190603
 >>Link: https://www.hearthstonetopdecks.com/decks/zoo-warlock-shadows-post-nerf-early-3-legend-solegit/
 Flame Imp><2
@@ -19,3 +21,4 @@ Scarab Egg><2
 Magic Carpet><2
 Leeroy Jenkins><1
 Sea Giant><2
+>>CSV:Zoolock Early Legend Post Nerf; Solegit; Warlock; Aggro;Flame Imp*Grim Rally*Soulfire*The Soularium*Voidwalker*Witchwood Imp*Fiendish Circle*Abusive Sergeant*Argent Squire*Crystallizer*Mecharoo*Dire Wolf Alpha*Knife Juggler*Scarab Egg*Magic Carpet*Leeroy Jenkins*Sea Giant;

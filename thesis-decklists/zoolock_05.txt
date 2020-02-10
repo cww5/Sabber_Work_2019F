@@ -1,5 +1,7 @@
 >>Name: Omega Zoolock Legend 25-14
 >>Author: Wabeka
+>>Hero: Warlock
+>>Score: Aggro
 >>Date: 20190711
 >>Link: https://www.hearthstonetopdecks.com/decks/omega-zoo-shadows-hof-25-14-wabeka/
 Flame Imp><2
@@ -19,3 +21,4 @@ Explodinator><2
 Barista Lynchen><1
 Wargear><2
 Zilliax><1
+>>CSV:Omega Zoolock Legend 25-14; Wabeka; Warlock; Aggro;Flame Imp*Grim Rally*The Soularium*Voidwalker*Fiendish Circle*Omega Agent*Abusive Sergeant*Mecharoo*Dire Wolf Alpha*Knife Juggler*Scarab Egg*Magic Carpet*SN1P-SN4P*Explodinator*Barista Lynchen*Wargear*Zilliax;

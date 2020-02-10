@@ -1,0 +1,547 @@
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+Player1: Control1=Control vs Player2: Agent=Control
+Player1Deck: Zoolock_Control_Test vs Player2Deck: Test_Hunter
+***********Deck of cards***********
+[Flame Imp]
+[Flame Imp]
+[Grim Rally]
+[Grim Rally]
+[The Soularium]
+[Voidwalker]
+[Voidwalker]
+[Witchwood Imp]
+[Witchwood Imp]
+[Fiendish Circle]
+[Fiendish Circle]
+[Abusive Sergeant]
+[Abusive Sergeant]
+[Argent Squire]
+[Argent Squire]
+[Crystallizer]
+[Crystallizer]
+[Mecharoo]
+[Mecharoo]
+[Dire Wolf Alpha]
+[Dire Wolf Alpha]
+[Knife Juggler]
+[Knife Juggler]
+[Scarab Egg]
+[Scarab Egg]
+[Magic Carpet]
+[Magic Carpet]
+[SN1P-SN4P]
+[Sea Giant]
+[Sea Giant]
+The deck size is: 
+30
+***********************************
+***********Deck of cards***********
+[Tracking]
+[Tracking]
+[Bomb Toss]
+[Bomb Toss]
+[Fireworks Tech]
+[Fireworks Tech]
+[Venomizer]
+[Venomizer]
+[Ursatron]
+[Ursatron]
+[Spider Bomb]
+[Spider Bomb]
+[Unleash the Hounds]
+[Mecharoo]
+[Mecharoo]
+[Upgradeable Framebot]
+[Upgradeable Framebot]
+[Galvanizer]
+[Galvanizer]
+[SN1P-SN4P]
+[Explodinator]
+[Explodinator]
+[Replicating Menace]
+[Replicating Menace]
+[Leeroy Jenkins]
+[Wargear]
+[Wargear]
+[Zilliax]
+[Missile Launcher]
+[Missile Launcher]
+The deck size is: 
+30
+***********************************
+Player1: Mulligan 
+Player2: Mulligan 65
+
+Player1: PLAYING / Player2: PLAYING - ROUND 1 - Control1
+Hero[P1]: 30 / Hero[P2]: 30
+
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Control1> ---------------------------
+EndTurnTask => [Control1]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 1
+Hero[P1]: 30 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+EndTurnTask => [Control1]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Control1
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 0
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 0
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 1
+TOTALMANASPENTTHISGAME 0
+USEDMANATHISTURN 0
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Agent> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Agent> ---------------------------
+PlayCardTask => [Agent] play 'The Coin[68]'(SPELL) Option -1
+PlayCardTask => [Agent] play 'Upgradeable Framebot[53]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Agent]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 2
+Hero[P1]: 30 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Agent] play 'The Coin[68]'(SPELL) Option -1
+PlayCardTask => [Agent] play 'Upgradeable Framebot[53]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Agent]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Agent
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 2
+USEDMANATHISTURN 1
+PlayedCard: [The Coin]
+PlayedCard: [Upgradeable Framebot]
+No more cards played this turn.
+______________________________________________________________________|
+
+Player1: PLAYING / Player2: PLAYING - ROUND 2 - Control1
+Hero[P1]: 30 / Hero[P2]: 30
+
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Control1> ---------------------------
+PlayCardTask => [Control1] play 'Knife Juggler[30]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Control1]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 3
+Hero[P1]: 30 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Control1] play 'Knife Juggler[30]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Control1]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Control1
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 2
+USEDMANATHISTURN 2
+PlayedCard: [Knife Juggler]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Agent> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Agent> ---------------------------
+HeroPowerTask => [Agent] using 'Steady Shot[7]'
+MinionAttackTask => [Agent] 'Upgradeable Framebot[53]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Agent]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 4
+Hero[P1]: 27 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+HeroPowerTask => [Agent] using 'Steady Shot[7]'
+MinionAttackTask => [Agent] 'Upgradeable Framebot[53]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Agent]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Agent
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 1
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 0
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 1
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 4
+USEDMANATHISTURN 2
+No more cards played this turn.
+______________________________________________________________________|
+
+Player1: PLAYING / Player2: PLAYING - ROUND 3 - Control1
+Hero[P1]: 27 / Hero[P2]: 30
+
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Control1> ---------------------------
+PlayCardTask => [Control1] play 'Flame Imp[9]'(MINION) to Pos[1] Option -1
+PlayCardTask => [Control1] play 'Dire Wolf Alpha[27]'(MINION) to Pos[1] Option -1
+MinionAttackTask => [Control1] 'Knife Juggler[30]'(MINION) attack 'Upgradeable Framebot[53]'
+EndTurnTask => [Control1]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 5
+Hero[P1]: 24 / Hero[P2]: 28
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Control1] play 'Flame Imp[9]'(MINION) to Pos[1] Option -1
+PlayCardTask => [Control1] play 'Dire Wolf Alpha[27]'(MINION) to Pos[1] Option -1
+MinionAttackTask => [Control1] 'Knife Juggler[30]'(MINION) attack 'Upgradeable Framebot[53]'
+EndTurnTask => [Control1]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Control1
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 2
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 3
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 5
+USEDMANATHISTURN 3
+PlayedCard: [Flame Imp]
+PlayedCard: [Dire Wolf Alpha]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Agent> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Agent> ---------------------------
+PlayCardTask => [Agent] play 'Fireworks Tech[42]'(MINION) 'Upgradeable Framebot[53]' to Pos[0] Option -1
+MinionAttackTask => [Agent] 'Upgradeable Framebot[53]'(MINION) attack 'Dire Wolf Alpha[27]'
+EndTurnTask => [Agent]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 6
+Hero[P1]: 24 / Hero[P2]: 28
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Agent] play 'Fireworks Tech[42]'(MINION) 'Upgradeable Framebot[53]' to Pos[0] Option -1
+MinionAttackTask => [Agent] 'Upgradeable Framebot[53]'(MINION) attack 'Dire Wolf Alpha[27]'
+EndTurnTask => [Agent]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Agent
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 1
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 1
+REMAININGMANA 1
+TOTALMANASPENTTHISGAME 6
+USEDMANATHISTURN 2
+PlayedCard: [Fireworks Tech]
+No more cards played this turn.
+______________________________________________________________________|
+
+Player1: PLAYING / Player2: PLAYING - ROUND 4 - Control1
+Hero[P1]: 24 / Hero[P2]: 28
+
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Control1> ---------------------------
+PlayCardTask => [Control1] play 'Voidwalker[14]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Control1] play 'Scarab Egg[32]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Control1] play 'Grim Rally[11]'(SPELL) 'Scarab Egg[32]' Option -1
+MinionAttackTask => [Control1] 'Flame Imp[9]'(MINION) attack 'Rexxar[6]'
+MinionAttackTask => [Control1] 'Knife Juggler[30]'(MINION) attack 'Rexxar[6]'
+EndTurnTask => [Control1]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 7
+Hero[P1]: 24 / Hero[P2]: 19
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Control1] play 'Voidwalker[14]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Control1] play 'Scarab Egg[32]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Control1] play 'Grim Rally[11]'(SPELL) 'Scarab Egg[32]' Option -1
+MinionAttackTask => [Control1] 'Flame Imp[9]'(MINION) attack 'Rexxar[6]'
+MinionAttackTask => [Control1] 'Knife Juggler[30]'(MINION) attack 'Rexxar[6]'
+EndTurnTask => [Control1]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Control1
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 3
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 2
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 1
+NUMMINIONSPLAYEDTHISTURN 2
+NUMMINIONSPLAYERKILLEDTHISTURN 3
+NUMOPTIONSPLAYEDTHISTURN 5
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 9
+USEDMANATHISTURN 4
+PlayedCard: [Voidwalker]
+PlayedCard: [Scarab Egg]
+PlayedCard: [Grim Rally]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Agent> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Agent> ---------------------------
+PlayCardTask => [Agent] play 'Explodinator[58]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Agent]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 8
+Hero[P1]: 24 / Hero[P2]: 19
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Agent] play 'Explodinator[58]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Agent]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Agent
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 1
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 10
+USEDMANATHISTURN 4
+PlayedCard: [Explodinator]
+No more cards played this turn.
+______________________________________________________________________|
+
+Player1: PLAYING / Player2: PLAYING - ROUND 5 - Control1
+Hero[P1]: 24 / Hero[P2]: 19
+
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Control1> ---------------------------
+PlayCardTask => [Control1] play 'Sea Giant[36]'(MINION) to Pos[2] Option -1
+MinionAttackTask => [Control1] 'Voidwalker[14]'(MINION) attack 'Goblin Bomb[80]'
+MinionAttackTask => [Control1] 'Knife Juggler[30]'(MINION) attack 'Goblin Bomb[81]'
+MinionAttackTask => [Control1] 'Scarab[77]'(MINION) attack 'Explodinator[58]'
+MinionAttackTask => [Control1] 'Flame Imp[9]'(MINION) attack 'Rexxar[6]'
+PlayCardTask => [Control1] play 'Crystallizer[23]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Control1] 'Scarab[78]'(MINION) attack 'Rexxar[6]'
+MinionAttackTask => [Control1] 'Scarab[79]'(MINION) attack 'Rexxar[6]'
+EndTurnTask => [Control1]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 9
+Hero[P1]: 15 / Hero[P2]: 12
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Control1] play 'Sea Giant[36]'(MINION) to Pos[2] Option -1
+MinionAttackTask => [Control1] 'Voidwalker[14]'(MINION) attack 'Goblin Bomb[80]'
+MinionAttackTask => [Control1] 'Knife Juggler[30]'(MINION) attack 'Goblin Bomb[81]'
+MinionAttackTask => [Control1] 'Scarab[77]'(MINION) attack 'Explodinator[58]'
+MinionAttackTask => [Control1] 'Flame Imp[9]'(MINION) attack 'Rexxar[6]'
+PlayCardTask => [Control1] play 'Crystallizer[23]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Control1] 'Scarab[78]'(MINION) attack 'Rexxar[6]'
+MinionAttackTask => [Control1] 'Scarab[79]'(MINION) attack 'Rexxar[6]'
+EndTurnTask => [Control1]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Control1
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 6
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 1
+NUMMINIONSPLAYEDTHISTURN 2
+NUMMINIONSPLAYERKILLEDTHISTURN 4
+NUMOPTIONSPLAYEDTHISTURN 8
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 3
+TOTALMANASPENTTHISGAME 11
+USEDMANATHISTURN 2
+PlayedCard: [Sea Giant]
+PlayedCard: [Crystallizer]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Agent> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Agent> ---------------------------
+PlayCardTask => [Agent] play 'Zilliax[65]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Agent] 'Zilliax[65]'(MINION) attack 'Voidwalker[14]'
+EndTurnTask => [Agent]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 10
+Hero[P1]: 15 / Hero[P2]: 15
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Agent] play 'Zilliax[65]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Agent] 'Zilliax[65]'(MINION) attack 'Voidwalker[14]'
+EndTurnTask => [Agent]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Agent
+AMOUNTHEALEDTHISTURN 3
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 1
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 15
+USEDMANATHISTURN 5
+PlayedCard: [Zilliax]
+No more cards played this turn.
+______________________________________________________________________|
+
+Player1: PLAYING / Player2: PLAYING - ROUND 6 - Control1
+Hero[P1]: 15 / Hero[P2]: 15
+
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Control1> ---------------------------
+MinionAttackTask => [Control1] 'Crystallizer[23]'(MINION) attack 'Zilliax[65]'
+PlayCardTask => [Control1] play 'Witchwood Imp[15]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Control1] 'Sea Giant[36]'(MINION) attack 'Rexxar[6]'
+MinionAttackTask => [Control1] 'Flame Imp[9]'(MINION) attack 'Rexxar[6]'
+MinionAttackTask => [Control1] 'Knife Juggler[30]'(MINION) attack 'Rexxar[6]'
+MinionAttackTask => [Control1] 'Voidwalker[14]'(MINION) attack 'Rexxar[6]'
+MinionAttackTask => [Control1] 'Scarab[78]'(MINION) attack 'Rexxar[6]'
+______________________________________________________________________
+Player1: WON / Player2: LOST - turn no 11
+Hero[P1]: 15 / Hero[P2]: 0
+>>>>>>>>>TASK TYPE CHECK (is EOT?): False
+>>>>>>>>>TASK TYPE: MINION_ATTACK
+ALL TURN TASKS:
+MinionAttackTask => [Control1] 'Crystallizer[23]'(MINION) attack 'Zilliax[65]'
+PlayCardTask => [Control1] play 'Witchwood Imp[15]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Control1] 'Sea Giant[36]'(MINION) attack 'Rexxar[6]'
+MinionAttackTask => [Control1] 'Flame Imp[9]'(MINION) attack 'Rexxar[6]'
+MinionAttackTask => [Control1] 'Knife Juggler[30]'(MINION) attack 'Rexxar[6]'
+MinionAttackTask => [Control1] 'Voidwalker[14]'(MINION) attack 'Rexxar[6]'
+MinionAttackTask => [Control1] 'Scarab[78]'(MINION) attack 'Rexxar[6]'
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Control1
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 6
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 1
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 2
+NUMOPTIONSPLAYEDTHISTURN 7
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 5
+TOTALMANASPENTTHISGAME 12
+USEDMANATHISTURN 1
+PlayedCard: [Witchwood Imp]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Control1> ---------------------------
+Game: COMPLETE, Player1: WON / Player2: LOST
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+

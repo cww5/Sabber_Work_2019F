@@ -62,24 +62,39 @@ def find_card(card, lines):
 def parse_decklist(fname, cards_eng_path):
 	try:
 		f = open(cards_eng_path)
-		deck = open(fname)
+		deck = open(fname, 'r')
 	except FileNotFoundError as e:
 		print(e)
 		return
 
 	lines_ = f.readlines()
+	deck_file_lines = deck.readlines()
 	f.close()
-	allCardsFound = True
-	for line_ in deck:
+	deck.close()
+	all_cards_found = True
+	deck_name, player_name,  hero_type, hero_score, deck_list = '', '', '', '', ''
+	for line_ in deck_file_lines:
 		if '><' in line_:
 			card_parts = line_.strip('\n').split('><')
 			card_ = card_parts[0]
 			# amount = card_parts[1]
-			cardFound = find_card(card_, lines_)
-			if not cardFound:
-				allCardsFound = True
-	if allCardsFound:
+			card_found = find_card(card_, lines_)
+			if not card_found:
+				all_cards_found = False
+			else:
+				deck_list += '{}*'.format(card_)
+		elif 'Name' in line_:
+			deck_name = line_.strip('\n').split(': ')[-1]
+		elif 'Author' in line_:
+			player_name = line_.strip('\n').split(': ')[-1]
+		elif 'Hero' in line_:
+			hero_type = line_.strip('\n').split(': ')[-1]
+		elif 'Score' in line_:
+			hero_score = line_.strip('\n').split(': ')[-1]
+	if all_cards_found:
 		print('All cards were found!')
+		with open(fname, 'a') as deck:
+			deck.write('\n>>CSV:{}; {}; {}; {};{};'.format(deck_name, player_name, hero_type, hero_score, deck_list.strip('*')))
 	deck.close()
 
 
