@@ -21,4 +21,4 @@ Explodinator><2
 Barista Lynchen><1
 Wargear><2
 Zilliax><1
->>CSV:Omega Zoolock Legend 25-14; Wabeka; Warlock; Aggro;Flame Imp*Grim Rally*The Soularium*Voidwalker*Fiendish Circle*Omega Agent*Abusive Sergeant*Mecharoo*Dire Wolf Alpha*Knife Juggler*Scarab Egg*Magic Carpet*SN1P-SN4P*Explodinator*Barista Lynchen*Wargear*Zilliax;
+>>CSV:Omega Zoolock Legend 25-14; Wabeka; Warlock; Aggro;Flame Imp*Flame Imp*Grim Rally*Grim Rally*The Soularium*Voidwalker*Voidwalker*Fiendish Circle*Fiendish Circle*Omega Agent*Omega Agent*Abusive Sergeant*Abusive Sergeant*Mecharoo*Mecharoo*Dire Wolf Alpha*Dire Wolf Alpha*Knife Juggler*Knife Juggler*Scarab Egg*Scarab Egg*Magic Carpet*Magic Carpet*SN1P-SN4P*Explodinator*Explodinator*Barista Lynchen*Wargear*Wargear*Zilliax;

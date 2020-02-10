@@ -19,4 +19,4 @@ Saronite Taskmaster><2
 Dire Wolf Alpha><2
 Knife Juggler><2
 Scarab Egg><2
->>CSV:Budget Zoolock; Roffle; Warlock; Aggro;Flame Imp*Grim Rally*Soul Infusion*Soulfire*Voidwalker*Witchwood Imp*Fiendish Circle*Doubling Imp*Abusive Sergeant*Argent Squire*Mecharoo*Saronite Taskmaster*Dire Wolf Alpha*Knife Juggler*Scarab Egg;
+>>CSV:Budget Zoolock; Roffle; Warlock; Aggro;Flame Imp*Flame Imp*Grim Rally*Grim Rally*Soul Infusion*Soul Infusion*Soulfire*Soulfire*Voidwalker*Voidwalker*Witchwood Imp*Witchwood Imp*Fiendish Circle*Fiendish Circle*Doubling Imp*Doubling Imp*Abusive Sergeant*Abusive Sergeant*Argent Squire*Argent Squire*Mecharoo*Mecharoo*Saronite Taskmaster*Saronite Taskmaster*Dire Wolf Alpha*Dire Wolf Alpha*Knife Juggler*Knife Juggler*Scarab Egg*Scarab Egg;

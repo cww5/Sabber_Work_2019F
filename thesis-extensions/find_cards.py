@@ -83,7 +83,8 @@ def parse_decklist(fname, cards_eng_path):
 			if not card_found:
 				all_cards_found = False
 			else:
-				deck_list += '{}*'.format(card_)
+				for i in range(int(card_parts[1])):
+					deck_list += '{}*'.format(card_)
 		elif 'Name' in line_:
 			deck_name = line_.strip('\n').split(': ')[-1]
 		elif 'Author' in line_:
