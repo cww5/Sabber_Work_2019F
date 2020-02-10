@@ -168,7 +168,11 @@ namespace SabberStoneCoreAi
 				string assemblyFolderName = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location).ToString();
 				string[] parts = assemblyFolderName.Split("SabberTMTestCore");
 				string rootFolderName = parts[0];
-				folderName = rootFolderName + DateTime.Now.ToString("yyyy-MM-dd.hh.mm.ss");
+
+                string[] path_parts = { rootFolderName, "thesis-output", DateTime.Now.ToString("yyyy-MM-dd.hh.mm.ss")};
+                folderName = Path.Combine(path_parts).ToString();
+                Console.WriteLine(folderName);
+                //folderName = rootFolderName + "\\thesis-decklists\\" + DateTime.Now.ToString("yyyy-MM-dd.hh.mm.ss");
 			}
 
             if (stepSize == 0) { stepSize = numGames; }
@@ -284,6 +288,7 @@ namespace SabberStoneCoreAi
 											{
 												allGamesOutput = "\n";
 												Console.WriteLine("!!!!!!!!!!!!!!!!!!Error in the parallel games!");
+												Console.WriteLine(e.ToString());
 											}
 										}
 										else
@@ -296,7 +301,8 @@ namespace SabberStoneCoreAi
 											catch(Exception e)
 											{
 												allGamesOutput = "\n";
-												Console.WriteLine("!!!!!!!!!!!!!!!!!!Error in the game!");
+												Console.WriteLine("!!!!!!!!!!!!!!!!!!Error in the non-parallel game!");
+												Console.WriteLine(e.ToString());
 											}
 										}
 										Console.WriteLine(allGamesOutput);

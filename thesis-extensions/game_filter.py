@@ -51,15 +51,16 @@ import re
 import argparse
 import logging
 
-# import os
 # import glob
+import os
 import sys
 from pathlib import Path
 
 
 def parse_options():
 	parser = argparse.ArgumentParser(description="Class for parsing game data")
-	parser.add_argument('machine', help='configure to desktop, laptop, kong, or MIXR')
+	parser.add_argument('machine', help='configure to desktop, laptop, or mixr')
+	parser.add_argument('base', help='folder of output to analyze ex: 2020-02-10.12.48.53')
 	parser.add_argument('--sum', action='store_true', help='flag to print summary')
 	parser.add_argument('--oth', action='store_true', help='flag to print other lines')
 	parser.add_argument('--ron', action='store_true', help='flag to print health_difs')
@@ -180,21 +181,28 @@ def main():
 	logging.debug(f'Pandas: {pd.__version__}')
 
 	machine = args.machine.lower()
-	logging.info(machine)
+	sub_dir = args.base
 	if machine == 'laptop':
 		# laptop directory
-		directory = 'C:\\Users\\watson\\Documents\\GitHub\\SabberStone-master\\Sabber_Work_2019F\\thesis-output\\Z1vsZ2\\'
+		directory = 'C:\\Users\\watson\\Documents\\GitHub\\SabberStone-master\\Sabber_Work_2019F\\thesis-output\\'
 	elif machine == 'desktop':
 		# desktop directory
-		# directory = 'C:\\Users\\watson\\Documents\\SabberStone 2019\\Sabber_Work_2019F\\thesis-output\\Z1vsZ2\\'
-		directory = 'C:\\Users\\watson\\Documents\\SabberStone 2019\\Sabber_Work_2019F\\thesis-output\\Z1VSZ2Kong\\'
-	elif machine == 'kong':
-		directory = 'blah'
+		# directory = 'C:\\Users\\watson\\Documents\\SabberStone 2019\\Sabber_Work_2019F\\thesis-output\\'
+		directory = 'C:\\Users\\watson\\Documents\\SabberStone 2019\\Sabber_Work_2019F\\thesis-output\\'
 	elif machine == 'mixr':
 		directory = 'C:\\Users\\watson\\Documents\\SabberStone 2019\\Sabber_Work_2019F\\thesis-output\\'
 	else:
 		logging.warning('UNEXPECTED OPTION IN CMD, CONFIG PROPERLY')
 		sys.exit(0)
+	full_directory = '{}{}\\'.format(directory, sub_dir)
+	list_subfolders_with_paths = [f.path for f in os.scandir(full_directory) if f.is_dir()]
+	for f1 in list_subfolders_with_paths:
+		logging.info(f1)
+		list_matchup_folders = [f.path for f in os.scandir(f1) if f.is_dir()]
+		for f2 in list_matchup_folders:
+			logging.info(f2)
+		logging.info('___')
+	'''
 	pathlist = Path(directory).glob('**\\*.txt')
 	for path in pathlist:
 		# because path is object not string
@@ -210,6 +218,7 @@ def main():
 		game_obj.parse_file(game_csv_name)
 		logging.info('Number of turns: {}'.format(len(game_obj.end_of_turn_data)))
 		game_obj.plot_data(game_plot_name)
+	'''
 
 
 if __name__ == "__main__":
