@@ -194,31 +194,30 @@ def main():
 	else:
 		logging.warning('UNEXPECTED OPTION IN CMD, CONFIG PROPERLY')
 		sys.exit(0)
+	new_sub_dir = sub_dir + '_Compiled'
 	full_directory = '{}{}\\'.format(directory, sub_dir)
+	full_output_directory = '{}{}\\'.format(directory, new_sub_dir)
 	list_subfolders_with_paths = [f.path for f in os.scandir(full_directory) if f.is_dir()]
 	for f1 in list_subfolders_with_paths:
-		logging.info(f1)
+		logging.debug(f1)
 		list_matchup_folders = [f.path for f in os.scandir(f1) if f.is_dir()]
 		for f2 in list_matchup_folders:
-			logging.info(f2)
-		logging.info('___')
-	'''
-	pathlist = Path(directory).glob('**\\*.txt')
-	for path in pathlist:
-		# because path is object not string
-		game_name = str(path)
+			logging.debug(f2)
+			csv_file_name = '-'.join(f2.split('\\')[-2:]) + '.csv'
+			logging.debug(full_output_directory + csv_file_name)
+			pathlist = Path(f2).glob('**\\*.txt')
+			for game_name in pathlist:
+				logging.debug(game_name)
+				# game_csv_name = game_name.replace('.txt', '.csv')
+				# game_plot_name = game_name.replace('.txt', '.png')
+				# logging.info(game_name)
+				# logging.info(game_csv_name)
+				# logging.info(game_plot_name)
 
-		game_csv_name = game_name.replace('.txt', '.csv')
-		game_plot_name = game_name.replace('.txt', '.png')
-		logging.info(game_name)
-		logging.info(game_csv_name)
-		logging.info(game_plot_name)
-
-		game_obj = GameFilter(game_name)
-		game_obj.parse_file(game_csv_name)
-		logging.info('Number of turns: {}'.format(len(game_obj.end_of_turn_data)))
-		game_obj.plot_data(game_plot_name)
-	'''
+				game_obj = GameFilter(game_name)
+				# game_obj.parse_file(game_csv_name)
+				# logging.info('Number of turns: {}'.format(len(game_obj.end_of_turn_data)))
+				# game_obj.plot_data(game_plot_name)
 
 
 if __name__ == "__main__":
