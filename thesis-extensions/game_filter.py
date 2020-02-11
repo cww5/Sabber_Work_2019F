@@ -86,35 +86,44 @@ def parse_options():
 
 
 class GameFilter:
-	"""class to parse through the game.txt file"""
+	"""class to parse through the Output#-#.txt file which contains N games"""
 
 	def __init__(self, infile):
 		self.lines = []
 		with open(infile) as f:
 			for line in f:
 				self.lines.append(line.strip('\n'))
+		self.game_counter = 0
+		self.games_data = {}
 		self.end_of_turn_data = {}
-		self.df = pd.DataFrame()
 
 	def parse_file(self, df_file_name):
 		turn_info = []
-		end_of_turn = False
+		end_of_turn, new_game = False, False
 		for i in range(len(self.lines)):
 			line = self.lines[i]
 			if len(line) > 0:
-				if line[0] == '_' and line[-1] == '_':
+				if line[:2] == '+-' and line[-2:] == '-+':
+					if not new_game:
+						new_game = True
+						self.game_counter += 1
+						self.end_of_turn_data = {}
+					else:
+						new_game = False
+						# Here is where I need the stuff to create the DF for the game
+						df = pd.DataFrame.from_dict(self.end_of_turn_data, orient='index')
+						new_col_data = [self.game_counter for i in range(len(df.shape[0]))]
+						df['GAME_COUNTER'] = new_col_data
+						self.games_data[self.game_counter] = df
+				elif line[0] == '_' and line[-1] == '_':
 					end_of_turn = True
 					continue
 				elif line[0] == '_' and line[-1] == '|':
 					self.parse_turn(turn_info)
 					end_of_turn = False
 					turn_info = []
-				if end_of_turn:
+				if end_of_turn: # only add the line to turn_info in between _____ and _____|
 					turn_info.append(line)
-		self.df = pd.DataFrame.from_dict(self.end_of_turn_data, orient='index')
-		logging.info(self.df)
-		with open(df_file_name, 'w') as f:
-			self.df.to_csv(df_file_name)
 
 	def parse_turn(self, turn_text_list):
 		turn_dict = {}
@@ -202,6 +211,7 @@ def main():
 		logging.debug(f1)
 		list_matchup_folders = [f.path for f in os.scandir(f1) if f.is_dir()]
 		for f2 in list_matchup_folders:
+			matchup_data = {}
 			logging.debug(f2)
 			csv_file_name = '-'.join(f2.split('\\')[-2:]) + '.csv'
 			logging.debug(full_output_directory + csv_file_name)
@@ -215,9 +225,19 @@ def main():
 				# logging.info(game_plot_name)
 
 				game_obj = GameFilter(game_name)
+				logging.info(len(game_obj.games_data))
+				matchup_data.update(game_obj.games_data)
 				# game_obj.parse_file(game_csv_name)
 				# logging.info('Number of turns: {}'.format(len(game_obj.end_of_turn_data)))
 				# game_obj.plot_data(game_plot_name)
+			try:
+				ending_df = pd.concat(list(matchup_data.values()))
+				with open(csv_file_name, 'w') as f:
+					ending_df.to_csv(csv_file_name)
+			except Exception as e:
+				logging.error('THERE WAS A PROBLEM CONCATTING DFs')
+				logging.error('NUMBER OF PAIRS {}'.format(len(matchup_data)))
+				sys.exit(0)
 
 
 if __name__ == "__main__":
