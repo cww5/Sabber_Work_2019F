@@ -97,24 +97,29 @@ class GameFilter:
 		self.games_data = {}
 		self.end_of_turn_data = {}
 
-	def parse_file(self, df_file_name):
+	def parse_file(self):
 		turn_info = []
 		end_of_turn, new_game = False, False
 		for i in range(len(self.lines)):
 			line = self.lines[i]
 			if len(line) > 0:
+				# logging.info(line[:2], line[-2:])
 				if line[:2] == '+-' and line[-2:] == '-+':
 					if not new_game:
+						logging.info('Start new game')
 						new_game = True
 						self.game_counter += 1
 						self.end_of_turn_data = {}
 					else:
+						logging.info('End the game')
 						new_game = False
 						# Here is where I need the stuff to create the DF for the game
 						df = pd.DataFrame.from_dict(self.end_of_turn_data, orient='index')
-						new_col_data = [self.game_counter for i in range(len(df.shape[0]))]
+						new_col_data = [self.game_counter for i in range(df.shape[0])]
 						df['GAME_COUNTER'] = new_col_data
+						logging.info(df.shape)
 						self.games_data[self.game_counter] = df
+						# logging.info(self.games_data.keys())
 				elif line[0] == '_' and line[-1] == '_':
 					end_of_turn = True
 					continue
@@ -129,11 +134,11 @@ class GameFilter:
 		turn_dict = {}
 		turn_num = -1
 		for line in turn_text_list:
-			logging.info(line)
+			# logging.info(line)
 			if 'turn no' in line:
 				logging.debug('>>>>>>>>>>>>>>>>>>>>>>TURN NUMBER QUERY')
 				parts = line.split()
-				logging.info(parts)
+				# logging.info(parts)
 				turn_num = int(parts[-1])
 				turn_dict[turn_num] = {'TURN_NO': turn_num}
 				continue
@@ -206,6 +211,12 @@ def main():
 	new_sub_dir = sub_dir + '_Compiled'
 	full_directory = '{}{}\\'.format(directory, sub_dir)
 	full_output_directory = '{}{}\\'.format(directory, new_sub_dir)
+	try:
+		os.mkdir(full_output_directory)
+	except OSError:
+		print("Creation of the directory %s failed" % full_output_directory)
+	else:
+		print("Successfully created the directory %s " % full_output_directory)
 	list_subfolders_with_paths = [f.path for f in os.scandir(full_directory) if f.is_dir()]
 	for f1 in list_subfolders_with_paths:
 		logging.debug(f1)
@@ -214,7 +225,8 @@ def main():
 			matchup_data = {}
 			logging.debug(f2)
 			csv_file_name = '-'.join(f2.split('\\')[-2:]) + '.csv'
-			logging.debug(full_output_directory + csv_file_name)
+			csv_output_path = full_output_directory + csv_file_name
+			logging.debug(csv_output_path)
 			pathlist = Path(f2).glob('**\\*.txt')
 			for game_name in pathlist:
 				logging.debug(game_name)
@@ -225,15 +237,16 @@ def main():
 				# logging.info(game_plot_name)
 
 				game_obj = GameFilter(game_name)
+				game_obj.parse_file()
 				logging.info(len(game_obj.games_data))
 				matchup_data.update(game_obj.games_data)
-				# game_obj.parse_file(game_csv_name)
 				# logging.info('Number of turns: {}'.format(len(game_obj.end_of_turn_data)))
 				# game_obj.plot_data(game_plot_name)
 			try:
 				ending_df = pd.concat(list(matchup_data.values()))
-				with open(csv_file_name, 'w') as f:
-					ending_df.to_csv(csv_file_name)
+				with open(csv_output_path, 'w') as f:
+					ending_df.to_csv(csv_output_path)
+				logging.info('Check {}'.format(csv_output_path))
 			except Exception as e:
 				logging.error('THERE WAS A PROBLEM CONCATTING DFs')
 				logging.error('NUMBER OF PAIRS {}'.format(len(matchup_data)))
