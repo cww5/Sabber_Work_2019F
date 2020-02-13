@@ -1,0 +1,450 @@
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+Player1: Solegit=Aggro vs Player2: Thijs=Control
+Player1Deck: Zoolock Early Legend Post Nerf vs Player2Deck: Control Hakkar Warlock Thijs
+Starting game
+Player1: Mulligan 
+Player2: Mulligan 54
+Player1: PLAYING / Player2: PLAYING - ROUND 1 - Solegit
+Hero[P1]: 30 / Hero[P2]: 30
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Solegit> ---------------------------
+EndTurnTask => [Solegit]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 1
+Hero[P1]: 30 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+EndTurnTask => [Solegit]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Solegit
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 0
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 0
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 1
+TOTALMANASPENTTHISGAME 0
+USEDMANATHISTURN 0
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Thijs> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Thijs> ---------------------------
+EndTurnTask => [Thijs]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 2
+Hero[P1]: 30 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+EndTurnTask => [Thijs]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Thijs
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 0
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 0
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 1
+TOTALMANASPENTTHISGAME 0
+USEDMANATHISTURN 0
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 2 - Solegit
+Hero[P1]: 30 / Hero[P2]: 30
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Solegit> ---------------------------
+PlayCardTask => [Solegit] play 'Dire Wolf Alpha[27]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Solegit]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 3
+Hero[P1]: 30 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Solegit] play 'Dire Wolf Alpha[27]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Solegit]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Solegit
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 2
+USEDMANATHISTURN 2
+PlayedCard: [Dire Wolf Alpha]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Thijs> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Thijs> ---------------------------
+EndTurnTask => [Thijs]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 4
+Hero[P1]: 30 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+EndTurnTask => [Thijs]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Thijs
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 0
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 0
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 2
+TOTALMANASPENTTHISGAME 0
+USEDMANATHISTURN 0
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 3 - Solegit
+Hero[P1]: 30 / Hero[P2]: 30
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Solegit> ---------------------------
+MinionAttackTask => [Solegit] 'Dire Wolf Alpha[27]'(MINION) attack 'Gul'dan[6]'
+PlayCardTask => [Solegit] play 'Knife Juggler[29]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Solegit] play 'Argent Squire[21]'(MINION) to Pos[2] Option -1
+EndTurnTask => [Solegit]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 5
+Hero[P1]: 30 / Hero[P2]: 27
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Solegit] 'Dire Wolf Alpha[27]'(MINION) attack 'Gul'dan[6]'
+PlayCardTask => [Solegit] play 'Knife Juggler[29]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Solegit] play 'Argent Squire[21]'(MINION) to Pos[2] Option -1
+EndTurnTask => [Solegit]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Solegit
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 2
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 3
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 5
+USEDMANATHISTURN 3
+PlayedCard: [Knife Juggler]
+PlayedCard: [Argent Squire]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Thijs> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Thijs> ---------------------------
+PlayCardTask => [Thijs] play 'The Coin[68]'(SPELL) Option -1
+PlayCardTask => [Thijs] play 'Plot Twist[41]'(SPELL) Option -1
+PlayCardTask => [Thijs] play 'Acidic Swamp Ooze[56]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Thijs]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 6
+Hero[P1]: 30 / Hero[P2]: 27
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Thijs] play 'The Coin[68]'(SPELL) Option -1
+PlayCardTask => [Thijs] play 'Plot Twist[41]'(SPELL) Option -1
+PlayCardTask => [Thijs] play 'Acidic Swamp Ooze[56]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Thijs]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Thijs
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 6
+NUMCARDSPLAYEDTHISTURN 3
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 3
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 4
+USEDMANATHISTURN 3
+PlayedCard: [The Coin]
+PlayedCard: [Plot Twist]
+PlayedCard: [Acidic Swamp Ooze]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 4 - Solegit
+Hero[P1]: 30 / Hero[P2]: 27
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Solegit> ---------------------------
+MinionAttackTask => [Solegit] 'Knife Juggler[29]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Dire Wolf Alpha[27]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Argent Squire[21]'(MINION) attack 'Gul'dan[6]'
+PlayCardTask => [Solegit] play 'Argent Squire[22]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Solegit] play 'Scarab Egg[32]'(MINION) to Pos[3] Option -1
+EndTurnTask => [Solegit]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 7
+Hero[P1]: 30 / Hero[P2]: 19
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Solegit] 'Knife Juggler[29]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Dire Wolf Alpha[27]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Argent Squire[21]'(MINION) attack 'Gul'dan[6]'
+PlayCardTask => [Solegit] play 'Argent Squire[22]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Solegit] play 'Scarab Egg[32]'(MINION) to Pos[3] Option -1
+EndTurnTask => [Solegit]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Solegit
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 3
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 2
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 5
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 1
+TOTALMANASPENTTHISGAME 8
+USEDMANATHISTURN 3
+PlayedCard: [Argent Squire]
+PlayedCard: [Scarab Egg]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Thijs> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Thijs> ---------------------------
+PlayCardTask => [Thijs] play 'Shadow Bolt[44]'(SPELL) 'Knife Juggler[29]' Option -1
+MinionAttackTask => [Thijs] 'Acidic Swamp Ooze[56]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Thijs]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 8
+Hero[P1]: 27 / Hero[P2]: 19
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Thijs] play 'Shadow Bolt[44]'(SPELL) 'Knife Juggler[29]' Option -1
+MinionAttackTask => [Thijs] 'Acidic Swamp Ooze[56]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Thijs]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Thijs
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 1
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 3
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 1
+TOTALMANASPENTTHISGAME 7
+USEDMANATHISTURN 3
+PlayedCard: [Shadow Bolt]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 5 - Solegit
+Hero[P1]: 27 / Hero[P2]: 19
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Solegit> ---------------------------
+MinionAttackTask => [Solegit] 'Argent Squire[22]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Dire Wolf Alpha[27]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Scarab Egg[32]'(MINION) attack 'Acidic Swamp Ooze[56]'
+MinionAttackTask => [Solegit] 'Argent Squire[21]'(MINION) attack 'Gul'dan[6]'
+PlayCardTask => [Solegit] play 'Sea Giant[37]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Solegit]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 9
+Hero[P1]: 27 / Hero[P2]: 13
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Solegit] 'Argent Squire[22]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Dire Wolf Alpha[27]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Scarab Egg[32]'(MINION) attack 'Acidic Swamp Ooze[56]'
+MinionAttackTask => [Solegit] 'Argent Squire[21]'(MINION) attack 'Gul'dan[6]'
+PlayCardTask => [Solegit] play 'Sea Giant[37]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Solegit]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Solegit
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 4
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 1
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 2
+NUMOPTIONSPLAYEDTHISTURN 5
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 1
+TOTALMANASPENTTHISGAME 12
+USEDMANATHISTURN 4
+PlayedCard: [Sea Giant]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Thijs> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Thijs> ---------------------------
+PlayCardTask => [Thijs] play 'Doomsayer[59]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Thijs] play 'Mortal Coil[39]'(SPELL) 'Scarab[75]' Option -1
+EndTurnTask => [Thijs]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 10
+Hero[P1]: 27 / Hero[P2]: 13
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Thijs] play 'Doomsayer[59]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Thijs] play 'Mortal Coil[39]'(SPELL) 'Scarab[75]' Option -1
+EndTurnTask => [Thijs]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Thijs
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 2
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 1
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 4
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 2
+TOTALMANASPENTTHISGAME 10
+USEDMANATHISTURN 3
+PlayedCard: [Doomsayer]
+PlayedCard: [Mortal Coil]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 6 - Solegit
+Hero[P1]: 27 / Hero[P2]: 13
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Solegit> ---------------------------
+MinionAttackTask => [Solegit] 'Sea Giant[37]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Argent Squire[22]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Dire Wolf Alpha[27]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Argent Squire[21]'(MINION) attack 'Gul'dan[6]'
+______________________________________________________________________
+Player1: WON / Player2: LOST - turn no 11
+Hero[P1]: 27 / Hero[P2]: -1
+>>>>>>>>>TASK TYPE CHECK (is EOT?): False
+>>>>>>>>>TASK TYPE: MINION_ATTACK
+ALL TURN TASKS:
+MinionAttackTask => [Solegit] 'Sea Giant[37]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Argent Squire[22]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Dire Wolf Alpha[27]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Argent Squire[21]'(MINION) attack 'Gul'dan[6]'
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Solegit
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 0
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 4
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 4
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 6
+TOTALMANASPENTTHISGAME 12
+USEDMANATHISTURN 0
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Solegit> ---------------------------
+Game: COMPLETE, Player1: WON / Player2: LOST
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
