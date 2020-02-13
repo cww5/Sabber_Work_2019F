@@ -1,0 +1,1054 @@
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+Player1: Roffle=Aggro vs Player2: Orasha=Control
+Player1Deck: Budget Zoolock vs Player2Deck: Fatigue Warlock Ft. Hakkar
+Starting game
+Player1: Mulligan 
+Player2: Mulligan 59
+Player1: PLAYING / Player2: PLAYING - ROUND 1 - Roffle
+Hero[P1]: 30 / Hero[P2]: 30
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Roffle> ---------------------------
+PlayCardTask => [Roffle] play 'Saronite Taskmaster[30]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Roffle]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 1
+Hero[P1]: 30 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Roffle] play 'Saronite Taskmaster[30]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Roffle]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Roffle
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 1
+USEDMANATHISTURN 1
+PlayedCard: [Saronite Taskmaster]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Orasha> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Orasha> ---------------------------
+PlayCardTask => [Orasha] play 'The Coin[68]'(SPELL) Option -1
+PlayCardTask => [Orasha] play 'Doomsayer[60]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Orasha]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 2
+Hero[P1]: 30 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Orasha] play 'The Coin[68]'(SPELL) Option -1
+PlayCardTask => [Orasha] play 'Doomsayer[60]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Orasha]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Orasha
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 2
+USEDMANATHISTURN 1
+PlayedCard: [The Coin]
+PlayedCard: [Doomsayer]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 2 - Roffle
+Hero[P1]: 30 / Hero[P2]: 30
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Roffle> ---------------------------
+MinionAttackTask => [Roffle] 'Saronite Taskmaster[30]'(MINION) attack 'Gul'dan[6]'
+PlayCardTask => [Roffle] play 'Mecharoo[28]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Roffle]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 3
+Hero[P1]: 30 / Hero[P2]: 28
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Roffle] 'Saronite Taskmaster[30]'(MINION) attack 'Gul'dan[6]'
+PlayCardTask => [Roffle] play 'Mecharoo[28]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Roffle]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Roffle
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 1
+TOTALMANASPENTTHISGAME 2
+USEDMANATHISTURN 1
+PlayedCard: [Mecharoo]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Orasha> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Orasha> ---------------------------
+PlayCardTask => [Orasha] play 'Plot Twist[44]'(SPELL) Option -1
+EndTurnTask => [Orasha]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 4
+Hero[P1]: 30 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Orasha] play 'Plot Twist[44]'(SPELL) Option -1
+EndTurnTask => [Orasha]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Orasha
+AMOUNTHEALEDTHISTURN 2
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 4
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 1
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 3
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 4
+USEDMANATHISTURN 2
+PlayedCard: [Plot Twist]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 3 - Roffle
+Hero[P1]: 30 / Hero[P2]: 30
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Roffle> ---------------------------
+PlayCardTask => [Roffle] play 'Knife Juggler[35]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Roffle] play 'Saronite Taskmaster[31]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Roffle] 'Jo-E Bot[70]'(MINION) attack 'Free Agent[69]'
+EndTurnTask => [Roffle]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 5
+Hero[P1]: 30 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Roffle] play 'Knife Juggler[35]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Roffle] play 'Saronite Taskmaster[31]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Roffle] 'Jo-E Bot[70]'(MINION) attack 'Free Agent[69]'
+EndTurnTask => [Roffle]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Roffle
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 2
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 3
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 5
+USEDMANATHISTURN 3
+PlayedCard: [Knife Juggler]
+PlayedCard: [Saronite Taskmaster]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Orasha> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Orasha> ---------------------------
+PlayCardTask => [Orasha] play 'Shriek[40]'(SPELL) Option -1
+EndTurnTask => [Orasha]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 6
+Hero[P1]: 30 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Orasha] play 'Shriek[40]'(SPELL) Option -1
+EndTurnTask => [Orasha]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Orasha
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 1
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 3
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 3
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 2
+TOTALMANASPENTTHISGAME 5
+USEDMANATHISTURN 1
+PlayedCard: [Shriek]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 4 - Roffle
+Hero[P1]: 30 / Hero[P2]: 30
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Roffle> ---------------------------
+MinionAttackTask => [Roffle] 'Saronite Taskmaster[31]'(MINION) attack 'Gul'dan[6]'
+PlayCardTask => [Roffle] play 'Fiendish Circle[21]'(SPELL) Option -1
+EndTurnTask => [Roffle]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 7
+Hero[P1]: 30 / Hero[P2]: 28
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Roffle] 'Saronite Taskmaster[31]'(MINION) attack 'Gul'dan[6]'
+PlayCardTask => [Roffle] play 'Fiendish Circle[21]'(SPELL) Option -1
+EndTurnTask => [Roffle]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Roffle
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 9
+USEDMANATHISTURN 4
+PlayedCard: [Fiendish Circle]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Orasha> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Orasha> ---------------------------
+EndTurnTask => [Orasha]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 8
+Hero[P1]: 30 / Hero[P2]: 28
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+EndTurnTask => [Orasha]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Orasha
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 0
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 0
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 3
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 4
+TOTALMANASPENTTHISGAME 5
+USEDMANATHISTURN 0
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 5 - Roffle
+Hero[P1]: 30 / Hero[P2]: 28
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Roffle> ---------------------------
+MinionAttackTask => [Roffle] 'Saronite Taskmaster[31]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Roffle] 'Imp[71]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Roffle] 'Imp[72]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Roffle] 'Imp[73]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Roffle] 'Imp[74]'(MINION) attack 'Gul'dan[6]'
+PlayCardTask => [Roffle] play 'Fiendish Circle[20]'(SPELL) Option -1
+EndTurnTask => [Roffle]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 9
+Hero[P1]: 30 / Hero[P2]: 22
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Roffle] 'Saronite Taskmaster[31]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Roffle] 'Imp[71]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Roffle] 'Imp[72]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Roffle] 'Imp[73]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Roffle] 'Imp[74]'(MINION) attack 'Gul'dan[6]'
+PlayCardTask => [Roffle] play 'Fiendish Circle[20]'(SPELL) Option -1
+EndTurnTask => [Roffle]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Roffle
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 5
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 6
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 1
+TOTALMANASPENTTHISGAME 13
+USEDMANATHISTURN 4
+PlayedCard: [Fiendish Circle]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Orasha> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Orasha> ---------------------------
+PlayCardTask => [Orasha] play 'Rotten Applebaum[64]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Orasha]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 10
+Hero[P1]: 30 / Hero[P2]: 22
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Orasha] play 'Rotten Applebaum[64]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Orasha]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Orasha
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 3
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 10
+USEDMANATHISTURN 5
+PlayedCard: [Rotten Applebaum]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 6 - Roffle
+Hero[P1]: 30 / Hero[P2]: 22
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Roffle> ---------------------------
+MinionAttackTask => [Roffle] 'Imp[71]'(MINION) attack 'Rotten Applebaum[64]'
+MinionAttackTask => [Roffle] 'Imp[72]'(MINION) attack 'Rotten Applebaum[64]'
+MinionAttackTask => [Roffle] 'Imp[73]'(MINION) attack 'Rotten Applebaum[64]'
+MinionAttackTask => [Roffle] 'Imp[74]'(MINION) attack 'Rotten Applebaum[64]'
+PlayCardTask => [Roffle] play 'Argent Squire[27]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Roffle]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 11
+Hero[P1]: 30 / Hero[P2]: 22
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Roffle] 'Imp[71]'(MINION) attack 'Rotten Applebaum[64]'
+MinionAttackTask => [Roffle] 'Imp[72]'(MINION) attack 'Rotten Applebaum[64]'
+MinionAttackTask => [Roffle] 'Imp[73]'(MINION) attack 'Rotten Applebaum[64]'
+MinionAttackTask => [Roffle] 'Imp[74]'(MINION) attack 'Rotten Applebaum[64]'
+PlayCardTask => [Roffle] play 'Argent Squire[27]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Roffle]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Roffle
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 4
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 4
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 4
+NUMOPTIONSPLAYEDTHISTURN 5
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 5
+TOTALMANASPENTTHISGAME 14
+USEDMANATHISTURN 1
+PlayedCard: [Argent Squire]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Orasha> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Orasha> ---------------------------
+MinionAttackTask => [Orasha] 'Rotten Applebaum[64]'(MINION) attack 'Argent Squire[27]'
+PlayCardTask => [Orasha] play 'Hellfire[51]'(SPELL) Option -1
+EndTurnTask => [Orasha]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 12
+Hero[P1]: 27 / Hero[P2]: 23
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Orasha] 'Rotten Applebaum[64]'(MINION) attack 'Argent Squire[27]'
+PlayCardTask => [Orasha] play 'Hellfire[51]'(SPELL) Option -1
+EndTurnTask => [Orasha]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Orasha
+AMOUNTHEALEDTHISTURN 4
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 1
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 5
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 4
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 2
+TOTALMANASPENTTHISGAME 14
+USEDMANATHISTURN 4
+PlayedCard: [Hellfire]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 7 - Roffle
+Hero[P1]: 27 / Hero[P2]: 23
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Roffle> ---------------------------
+PlayCardTask => [Roffle] play 'Mecharoo[29]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Roffle]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 13
+Hero[P1]: 27 / Hero[P2]: 23
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Roffle] play 'Mecharoo[29]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Roffle]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Roffle
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 6
+TOTALMANASPENTTHISGAME 15
+USEDMANATHISTURN 1
+PlayedCard: [Mecharoo]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Orasha> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Orasha> ---------------------------
+EndTurnTask => [Orasha]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 14
+Hero[P1]: 27 / Hero[P2]: 23
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+EndTurnTask => [Orasha]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Orasha
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 0
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 0
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 4
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 7
+TOTALMANASPENTTHISGAME 14
+USEDMANATHISTURN 0
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 8 - Roffle
+Hero[P1]: 27 / Hero[P2]: 23
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Roffle> ---------------------------
+HeroPowerTask => [Roffle] using 'Life Tap[5]'
+PlayCardTask => [Roffle] play 'Soulfire[15]'(SPELL) 'Gul'dan[6]' Option -1
+MinionAttackTask => [Roffle] 'Mecharoo[29]'(MINION) attack 'Free Agent[77]'
+PlayCardTask => [Roffle] play 'Soul Infusion[12]'(SPELL) Option -1
+PlayCardTask => [Roffle] play 'Scarab Egg[36]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Roffle]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 15
+Hero[P1]: 25 / Hero[P2]: 19
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+HeroPowerTask => [Roffle] using 'Life Tap[5]'
+PlayCardTask => [Roffle] play 'Soulfire[15]'(SPELL) 'Gul'dan[6]' Option -1
+MinionAttackTask => [Roffle] 'Mecharoo[29]'(MINION) attack 'Free Agent[77]'
+PlayCardTask => [Roffle] play 'Soul Infusion[12]'(SPELL) Option -1
+PlayCardTask => [Roffle] play 'Scarab Egg[36]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Roffle]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Roffle
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 1
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 2
+NUMCARDSPLAYEDTHISTURN 3
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 4
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 4
+NUMTIMESHEROPOWERUSEDTHISGAME 1
+REMAININGMANA 2
+TOTALMANASPENTTHISGAME 21
+USEDMANATHISTURN 6
+PlayedCard: [Soulfire]
+PlayedCard: [Soul Infusion]
+PlayedCard: [Scarab Egg]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Orasha> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Orasha> ---------------------------
+PlayCardTask => [Orasha] play 'Sense Demons[49]'(SPELL) Option -1
+PlayCardTask => [Orasha] play 'Mortal Coil[39]'(SPELL) 'Mecharoo[29]' Option -1
+PlayCardTask => [Orasha] play 'High Priestess Jeklik[52]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Orasha]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 16
+Hero[P1]: 25 / Hero[P2]: 19
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Orasha] play 'Sense Demons[49]'(SPELL) Option -1
+PlayCardTask => [Orasha] play 'Mortal Coil[39]'(SPELL) 'Mecharoo[29]' Option -1
+PlayCardTask => [Orasha] play 'High Priestess Jeklik[52]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Orasha]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Orasha
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 3
+NUMCARDSPLAYEDTHISTURN 3
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 1
+NUMOPTIONSPLAYEDTHISTURN 3
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 6
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 22
+USEDMANATHISTURN 8
+PlayedCard: [Sense Demons]
+PlayedCard: [Mortal Coil]
+PlayedCard: [High Priestess Jeklik]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 9 - Roffle
+Hero[P1]: 25 / Hero[P2]: 19
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Roffle> ---------------------------
+PlayCardTask => [Roffle] play 'Knife Juggler[34]'(MINION) to Pos[0] Option -1
+HeroPowerTask => [Roffle] using 'Life Tap[5]'
+PlayCardTask => [Roffle] play 'Abusive Sergeant[24]'(MINION) 'Scarab Egg[36]' to Pos[1] Option -1
+MinionAttackTask => [Roffle] 'Scarab Egg[36]'(MINION) attack 'High Priestess Jeklik[52]'
+MinionAttackTask => [Roffle] 'Jo-E Bot[79]'(MINION) attack 'Free Agent[77]'
+EndTurnTask => [Roffle]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 17
+Hero[P1]: 23 / Hero[P2]: 21
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Roffle] play 'Knife Juggler[34]'(MINION) to Pos[0] Option -1
+HeroPowerTask => [Roffle] using 'Life Tap[5]'
+PlayCardTask => [Roffle] play 'Abusive Sergeant[24]'(MINION) 'Scarab Egg[36]' to Pos[1] Option -1
+MinionAttackTask => [Roffle] 'Scarab Egg[36]'(MINION) attack 'High Priestess Jeklik[52]'
+MinionAttackTask => [Roffle] 'Jo-E Bot[79]'(MINION) attack 'Free Agent[77]'
+EndTurnTask => [Roffle]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Roffle
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 1
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 2
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 2
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 2
+NUMMINIONSPLAYERKILLEDTHISTURN 1
+NUMOPTIONSPLAYEDTHISTURN 4
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 4
+NUMTIMESHEROPOWERUSEDTHISGAME 2
+REMAININGMANA 4
+TOTALMANASPENTTHISGAME 26
+USEDMANATHISTURN 5
+PlayedCard: [Knife Juggler]
+PlayedCard: [Abusive Sergeant]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Orasha> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Orasha> ---------------------------
+PlayCardTask => [Orasha] play 'Reckless Diretroll[47]'(MINION) to Pos[0] Option -1
+HeroPowerTask => [Orasha] using 'Life Tap[7]'
+PlayCardTask => [Orasha] play 'Mortal Coil[38]'(SPELL) 'Abusive Sergeant[24]' Option -1
+EndTurnTask => [Orasha]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 18
+Hero[P1]: 23 / Hero[P2]: 19
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Orasha] play 'Reckless Diretroll[47]'(MINION) to Pos[0] Option -1
+HeroPowerTask => [Orasha] using 'Life Tap[7]'
+PlayCardTask => [Orasha] play 'Mortal Coil[38]'(SPELL) 'Abusive Sergeant[24]' Option -1
+EndTurnTask => [Orasha]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Orasha
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 1
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 3
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 1
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 7
+NUMTIMESHEROPOWERUSEDTHISGAME 1
+REMAININGMANA 3
+TOTALMANASPENTTHISGAME 28
+USEDMANATHISTURN 6
+PlayedCard: [Reckless Diretroll]
+PlayedCard: [Mortal Coil]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 10 - Roffle
+Hero[P1]: 23 / Hero[P2]: 19
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Roffle> ---------------------------
+PlayCardTask => [Roffle] play 'Abusive Sergeant[25]'(MINION) 'Scarab Egg[36]' to Pos[2] Option -1
+MinionAttackTask => [Roffle] 'Scarab Egg[36]'(MINION) attack 'Reckless Diretroll[47]'
+MinionAttackTask => [Roffle] 'Knife Juggler[34]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Roffle] 'Jo-E Bot[79]'(MINION) attack 'Gul'dan[6]'
+EndTurnTask => [Roffle]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 19
+Hero[P1]: 23 / Hero[P2]: 14
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Roffle] play 'Abusive Sergeant[25]'(MINION) 'Scarab Egg[36]' to Pos[2] Option -1
+MinionAttackTask => [Roffle] 'Scarab Egg[36]'(MINION) attack 'Reckless Diretroll[47]'
+MinionAttackTask => [Roffle] 'Knife Juggler[34]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Roffle] 'Jo-E Bot[79]'(MINION) attack 'Gul'dan[6]'
+EndTurnTask => [Roffle]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Roffle
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 3
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 1
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 2
+NUMOPTIONSPLAYEDTHISTURN 4
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 4
+NUMTIMESHEROPOWERUSEDTHISGAME 2
+REMAININGMANA 9
+TOTALMANASPENTTHISGAME 27
+USEDMANATHISTURN 1
+PlayedCard: [Abusive Sergeant]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Orasha> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Orasha> ---------------------------
+MinionAttackTask => [Orasha] 'Reckless Diretroll[47]'(MINION) attack 'Gul'dan[4]'
+PlayCardTask => [Orasha] play 'Lord Godfrey[58]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Orasha]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 20
+Hero[P1]: 21 / Hero[P2]: 14
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Orasha] 'Reckless Diretroll[47]'(MINION) attack 'Gul'dan[4]'
+PlayCardTask => [Orasha] play 'Lord Godfrey[58]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Orasha]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Orasha
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 1
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 7
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 7
+NUMTIMESHEROPOWERUSEDTHISGAME 1
+REMAININGMANA 3
+TOTALMANASPENTTHISGAME 35
+USEDMANATHISTURN 7
+PlayedCard: [Lord Godfrey]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 11 - Roffle
+Hero[P1]: 21 / Hero[P2]: 14
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Roffle> ---------------------------
+PlayCardTask => [Roffle] play 'Voidwalker[16]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Roffle]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 21
+Hero[P1]: 21 / Hero[P2]: 14
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Roffle] play 'Voidwalker[16]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Roffle]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Roffle
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 4
+NUMTIMESHEROPOWERUSEDTHISGAME 2
+REMAININGMANA 9
+TOTALMANASPENTTHISGAME 28
+USEDMANATHISTURN 1
+PlayedCard: [Voidwalker]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Orasha> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Orasha> ---------------------------
+PlayCardTask => [Orasha] play 'Zilliax[65]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Orasha] 'Zilliax[65]'(MINION) attack 'Voidwalker[16]'
+PlayCardTask => [Orasha] play 'Reckless Diretroll[46]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Orasha] 'Lord Godfrey[58]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Orasha]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 22
+Hero[P1]: 17 / Hero[P2]: 17
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Orasha] play 'Zilliax[65]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Orasha] 'Zilliax[65]'(MINION) attack 'Voidwalker[16]'
+PlayCardTask => [Orasha] play 'Reckless Diretroll[46]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Orasha] 'Lord Godfrey[58]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Orasha]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Orasha
+AMOUNTHEALEDTHISTURN 3
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 2
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 2
+NUMMINIONSPLAYERKILLEDTHISTURN 1
+NUMOPTIONSPLAYEDTHISTURN 4
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 7
+NUMTIMESHEROPOWERUSEDTHISGAME 1
+REMAININGMANA 2
+TOTALMANASPENTTHISGAME 43
+USEDMANATHISTURN 8
+PlayedCard: [Zilliax]
+PlayedCard: [Reckless Diretroll]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 12 - Roffle
+Hero[P1]: 17 / Hero[P2]: 17
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Roffle> ---------------------------
+EndTurnTask => [Roffle]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 23
+Hero[P1]: 17 / Hero[P2]: 17
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+EndTurnTask => [Roffle]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Roffle
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 0
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 0
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 4
+NUMTIMESHEROPOWERUSEDTHISGAME 2
+REMAININGMANA 10
+TOTALMANASPENTTHISGAME 28
+USEDMANATHISTURN 0
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Orasha> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Orasha> ---------------------------
+PlayCardTask => [Orasha] play 'Arch-Villain Rafaam[57]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Orasha] 'Zilliax[65]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Orasha] 'Lord Godfrey[58]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Orasha] 'Reckless Diretroll[46]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Orasha]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 24
+Hero[P1]: 8 / Hero[P2]: 20
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Orasha] play 'Arch-Villain Rafaam[57]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Orasha] 'Zilliax[65]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Orasha] 'Lord Godfrey[58]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Orasha] 'Reckless Diretroll[46]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Orasha]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Orasha
+AMOUNTHEALEDTHISTURN 3
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 3
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 4
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 7
+NUMTIMESHEROPOWERUSEDTHISGAME 1
+REMAININGMANA 3
+TOTALMANASPENTTHISGAME 50
+USEDMANATHISTURN 7
+PlayedCard: [Arch-Villain Rafaam]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 13 - Roffle
+Hero[P1]: 8 / Hero[P2]: 20
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Roffle> ---------------------------
+EndTurnTask => [Roffle]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 25
+Hero[P1]: 8 / Hero[P2]: 20
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+EndTurnTask => [Roffle]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Roffle
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 0
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 0
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 4
+NUMTIMESHEROPOWERUSEDTHISGAME 2
+REMAININGMANA 10
+TOTALMANASPENTTHISGAME 28
+USEDMANATHISTURN 0
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Orasha> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Orasha> ---------------------------
+MinionAttackTask => [Orasha] 'Arch-Villain Rafaam[57]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Orasha] 'Reckless Diretroll[46]'(MINION) attack 'Gul'dan[4]'
+______________________________________________________________________
+Player1: LOST / Player2: WON - turn no 26
+Hero[P1]: -1 / Hero[P2]: 20
+>>>>>>>>>TASK TYPE CHECK (is EOT?): False
+>>>>>>>>>TASK TYPE: MINION_ATTACK
+ALL TURN TASKS:
+MinionAttackTask => [Orasha] 'Arch-Villain Rafaam[57]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Orasha] 'Reckless Diretroll[46]'(MINION) attack 'Gul'dan[4]'
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Orasha
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 0
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 2
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 7
+NUMTIMESHEROPOWERUSEDTHISGAME 1
+REMAININGMANA 10
+TOTALMANASPENTTHISGAME 50
+USEDMANATHISTURN 0
+No more cards played this turn.
+______________________________________________________________________|
+Game: COMPLETE, Player1: LOST / Player2: WON
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+

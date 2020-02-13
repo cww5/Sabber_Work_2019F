@@ -1,0 +1,796 @@
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+Player1: Viper=Aggro vs Player2: Krebs1996=Control
+Player1Deck: Zoolock Legend #7 Post Nerf vs Player2Deck: Handlock to Legend
+Starting game
+Player1: Mulligan 
+Player2: Mulligan 42,40,39
+Player1: PLAYING / Player2: PLAYING - ROUND 1 - Viper
+Hero[P1]: 30 / Hero[P2]: 30
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Viper> ---------------------------
+PlayCardTask => [Viper] play 'Abusive Sergeant[19]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Viper]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 1
+Hero[P1]: 30 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Viper] play 'Abusive Sergeant[19]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Viper]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Viper
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 1
+USEDMANATHISTURN 1
+PlayedCard: [Abusive Sergeant]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Krebs1996> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Krebs1996> ---------------------------
+EndTurnTask => [Krebs1996]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 2
+Hero[P1]: 30 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+EndTurnTask => [Krebs1996]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Krebs1996
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 0
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 0
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 1
+TOTALMANASPENTTHISGAME 0
+USEDMANATHISTURN 0
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 2 - Viper
+Hero[P1]: 30 / Hero[P2]: 30
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Viper> ---------------------------
+PlayCardTask => [Viper] play 'Mecharoo[23]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Viper]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 3
+Hero[P1]: 30 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Viper] play 'Mecharoo[23]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Viper]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Viper
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 1
+TOTALMANASPENTTHISGAME 2
+USEDMANATHISTURN 1
+PlayedCard: [Mecharoo]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Krebs1996> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Krebs1996> ---------------------------
+PlayCardTask => [Krebs1996] play 'The Coin[68]'(SPELL) Option -1
+PlayCardTask => [Krebs1996] play 'Faceless Rager[57]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Krebs1996]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 4
+Hero[P1]: 30 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Krebs1996] play 'The Coin[68]'(SPELL) Option -1
+PlayCardTask => [Krebs1996] play 'Faceless Rager[57]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Krebs1996]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Krebs1996
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 3
+USEDMANATHISTURN 2
+PlayedCard: [The Coin]
+PlayedCard: [Faceless Rager]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 3 - Viper
+Hero[P1]: 30 / Hero[P2]: 30
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Viper> ---------------------------
+MinionAttackTask => [Viper] 'Mecharoo[23]'(MINION) attack 'Faceless Rager[57]'
+MinionAttackTask => [Viper] 'Abusive Sergeant[19]'(MINION) attack 'Gul'dan[6]'
+EndTurnTask => [Viper]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 5
+Hero[P1]: 30 / Hero[P2]: 29
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Viper] 'Mecharoo[23]'(MINION) attack 'Faceless Rager[57]'
+MinionAttackTask => [Viper] 'Abusive Sergeant[19]'(MINION) attack 'Gul'dan[6]'
+EndTurnTask => [Viper]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Viper
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 0
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 2
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 1
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 2
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 3
+TOTALMANASPENTTHISGAME 2
+USEDMANATHISTURN 0
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Krebs1996> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Krebs1996> ---------------------------
+PlayCardTask => [Krebs1996] play 'Faceless Rager[56]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Krebs1996]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 6
+Hero[P1]: 30 / Hero[P2]: 29
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Krebs1996] play 'Faceless Rager[56]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Krebs1996]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Krebs1996
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 6
+USEDMANATHISTURN 3
+PlayedCard: [Faceless Rager]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 4 - Viper
+Hero[P1]: 30 / Hero[P2]: 29
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Viper> ---------------------------
+PlayCardTask => [Viper] play 'Defender of Argus[35]'(MINION) to Pos[1] Option -1
+MinionAttackTask => [Viper] 'Abusive Sergeant[19]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Viper] 'Jo-E Bot[69]'(MINION) attack 'Gul'dan[6]'
+EndTurnTask => [Viper]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 7
+Hero[P1]: 30 / Hero[P2]: 25
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Viper] play 'Defender of Argus[35]'(MINION) to Pos[1] Option -1
+MinionAttackTask => [Viper] 'Abusive Sergeant[19]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Viper] 'Jo-E Bot[69]'(MINION) attack 'Gul'dan[6]'
+EndTurnTask => [Viper]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Viper
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 2
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 3
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 6
+USEDMANATHISTURN 4
+PlayedCard: [Defender of Argus]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Krebs1996> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Krebs1996> ---------------------------
+PlayCardTask => [Krebs1996] play 'Shadowflame[40]'(SPELL) 'Faceless Rager[56]' Option -1
+EndTurnTask => [Krebs1996]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 8
+Hero[P1]: 30 / Hero[P2]: 25
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Krebs1996] play 'Shadowflame[40]'(SPELL) 'Faceless Rager[56]' Option -1
+EndTurnTask => [Krebs1996]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Krebs1996
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 1
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 4
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 10
+USEDMANATHISTURN 4
+PlayedCard: [Shadowflame]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 5 - Viper
+Hero[P1]: 30 / Hero[P2]: 25
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Viper> ---------------------------
+PlayCardTask => [Viper] play 'Fiendish Circle[17]'(SPELL) Option -1
+PlayCardTask => [Viper] play 'Grim Rally[10]'(SPELL) 'Imp[72]' Option -1
+EndTurnTask => [Viper]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 9
+Hero[P1]: 30 / Hero[P2]: 25
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Viper] play 'Fiendish Circle[17]'(SPELL) Option -1
+PlayCardTask => [Viper] play 'Grim Rally[10]'(SPELL) 'Imp[72]' Option -1
+EndTurnTask => [Viper]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Viper
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 1
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 1
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 11
+USEDMANATHISTURN 5
+PlayedCard: [Fiendish Circle]
+PlayedCard: [Grim Rally]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Krebs1996> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Krebs1996> ---------------------------
+PlayCardTask => [Krebs1996] play 'Hellfire[39]'(SPELL) Option -1
+EndTurnTask => [Krebs1996]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 10
+Hero[P1]: 27 / Hero[P2]: 22
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Krebs1996] play 'Hellfire[39]'(SPELL) Option -1
+EndTurnTask => [Krebs1996]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Krebs1996
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 3
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 3
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 1
+TOTALMANASPENTTHISGAME 14
+USEDMANATHISTURN 4
+PlayedCard: [Hellfire]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 6 - Viper
+Hero[P1]: 27 / Hero[P2]: 22
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Viper> ---------------------------
+PlayCardTask => [Viper] play 'Dire Wolf Alpha[26]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Viper] play 'Witchwood Imp[16]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Viper] play 'Scarab Egg[29]'(MINION) to Pos[2] Option -1
+EndTurnTask => [Viper]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 11
+Hero[P1]: 27 / Hero[P2]: 22
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Viper] play 'Dire Wolf Alpha[26]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Viper] play 'Witchwood Imp[16]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Viper] play 'Scarab Egg[29]'(MINION) to Pos[2] Option -1
+EndTurnTask => [Viper]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Viper
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 3
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 3
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 3
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 1
+TOTALMANASPENTTHISGAME 16
+USEDMANATHISTURN 5
+PlayedCard: [Dire Wolf Alpha]
+PlayedCard: [Witchwood Imp]
+PlayedCard: [Scarab Egg]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Krebs1996> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Krebs1996> ---------------------------
+HeroPowerTask => [Krebs1996] using 'Life Tap[7]'
+PlayCardTask => [Krebs1996] play 'Acidic Swamp Ooze[48]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Krebs1996] play 'Sunfury Protector[52]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Krebs1996]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 12
+Hero[P1]: 27 / Hero[P2]: 20
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+HeroPowerTask => [Krebs1996] using 'Life Tap[7]'
+PlayCardTask => [Krebs1996] play 'Acidic Swamp Ooze[48]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Krebs1996] play 'Sunfury Protector[52]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Krebs1996]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Krebs1996
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 1
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 2
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 2
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 3
+NUMTIMESHEROPOWERUSEDTHISGAME 1
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 20
+USEDMANATHISTURN 6
+PlayedCard: [Acidic Swamp Ooze]
+PlayedCard: [Sunfury Protector]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 7 - Viper
+Hero[P1]: 27 / Hero[P2]: 20
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Viper> ---------------------------
+MinionAttackTask => [Viper] 'Witchwood Imp[16]'(MINION) attack 'Acidic Swamp Ooze[48]'
+PlayCardTask => [Viper] play 'Abusive Sergeant[20]'(MINION) 'Dire Wolf Alpha[26]' to Pos[0] Option -1
+MinionAttackTask => [Viper] 'Dire Wolf Alpha[26]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Viper] 'Scarab Egg[29]'(MINION) attack 'Gul'dan[6]'
+EndTurnTask => [Viper]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 13
+Hero[P1]: 27 / Hero[P2]: 15
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Viper] 'Witchwood Imp[16]'(MINION) attack 'Acidic Swamp Ooze[48]'
+PlayCardTask => [Viper] play 'Abusive Sergeant[20]'(MINION) 'Dire Wolf Alpha[26]' to Pos[0] Option -1
+MinionAttackTask => [Viper] 'Dire Wolf Alpha[26]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Viper] 'Scarab Egg[29]'(MINION) attack 'Gul'dan[6]'
+EndTurnTask => [Viper]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Viper
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 3
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 1
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 2
+NUMOPTIONSPLAYEDTHISTURN 4
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 6
+TOTALMANASPENTTHISGAME 17
+USEDMANATHISTURN 1
+PlayedCard: [Abusive Sergeant]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Krebs1996> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Krebs1996> ---------------------------
+MinionAttackTask => [Krebs1996] 'Sunfury Protector[52]'(MINION) attack 'Gul'dan[4]'
+PlayCardTask => [Krebs1996] play 'Lord Godfrey[46]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Krebs1996]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 14
+Hero[P1]: 25 / Hero[P2]: 15
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Krebs1996] 'Sunfury Protector[52]'(MINION) attack 'Gul'dan[4]'
+PlayCardTask => [Krebs1996] play 'Lord Godfrey[46]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Krebs1996]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Krebs1996
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 1
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 7
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 3
+NUMTIMESHEROPOWERUSEDTHISGAME 1
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 27
+USEDMANATHISTURN 7
+PlayedCard: [Lord Godfrey]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 8 - Viper
+Hero[P1]: 25 / Hero[P2]: 15
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Viper> ---------------------------
+EndTurnTask => [Viper]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 15
+Hero[P1]: 25 / Hero[P2]: 15
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+EndTurnTask => [Viper]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Viper
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 0
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 0
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 8
+TOTALMANASPENTTHISGAME 17
+USEDMANATHISTURN 0
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Krebs1996> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Krebs1996> ---------------------------
+PlayCardTask => [Krebs1996] play 'Omega Agent[42]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Krebs1996] play 'Sunfury Protector[53]'(MINION) to Pos[1] Option -1
+MinionAttackTask => [Krebs1996] 'Lord Godfrey[46]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Krebs1996]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 16
+Hero[P1]: 21 / Hero[P2]: 19
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Krebs1996] play 'Omega Agent[42]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Krebs1996] play 'Sunfury Protector[53]'(MINION) to Pos[1] Option -1
+MinionAttackTask => [Krebs1996] 'Lord Godfrey[46]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Krebs1996]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Krebs1996
+AMOUNTHEALEDTHISTURN 4
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 2
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 3
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 3
+NUMTIMESHEROPOWERUSEDTHISGAME 1
+REMAININGMANA 1
+TOTALMANASPENTTHISGAME 34
+USEDMANATHISTURN 7
+PlayedCard: [Omega Agent]
+PlayedCard: [Sunfury Protector]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 9 - Viper
+Hero[P1]: 21 / Hero[P2]: 19
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Viper> ---------------------------
+PlayCardTask => [Viper] play 'Voidwalker[13]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Viper]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 17
+Hero[P1]: 21 / Hero[P2]: 19
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Viper] play 'Voidwalker[13]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Viper]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Viper
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 8
+TOTALMANASPENTTHISGAME 18
+USEDMANATHISTURN 1
+PlayedCard: [Voidwalker]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Krebs1996> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Krebs1996> ---------------------------
+PlayCardTask => [Krebs1996] play 'Defender of Argus[58]'(MINION) to Pos[1] Option -1
+MinionAttackTask => [Krebs1996] 'Sunfury Protector[53]'(MINION) attack 'Voidwalker[13]'
+MinionAttackTask => [Krebs1996] 'Omega Agent[42]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Krebs1996] 'Lord Godfrey[46]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Krebs1996]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 18
+Hero[P1]: 12 / Hero[P2]: 19
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Krebs1996] play 'Defender of Argus[58]'(MINION) to Pos[1] Option -1
+MinionAttackTask => [Krebs1996] 'Sunfury Protector[53]'(MINION) attack 'Voidwalker[13]'
+MinionAttackTask => [Krebs1996] 'Omega Agent[42]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Krebs1996] 'Lord Godfrey[46]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Krebs1996]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Krebs1996
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 3
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 1
+NUMOPTIONSPLAYEDTHISTURN 4
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 3
+NUMTIMESHEROPOWERUSEDTHISGAME 1
+REMAININGMANA 5
+TOTALMANASPENTTHISGAME 38
+USEDMANATHISTURN 4
+PlayedCard: [Defender of Argus]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 10 - Viper
+Hero[P1]: 12 / Hero[P2]: 19
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Viper> ---------------------------
+PlayCardTask => [Viper] play 'Voidwalker[14]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Viper]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 19
+Hero[P1]: 12 / Hero[P2]: 19
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Viper] play 'Voidwalker[14]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Viper]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Viper
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 9
+TOTALMANASPENTTHISGAME 19
+USEDMANATHISTURN 1
+PlayedCard: [Voidwalker]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Krebs1996> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Krebs1996> ---------------------------
+PlayCardTask => [Krebs1996] play 'Hellfire[38]'(SPELL) Option -1
+MinionAttackTask => [Krebs1996] 'Omega Agent[42]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Krebs1996] 'Lord Godfrey[46]'(MINION) attack 'Gul'dan[4]'
+______________________________________________________________________
+Player1: LOST / Player2: WON - turn no 20
+Hero[P1]: 0 / Hero[P2]: 16
+>>>>>>>>>TASK TYPE CHECK (is EOT?): False
+>>>>>>>>>TASK TYPE: MINION_ATTACK
+ALL TURN TASKS:
+PlayCardTask => [Krebs1996] play 'Hellfire[38]'(SPELL) Option -1
+MinionAttackTask => [Krebs1996] 'Omega Agent[42]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Krebs1996] 'Lord Godfrey[46]'(MINION) attack 'Gul'dan[4]'
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Krebs1996
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 2
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 2
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 3
+NUMOPTIONSPLAYEDTHISTURN 3
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 4
+NUMTIMESHEROPOWERUSEDTHISGAME 1
+REMAININGMANA 6
+TOTALMANASPENTTHISGAME 42
+USEDMANATHISTURN 4
+PlayedCard: [Hellfire]
+No more cards played this turn.
+______________________________________________________________________|
+Game: COMPLETE, Player1: LOST / Player2: WON
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+

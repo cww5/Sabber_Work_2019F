@@ -51,9 +51,11 @@ def parse_cards_xml(fname, cards_eng_path):
 def find_card(card, lines):
 	found = False
 	for line in lines:
-		if card.lower() in line.lower():
+		if card in line:
 			found = True
 			#print(card + ' found')
+			#print(line)
+			#print()
 			break
 	if not found:
 		print(card + ' NOT FOUND')
@@ -74,10 +76,12 @@ def parse_decklist(fname, cards_eng_path):
 	deck.close()
 	all_cards_found = True
 	deck_name, player_name,  hero_type, hero_score, deck_list = '', '', '', '', ''
+	deck_size = 0
 	for line_ in deck_file_lines:
 		if '><' in line_:
 			card_parts = line_.strip('\n').split('><')
 			card_ = card_parts[0]
+			deck_size += int(card_parts[1])
 			# amount = card_parts[1]
 			card_found = find_card(card_, lines_)
 			if not card_found:
@@ -93,10 +97,12 @@ def parse_decklist(fname, cards_eng_path):
 			hero_type = line_.strip('\n').split(': ')[-1]
 		elif 'Score' in line_:
 			hero_score = line_.strip('\n').split(': ')[-1]
-	if all_cards_found:
+	if all_cards_found and deck_size == 30:
 		print('All cards were found!')
 		with open(fname, 'a') as deck:
 			deck.write('\n>>CSV:{}; {}; {}; {};{};'.format(deck_name, player_name, hero_type, hero_score, deck_list.strip('*')))
+	elif not deck_size==30:
+		print('Double check the deck size!')
 	deck.close()
 
 

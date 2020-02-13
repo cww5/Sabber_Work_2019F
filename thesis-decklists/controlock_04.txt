@@ -1,0 +1,24 @@
+>>Name: Control Warlock Old Type
+>>Author: Slage
+>>Hero: Warlock
+>>Score: Control
+>>Date: 20190409
+>>Link: https://outof.cards/hearthstone/decks/1132-control-warlock-old-type
+Mortal Coil><1
+Plot Twist><2
+Hellfire><2
+Shadowflame><2
+Aranasi Broodmother><2
+Siphon Soul><2
+Arch-Villain Rafaam><1
+Twisting Nether><1
+Acidic Swamp Ooze><1
+Ancient Watcher><2
+Doomsayer><2
+Sunfury Protector><2
+Faceless Rager><2
+Proud Defender><2
+Spellbreaker><2
+Twilight Drake><2
+Mountain Giant><2
+>>CSV:Control Warlock Old Type; Slage; Warlock; Control;Mortal Coil*Plot Twist*Plot Twist*Hellfire*Hellfire*Shadowflame*Shadowflame*Aranasi Broodmother*Aranasi Broodmother*Siphon Soul*Siphon Soul*Arch-Villain Rafaam*Twisting Nether*Acidic Swamp Ooze*Ancient Watcher*Ancient Watcher*Doomsayer*Doomsayer*Sunfury Protector*Sunfury Protector*Faceless Rager*Faceless Rager*Proud Defender*Proud Defender*Spellbreaker*Spellbreaker*Twilight Drake*Twilight Drake*Mountain Giant*Mountain Giant;

@@ -1,0 +1,25 @@
+>>Name: Omega Control Warlock
+>>Author: Stonekeep
+>>Hero: Warlock
+>>Score: Control
+>>Date: 20190524
+>>Link: https://www.hearthstonetopdecks.com/decks/omega-control-warlock-shadows-post-nerf-top-500-legend-novamograph/
+Mortal Coil><2
+Curse of Weakness><2
+Sense Demons><1
+Shadow Bolt><2
+Hellfire><1
+Shadowflame><2
+Omega Agent><2
+Aranasi Broodmother><2
+Siphon Soul><2
+Lord Godfrey><1
+Twisting Nether><2
+Lord Jaraxxus><1
+Doomsayer><2
+Twilight Drake><2
+Barista Lynchen><1
+Big Game Hunter><1
+Mossy Horror><2
+Mountain Giant><2
+>>CSV:Omega Control Warlock; Stonekeep; Warlock; Control;Mortal Coil*Mortal Coil*Curse of Weakness*Curse of Weakness*Sense Demons*Shadow Bolt*Shadow Bolt*Hellfire*Shadowflame*Shadowflame*Omega Agent*Omega Agent*Aranasi Broodmother*Aranasi Broodmother*Siphon Soul*Siphon Soul*Lord Godfrey*Twisting Nether*Twisting Nether*Lord Jaraxxus*Doomsayer*Doomsayer*Twilight Drake*Twilight Drake*Barista Lynchen*Big Game Hunter*Mossy Horror*Mossy Horror*Mountain Giant*Mountain Giant;

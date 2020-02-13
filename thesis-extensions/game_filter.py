@@ -1,3 +1,17 @@
+import numpy as np
+import pandas as pd
+import matplotlib
+import matplotlib.pyplot as plt
+
+import re
+import argparse
+import logging
+
+# import glob
+import os
+import sys
+from pathlib import Path
+
 """
 TO DO:
 1) Find a way to run the C# script N number of times and write to output files
@@ -39,26 +53,13 @@ this contains 25 lines from index of ______ to index of _____|
 shuold be range(i, i+26)
 The two lines above with the >>>>>> don't begin with '#', added that there because PyCharm threw errors on those lines.
 
-python game_filter.py laptop
+python game_filter.py laptop folder_name_with_all_output
 
 """
-import numpy as np
-import pandas as pd
-import matplotlib
-import matplotlib.pyplot as plt
-
-import re
-import argparse
-import logging
-
-# import glob
-import os
-import sys
-from pathlib import Path
 
 
 def parse_options():
-	parser = argparse.ArgumentParser(description="Class for parsing game data")
+	parser = argparse.ArgumentParser(description='Class for parsing game data')
 	parser.add_argument('machine', help='configure to desktop, laptop, or mixr')
 	parser.add_argument('base', help='folder of output to analyze ex: 2020-02-10.12.48.53')
 	parser.add_argument('--sum', action='store_true', help='flag to print summary')
@@ -67,8 +68,7 @@ def parse_options():
 	parser.add_argument('--end', action='store_true', help='flag to print end_turn health')
 	parser.add_argument('--blk', action='store_true', help='flag to print blocktypes')
 	parser.add_argument('--log_file', help='file to store logs')
-	parser.add_argument('-vb', '--verbose', action='store_true', default=False,
-						help='turn on verbose logs for debugging')
+	parser.add_argument('-vb', '--verbose', action='store_true', default=False, help='turn on verbose logs for debugging')
 	ret_args = parser.parse_args()
 
 	log_fmt = '%(asctime)s LINE:%(lineno)d LEVEL:%(levelname)s %(message)s'
@@ -96,6 +96,7 @@ class GameFilter:
 		self.game_counter = 0
 		self.games_data = {}
 		self.end_of_turn_data = {}
+		self.file_name = infile
 
 	def parse_file(self):
 		turn_info = []
@@ -106,20 +107,20 @@ class GameFilter:
 				# logging.info(line[:2], line[-2:])
 				if line[:2] == '+-' and line[-2:] == '-+':
 					if not new_game:
-						logging.info('Start new game')
+						# logging.info('Start new game')
 						new_game = True
 						self.game_counter += 1
 						self.end_of_turn_data = {}
 					else:
-						logging.info('End the game')
+						# logging.info('End the game')
 						new_game = False
 						# Here is where I need the stuff to create the DF for the game
 						df = pd.DataFrame.from_dict(self.end_of_turn_data, orient='index')
 						new_col_data = [self.game_counter for i in range(df.shape[0])]
 						df['GAME_COUNTER'] = new_col_data
-						logging.info(df.shape)
+						# logging.info(df.shape)
 						self.games_data[self.game_counter] = df
-						# logging.info(self.games_data.keys())
+					# logging.info(self.games_data.keys())
 				elif line[0] == '_' and line[-1] == '_':
 					end_of_turn = True
 					continue
@@ -127,7 +128,9 @@ class GameFilter:
 					self.parse_turn(turn_info)
 					end_of_turn = False
 					turn_info = []
-				if end_of_turn: # only add the line to turn_info in between _____ and _____|
+				elif '!!!!!!' in line:
+					logging.warning('There is an error in the file {}'.format(self.file_name))
+				if end_of_turn:  # only add the line to turn_info in between _____ and _____|
 					turn_info.append(line)
 
 	def parse_turn(self, turn_text_list):
@@ -204,7 +207,7 @@ def main():
 		# directory = 'C:\\Users\\watson\\Documents\\SabberStone 2019\\Sabber_Work_2019F\\thesis-output\\'
 		directory = 'C:\\Users\\watson\\Documents\\SabberStone 2019\\Sabber_Work_2019F\\thesis-output\\'
 	elif machine == 'mixr':
-		directory = 'C:\\Users\\watson\\Documents\\SabberStone 2019\\Sabber_Work_2019F\\thesis-output\\'
+		directory = 'C:\\Users\\Main\\Documents\\GitHub\\Sabber_Work_2019F\\thesis-output\\'
 	else:
 		logging.warning('UNEXPECTED OPTION IN CMD, CONFIG PROPERLY')
 		sys.exit(0)
@@ -222,6 +225,7 @@ def main():
 		logging.debug(f1)
 		list_matchup_folders = [f.path for f in os.scandir(f1) if f.is_dir()]
 		for f2 in list_matchup_folders:
+			logging.info('Current folder: {}'.format(f2))
 			matchup_data = {}
 			logging.debug(f2)
 			csv_file_name = '-'.join(f2.split('\\')[-2:]) + '.csv'
@@ -238,10 +242,10 @@ def main():
 
 				game_obj = GameFilter(game_name)
 				game_obj.parse_file()
-				logging.info(len(game_obj.games_data))
+				# logging.info(len(game_obj.games_data))
 				matchup_data.update(game_obj.games_data)
-				# logging.info('Number of turns: {}'.format(len(game_obj.end_of_turn_data)))
-				# game_obj.plot_data(game_plot_name)
+			# logging.info('Number of turns: {}'.format(len(game_obj.end_of_turn_data)))
+			# game_obj.plot_data(game_plot_name)
 			try:
 				ending_df = pd.concat(list(matchup_data.values()))
 				with open(csv_output_path, 'w') as f:

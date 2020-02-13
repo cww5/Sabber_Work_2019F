@@ -1,0 +1,893 @@
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+Player1: Wabeka=Aggro vs Player2: Stonekeep=Control
+Player1Deck: Omega Zoolock Legend 25-14 vs Player2Deck: Omega Control Warlock
+Player1: Mulligan 35
+Player2: Mulligan 65,61
+Player1: PLAYING / Player2: PLAYING - ROUND 1 - Wabeka
+Hero[P1]: 30 / Hero[P2]: 30
+
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Wabeka> ---------------------------
+EndTurnTask => [Wabeka]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 1
+Hero[P1]: 30 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+EndTurnTask => [Wabeka]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Wabeka
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 0
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 0
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 1
+TOTALMANASPENTTHISGAME 0
+USEDMANATHISTURN 0
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Stonekeep> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Stonekeep> ---------------------------
+EndTurnTask => [Stonekeep]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 2
+Hero[P1]: 30 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+EndTurnTask => [Stonekeep]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Stonekeep
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 0
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 0
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 1
+TOTALMANASPENTTHISGAME 0
+USEDMANATHISTURN 0
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 2 - Wabeka
+Hero[P1]: 30 / Hero[P2]: 30
+
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Wabeka> ---------------------------
+PlayCardTask => [Wabeka] play 'Dire Wolf Alpha[23]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Wabeka]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 3
+Hero[P1]: 30 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Wabeka] play 'Dire Wolf Alpha[23]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Wabeka]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Wabeka
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 2
+USEDMANATHISTURN 2
+PlayedCard: [Dire Wolf Alpha]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Stonekeep> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Stonekeep> ---------------------------
+EndTurnTask => [Stonekeep]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 4
+Hero[P1]: 30 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+EndTurnTask => [Stonekeep]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Stonekeep
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 0
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 0
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 2
+TOTALMANASPENTTHISGAME 0
+USEDMANATHISTURN 0
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 3 - Wabeka
+Hero[P1]: 30 / Hero[P2]: 30
+
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Wabeka> ---------------------------
+MinionAttackTask => [Wabeka] 'Dire Wolf Alpha[23]'(MINION) attack 'Gul'dan[6]'
+PlayCardTask => [Wabeka] play 'Magic Carpet[29]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Wabeka]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 5
+Hero[P1]: 30 / Hero[P2]: 28
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Wabeka] 'Dire Wolf Alpha[23]'(MINION) attack 'Gul'dan[6]'
+PlayCardTask => [Wabeka] play 'Magic Carpet[29]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Wabeka]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Wabeka
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 5
+USEDMANATHISTURN 3
+PlayedCard: [Magic Carpet]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Stonekeep> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Stonekeep> ---------------------------
+PlayCardTask => [Stonekeep] play 'The Coin[68]'(SPELL) Option -1
+PlayCardTask => [Stonekeep] play 'Twilight Drake[61]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Stonekeep]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 6
+Hero[P1]: 30 / Hero[P2]: 28
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Stonekeep] play 'The Coin[68]'(SPELL) Option -1
+PlayCardTask => [Stonekeep] play 'Twilight Drake[61]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Stonekeep]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Stonekeep
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 4
+USEDMANATHISTURN 3
+PlayedCard: [The Coin]
+PlayedCard: [Twilight Drake]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 4 - Wabeka
+Hero[P1]: 30 / Hero[P2]: 28
+
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Wabeka> ---------------------------
+PlayCardTask => [Wabeka] play 'Abusive Sergeant[20]'(MINION) 'Magic Carpet[29]' to Pos[2] Option -1
+MinionAttackTask => [Wabeka] 'Magic Carpet[29]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Wabeka] 'Dire Wolf Alpha[23]'(MINION) attack 'Gul'dan[6]'
+PlayCardTask => [Wabeka] play 'Voidwalker[13]'(MINION) to Pos[1] Option -1
+MinionAttackTask => [Wabeka] 'Voidwalker[13]'(MINION) attack 'Twilight Drake[61]'
+MinionAttackTask => [Wabeka] 'Abusive Sergeant[20]'(MINION) attack 'Twilight Drake[61]'
+EndTurnTask => [Wabeka]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 7
+Hero[P1]: 30 / Hero[P2]: 22
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Wabeka] play 'Abusive Sergeant[20]'(MINION) 'Magic Carpet[29]' to Pos[2] Option -1
+MinionAttackTask => [Wabeka] 'Magic Carpet[29]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Wabeka] 'Dire Wolf Alpha[23]'(MINION) attack 'Gul'dan[6]'
+PlayCardTask => [Wabeka] play 'Voidwalker[13]'(MINION) to Pos[1] Option -1
+MinionAttackTask => [Wabeka] 'Voidwalker[13]'(MINION) attack 'Twilight Drake[61]'
+MinionAttackTask => [Wabeka] 'Abusive Sergeant[20]'(MINION) attack 'Twilight Drake[61]'
+EndTurnTask => [Wabeka]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Wabeka
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 4
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 2
+NUMMINIONSPLAYEDTHISTURN 2
+NUMMINIONSPLAYERKILLEDTHISTURN 3
+NUMOPTIONSPLAYEDTHISTURN 6
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 2
+TOTALMANASPENTTHISGAME 7
+USEDMANATHISTURN 2
+PlayedCard: [Abusive Sergeant]
+PlayedCard: [Voidwalker]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Stonekeep> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Stonekeep> ---------------------------
+PlayCardTask => [Stonekeep] play 'Shadow Bolt[43]'(SPELL) 'Dire Wolf Alpha[23]' Option -1
+EndTurnTask => [Stonekeep]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 8
+Hero[P1]: 30 / Hero[P2]: 22
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Stonekeep] play 'Shadow Bolt[43]'(SPELL) 'Dire Wolf Alpha[23]' Option -1
+EndTurnTask => [Stonekeep]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Stonekeep
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 1
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 1
+TOTALMANASPENTTHISGAME 7
+USEDMANATHISTURN 3
+PlayedCard: [Shadow Bolt]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 5 - Wabeka
+Hero[P1]: 30 / Hero[P2]: 22
+
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Wabeka> ---------------------------
+MinionAttackTask => [Wabeka] 'Magic Carpet[29]'(MINION) attack 'Gul'dan[6]'
+PlayCardTask => [Wabeka] play 'Wargear[35]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Wabeka]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 9
+Hero[P1]: 30 / Hero[P2]: 21
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Wabeka] 'Magic Carpet[29]'(MINION) attack 'Gul'dan[6]'
+PlayCardTask => [Wabeka] play 'Wargear[35]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Wabeka]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Wabeka
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 12
+USEDMANATHISTURN 5
+PlayedCard: [Wargear]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Stonekeep> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Stonekeep> ---------------------------
+PlayCardTask => [Stonekeep] play 'Big Game Hunter[63]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Stonekeep]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 10
+Hero[P1]: 30 / Hero[P2]: 21
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Stonekeep] play 'Big Game Hunter[63]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Stonekeep]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Stonekeep
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 12
+USEDMANATHISTURN 5
+PlayedCard: [Big Game Hunter]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 6 - Wabeka
+Hero[P1]: 30 / Hero[P2]: 21
+
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Wabeka> ---------------------------
+MinionAttackTask => [Wabeka] 'Wargear[35]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Wabeka] 'Magic Carpet[29]'(MINION) attack 'Gul'dan[6]'
+PlayCardTask => [Wabeka] play 'Fiendish Circle[16]'(SPELL) Option -1
+EndTurnTask => [Wabeka]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 11
+Hero[P1]: 30 / Hero[P2]: 15
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Wabeka] 'Wargear[35]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Wabeka] 'Magic Carpet[29]'(MINION) attack 'Gul'dan[6]'
+PlayCardTask => [Wabeka] play 'Fiendish Circle[16]'(SPELL) Option -1
+EndTurnTask => [Wabeka]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Wabeka
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 2
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 3
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 2
+TOTALMANASPENTTHISGAME 16
+USEDMANATHISTURN 4
+PlayedCard: [Fiendish Circle]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Stonekeep> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Stonekeep> ---------------------------
+PlayCardTask => [Stonekeep] play 'Mossy Horror[65]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Stonekeep] 'Big Game Hunter[63]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Stonekeep]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 12
+Hero[P1]: 26 / Hero[P2]: 15
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Stonekeep] play 'Mossy Horror[65]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Stonekeep] 'Big Game Hunter[63]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Stonekeep]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Stonekeep
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 5
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 18
+USEDMANATHISTURN 6
+PlayedCard: [Mossy Horror]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 7 - Wabeka
+Hero[P1]: 26 / Hero[P2]: 15
+
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Wabeka> ---------------------------
+PlayCardTask => [Wabeka] play 'Explodinator[33]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Wabeka] play 'Grim Rally[10]'(SPELL) 'Goblin Bomb[83]' Option -1
+MinionAttackTask => [Wabeka] 'Wargear[35]'(MINION) attack 'Gul'dan[6]'
+EndTurnTask => [Wabeka]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 13
+Hero[P1]: 26 / Hero[P2]: 7
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Wabeka] play 'Explodinator[33]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Wabeka] play 'Grim Rally[10]'(SPELL) 'Goblin Bomb[83]' Option -1
+MinionAttackTask => [Wabeka] 'Wargear[35]'(MINION) attack 'Gul'dan[6]'
+EndTurnTask => [Wabeka]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Wabeka
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 1
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 1
+NUMOPTIONSPLAYEDTHISTURN 3
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 2
+TOTALMANASPENTTHISGAME 21
+USEDMANATHISTURN 5
+PlayedCard: [Explodinator]
+PlayedCard: [Grim Rally]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Stonekeep> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Stonekeep> ---------------------------
+MinionAttackTask => [Stonekeep] 'Big Game Hunter[63]'(MINION) attack 'Wargear[35]'
+PlayCardTask => [Stonekeep] play 'Lord Godfrey[54]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Stonekeep] 'Mossy Horror[65]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Stonekeep]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 14
+Hero[P1]: 23 / Hero[P2]: 5
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Stonekeep] 'Big Game Hunter[63]'(MINION) attack 'Wargear[35]'
+PlayCardTask => [Stonekeep] play 'Lord Godfrey[54]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Stonekeep] 'Mossy Horror[65]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Stonekeep]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Stonekeep
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 2
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 1
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 4
+NUMOPTIONSPLAYEDTHISTURN 3
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 25
+USEDMANATHISTURN 7
+PlayedCard: [Lord Godfrey]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 8 - Wabeka
+Hero[P1]: 23 / Hero[P2]: 5
+
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Wabeka> ---------------------------
+PlayCardTask => [Wabeka] play 'Omega Agent[18]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Wabeka]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 15
+Hero[P1]: 23 / Hero[P2]: 5
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Wabeka] play 'Omega Agent[18]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Wabeka]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Wabeka
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 3
+TOTALMANASPENTTHISGAME 26
+USEDMANATHISTURN 5
+PlayedCard: [Omega Agent]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Stonekeep> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Stonekeep> ---------------------------
+PlayCardTask => [Stonekeep] play 'Twilight Drake[60]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Stonekeep] 'Mossy Horror[65]'(MINION) attack 'Omega Agent[18]'
+PlayCardTask => [Stonekeep] play 'Shadowflame[46]'(SPELL) 'Twilight Drake[60]' Option -1
+MinionAttackTask => [Stonekeep] 'Lord Godfrey[54]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Stonekeep]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 16
+Hero[P1]: 19 / Hero[P2]: 5
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Stonekeep] play 'Twilight Drake[60]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Stonekeep] 'Mossy Horror[65]'(MINION) attack 'Omega Agent[18]'
+PlayCardTask => [Stonekeep] play 'Shadowflame[46]'(SPELL) 'Twilight Drake[60]' Option -1
+MinionAttackTask => [Stonekeep] 'Lord Godfrey[54]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Stonekeep]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Stonekeep
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 2
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 2
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 3
+NUMOPTIONSPLAYEDTHISTURN 4
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 3
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 33
+USEDMANATHISTURN 8
+PlayedCard: [Twilight Drake]
+PlayedCard: [Shadowflame]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 9 - Wabeka
+Hero[P1]: 19 / Hero[P2]: 5
+
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Wabeka> ---------------------------
+PlayCardTask => [Wabeka] play 'Explodinator[32]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Wabeka] play 'Dire Wolf Alpha[24]'(MINION) to Pos[1] Option -1
+EndTurnTask => [Wabeka]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 17
+Hero[P1]: 19 / Hero[P2]: 5
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Wabeka] play 'Explodinator[32]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Wabeka] play 'Dire Wolf Alpha[24]'(MINION) to Pos[1] Option -1
+EndTurnTask => [Wabeka]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Wabeka
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 2
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 3
+TOTALMANASPENTTHISGAME 32
+USEDMANATHISTURN 6
+PlayedCard: [Explodinator]
+PlayedCard: [Dire Wolf Alpha]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Stonekeep> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Stonekeep> ---------------------------
+PlayCardTask => [Stonekeep] play 'Mossy Horror[64]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Stonekeep] 'Lord Godfrey[54]'(MINION) attack 'Explodinator[32]'
+EndTurnTask => [Stonekeep]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 18
+Hero[P1]: 19 / Hero[P2]: 1
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Stonekeep] play 'Mossy Horror[64]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Stonekeep] 'Lord Godfrey[54]'(MINION) attack 'Explodinator[32]'
+EndTurnTask => [Stonekeep]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Stonekeep
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 4
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 3
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 3
+TOTALMANASPENTTHISGAME 39
+USEDMANATHISTURN 6
+PlayedCard: [Mossy Horror]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 10 - Wabeka
+Hero[P1]: 19 / Hero[P2]: 1
+
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Wabeka> ---------------------------
+EndTurnTask => [Wabeka]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 19
+Hero[P1]: 19 / Hero[P2]: 1
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+EndTurnTask => [Wabeka]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Wabeka
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 0
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 0
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 10
+TOTALMANASPENTTHISGAME 32
+USEDMANATHISTURN 0
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Stonekeep> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Stonekeep> ---------------------------
+PlayCardTask => [Stonekeep] play 'Omega Agent[48]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Stonekeep] play 'Omega Agent[49]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Stonekeep] 'Lord Godfrey[54]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Stonekeep] 'Mossy Horror[64]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Stonekeep]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 20
+Hero[P1]: 13 / Hero[P2]: 1
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Stonekeep] play 'Omega Agent[48]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Stonekeep] play 'Omega Agent[49]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Stonekeep] 'Lord Godfrey[54]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Stonekeep] 'Mossy Horror[64]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Stonekeep]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Stonekeep
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 2
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 2
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 4
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 3
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 49
+USEDMANATHISTURN 10
+PlayedCard: [Omega Agent]
+PlayedCard: [Omega Agent]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 11 - Wabeka
+Hero[P1]: 13 / Hero[P2]: 1
+
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Wabeka> ---------------------------
+PlayCardTask => [Wabeka] play 'Fiendish Circle[15]'(SPELL) Option -1
+EndTurnTask => [Wabeka]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 21
+Hero[P1]: 13 / Hero[P2]: 1
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Wabeka] play 'Fiendish Circle[15]'(SPELL) Option -1
+EndTurnTask => [Wabeka]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Wabeka
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 3
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 6
+TOTALMANASPENTTHISGAME 36
+USEDMANATHISTURN 4
+PlayedCard: [Fiendish Circle]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Stonekeep> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Stonekeep> ---------------------------
+PlayCardTask => [Stonekeep] play 'Shadowflame[47]'(SPELL) 'Mossy Horror[64]' Option -1
+PlayCardTask => [Stonekeep] play 'Barista Lynchen[62]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Stonekeep] 'Omega Agent[49]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Stonekeep] 'Omega Agent[98]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Stonekeep] 'Omega Agent[48]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Stonekeep] 'Omega Agent[97]'(MINION) attack 'Gul'dan[4]'
+______________________________________________________________________
+Player1: LOST / Player2: WON - turn no 22
+Hero[P1]: -3 / Hero[P2]: 1
+>>>>>>>>>TASK TYPE CHECK (is EOT?): False
+>>>>>>>>>TASK TYPE: MINION_ATTACK
+ALL TURN TASKS:
+PlayCardTask => [Stonekeep] play 'Shadowflame[47]'(SPELL) 'Mossy Horror[64]' Option -1
+PlayCardTask => [Stonekeep] play 'Barista Lynchen[62]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Stonekeep] 'Omega Agent[49]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Stonekeep] 'Omega Agent[98]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Stonekeep] 'Omega Agent[48]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Stonekeep] 'Omega Agent[97]'(MINION) attack 'Gul'dan[4]'
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Stonekeep
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 4
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 1
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 5
+NUMOPTIONSPLAYEDTHISTURN 6
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 4
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 1
+TOTALMANASPENTTHISGAME 58
+USEDMANATHISTURN 9
+PlayedCard: [Shadowflame]
+PlayedCard: [Barista Lynchen]
+No more cards played this turn.
+______________________________________________________________________|
+Game: COMPLETE, Player1: LOST / Player2: WON
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
