@@ -11,6 +11,7 @@
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU Affero General Public License for more details.
 #endregion
+
 using System;
 using System.IO;
 using System.Collections.Generic;
@@ -171,7 +172,7 @@ namespace SabberStoneCoreAi
 
                 string[] path_parts = { rootFolderName, "thesis-output", DateTime.Now.ToString("yyyy-MM-dd.hh.mm.ss")};
                 folderName = Path.Combine(path_parts).ToString();
-                Console.WriteLine(folderName);
+                //Console.WriteLine(folderName);
                 //folderName = rootFolderName + "\\thesis-decklists\\" + DateTime.Now.ToString("yyyy-MM-dd.hh.mm.ss");
 			}
 
@@ -184,12 +185,15 @@ namespace SabberStoneCoreAi
 
             numLoops = numGames / stepSize;
 
-            //20190128 Amy - Load the data we need for the list of players and opponents
-            //players = getPlayersFromFile(player_decks_file);
-            //opponents = getPlayersFromFile(opponent_decks_file);
+			//20190128 Amy - Load the data we need for the list of players and opponents
+			//players = getPlayersFromFile(player_decks_file);
+			//opponents = getPlayersFromFile(opponent_decks_file);
 
-            //20200203 Connor - Directory to store stuff
-            if (!Directory.Exists(folderName))
+			//20200203 Connor - Directory to store stuff
+
+			Console.WriteLine("Output directory: " + folderName);
+
+			if (!Directory.Exists(folderName))
             {
                 Directory.CreateDirectory(folderName);
             }
