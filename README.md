@@ -17,6 +17,15 @@ For my Master's Thesis, I will be conducting research using Hearthone to dedect 
 
 ## Sample CMD Runs
 
+>dotnet build SabberTMTestCore.csproj
+>dotnet publish -r win-x64 --self-contained false -p:UseAppHost=true
+>dotnet bin\Debug\netcoreapp2.2\win-x64\publish\SabberTMTestCore.dll folder=resultsTemp playerdecks=C:\Users\Main\Documents\GitHub\Sabber_Work_2019F\thesis-decklists\zoolock_decks.csv opponent_decks=opponent_decks.csv
+
+## Helpful Links
+https://stackoverflow.com/questions/52860789/how-to-execute-framework-dependent-deployment-using-dotnet-publish-with-remote-h
+https://stackoverflow.com/questions/50048591/couldnt-find-a-project-to-run-ensure-a-project-exists-in-d-home-site-wwwroot
+https://www.ace-net.ca/wiki/FAQ#Eqw:_Job_waiting_in_error_state
+https://support.microsoft.com/en-us/help/890015/you-receive-a-the-process-cannot-access-the-file-because-it-is-being-u
 
 ## Benchmarks
 | Title | Time |
