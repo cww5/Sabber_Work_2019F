@@ -778,7 +778,7 @@ namespace SabberStoneCoreAi
                         string printedTask = task.FullPrint() + "\n";
                         allTasks += printedTask;
                         tempstring = printedTask;
-						Console.WriteLine("DEBUG}" + tempstring.Trim(new Char[] { ' ', '\n' }));
+						Console.WriteLine("DEBUG}" + tempstring.Trim(new char[] { ' ', '\n' }));
                         logbuild += (tempstring);
 
                         if (task.PlayerTaskType.Equals(PlayerTaskType.END_TURN))
@@ -835,7 +835,7 @@ namespace SabberStoneCoreAi
                         string printedTask = task.FullPrint() + "\n";
                         allTasks += printedTask;
                         tempstring = (printedTask);
-						Console.WriteLine("DEBUG}" + tempstring.Trim(new Char[] { ' ', '\n' }));
+						Console.WriteLine("DEBUG}" + tempstring.Trim(new char[] { ' ', '\n' }));
                         logbuild += (tempstring);
 
                         if (task.PlayerTaskType.Equals(PlayerTaskType.END_TURN))
