@@ -1,25 +1,16 @@
 import numpy as np
 import pandas as pd
 import matplotlib
-import matplotlib.pyplot as plt
 
-import re
 import argparse
 import logging
 
-# import glob
 import os
 import sys
 from pathlib import Path
+from gamework import GameFilter
 
 """
-TO DO:
-1) Find a way to run the C# script N number of times and write to output files
-
-2) python script should read all N files
-
-
-
 End Of Turn Logs look like:
 
 ______________________________________________________________________
@@ -85,110 +76,6 @@ def parse_options():
 	return ret_args
 
 
-class GameFilter:
-	"""class to parse through the Output#-#.txt file which contains N games"""
-
-	def __init__(self, infile):
-		self.lines = []
-		with open(infile) as f:
-			for line in f:
-				self.lines.append(line.strip('\n'))
-		self.game_counter = 0
-		self.games_data = {}
-		self.end_of_turn_data = {}
-		self.file_name = infile
-
-	def parse_file(self):
-		turn_info = []
-		end_of_turn, new_game = False, False
-		for i in range(len(self.lines)):
-			line = self.lines[i]
-			if len(line) > 0:
-				# logging.info(line[:2], line[-2:])
-				if line[:2] == '+-' and line[-2:] == '-+':
-					if not new_game:
-						# logging.info('Start new game')
-						new_game = True
-						self.game_counter += 1
-						self.end_of_turn_data = {}
-					else:
-						# logging.info('End the game')
-						new_game = False
-						# Here is where I need the stuff to create the DF for the game
-						df = pd.DataFrame.from_dict(self.end_of_turn_data, orient='index')
-						new_col_data = [self.game_counter for i in range(df.shape[0])]
-						df['GAME_COUNTER'] = new_col_data
-						# logging.info(df.shape)
-						self.games_data[self.game_counter] = df
-					# logging.info(self.games_data.keys())
-				elif line[0] == '_' and line[-1] == '_':
-					end_of_turn = True
-					continue
-				elif line[0] == '_' and line[-1] == '|':
-					self.parse_turn(turn_info)
-					end_of_turn = False
-					turn_info = []
-				elif '!!!!!!' in line:
-					logging.warning('There is an error in the file {}'.format(self.file_name))
-				if end_of_turn:  # only add the line to turn_info in between _____ and _____|
-					turn_info.append(line)
-
-	def parse_turn(self, turn_text_list):
-		turn_dict = {}
-		turn_num = -1
-		for line in turn_text_list:
-			# logging.info(line)
-			if 'turn no' in line:
-				logging.debug('>>>>>>>>>>>>>>>>>>>>>>TURN NUMBER QUERY')
-				parts = line.split()
-				# logging.info(parts)
-				turn_num = int(parts[-1])
-				turn_dict[turn_num] = {'TURN_NO': turn_num}
-				continue
-
-			health_query = re.match('Hero\[P[12]\]: \-?[0-9]+ / Hero\[P[12]\]: \-?[0-9]+', line)
-			if health_query is not None:
-				logging.debug('>>>>>>>>>>>>>>>>>>>>>>HEALTH DIF QUERY')
-				health_parts = line.split(' / ')
-				hero_1_parts = health_parts[0].split()
-				hero_2_parts = health_parts[1].split()
-				turn_dict[turn_num]['P1_HEALTH'] = int(hero_1_parts[-1])
-				turn_dict[turn_num]['P2_HEALTH'] = int(hero_2_parts[-1])
-				continue
-
-			player_query = re.match('CURRENT PLAYER: P[0-9] [a-zA-Z]+', line)
-			if player_query is not None:
-				logging.debug('>>>>>>>>>>>>>>>>>>>>>>CURRENT PLAYER QUERY')
-				player_parts = line.split(': ')
-				turn_dict[turn_num]['CURRENT_PLAYER'] = player_parts[-1]
-				continue
-
-			param_query = re.match('[A-Z]+ -?[0-9]+', line)
-			if param_query is not None:
-				logging.debug('>>>>>>>>>>>>>>>>>>>>>>PARAM QUERY')
-				parts = line.split()
-				turn_dict[turn_num][parts[0]] = int(parts[-1])
-				continue
-
-		logging.debug(turn_dict)
-		self.end_of_turn_data.update(turn_dict)
-
-	def plot_data(self, fig_name):
-		fig, axs = plt.subplots(2)
-		fig.suptitle('Player 1 vs Player 2')
-		x = self.df.TURN_NO
-		y1 = self.df['P1_HEALTH']
-		y2 = self.df['P2_HEALTH']
-		y = abs(y1 - y2)
-		axs[0].plot(x, y1, label='P1', color='red')
-		axs[0].plot(x, y2, label='P2', color='blue')
-		axs[1].plot(x, y, label='|HP_DIF|', color='grey')
-		axs[0].set(xlabel='Turn Num', ylabel='Health Points')
-		axs[1].set(xlabel='Turn Num', ylabel='|HP Difference|')
-		plt.tight_layout(rect=[0, 0.03, 1, 0.95])
-		plt.savefig(fig_name)
-
-
 def main():
 	args = parse_options()
 	# C:\Users\watson\Desktop\fullgame01_060219.txt
@@ -226,6 +113,7 @@ def main():
 		list_matchup_folders = [f.path for f in os.scandir(f1) if f.is_dir()]
 		for f2 in list_matchup_folders:
 			logging.info('Current folder: {}'.format(f2))
+			game_counter = 0
 			matchup_data = {}
 			logging.debug(f2)
 			csv_file_name = '-'.join(f2.split('\\')[-2:]) + '.csv'
@@ -240,14 +128,16 @@ def main():
 				# logging.info(game_csv_name)
 				# logging.info(game_plot_name)
 
-				game_obj = GameFilter(game_name)
+				game_obj = GameFilter(game_name, game_counter)
 				game_obj.parse_file()
 				# logging.info(len(game_obj.games_data))
 				matchup_data.update(game_obj.games_data)
+				game_counter += game_obj.num_games
 			# logging.info('Number of turns: {}'.format(len(game_obj.end_of_turn_data)))
 			# game_obj.plot_data(game_plot_name)
 			try:
 				ending_df = pd.concat(list(matchup_data.values()))
+				ending_df.reset_index(inplace=True, drop=True)
 				with open(csv_output_path, 'w') as f:
 					ending_df.to_csv(csv_output_path)
 				logging.info('Check {}'.format(csv_output_path))

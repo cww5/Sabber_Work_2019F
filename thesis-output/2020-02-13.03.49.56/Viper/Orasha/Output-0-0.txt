@@ -1,7 +1,0 @@
-!!!!!!!!!!!!!!!!!!Error in the serial games
-System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
-   at SabberStoneCore.Model.Entities.EntityList.get_Item(Int32 id)
-   at SabberStoneCore.Model.Game.Process(PlayerTask gameTask)
-   at SabberStoneCoreAi.Program.FullGame(Tuple`5 P1, Tuple`5 P2) in C:\Users\Main\Documents\GitHub\Sabber_Work_2019F\SabberTMTestCore\SabberTMTestCore\Program.cs:line 846
-   at SabberStoneCoreAi.Program.<>c__DisplayClass13_1.<PlayAllGames>b__0() in C:\Users\Main\Documents\GitHub\Sabber_Work_2019F\SabberTMTestCore\SabberTMTestCore\Program.cs:line 299
-!!!!!!!!!!!!!!!!!!End Error!
