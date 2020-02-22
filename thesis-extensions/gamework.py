@@ -161,6 +161,19 @@ class MatchupData:
 			logging.info(m)
 		logging.info('Total {} matchups'.format(len(self.matchups)))
 
+class MatchData:
+
+	"""This class works with the .csv file for one particular matchup"""
+
+	def __init__(self):
+		logging.info('Created object')
+
+	#make a method to find the number of games
+
+	#make a method to find the average number of turns
+	#median number of turns
+
+
 def parse_options():
 	global main_dir
 	parser = argparse.ArgumentParser(description='Class for parsing game data')
