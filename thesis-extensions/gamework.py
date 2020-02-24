@@ -1,3 +1,4 @@
+import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -144,34 +145,93 @@ class MatchupData:
 		'control':['Orasha','Thijs','Stonekeep','Slage','Krebs1996']
 	}
 
-	def __init__(self, p1_strat, p2_strat):
+	def __init__(self, p1_strat, p2_strat, root_dir):
 		self.p1s = p1_strat
 		self.p2s = p2_strat
+		self.root_dir = root_dir
 		self.matchups = []
+		self.f_paths = []
+		self.set_matchups()
+		self.set_folders()
 
 	def set_matchups(self):
+		"""Using the strategies, set the list of matchups between the players of each strategy"""
 		matchups = []
 		for h1 in self.warlock[self.p1s]:
 			for h2 in self.warlock[self.p2s]:
 				matchups.append('{}-{}.csv'.format(h1, h2))
 		self.matchups = matchups
 
-	def get_matchups(self):
+	def set_folders(self):
+		"""Using the input root directory, set the folders where the data is located"""
+		file_paths = []
 		for m in self.matchups:
-			logging.info(m)
-		logging.info('Total {} matchups'.format(len(self.matchups)))
+			f_path = os.path.join(self.root_dir, m)
+			file_paths.append(f_path)
+		self.f_paths = file_paths
+
+	def get_matchups(self):
+		"""Return the list of matchups.csv files"""
+		for m in self.matchups:
+			print(m)
+		print('Total {} matchups'.format(len(self.matchups)))
+
+	def get_folders(self):
+		"""Return the list of full file paths to each matchup.csv file"""
+		return self.f_paths
+
 
 class MatchData:
 
 	"""This class works with the .csv file for one particular matchup"""
 
-	def __init__(self):
-		logging.info('Created object')
+	def __init__(self, csv_path):
+		self.path = csv_path
+		try:
+			self.df = pd.read_csv(csv_path, index_col=0)
+			print(self.df.shape)
+		except Exception as e:
+			print('Warning: cannot read data at {}'.format(csv_path))
+			print(e)
 
-	#make a method to find the number of games
+	def get_num_games(self):
+		return self.df['GAME_COUNTER'].max()
 
-	#make a method to find the average number of turns
-	#median number of turns
+	def get_mean_num_turns(self):
+		turns = self.df['TURN_NO'].unique()
+		return np.mean(turns)
+
+	def get_median_num_turns(self):
+		turns = self.df['TURN_NO'].unique()
+		return np.median(turns)
+
+	def get_eot_std(self):
+		turn_groups = self.df.groupby('TURN_NO')
+		turn_numbers = list(turn_groups.groups.keys())
+		data = {}
+		for turn in turn_numbers:
+			std = turn_groups.get_group(turn).agg(np.std)
+			data[turn] = std
+		return data
+
+	def get_eot_mean(self):
+		turn_groups = self.df.groupby('TURN_NO')
+		turn_numbers = list(turn_groups.groups.keys())
+		data = {}
+		for turn in turn_numbers:
+			mean_ = turn_groups.get_group(turn).agg(np.mean)
+			data[turn] = mean_
+		return data
+
+	def get_summary(self):
+		data = {
+			'Mean-Turns':self.get_mean_num_turns(),
+			'Median-Turns':self.get_median_num_turns(),
+			'Num-Games':self.get_num_games(),
+			'EoT-Standard-Dev':self.get_eot_std(),
+			'EoT-Mean': self.get_eot_mean()
+		}
+		return data
 
 
 def parse_options():
