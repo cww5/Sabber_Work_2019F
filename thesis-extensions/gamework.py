@@ -145,10 +145,11 @@ class MatchupData:
 		'control':['Orasha','Thijs','Stonekeep','Slage','Krebs1996']
 	}
 
-	def __init__(self, p1_strat, p2_strat, root_dir):
+	def __init__(self, p1_strat, p2_strat, root_dir, max_num_games=None):
 		self.p1s = p1_strat
 		self.p2s = p2_strat
 		self.root_dir = root_dir
+		self.max_num_games = max_num_games
 		self.matchups = []
 		self.f_paths = []
 		self.set_matchups()
@@ -180,30 +181,63 @@ class MatchupData:
 		"""Return the list of full file paths to each matchup.csv file"""
 		return self.f_paths
 
+	def get_all_matchup_summary_data(self):
+		"""Return a dataframe which contains all the relevant summary data for each of the matchups
+		{Mean, Median, Variance, and Standard Deviation} Number of Turns
+		and the Number of Games"""
+
+		d = {}
+
+		for file in self.get_folders():
+			match = MatchData(file, self.max_num_games)
+			summary = match.get_summary()
+			d2 = {
+				'Mean-Num-Turns': summary['Mean-Num-Turns'],
+				'Median-Num-Turns': summary['Median-Num-Turns'],
+				'Var-Num-Turns': summary['Var-Num-Turns'],
+				'Std-Num-Turns': summary['Std-Num-Turns'],
+				'Num-Games': summary['Num-Games']
+			}
+			matchup_ = file.split('\\')[-1].strip('.csv')
+			d[matchup_] = d2
+		return pd.DataFrame.from_dict(data=d)
+
 
 class MatchData:
 
 	"""This class works with the .csv file for one particular matchup"""
 
-	def __init__(self, csv_path):
+	def __init__(self, csv_path, max_num_games=None):
 		self.path = csv_path
 		try:
-			self.df = pd.read_csv(csv_path, index_col=0)
-			print(self.df.shape)
+			df = pd.read_csv(csv_path, index_col=0)
+			if max_num_games is not None:
+				self.df = df.loc[(df['GAME_COUNTER'].isin(list(range(max_num_games))))]
+			else:
+				self.df = df
+			print(csv_path.split('\\')[-1].strip('.csv'), self.df.shape)
 		except Exception as e:
 			print('Warning: cannot read data at {}'.format(csv_path))
 			print(e)
 
 	def get_num_games(self):
-		return self.df['GAME_COUNTER'].max()
+		return self.df['GAME_COUNTER'].max() + 1
 
 	def get_mean_num_turns(self):
-		turns = self.df['TURN_NO'].unique()
-		return np.mean(turns)
+		""".max() instead of .count() both perform the same operation"""
+		return self.df.groupby('GAME_COUNTER').count()['TURN_NO'].mean()
 
 	def get_median_num_turns(self):
-		turns = self.df['TURN_NO'].unique()
-		return np.median(turns)
+		""".max() instead of .count() both perform the same operation"""
+		return self.df.groupby('GAME_COUNTER').count()['TURN_NO'].median()
+
+	def get_std_num_turns(self):
+		""".max() instead of .count() both perform the same operation"""
+		return self.df.groupby('GAME_COUNTER').count()['TURN_NO'].std()
+
+	def get_var_num_turns(self):
+		""".max() instead of .count() both perform the same operation"""
+		return self.df.groupby('GAME_COUNTER').count()['TURN_NO'].var()
 
 	def get_eot_std(self):
 		turn_groups = self.df.groupby('TURN_NO')
@@ -225,8 +259,10 @@ class MatchData:
 
 	def get_summary(self):
 		data = {
-			'Mean-Turns':self.get_mean_num_turns(),
-			'Median-Turns':self.get_median_num_turns(),
+			'Mean-Num-Turns':self.get_mean_num_turns(),
+			'Median-Num-Turns':self.get_median_num_turns(),
+			'Var-Num-Turns': self.get_var_num_turns(),
+			'Std-Num-Turns': self.get_std_num_turns(),
 			'Num-Games':self.get_num_games(),
 			'EoT-Standard-Dev':self.get_eot_std(),
 			'EoT-Mean': self.get_eot_mean()
