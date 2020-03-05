@@ -1,0 +1,409 @@
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+Player1: Pirate1=Aggro vs Player2: Pirate2=Aggro
+Player1Deck: AggroPirateWarrior1 vs Player2Deck: AggroPirateWarrior2
+Starting game
+Player1: Mulligan 
+Player2: Mulligan 
+Player1: PLAYING / Player2: PLAYING - ROUND 1 - Pirate1
+Hero[P1]: 30 / Hero[P2]: 30
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Pirate1> ---------------------------
+PlayCardTask => [Pirate1] play 'N'Zoth's First Mate[13]'(MINION) to Pos[0] Option -1
+HeroAttackTask => [Pirate1] 'Valeera Sanguinar[4]' attacks 'Valeera Sanguinar[6]'
+EndTurnTask => [Pirate1]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 1
+Hero[P1]: 30 / Hero[P2]: 29
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Pirate1] play 'N'Zoth's First Mate[13]'(MINION) to Pos[0] Option -1
+HeroAttackTask => [Pirate1] 'Valeera Sanguinar[4]' attacks 'Valeera Sanguinar[6]'
+EndTurnTask => [Pirate1]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Pirate1
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 1
+USEDMANATHISTURN 1
+PlayedCard: [N'Zoth's First Mate]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Pirate2> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Pirate2> ---------------------------
+PlayCardTask => [Pirate2] play 'Southsea Deckhand[58]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Pirate2] play 'The Coin[68]'(SPELL) Option -1
+PlayCardTask => [Pirate2] play 'Upgrade![45]'(SPELL) Option -1
+MinionAttackTask => [Pirate2] 'Southsea Deckhand[58]'(MINION) attack 'Valeera Sanguinar[4]'
+HeroAttackTask => [Pirate2] 'Valeera Sanguinar[6]' attacks 'Valeera Sanguinar[4]'
+EndTurnTask => [Pirate2]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 2
+Hero[P1]: 27 / Hero[P2]: 29
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Pirate2] play 'Southsea Deckhand[58]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Pirate2] play 'The Coin[68]'(SPELL) Option -1
+PlayCardTask => [Pirate2] play 'Upgrade![45]'(SPELL) Option -1
+MinionAttackTask => [Pirate2] 'Southsea Deckhand[58]'(MINION) attack 'Valeera Sanguinar[4]'
+HeroAttackTask => [Pirate2] 'Valeera Sanguinar[6]' attacks 'Valeera Sanguinar[4]'
+EndTurnTask => [Pirate2]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Pirate2
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 3
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 5
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 2
+USEDMANATHISTURN 1
+PlayedCard: [Southsea Deckhand]
+PlayedCard: [The Coin]
+PlayedCard: [Upgrade!]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 2 - Pirate1
+Hero[P1]: 27 / Hero[P2]: 29
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Pirate1> ---------------------------
+PlayCardTask => [Pirate1] play 'Heroic Strike[12]'(SPELL) Option -1
+HeroAttackTask => [Pirate1] 'Valeera Sanguinar[4]' attacks 'Valeera Sanguinar[6]'
+MinionAttackTask => [Pirate1] 'N'Zoth's First Mate[13]'(MINION) attack 'Valeera Sanguinar[6]'
+MinionAttackTask => [Pirate1] 'Patches the Pirate[25]'(MINION) attack 'Valeera Sanguinar[6]'
+EndTurnTask => [Pirate1]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 3
+Hero[P1]: 27 / Hero[P2]: 22
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Pirate1] play 'Heroic Strike[12]'(SPELL) Option -1
+HeroAttackTask => [Pirate1] 'Valeera Sanguinar[4]' attacks 'Valeera Sanguinar[6]'
+MinionAttackTask => [Pirate1] 'N'Zoth's First Mate[13]'(MINION) attack 'Valeera Sanguinar[6]'
+MinionAttackTask => [Pirate1] 'Patches the Pirate[25]'(MINION) attack 'Valeera Sanguinar[6]'
+EndTurnTask => [Pirate1]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Pirate1
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 2
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 4
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 3
+USEDMANATHISTURN 2
+PlayedCard: [Heroic Strike]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Pirate2> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Pirate2> ---------------------------
+MinionAttackTask => [Pirate2] 'Southsea Deckhand[58]'(MINION) attack 'Valeera Sanguinar[4]'
+MinionAttackTask => [Pirate2] 'Patches the Pirate[55]'(MINION) attack 'Valeera Sanguinar[4]'
+HeroAttackTask => [Pirate2] 'Valeera Sanguinar[6]' attacks 'Valeera Sanguinar[4]'
+PlayCardTask => [Pirate2] play 'Bloodsail Raider[61]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Pirate2]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 4
+Hero[P1]: 23 / Hero[P2]: 22
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Pirate2] 'Southsea Deckhand[58]'(MINION) attack 'Valeera Sanguinar[4]'
+MinionAttackTask => [Pirate2] 'Patches the Pirate[55]'(MINION) attack 'Valeera Sanguinar[4]'
+HeroAttackTask => [Pirate2] 'Valeera Sanguinar[6]' attacks 'Valeera Sanguinar[4]'
+PlayCardTask => [Pirate2] play 'Bloodsail Raider[61]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Pirate2]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Pirate2
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 2
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 4
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 4
+USEDMANATHISTURN 2
+PlayedCard: [Bloodsail Raider]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 3 - Pirate1
+Hero[P1]: 23 / Hero[P2]: 22
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Pirate1> ---------------------------
+PlayCardTask => [Pirate1] play 'Heroic Strike[11]'(SPELL) Option -1
+HeroAttackTask => [Pirate1] 'Valeera Sanguinar[4]' attacks 'Valeera Sanguinar[6]'
+MinionAttackTask => [Pirate1] 'N'Zoth's First Mate[13]'(MINION) attack 'Valeera Sanguinar[6]'
+MinionAttackTask => [Pirate1] 'Patches the Pirate[25]'(MINION) attack 'Valeera Sanguinar[6]'
+EndTurnTask => [Pirate1]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 5
+Hero[P1]: 23 / Hero[P2]: 15
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Pirate1] play 'Heroic Strike[11]'(SPELL) Option -1
+HeroAttackTask => [Pirate1] 'Valeera Sanguinar[4]' attacks 'Valeera Sanguinar[6]'
+MinionAttackTask => [Pirate1] 'N'Zoth's First Mate[13]'(MINION) attack 'Valeera Sanguinar[6]'
+MinionAttackTask => [Pirate1] 'Patches the Pirate[25]'(MINION) attack 'Valeera Sanguinar[6]'
+EndTurnTask => [Pirate1]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Pirate1
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 2
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 4
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 1
+TOTALMANASPENTTHISGAME 5
+USEDMANATHISTURN 2
+PlayedCard: [Heroic Strike]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Pirate2> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Pirate2> ---------------------------
+MinionAttackTask => [Pirate2] 'Bloodsail Raider[61]'(MINION) attack 'Valeera Sanguinar[4]'
+MinionAttackTask => [Pirate2] 'Southsea Deckhand[58]'(MINION) attack 'Valeera Sanguinar[4]'
+PlayCardTask => [Pirate2] play 'Bloodsail Cultist[48]'(MINION) to Pos[0] Option -1
+HeroAttackTask => [Pirate2] 'Valeera Sanguinar[6]' attacks 'Valeera Sanguinar[4]'
+MinionAttackTask => [Pirate2] 'Patches the Pirate[55]'(MINION) attack 'Valeera Sanguinar[4]'
+EndTurnTask => [Pirate2]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 6
+Hero[P1]: 15 / Hero[P2]: 15
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Pirate2] 'Bloodsail Raider[61]'(MINION) attack 'Valeera Sanguinar[4]'
+MinionAttackTask => [Pirate2] 'Southsea Deckhand[58]'(MINION) attack 'Valeera Sanguinar[4]'
+PlayCardTask => [Pirate2] play 'Bloodsail Cultist[48]'(MINION) to Pos[0] Option -1
+HeroAttackTask => [Pirate2] 'Valeera Sanguinar[6]' attacks 'Valeera Sanguinar[4]'
+MinionAttackTask => [Pirate2] 'Patches the Pirate[55]'(MINION) attack 'Valeera Sanguinar[4]'
+EndTurnTask => [Pirate2]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Pirate2
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 3
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 5
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 7
+USEDMANATHISTURN 3
+PlayedCard: [Bloodsail Cultist]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 4 - Pirate1
+Hero[P1]: 15 / Hero[P2]: 15
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Pirate1> ---------------------------
+PlayCardTask => [Pirate1] play 'Kor'kron Elite[21]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Pirate1] 'Kor'kron Elite[21]'(MINION) attack 'Valeera Sanguinar[6]'
+MinionAttackTask => [Pirate1] 'N'Zoth's First Mate[13]'(MINION) attack 'Valeera Sanguinar[6]'
+MinionAttackTask => [Pirate1] 'Patches the Pirate[25]'(MINION) attack 'Valeera Sanguinar[6]'
+EndTurnTask => [Pirate1]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 7
+Hero[P1]: 15 / Hero[P2]: 9
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Pirate1] play 'Kor'kron Elite[21]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Pirate1] 'Kor'kron Elite[21]'(MINION) attack 'Valeera Sanguinar[6]'
+MinionAttackTask => [Pirate1] 'N'Zoth's First Mate[13]'(MINION) attack 'Valeera Sanguinar[6]'
+MinionAttackTask => [Pirate1] 'Patches the Pirate[25]'(MINION) attack 'Valeera Sanguinar[6]'
+EndTurnTask => [Pirate1]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Pirate1
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 3
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 4
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 9
+USEDMANATHISTURN 4
+PlayedCard: [Kor'kron Elite]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Pirate2> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Pirate2> ---------------------------
+MinionAttackTask => [Pirate2] 'Bloodsail Cultist[48]'(MINION) attack 'Valeera Sanguinar[4]'
+MinionAttackTask => [Pirate2] 'Bloodsail Raider[61]'(MINION) attack 'Valeera Sanguinar[4]'
+PlayCardTask => [Pirate2] play 'Upgrade![46]'(SPELL) Option -1
+HeroAttackTask => [Pirate2] 'Valeera Sanguinar[6]' attacks 'Valeera Sanguinar[4]'
+MinionAttackTask => [Pirate2] 'Southsea Deckhand[58]'(MINION) attack 'Valeera Sanguinar[4]'
+MinionAttackTask => [Pirate2] 'Patches the Pirate[55]'(MINION) attack 'Valeera Sanguinar[4]'
+PlayCardTask => [Pirate2] play 'Frothing Berserker[49]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Pirate2]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 8
+Hero[P1]: 3 / Hero[P2]: 9
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Pirate2] 'Bloodsail Cultist[48]'(MINION) attack 'Valeera Sanguinar[4]'
+MinionAttackTask => [Pirate2] 'Bloodsail Raider[61]'(MINION) attack 'Valeera Sanguinar[4]'
+PlayCardTask => [Pirate2] play 'Upgrade![46]'(SPELL) Option -1
+HeroAttackTask => [Pirate2] 'Valeera Sanguinar[6]' attacks 'Valeera Sanguinar[4]'
+MinionAttackTask => [Pirate2] 'Southsea Deckhand[58]'(MINION) attack 'Valeera Sanguinar[4]'
+MinionAttackTask => [Pirate2] 'Patches the Pirate[55]'(MINION) attack 'Valeera Sanguinar[4]'
+PlayCardTask => [Pirate2] play 'Frothing Berserker[49]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Pirate2]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Pirate2
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 4
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 7
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 3
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 11
+USEDMANATHISTURN 4
+PlayedCard: [Upgrade!]
+PlayedCard: [Frothing Berserker]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 5 - Pirate1
+Hero[P1]: 3 / Hero[P2]: 9
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Pirate1> ---------------------------
+MinionAttackTask => [Pirate1] 'Kor'kron Elite[21]'(MINION) attack 'Valeera Sanguinar[6]'
+PlayCardTask => [Pirate1] play 'Kor'kron Elite[22]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Pirate1] 'Kor'kron Elite[22]'(MINION) attack 'Valeera Sanguinar[6]'
+MinionAttackTask => [Pirate1] 'N'Zoth's First Mate[13]'(MINION) attack 'Valeera Sanguinar[6]'
+______________________________________________________________________
+Player1: WON / Player2: LOST - turn no 9
+Hero[P1]: 3 / Hero[P2]: 0
+>>>>>>>>>TASK TYPE CHECK (is EOT?): False
+>>>>>>>>>TASK TYPE: MINION_ATTACK
+ALL TURN TASKS:
+MinionAttackTask => [Pirate1] 'Kor'kron Elite[21]'(MINION) attack 'Valeera Sanguinar[6]'
+PlayCardTask => [Pirate1] play 'Kor'kron Elite[22]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [Pirate1] 'Kor'kron Elite[22]'(MINION) attack 'Valeera Sanguinar[6]'
+MinionAttackTask => [Pirate1] 'N'Zoth's First Mate[13]'(MINION) attack 'Valeera Sanguinar[6]'
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Pirate1
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 3
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 4
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 1
+TOTALMANASPENTTHISGAME 13
+USEDMANATHISTURN 4
+PlayedCard: [Kor'kron Elite]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Pirate1> ---------------------------
+Game: COMPLETE, Player1: WON / Player2: LOST
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+

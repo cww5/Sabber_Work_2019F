@@ -1,0 +1,570 @@
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+Player1: Solegit=Aggro vs Player2: Roffle=Aggro
+Player1Deck: Zoolock_PostNerf_Legend vs Player2Deck: Budget_Zoolock
+Starting game
+Player1: Mulligan 
+Player2: Mulligan 
+Player1: PLAYING / Player2: PLAYING - ROUND 1 - Solegit
+Hero[P1]: 30 / Hero[P2]: 30
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Solegit> ---------------------------
+PlayCardTask => [Solegit] play 'Voidwalker[14]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Solegit]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 1
+Hero[P1]: 30 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Solegit] play 'Voidwalker[14]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Solegit]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Solegit
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 1
+USEDMANATHISTURN 1
+PlayedCard: [Voidwalker]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Roffle> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Roffle> ---------------------------
+PlayCardTask => [Roffle] play 'Voidwalker[46]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Roffle] play 'The Coin[68]'(SPELL) Option -1
+PlayCardTask => [Roffle] play 'Voidwalker[47]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Roffle]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 2
+Hero[P1]: 30 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Roffle] play 'Voidwalker[46]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Roffle] play 'The Coin[68]'(SPELL) Option -1
+PlayCardTask => [Roffle] play 'Voidwalker[47]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Roffle]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Roffle
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 3
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 2
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 3
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 2
+USEDMANATHISTURN 1
+PlayedCard: [Voidwalker]
+PlayedCard: [The Coin]
+PlayedCard: [Voidwalker]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 2 - Solegit
+Hero[P1]: 30 / Hero[P2]: 30
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Solegit> ---------------------------
+PlayCardTask => [Solegit] play 'Soulfire[12]'(SPELL) 'Gul'dan[6]' Option -1
+MinionAttackTask => [Solegit] 'Voidwalker[14]'(MINION) attack 'Voidwalker[47]'
+PlayCardTask => [Solegit] play 'Argent Squire[21]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Solegit]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 3
+Hero[P1]: 30 / Hero[P2]: 26
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Solegit] play 'Soulfire[12]'(SPELL) 'Gul'dan[6]' Option -1
+MinionAttackTask => [Solegit] 'Voidwalker[14]'(MINION) attack 'Voidwalker[47]'
+PlayCardTask => [Solegit] play 'Argent Squire[21]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Solegit]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Solegit
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 3
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 3
+USEDMANATHISTURN 2
+PlayedCard: [Soulfire]
+PlayedCard: [Argent Squire]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Roffle> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Roffle> ---------------------------
+MinionAttackTask => [Roffle] 'Voidwalker[47]'(MINION) attack 'Voidwalker[14]'
+MinionAttackTask => [Roffle] 'Voidwalker[46]'(MINION) attack 'Voidwalker[14]'
+EndTurnTask => [Roffle]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 4
+Hero[P1]: 30 / Hero[P2]: 26
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Roffle] 'Voidwalker[47]'(MINION) attack 'Voidwalker[14]'
+MinionAttackTask => [Roffle] 'Voidwalker[46]'(MINION) attack 'Voidwalker[14]'
+EndTurnTask => [Roffle]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Roffle
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 0
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 2
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 1
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 2
+TOTALMANASPENTTHISGAME 2
+USEDMANATHISTURN 0
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 3 - Solegit
+Hero[P1]: 30 / Hero[P2]: 26
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Solegit> ---------------------------
+MinionAttackTask => [Solegit] 'Argent Squire[21]'(MINION) attack 'Voidwalker[47]'
+EndTurnTask => [Solegit]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 5
+Hero[P1]: 30 / Hero[P2]: 26
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Solegit] 'Argent Squire[21]'(MINION) attack 'Voidwalker[47]'
+EndTurnTask => [Solegit]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Solegit
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 0
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 1
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 3
+TOTALMANASPENTTHISGAME 3
+USEDMANATHISTURN 0
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Roffle> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Roffle> ---------------------------
+PlayCardTask => [Roffle] play 'Scarab Egg[67]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Roffle] play 'Grim Rally[41]'(SPELL) 'Scarab Egg[67]' Option -1
+MinionAttackTask => [Roffle] 'Voidwalker[46]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Roffle]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 6
+Hero[P1]: 28 / Hero[P2]: 26
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Roffle] play 'Scarab Egg[67]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Roffle] play 'Grim Rally[41]'(SPELL) 'Scarab Egg[67]' Option -1
+MinionAttackTask => [Roffle] 'Voidwalker[46]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Roffle]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Roffle
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 1
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 1
+NUMOPTIONSPLAYEDTHISTURN 3
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 5
+USEDMANATHISTURN 3
+PlayedCard: [Scarab Egg]
+PlayedCard: [Grim Rally]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 4 - Solegit
+Hero[P1]: 28 / Hero[P2]: 26
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Solegit> ---------------------------
+MinionAttackTask => [Solegit] 'Argent Squire[21]'(MINION) attack 'Voidwalker[46]'
+PlayCardTask => [Solegit] play 'Fiendish Circle[18]'(SPELL) Option -1
+EndTurnTask => [Solegit]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 7
+Hero[P1]: 28 / Hero[P2]: 26
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Solegit] 'Argent Squire[21]'(MINION) attack 'Voidwalker[46]'
+PlayCardTask => [Solegit] play 'Fiendish Circle[18]'(SPELL) Option -1
+EndTurnTask => [Solegit]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Solegit
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 1
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 1
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 7
+USEDMANATHISTURN 4
+PlayedCard: [Fiendish Circle]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Roffle> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Roffle> ---------------------------
+MinionAttackTask => [Roffle] 'Voidwalker[46]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Scarab[72]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Scarab[73]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Scarab[74]'(MINION) attack 'Gul'dan[4]'
+PlayCardTask => [Roffle] play 'Doubling Imp[52]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Roffle] play 'Witchwood Imp[49]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Roffle]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 8
+Hero[P1]: 23 / Hero[P2]: 26
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Roffle] 'Voidwalker[46]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Scarab[72]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Scarab[73]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Scarab[74]'(MINION) attack 'Gul'dan[4]'
+PlayCardTask => [Roffle] play 'Doubling Imp[52]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Roffle] play 'Witchwood Imp[49]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Roffle]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Roffle
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 4
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 2
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 6
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 9
+USEDMANATHISTURN 4
+PlayedCard: [Doubling Imp]
+PlayedCard: [Witchwood Imp]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 5 - Solegit
+Hero[P1]: 23 / Hero[P2]: 26
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Solegit> ---------------------------
+MinionAttackTask => [Solegit] 'Imp[75]'(MINION) attack 'Voidwalker[46]'
+PlayCardTask => [Solegit] play 'Abusive Sergeant[19]'(MINION) 'Imp[76]' to Pos[0] Option -1
+MinionAttackTask => [Solegit] 'Imp[76]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Imp[77]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Imp[78]'(MINION) attack 'Gul'dan[6]'
+PlayCardTask => [Solegit] play 'Sea Giant[37]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Solegit] play 'Argent Squire[22]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Solegit]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 9
+Hero[P1]: 23 / Hero[P2]: 21
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Solegit] 'Imp[75]'(MINION) attack 'Voidwalker[46]'
+PlayCardTask => [Solegit] play 'Abusive Sergeant[19]'(MINION) 'Imp[76]' to Pos[0] Option -1
+MinionAttackTask => [Solegit] 'Imp[76]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Imp[77]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Imp[78]'(MINION) attack 'Gul'dan[6]'
+PlayCardTask => [Solegit] play 'Sea Giant[37]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Solegit] play 'Argent Squire[22]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Solegit]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Solegit
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 3
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 4
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 1
+NUMMINIONSPLAYEDTHISTURN 3
+NUMMINIONSPLAYERKILLEDTHISTURN 2
+NUMOPTIONSPLAYEDTHISTURN 7
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 3
+TOTALMANASPENTTHISGAME 9
+USEDMANATHISTURN 2
+PlayedCard: [Abusive Sergeant]
+PlayedCard: [Sea Giant]
+PlayedCard: [Argent Squire]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Roffle> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Roffle> ---------------------------
+MinionAttackTask => [Roffle] 'Doubling Imp[52]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Doubling Imp[79]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Witchwood Imp[49]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Scarab[72]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Scarab[73]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Scarab[74]'(MINION) attack 'Gul'dan[4]'
+PlayCardTask => [Roffle] play 'Knife Juggler[64]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Roffle]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 10
+Hero[P1]: 15 / Hero[P2]: 21
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Roffle] 'Doubling Imp[52]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Doubling Imp[79]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Witchwood Imp[49]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Scarab[72]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Scarab[73]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Scarab[74]'(MINION) attack 'Gul'dan[4]'
+PlayCardTask => [Roffle] play 'Knife Juggler[64]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Roffle]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Roffle
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 6
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 7
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 3
+TOTALMANASPENTTHISGAME 11
+USEDMANATHISTURN 2
+PlayedCard: [Knife Juggler]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 6 - Solegit
+Hero[P1]: 15 / Hero[P2]: 21
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Solegit> ---------------------------
+MinionAttackTask => [Solegit] 'Sea Giant[37]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Argent Squire[22]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Abusive Sergeant[19]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Imp[76]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Imp[77]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Imp[78]'(MINION) attack 'Gul'dan[6]'
+EndTurnTask => [Solegit]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 11
+Hero[P1]: 15 / Hero[P2]: 8
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Solegit] 'Sea Giant[37]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Argent Squire[22]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Abusive Sergeant[19]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Imp[76]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Imp[77]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Solegit] 'Imp[78]'(MINION) attack 'Gul'dan[6]'
+EndTurnTask => [Solegit]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Solegit
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 0
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 6
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 6
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 6
+TOTALMANASPENTTHISGAME 9
+USEDMANATHISTURN 0
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Roffle> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Roffle> ---------------------------
+MinionAttackTask => [Roffle] 'Knife Juggler[64]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Doubling Imp[52]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Doubling Imp[79]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Witchwood Imp[49]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Scarab[72]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Scarab[73]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Scarab[74]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Roffle]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 12
+Hero[P1]: 5 / Hero[P2]: 8
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Roffle] 'Knife Juggler[64]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Doubling Imp[52]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Doubling Imp[79]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Witchwood Imp[49]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Scarab[72]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Scarab[73]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Scarab[74]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Roffle]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Roffle
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 0
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 7
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 7
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 6
+TOTALMANASPENTTHISGAME 11
+USEDMANATHISTURN 0
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 7 - Solegit
+Hero[P1]: 5 / Hero[P2]: 8
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Solegit> ---------------------------
+MinionAttackTask => [Solegit] 'Sea Giant[37]'(MINION) attack 'Gul'dan[6]'
+______________________________________________________________________
+Player1: WON / Player2: LOST - turn no 13
+Hero[P1]: 5 / Hero[P2]: 0
+>>>>>>>>>TASK TYPE CHECK (is EOT?): False
+>>>>>>>>>TASK TYPE: MINION_ATTACK
+ALL TURN TASKS:
+MinionAttackTask => [Solegit] 'Sea Giant[37]'(MINION) attack 'Gul'dan[6]'
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Solegit
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 0
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 7
+TOTALMANASPENTTHISGAME 9
+USEDMANATHISTURN 0
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Solegit> ---------------------------
+Game: COMPLETE, Player1: WON / Player2: LOST
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
