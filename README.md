@@ -4,8 +4,11 @@ For my Master's Thesis, I will be conducting research using Hearthone to compare
 ## TODO
 
 - [x] Retrieve relevant turn information per player from Sabber
-- [ ] Format the tasks and cards into the data set
-- [ ]
+- [ ] Format the tasks and cards into the data set (Optional?)
+- [ ] Confirm that the NeuralNetScore works
+- [ ] Run games to evolve Warlock Aggro and Warlock Control
+- [ ] Compare the baseline strategy matchups against each other
+- [ ] Compare the baseline strategy matchups against the evolved ones
 - [ ] Type up Thesis document (ongoing)
  
 # Getting Started
