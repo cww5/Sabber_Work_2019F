@@ -1,0 +1,22 @@
+>>Name: Budget Zoolock
+>>Author: NNRoffle
+>>Hero: Warlock
+>>Score: Network
+>>Date: 20190416
+>>Link:https://www.hearthstonetopdecks.com/decks/budget-zoo-warlock-deck-list-guide-rise-of-shadows/
+Flame Imp><2
+Grim Rally><2
+Soul Infusion><2
+Soulfire><2
+Voidwalker><2
+Witchwood Imp><2
+Fiendish Circle><2
+Doubling Imp><2
+Abusive Sergeant><2
+Argent Squire><2
+Mecharoo><2
+Saronite Taskmaster><2
+Dire Wolf Alpha><2
+Knife Juggler><2
+Scarab Egg><2
+>>CSV:Budget Zoolock; Roffle; Warlock; Network;Flame Imp*Flame Imp*Grim Rally*Grim Rally*Soul Infusion*Soul Infusion*Soulfire*Soulfire*Voidwalker*Voidwalker*Witchwood Imp*Witchwood Imp*Fiendish Circle*Fiendish Circle*Doubling Imp*Doubling Imp*Abusive Sergeant*Abusive Sergeant*Argent Squire*Argent Squire*Mecharoo*Mecharoo*Saronite Taskmaster*Saronite Taskmaster*Dire Wolf Alpha*Dire Wolf Alpha*Knife Juggler*Knife Juggler*Scarab Egg*Scarab Egg;

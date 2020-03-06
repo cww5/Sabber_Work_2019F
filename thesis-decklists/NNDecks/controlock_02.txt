@@ -1,0 +1,27 @@
+>>Name: Control Hakkar Warlock Thijs
+>>Author: NNThijs
+>>Hero: Warlock
+>>Score: Network
+>>Date: 20190410
+>>Link: https://www.hearthstonetopdecks.com/decks/control-hakkar-warlock-rise-of-shadows-thijs/
+Mortal Coil><2
+The Soularium><1
+Plot Twist><2
+Sense Demons><1
+Shadow Bolt><1
+Hellfire><2
+Aranasi Broodmother><2
+Siphon Soul><2
+Arch-Villain Rafaam><1
+Lord Godfrey><1
+Fel Lord Betrug><1
+Twisting Nether><2
+Acidic Swamp Ooze><2
+Doomsayer><2
+Voodoo Doll><2
+Rotten Applebaum><2
+Zilliax><1
+Safeguard><1
+Deranged Doctor><1
+Hakkar, the Soulflayer><1
+>>CSV:Control Hakkar Warlock Thijs; Thijs; Warlock; Network;Mortal Coil*Mortal Coil*The Soularium*Plot Twist*Plot Twist*Sense Demons*Shadow Bolt*Hellfire*Hellfire*Aranasi Broodmother*Aranasi Broodmother*Siphon Soul*Siphon Soul*Arch-Villain Rafaam*Lord Godfrey*Fel Lord Betrug*Twisting Nether*Twisting Nether*Acidic Swamp Ooze*Acidic Swamp Ooze*Doomsayer*Doomsayer*Voodoo Doll*Voodoo Doll*Rotten Applebaum*Rotten Applebaum*Zilliax*Safeguard*Deranged Doctor*Hakkar, the Soulflayer;

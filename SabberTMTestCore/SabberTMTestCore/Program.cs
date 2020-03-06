@@ -724,14 +724,14 @@ namespace SabberStoneCoreAi
 					aiP2 = GetNNPlayerScore();
 					break;
 			}
-            Console.WriteLine("DEBUG} Returning AI Scores {0} and {1}", P1Scoring, P2Scoring);
+            Console.WriteLine($"DEBUG: Returning AI Scores {P1Scoring} and {P2Scoring}");
             return Tuple.Create(aiP1, aiP2);
 
 		}
 
 		public static object GetAIHeroCharacter(string heroType)
 		{
-            Console.WriteLine("DEBUG} Getting AI Hero Character {0}", heroType);
+            Console.WriteLine($"DEBUG: Getting AI Hero Character {heroType}");
 			switch (heroType.ToLower())
 			{
 				case "druid":

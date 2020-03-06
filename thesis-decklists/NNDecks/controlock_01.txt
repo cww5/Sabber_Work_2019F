@@ -1,0 +1,26 @@
+>>Name: Fatigue Warlock Ft. Hakkar
+>>Author: NNOrasha
+>>Hero: Warlock
+>>Score: Network
+>>Date: 20190419
+>>Link: https://www.hearthstonetopdecks.com/decks/shadows-fatigue-warlock-ft-hakkar/
+Mortal Coil><2
+Shriek><2
+Curse of Weakness><2
+Plot Twist><2
+Reckless Diretroll><2
+Sense Demons><2
+Hellfire><2
+High Priestess Jeklik><1
+Aranasi Broodmother><2
+Soulwarden><2
+Arch-Villain Rafaam><1
+Lord Godfrey><1
+Fel Lord Betrug><1
+Doomsayer><2
+Augmented Elekk><1
+Rotten Applebaum><2
+Zilliax><1
+Mossy Horror><1
+Hakkar, the Soulflayer><1
+>>CSV:Fatigue Warlock Ft. Hakkar; Orasha; Warlock; Network;Mortal Coil*Mortal Coil*Shriek*Shriek*Curse of Weakness*Curse of Weakness*Plot Twist*Plot Twist*Reckless Diretroll*Reckless Diretroll*Sense Demons*Sense Demons*Hellfire*Hellfire*High Priestess Jeklik*Aranasi Broodmother*Aranasi Broodmother*Soulwarden*Soulwarden*Arch-Villain Rafaam*Lord Godfrey*Fel Lord Betrug*Doomsayer*Doomsayer*Augmented Elekk*Rotten Applebaum*Rotten Applebaum*Zilliax*Mossy Horror*Hakkar, the Soulflayer;

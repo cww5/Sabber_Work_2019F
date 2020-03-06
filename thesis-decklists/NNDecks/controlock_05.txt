@@ -1,0 +1,25 @@
+>>Name: Handlock to Legend
+>>Author: NNKrebs1996
+>>Hero: Warlock
+>>Score: Network
+>>Date: 20190429
+>>Link: https://www.hearthstonetopdecks.com/decks/handlock-to-legend/
+Hellfire><2
+Shadowflame><1
+Omega Agent><2
+Aranasi Broodmother><2
+Siphon Soul><1
+Lord Godfrey><1
+Lord Jaraxxus><1
+Acidic Swamp Ooze><2
+Doomsayer><2
+Sunfury Protector><2
+Earthen Ring Farseer><2
+Faceless Rager><2
+Defender of Argus><2
+Twilight Drake><2
+Rotten Applebaum><2
+Zilliax><1
+Mossy Horror><1
+Mountain Giant><2
+>>CSV:Handlock to Legend; Krebs1996; Warlock; Network;Hellfire*Hellfire*Shadowflame*Omega Agent*Omega Agent*Aranasi Broodmother*Aranasi Broodmother*Siphon Soul*Lord Godfrey*Lord Jaraxxus*Acidic Swamp Ooze*Acidic Swamp Ooze*Doomsayer*Doomsayer*Sunfury Protector*Sunfury Protector*Earthen Ring Farseer*Earthen Ring Farseer*Faceless Rager*Faceless Rager*Defender of Argus*Defender of Argus*Twilight Drake*Twilight Drake*Rotten Applebaum*Rotten Applebaum*Zilliax*Mossy Horror*Mountain Giant*Mountain Giant;
