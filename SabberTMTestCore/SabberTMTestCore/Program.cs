@@ -145,7 +145,8 @@ namespace SabberStoneCoreAi
 		public static List<double[]> weightsfromfile()
 		{
 			//string net_path = @"/Users/amy/Downloads/fittest_log.csv";
-			string net_path = "C:\\Users\\Main\\Documents\\StrategySearch\\logs\\fittest_log.csv";
+			//string net_path = "C:\\Users\\Main\\Documents\\StrategySearch\\logs\\fittest_log.csv";
+			string net_path = "C:\\Users\\Main\\Documents\\GitHub\\Sabber_Work_2019F\thesis-output\\StrategySearch\\Warlock_Net\\logs\\fittest_log.csv";
 			string[] lines = System.IO.File.ReadAllLines(net_path);
 
 			int firstWeightIndex = 0;
