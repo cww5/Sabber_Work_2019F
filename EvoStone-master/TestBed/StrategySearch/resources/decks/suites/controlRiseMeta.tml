@@ -1,0 +1,36 @@
+[[Opponents]]
+Portion = 1
+Strategy = "Control"
+DeckPool = "Elite Decks"
+DeckName = "Control Warlock"
+
+[[Opponents]]
+Portion = 1
+Strategy = "Control"
+DeckPool = "Meta Decks"
+DeckName = "Fatigue Warlock Ft. Hakkar"
+
+[[Opponents]]
+Portion = 1
+Strategy = "Control"
+DeckPool = "Meta Decks"
+DeckName = "Control Hakkar Warlock Thijs"
+
+[[Opponents]]
+Portion = 1
+Strategy = "Control"
+DeckPool = "Meta Decks"
+DeckName = "Omega Control Warlock"
+
+[[Opponents]]
+Portion = 1
+Strategy = "Control"
+DeckPool = "Meta Decks"
+DeckName = "Control Warlock Old Type"
+
+[[Opponents]]
+Portion = 1
+Strategy = "Control"
+DeckPool = "Meta Decks"
+DeckName = "Handlock to Legend"
+

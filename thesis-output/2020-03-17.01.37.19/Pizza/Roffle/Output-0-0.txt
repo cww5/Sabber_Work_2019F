@@ -1,0 +1,616 @@
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+Player1: Pizza=Aggro vs Player2: Roffle=Aggro
+Player1Deck: Zoolock_PostBuff_Legend13 vs Player2Deck: Budget_Zoolock
+Starting game
+Player1: Mulligan 
+Player2: Mulligan 51
+Player1: PLAYING / Player2: PLAYING - ROUND 1 - Pizza
+Hero[P1]: 30 / Hero[P2]: 30
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Pizza> ---------------------------
+PlayCardTask => [Pizza] play 'Argent Squire[22]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Pizza]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 1
+Hero[P1]: 30 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Pizza] play 'Argent Squire[22]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Pizza]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Pizza
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 1
+USEDMANATHISTURN 1
+PlayedCard: [Argent Squire]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Roffle> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Roffle> ---------------------------
+PlayCardTask => [Roffle] play 'Soul Infusion[42]'(SPELL) Option -1
+PlayCardTask => [Roffle] play 'The Coin[68]'(SPELL) Option -1
+PlayCardTask => [Roffle] play 'Voidwalker[46]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Roffle]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 2
+Hero[P1]: 30 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Roffle] play 'Soul Infusion[42]'(SPELL) Option -1
+PlayCardTask => [Roffle] play 'The Coin[68]'(SPELL) Option -1
+PlayCardTask => [Roffle] play 'Voidwalker[46]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Roffle]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Roffle
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 3
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 3
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 2
+USEDMANATHISTURN 1
+PlayedCard: [Soul Infusion]
+PlayedCard: [The Coin]
+PlayedCard: [Voidwalker]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 2 - Pizza
+Hero[P1]: 30 / Hero[P2]: 30
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Pizza> ---------------------------
+MinionAttackTask => [Pizza] 'Argent Squire[22]'(MINION) attack 'Voidwalker[46]'
+PlayCardTask => [Pizza] play 'Knife Juggler[29]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Pizza]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 3
+Hero[P1]: 30 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Pizza] 'Argent Squire[22]'(MINION) attack 'Voidwalker[46]'
+PlayCardTask => [Pizza] play 'Knife Juggler[29]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Pizza]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Pizza
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 3
+USEDMANATHISTURN 2
+PlayedCard: [Knife Juggler]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Roffle> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Roffle> ---------------------------
+PlayCardTask => [Roffle] play 'Abusive Sergeant[54]'(MINION) 'Voidwalker[46]' to Pos[0] Option -1
+MinionAttackTask => [Roffle] 'Voidwalker[46]'(MINION) attack 'Gul'dan[4]'
+PlayCardTask => [Roffle] play 'Argent Squire[57]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Roffle]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 4
+Hero[P1]: 25 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Roffle] play 'Abusive Sergeant[54]'(MINION) 'Voidwalker[46]' to Pos[0] Option -1
+MinionAttackTask => [Roffle] 'Voidwalker[46]'(MINION) attack 'Gul'dan[4]'
+PlayCardTask => [Roffle] play 'Argent Squire[57]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Roffle]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Roffle
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 2
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 3
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 4
+USEDMANATHISTURN 2
+PlayedCard: [Abusive Sergeant]
+PlayedCard: [Argent Squire]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 3 - Pizza
+Hero[P1]: 25 / Hero[P2]: 30
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Pizza> ---------------------------
+PlayCardTask => [Pizza] play 'Argent Squire[21]'(MINION) to Pos[1] Option -1
+PlayCardTask => [Pizza] play 'Grim Rally[10]'(SPELL) 'Argent Squire[21]' Option -1
+MinionAttackTask => [Pizza] 'Knife Juggler[29]'(MINION) attack 'Voidwalker[46]'
+MinionAttackTask => [Pizza] 'Argent Squire[22]'(MINION) attack 'Voidwalker[46]'
+EndTurnTask => [Pizza]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 5
+Hero[P1]: 25 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Pizza] play 'Argent Squire[21]'(MINION) to Pos[1] Option -1
+PlayCardTask => [Pizza] play 'Grim Rally[10]'(SPELL) 'Argent Squire[21]' Option -1
+MinionAttackTask => [Pizza] 'Knife Juggler[29]'(MINION) attack 'Voidwalker[46]'
+MinionAttackTask => [Pizza] 'Argent Squire[22]'(MINION) attack 'Voidwalker[46]'
+EndTurnTask => [Pizza]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Pizza
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 2
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 3
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 5
+NUMOPTIONSPLAYEDTHISTURN 4
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 1
+TOTALMANASPENTTHISGAME 5
+USEDMANATHISTURN 2
+PlayedCard: [Argent Squire]
+PlayedCard: [Grim Rally]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Roffle> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Roffle> ---------------------------
+MinionAttackTask => [Roffle] 'Argent Squire[57]'(MINION) attack 'Gul'dan[4]'
+PlayCardTask => [Roffle] play 'Mecharoo[59]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Roffle]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 6
+Hero[P1]: 23 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Roffle] 'Argent Squire[57]'(MINION) attack 'Gul'dan[4]'
+PlayCardTask => [Roffle] play 'Mecharoo[59]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Roffle]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Roffle
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 2
+TOTALMANASPENTTHISGAME 5
+USEDMANATHISTURN 1
+PlayedCard: [Mecharoo]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 4 - Pizza
+Hero[P1]: 23 / Hero[P2]: 30
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Pizza> ---------------------------
+PlayCardTask => [Pizza] play 'Fiendish Circle[18]'(SPELL) Option -1
+EndTurnTask => [Pizza]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 7
+Hero[P1]: 23 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Pizza] play 'Fiendish Circle[18]'(SPELL) Option -1
+EndTurnTask => [Pizza]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Pizza
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 9
+USEDMANATHISTURN 4
+PlayedCard: [Fiendish Circle]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Roffle> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Roffle> ---------------------------
+PlayCardTask => [Roffle] play 'Abusive Sergeant[55]'(MINION) 'Argent Squire[57]' to Pos[0] Option -1
+MinionAttackTask => [Roffle] 'Argent Squire[57]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Mecharoo[59]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Roffle]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 8
+Hero[P1]: 18 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Roffle] play 'Abusive Sergeant[55]'(MINION) 'Argent Squire[57]' to Pos[0] Option -1
+MinionAttackTask => [Roffle] 'Argent Squire[57]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Mecharoo[59]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Roffle]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Roffle
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 2
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 3
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 3
+TOTALMANASPENTTHISGAME 6
+USEDMANATHISTURN 1
+PlayedCard: [Abusive Sergeant]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 5 - Pizza
+Hero[P1]: 18 / Hero[P2]: 30
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Pizza> ---------------------------
+MinionAttackTask => [Pizza] 'Imp[76]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[77]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[78]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[79]'(MINION) attack 'Gul'dan[6]'
+PlayCardTask => [Pizza] play 'SN1P-SN4P[35]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Pizza] play 'Witchwood Imp[16]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Pizza]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 9
+Hero[P1]: 18 / Hero[P2]: 26
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Pizza] 'Imp[76]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[77]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[78]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[79]'(MINION) attack 'Gul'dan[6]'
+PlayCardTask => [Pizza] play 'SN1P-SN4P[35]'(MINION) to Pos[0] Option -1
+PlayCardTask => [Pizza] play 'Witchwood Imp[16]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Pizza]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Pizza
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 4
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 2
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 6
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 1
+TOTALMANASPENTTHISGAME 13
+USEDMANATHISTURN 4
+PlayedCard: [SN1P-SN4P]
+PlayedCard: [Witchwood Imp]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Roffle> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Roffle> ---------------------------
+MinionAttackTask => [Roffle] 'Argent Squire[57]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Abusive Sergeant[55]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Mecharoo[59]'(MINION) attack 'Gul'dan[4]'
+PlayCardTask => [Roffle] play 'Fiendish Circle[50]'(SPELL) Option -1
+EndTurnTask => [Roffle]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 10
+Hero[P1]: 14 / Hero[P2]: 26
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Roffle] 'Argent Squire[57]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Abusive Sergeant[55]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Mecharoo[59]'(MINION) attack 'Gul'dan[4]'
+PlayCardTask => [Roffle] play 'Fiendish Circle[50]'(SPELL) Option -1
+EndTurnTask => [Roffle]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Roffle
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 3
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 4
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 3
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 1
+TOTALMANASPENTTHISGAME 10
+USEDMANATHISTURN 4
+PlayedCard: [Fiendish Circle]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 6 - Pizza
+Hero[P1]: 14 / Hero[P2]: 26
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Pizza> ---------------------------
+MinionAttackTask => [Pizza] 'SN1P-SN4P[35]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Witchwood Imp[16]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[76]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[77]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[78]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[79]'(MINION) attack 'Gul'dan[6]'
+PlayCardTask => [Pizza] play 'Sea Giant[36]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Pizza]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 11
+Hero[P1]: 14 / Hero[P2]: 19
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Pizza] 'SN1P-SN4P[35]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Witchwood Imp[16]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[76]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[77]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[78]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[79]'(MINION) attack 'Gul'dan[6]'
+PlayCardTask => [Pizza] play 'Sea Giant[36]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Pizza]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Pizza
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 6
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 7
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 6
+TOTALMANASPENTTHISGAME 13
+USEDMANATHISTURN 0
+PlayedCard: [Sea Giant]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Roffle> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Roffle> ---------------------------
+MinionAttackTask => [Roffle] 'Argent Squire[57]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Abusive Sergeant[55]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Mecharoo[59]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Imp[82]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Imp[83]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Imp[84]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Imp[85]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Roffle]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 12
+Hero[P1]: 6 / Hero[P2]: 19
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Roffle] 'Argent Squire[57]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Abusive Sergeant[55]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Mecharoo[59]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Imp[82]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Imp[83]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Imp[84]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Imp[85]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [Roffle]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Roffle
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 0
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 7
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 7
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 3
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 6
+TOTALMANASPENTTHISGAME 10
+USEDMANATHISTURN 0
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 7 - Pizza
+Hero[P1]: 6 / Hero[P2]: 19
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Pizza> ---------------------------
+MinionAttackTask => [Pizza] 'Sea Giant[36]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'SN1P-SN4P[35]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Witchwood Imp[16]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[76]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[77]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[78]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[79]'(MINION) attack 'Gul'dan[6]'
+EndTurnTask => [Pizza]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 13
+Hero[P1]: 6 / Hero[P2]: 4
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Pizza] 'Sea Giant[36]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'SN1P-SN4P[35]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Witchwood Imp[16]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[76]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[77]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[78]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[79]'(MINION) attack 'Gul'dan[6]'
+EndTurnTask => [Pizza]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Pizza
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 0
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 7
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 7
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 2
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 7
+TOTALMANASPENTTHISGAME 13
+USEDMANATHISTURN 0
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <Roffle> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <Roffle> ---------------------------
+MinionAttackTask => [Roffle] 'Argent Squire[57]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Abusive Sergeant[55]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Mecharoo[59]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Imp[82]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Imp[83]'(MINION) attack 'Gul'dan[4]'
+______________________________________________________________________
+Player1: LOST / Player2: WON - turn no 14
+Hero[P1]: 0 / Hero[P2]: 4
+>>>>>>>>>TASK TYPE CHECK (is EOT?): False
+>>>>>>>>>TASK TYPE: MINION_ATTACK
+ALL TURN TASKS:
+MinionAttackTask => [Roffle] 'Argent Squire[57]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Abusive Sergeant[55]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Mecharoo[59]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Imp[82]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [Roffle] 'Imp[83]'(MINION) attack 'Gul'dan[4]'
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 Roffle
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 0
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 5
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 5
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 3
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 7
+TOTALMANASPENTTHISGAME 10
+USEDMANATHISTURN 0
+No more cards played this turn.
+______________________________________________________________________|
+Game: COMPLETE, Player1: LOST / Player2: WON
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
