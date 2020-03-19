@@ -3,6 +3,9 @@
 ## Summary
 This repository is the newest updated code which is configured to run standalone in an HPC environment, and it is also configured to use the EvoStone NeuralNetScore for players. 
 
+## Heads Up
+This is the directory for running N games against two simulated agents. To configure CMA-ME experiments for evolving strategies, visit [this repo: EvoStone-master/TestBed/StrategySearch](https://github.com/cww5/Sabber_Work_2019F/tree/master/EvoStone-master/TestBed/StrategySearch). 
+
 ## Dependencies:
 SabberStoneCoreAi.dll and SabberStoneCore.dll (compiled from the main repo)
 
