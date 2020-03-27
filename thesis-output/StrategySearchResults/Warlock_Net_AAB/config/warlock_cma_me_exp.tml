@@ -1,0 +1,20 @@
+[Evaluation]
+OpponentDeckSuite = "resources/decks/suites/aggroEliteMeta.tml"
+DeckPools = ["resources/decks/pools/eliteDecks.tml",
+             "resources/decks/pools/metaDecks.tml"]
+
+[[Evaluation.PlayerStrategies]]
+NumGames = 200
+Strategy = "NeuralNet"
+
+[Search]
+Type = "CMA-ME"
+ConfigFilename = "config/cma_me_config.tml"
+
+[Network]
+LayerSizes = [15, 5, 4, 1]
+
+[Player]
+DeckPool = "Meta Decks"
+DeckName = "Budget Zoolock"
+
