@@ -7,13 +7,24 @@ This repository is the newest updated code which is configured to run standalone
 This is the directory for running N games against two simulated agents. To configure CMA-ME experiments for evolving strategies, visit [this repo: EvoStone-master/TestBed/StrategySearch](https://github.com/cww5/Sabber_Work_2019F/tree/master/EvoStone-master/TestBed/StrategySearch). 
 
 ## Dependencies:
+
 SabberStoneCoreAi.dll and SabberStoneCore.dll (compiled from the main repo)
+
+## Publish TMTestCore:
+
+dotnet build SabberTMTestCore.sln 
+dotnet publish SabberTMTestCore.sln --runtime win-x64
+
 
 ## Sample Runs from Laptop:
 
 dotnet run Program.cs
 
 dotnet run Program.cs playerdecks=C:\Users\watson\Documents\GitHub\SabberStone-master\Sabber_Work_2019F\thesis-decklists\player_deck.csv opponentdecks=C:\Users\watson\Documents\GitHub\SabberStone-master\Sabber_Work_2019F\thesis-decklists\opponent_deck.csv
+
+dotnet run Program.cs playerdecks=C:\Users\watson\Documents\GitHub\SabberStone-master\Sabber_Work_2019F\thesis-decklists\NNDecks\nnagg.csv opponentdecks=C:\Users\watson\Documents\GitHub\SabberStone-master\Sabber_Work_2019F\thesis-decklists\opponent_deck.csv weights=C:\Users\watson\Documents\GitHub\SabberStone-master\Sabber_Work_2019F\thesis-output\StrategySearchResults\Warlock_Net_AA_sm\logs\fittest_log.csv
+
+dotnet run Program.cs playerdecks=C:\Users\watson\Documents\GitHub\SabberStone-master\Sabber_Work_2019F\thesis-decklists\player_deck.csv opponentdecks=C:\Users\watson\Documents\GitHub\SabberStone-master\Sabber_Work_2019F\thesis-decklists\opponent_deck.csv weights=C:\Users\watson\Documents\GitHub\SabberStone-master\Sabber_Work_2019F\thesis-output\StrategySearchResults\Warlock_Net_AA_sm\logs\fittest_log.csv
 
 
 ## Sample Runs from MIXR:
