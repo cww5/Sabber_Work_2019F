@@ -13,7 +13,9 @@ SabberStoneCoreAi.dll and SabberStoneCore.dll (compiled from the main repo)
 ## Sample CMD Runs
 
 >dotnet build SabberTMTestCore.csproj
+
 >dotnet publish -r win-x64 --self-contained false -p:UseAppHost=true
+
 >dotnet bin\Debug\netcoreapp2.2\win-x64\publish\SabberTMTestCore.dll folder=resultsTemp playerdecks=C:\Users\Main\Documents\GitHub\Sabber_Work_2019F\thesis-decklists\zoolock_decks.csv opponent_decks=opponent_decks.csv
 
 ## Helpful Links
