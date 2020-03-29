@@ -1,0 +1,499 @@
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+Player1: Pizza=Aggro vs Player2: NNWabeka=Network
+Player1Deck: Zoolock_PostBuff_Legend13 vs Player2Deck: Omega Zoolock Legend 25-14
+Starting game
+Player1: Mulligan 17
+Player2: Mulligan 46
+Player1: PLAYING / Player2: PLAYING - ROUND 1 - Pizza
+Hero[P1]: 30 / Hero[P2]: 30
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Pizza> ---------------------------
+EndTurnTask => [Pizza]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 1
+Hero[P1]: 30 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+EndTurnTask => [Pizza]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Pizza
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 0
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 0
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 1
+TOTALMANASPENTTHISGAME 0
+USEDMANATHISTURN 0
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <NNWabeka> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <NNWabeka> ---------------------------
+PlayCardTask => [NNWabeka] play 'Voidwalker[44]'(MINION) to Pos[0] Option -1
+EndTurnTask => [NNWabeka]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 2
+Hero[P1]: 30 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [NNWabeka] play 'Voidwalker[44]'(MINION) to Pos[0] Option -1
+EndTurnTask => [NNWabeka]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 NNWabeka
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 1
+USEDMANATHISTURN 1
+PlayedCard: [Voidwalker]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 2 - Pizza
+Hero[P1]: 30 / Hero[P2]: 30
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Pizza> ---------------------------
+PlayCardTask => [Pizza] play 'Mecharoo[26]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Pizza]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 3
+Hero[P1]: 30 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Pizza] play 'Mecharoo[26]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Pizza]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Pizza
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 1
+TOTALMANASPENTTHISGAME 1
+USEDMANATHISTURN 1
+PlayedCard: [Mecharoo]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <NNWabeka> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <NNWabeka> ---------------------------
+PlayCardTask => [NNWabeka] play 'Knife Juggler[56]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [NNWabeka] 'Voidwalker[44]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [NNWabeka]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 4
+Hero[P1]: 29 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [NNWabeka] play 'Knife Juggler[56]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [NNWabeka] 'Voidwalker[44]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [NNWabeka]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 NNWabeka
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 3
+USEDMANATHISTURN 2
+PlayedCard: [Knife Juggler]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 3 - Pizza
+Hero[P1]: 29 / Hero[P2]: 30
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Pizza> ---------------------------
+MinionAttackTask => [Pizza] 'Mecharoo[26]'(MINION) attack 'Voidwalker[44]'
+PlayCardTask => [Pizza] play 'Magic Carpet[34]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Pizza]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 5
+Hero[P1]: 29 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Pizza] 'Mecharoo[26]'(MINION) attack 'Voidwalker[44]'
+PlayCardTask => [Pizza] play 'Magic Carpet[34]'(MINION) to Pos[0] Option -1
+EndTurnTask => [Pizza]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Pizza
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 1
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 1
+NUMOPTIONSPLAYEDTHISTURN 2
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 4
+USEDMANATHISTURN 3
+PlayedCard: [Magic Carpet]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <NNWabeka> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <NNWabeka> ---------------------------
+PlayCardTask => [NNWabeka] play 'Dire Wolf Alpha[54]'(MINION) to Pos[1] Option -1
+MinionAttackTask => [NNWabeka] 'Knife Juggler[56]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [NNWabeka] 'Voidwalker[44]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [NNWabeka]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 6
+Hero[P1]: 23 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [NNWabeka] play 'Dire Wolf Alpha[54]'(MINION) to Pos[1] Option -1
+MinionAttackTask => [NNWabeka] 'Knife Juggler[56]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [NNWabeka] 'Voidwalker[44]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [NNWabeka]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 NNWabeka
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 2
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 3
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 0
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 1
+TOTALMANASPENTTHISGAME 5
+USEDMANATHISTURN 2
+PlayedCard: [Dire Wolf Alpha]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 4 - Pizza
+Hero[P1]: 23 / Hero[P2]: 30
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Pizza> ---------------------------
+MinionAttackTask => [Pizza] 'Magic Carpet[34]'(MINION) attack 'Voidwalker[44]'
+MinionAttackTask => [Pizza] 'Jo-E Bot[69]'(MINION) attack 'Voidwalker[44]'
+PlayCardTask => [Pizza] play 'Fiendish Circle[18]'(SPELL) Option -1
+EndTurnTask => [Pizza]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 7
+Hero[P1]: 23 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Pizza] 'Magic Carpet[34]'(MINION) attack 'Voidwalker[44]'
+MinionAttackTask => [Pizza] 'Jo-E Bot[69]'(MINION) attack 'Voidwalker[44]'
+PlayCardTask => [Pizza] play 'Fiendish Circle[18]'(SPELL) Option -1
+EndTurnTask => [Pizza]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Pizza
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 2
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 1
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 2
+NUMOPTIONSPLAYEDTHISTURN 3
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 8
+USEDMANATHISTURN 4
+PlayedCard: [Fiendish Circle]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <NNWabeka> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <NNWabeka> ---------------------------
+PlayCardTask => [NNWabeka] play 'Fiendish Circle[46]'(SPELL) Option -1
+MinionAttackTask => [NNWabeka] 'Knife Juggler[56]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [NNWabeka] 'Dire Wolf Alpha[54]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [NNWabeka]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 8
+Hero[P1]: 17 / Hero[P2]: 30
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [NNWabeka] play 'Fiendish Circle[46]'(SPELL) Option -1
+MinionAttackTask => [NNWabeka] 'Knife Juggler[56]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [NNWabeka] 'Dire Wolf Alpha[54]'(MINION) attack 'Gul'dan[4]'
+EndTurnTask => [NNWabeka]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 NNWabeka
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 2
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 1
+NUMOPTIONSPLAYEDTHISTURN 3
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 9
+USEDMANATHISTURN 4
+PlayedCard: [Fiendish Circle]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 5 - Pizza
+Hero[P1]: 17 / Hero[P2]: 30
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Pizza> ---------------------------
+PlayCardTask => [Pizza] play 'Fiendish Circle[17]'(SPELL) Option -1
+PlayCardTask => [Pizza] play 'Grim Rally[11]'(SPELL) 'Imp[84]' Option -1
+MinionAttackTask => [Pizza] 'Magic Carpet[34]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[73]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[74]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[75]'(MINION) attack 'Gul'dan[6]'
+EndTurnTask => [Pizza]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 9
+Hero[P1]: 17 / Hero[P2]: 22
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+PlayCardTask => [Pizza] play 'Fiendish Circle[17]'(SPELL) Option -1
+PlayCardTask => [Pizza] play 'Grim Rally[11]'(SPELL) 'Imp[84]' Option -1
+MinionAttackTask => [Pizza] 'Magic Carpet[34]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[73]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[74]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[75]'(MINION) attack 'Gul'dan[6]'
+EndTurnTask => [Pizza]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Pizza
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 2
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 4
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 1
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 1
+NUMOPTIONSPLAYEDTHISTURN 6
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 3
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 13
+USEDMANATHISTURN 5
+PlayedCard: [Fiendish Circle]
+PlayedCard: [Grim Rally]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <NNWabeka> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <NNWabeka> ---------------------------
+MinionAttackTask => [NNWabeka] 'Knife Juggler[56]'(MINION) attack 'Gul'dan[4]'
+PlayCardTask => [NNWabeka] play 'Wargear[65]'(MINION) to Pos[0] Option -1
+MinionAttackTask => [NNWabeka] 'Dire Wolf Alpha[54]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [NNWabeka] 'Imp[76]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [NNWabeka] 'Imp[78]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [NNWabeka] 'Imp[80]'(MINION) attack 'Gul'dan[4]'
+MinionAttackTask => [NNWabeka] 'Imp[82]'(MINION) attack 'Gul'dan[4]'
+* Calculating solutions *** Player 2 ***
+- Player 2 - <NNWabeka> ---------------------------
+EndTurnTask => [NNWabeka]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 10
+Hero[P1]: 1 / Hero[P2]: 22
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+EndTurnTask => [NNWabeka]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 NNWabeka
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 6
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 1
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 7
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 0
+TOTALMANASPENTTHISGAME 14
+USEDMANATHISTURN 5
+PlayedCard: [Wargear]
+No more cards played this turn.
+______________________________________________________________________|
+Player1: PLAYING / Player2: PLAYING - ROUND 6 - Pizza
+Hero[P1]: 1 / Hero[P2]: 22
+* Calculating solutions *** Player 1 ***
+- Player 1 - <Pizza> ---------------------------
+MinionAttackTask => [Pizza] 'Magic Carpet[34]'(MINION) attack 'Gul'dan[6]'
+PlayCardTask => [Pizza] play 'Grim Rally[10]'(SPELL) 'Magic Carpet[34]' Option -1
+MinionAttackTask => [Pizza] 'Imp[73]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[74]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[75]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[85]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[86]'(MINION) attack 'Gul'dan[6]'
+EndTurnTask => [Pizza]
+______________________________________________________________________
+Player1: PLAYING / Player2: PLAYING - turn no 11
+Hero[P1]: 1 / Hero[P2]: 5
+>>>>>>>>>TASK TYPE CHECK (is EOT?): True
+>>>>>>>>>TASK TYPE: END_TURN
+ALL TURN TASKS:
+MinionAttackTask => [Pizza] 'Magic Carpet[34]'(MINION) attack 'Gul'dan[6]'
+PlayCardTask => [Pizza] play 'Grim Rally[10]'(SPELL) 'Magic Carpet[34]' Option -1
+MinionAttackTask => [Pizza] 'Imp[73]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[74]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[75]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[85]'(MINION) attack 'Gul'dan[6]'
+MinionAttackTask => [Pizza] 'Imp[86]'(MINION) attack 'Gul'dan[6]'
+EndTurnTask => [Pizza]
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P1 Pizza
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 1
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 6
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 1
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 1
+NUMOPTIONSPLAYEDTHISTURN 7
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 4
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 5
+TOTALMANASPENTTHISGAME 14
+USEDMANATHISTURN 1
+PlayedCard: [Grim Rally]
+No more cards played this turn.
+______________________________________________________________________|
+- Player 2 - <NNWabeka> ---------------------------
+* Calculating solutions *** Player 2 ***
+- Player 2 - <NNWabeka> ---------------------------
+MinionAttackTask => [NNWabeka] 'Wargear[65]'(MINION) attack 'Gul'dan[4]'
+______________________________________________________________________
+Player1: LOST / Player2: WON - turn no 12
+Hero[P1]: -5 / Hero[P2]: 5
+>>>>>>>>>TASK TYPE CHECK (is EOT?): False
+>>>>>>>>>TASK TYPE: MINION_ATTACK
+ALL TURN TASKS:
+MinionAttackTask => [NNWabeka] 'Wargear[65]'(MINION) attack 'Gul'dan[4]'
+COMPLETE ALL TURN TASKS
+CURRENT PLAYER: P2 NNWabeka
+AMOUNTHEALEDTHISTURN 0
+HEROPOWERACTIVATIONSTHIS TURN 0
+NUMATTACKSTHISTURN 0
+NUMCARDSDRAWNTHISTURN 1
+NUMCARDSPLAYEDTHISTURN 0
+NUMCARDSTODRAW 0
+NUMELEMENTALSPLAYEDLASTTURN 0
+NUMELEMENTALSPLAYEDTHISTURN 0
+NUMFRIENDLYMINIONSTHATATTACKEDTHISTURN 1
+NUMFRIENDLYMINIONSTHATDIEDTHISTURN 0
+NUMMINIONSPLAYEDTHISTURN 0
+NUMMINIONSPLAYERKILLEDTHISTURN 0
+NUMOPTIONSPLAYEDTHISTURN 1
+NUMSECRETSPLAYEDTHISGAME 0
+NUMSPELLSPLAYEDTHISGAME 1
+NUMTIMESHEROPOWERUSEDTHISGAME 0
+REMAININGMANA 6
+TOTALMANASPENTTHISGAME 14
+USEDMANATHISTURN 0
+No more cards played this turn.
+______________________________________________________________________|
+Game: COMPLETE, Player1: LOST / Player2: WON
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+

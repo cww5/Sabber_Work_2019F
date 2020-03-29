@@ -193,6 +193,10 @@ namespace SabberStoneCoreAi
 
 				for (int i = 1; i < lines.Length; i++)
 				{
+					if (i < lines.Length -1)
+					{
+						continue;
+					}
 					string[] lineSplit = lines[i].Trim(new char[] { ' ', '\n' }).Split(",");
 					double[] lineWeights = new double[109]; // creates a default array of 0s
 					for (int j = firstWeightIndex; j < lineSplit.Length; j++)
