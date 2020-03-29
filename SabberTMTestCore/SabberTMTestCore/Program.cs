@@ -171,6 +171,52 @@ namespace SabberStoneCoreAi
 				//string weights_file = "C:\\Users\\Main\\Documents\\GitHub\\Sabber_Work_2019F\thesis-output\\StrategySearch\\Warlock_Net\\logs\\fittest_log.csv";
 				string[] lines = System.IO.File.ReadAllLines(weights_file);
 
+				string[] firstLine = lines[0].Trim(new char[] { ' ', '\n' }).Split(",");
+				int firstWeightIndex = 0; // this will be 19
+				int lastWeightIndex = -1; //this will be 127
+				int numWeights = 0; // this will be 109
+				int numNonWeights = -1; // this will be 18 -> there are 19 index positions before weights come in
+
+				for(int i = 0; i < firstLine.Length; i++)
+				{
+					if (!firstLine[i].Contains("Weight"))
+					{
+						numNonWeights += 1;
+					}
+					else if (firstLine[i].Contains("Weight:0"))
+					{
+						firstWeightIndex = i;
+					}
+					lastWeightIndex += 1;
+				}
+				numWeights = lastWeightIndex - numNonWeights; 
+
+				for (int i = 1; i < lines.Length; i++)
+				{
+					string[] lineSplit = lines[i].Trim(new char[] { ' ', '\n' }).Split(",");
+					double[] lineWeights = new double[109]; // creates a default array of 0s
+					for (int j = firstWeightIndex; j < lineSplit.Length; j++)
+					{
+						try
+						{
+							lineWeights.SetValue(Convert.ToDouble(lineSplit[j]), j - numNonWeights - 1);
+						}
+						catch (Exception ex)
+						{
+							Console.WriteLine(ex.Message);
+							Console.WriteLine(j - numNonWeights - 1);
+							Console.WriteLine(lineWeights[j - numNonWeights - 1]);
+							Console.WriteLine(j);
+							Console.WriteLine(lineSplit[j]);
+							Environment.Exit(0);
+						}
+						
+					}
+					myWeights.Add(lineWeights);
+				}
+
+
+				/*
 				int firstWeightIndex = 0;
 				int lastWeightIndex = 0;
 
@@ -203,7 +249,7 @@ namespace SabberStoneCoreAi
 					// add the weights from a line in fittest_log.csv to the myWeights vector
 					myWeights.Add(weights);
 				}
-
+				*/
 			}
 			return myWeights;
 		}
