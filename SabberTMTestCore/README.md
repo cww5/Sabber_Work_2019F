@@ -13,8 +13,8 @@ SabberStoneCoreAi.dll and SabberStoneCore.dll (compiled from the main repo)
 ## Publish TMTestCore:
 
 dotnet build SabberTMTestCore.sln 
-dotnet publish SabberTMTestCore.sln --runtime win-x64
-
+dotnet publish SabberTMTestCore.sln --runtime win-x64 --framework netcoreapp2.2
+--framework netcoreapp2.2
 
 ## Sample Runs from Laptop:
 

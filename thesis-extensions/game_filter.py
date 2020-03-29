@@ -86,6 +86,7 @@ def main():
 
 	machine = args.machine.lower()
 	sub_dir = args.base
+
 	if machine == 'laptop':
 		# laptop directory
 		directory = 'C:\\Users\\watson\\Documents\\GitHub\\SabberStone-master\\Sabber_Work_2019F\\thesis-output\\'
@@ -98,9 +99,15 @@ def main():
 	else:
 		logging.warning('UNEXPECTED OPTION IN CMD, CONFIG PROPERLY')
 		sys.exit(0)
-	new_sub_dir = sub_dir + '_Compiled'
-	full_directory = '{}{}\\'.format(directory, sub_dir)
+	new_sub_dir = sub_dir.split('\\')[-1] + '_Compiled'
+	if sub_dir[:2] == 'C:':
+		full_directory = sub_dir
+	else:
+		full_directory = '{}{}\\'.format(directory, sub_dir)
 	full_output_directory = '{}{}\\'.format(directory, new_sub_dir)
+	#print(full_directory)
+	#print(full_output_directory)
+	#sys.exit(0)
 	try:
 		os.mkdir(full_output_directory)
 	except OSError:
