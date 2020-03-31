@@ -3,14 +3,14 @@
 ## Summary
 This repository is the newest updated code which is configured to run standalone in an HPC environment, and it is also configured to use the EvoStone NeuralNetScore for players. 
 
-## Heads Up
-This is the directory for running N games against two simulated agents. To configure CMA-ME experiments for evolving strategies, visit [this repo: EvoStone-master/TestBed/StrategySearch](https://github.com/cww5/Sabber_Work_2019F/tree/master/EvoStone-master/TestBed/StrategySearch). 
+## Before Starting
+This is the directory for running N games against two simulated agents, either using the default Scoring functions, or the evolved scoring functions. To configure CMA-ME experiments for evolving strategies, visit [this repo: EvoStone-master/TestBed/StrategySearch](https://github.com/cww5/Sabber_Work_2019F/tree/master/EvoStone-master/TestBed/StrategySearch). 
 
 ## Dependencies:
 
 SabberStoneCoreAi.dll and SabberStoneCore.dll (compiled from the main repo)
 
-## Sample CMD Runs
+## How to Build for Local and HPC Environment
 
 >dotnet build SabberTMTestCore.csproj
 
@@ -33,22 +33,26 @@ dotnet build SabberTMTestCore.sln
 dotnet publish SabberTMTestCore.sln --runtime win-x64 --framework netcoreapp2.2
 --framework netcoreapp2.2
 
-## Sample Runs from Laptop:
+## Sample Runs from Different Machines: 
 
-dotnet run Program.cs
+### Sample Runs from Laptop:
 
-dotnet run Program.cs playerdecks=C:\Users\watson\Documents\GitHub\SabberStone-master\Sabber_Work_2019F\thesis-decklists\player_deck.csv opponentdecks=C:\Users\watson\Documents\GitHub\SabberStone-master\Sabber_Work_2019F\thesis-decklists\opponent_deck.csv
+>dotnet run Program.cs
 
-dotnet run Program.cs playerdecks=C:\Users\watson\Documents\GitHub\SabberStone-master\Sabber_Work_2019F\thesis-decklists\NNDecks\nnagg.csv opponentdecks=C:\Users\watson\Documents\GitHub\SabberStone-master\Sabber_Work_2019F\thesis-decklists\opponent_deck.csv weights=C:\Users\watson\Documents\GitHub\SabberStone-master\Sabber_Work_2019F\thesis-output\StrategySearchResults\Warlock_Net_AA_sm\logs\fittest_log.csv
+>dotnet run Program.cs playerdecks=C:\Users\watson\Documents\GitHub\SabberStone-master\Sabber_Work_2019F\thesis-decklists\player_deck.csv opponentdecks=C:\Users\watson\Documents\GitHub\SabberStone-master\Sabber_Work_2019F\thesis-decklists\opponent_deck.csv
 
-dotnet run Program.cs playerdecks=C:\Users\watson\Documents\GitHub\SabberStone-master\Sabber_Work_2019F\thesis-decklists\player_deck.csv opponentdecks=C:\Users\watson\Documents\GitHub\SabberStone-master\Sabber_Work_2019F\thesis-decklists\opponent_deck.csv weights=C:\Users\watson\Documents\GitHub\SabberStone-master\Sabber_Work_2019F\thesis-output\StrategySearchResults\Warlock_Net_AA_sm\logs\fittest_log.csv
+>dotnet run Program.cs playerdecks=C:\Users\watson\Documents\GitHub\SabberStone-master\Sabber_Work_2019F\thesis-decklists\NNDecks\nnagg.csv opponentdecks=C:\Users\watson\Documents\GitHub\SabberStone-master\Sabber_Work_2019F\thesis-decklists\opponent_deck.csv weights=C:\Users\watson\Documents\GitHub\SabberStone-master\Sabber_Work_2019F\thesis-output\StrategySearchResults\Warlock_Net_AA_sm\logs\fittest_log.csv
+
+>dotnet run Program.cs playerdecks=C:\Users\watson\Documents\GitHub\SabberStone-master\Sabber_Work_2019F\thesis-decklists\player_deck.csv opponentdecks=C:\Users\watson\Documents\GitHub\SabberStone-master\Sabber_Work_2019F\thesis-decklists\opponent_deck.csv weights=C:\Users\watson\Documents\GitHub\SabberStone-master\Sabber_Work_2019F\thesis-output\StrategySearchResults\Warlock_Net_AA_sm\logs\fittest_log.csv
 
 
-## Sample Runs from MIXR:
+### Sample Runs from MIXR:
 
-dotnet run Program.cs playerdecks=C:\Users\Main\Documents\GitHub\Sabber_Work_2019F\thesis-decklists\player_deck.csv opponentdecks=C:\Users\Main\Documents\GitHub\Sabber_Work_2019F\thesis-decklists\opponent_deck.csv
-dotnet run Program.cs playerdecks=C:\Users\Main\Documents\GitHub\Sabber_Work_2019F\thesis-decklists\player_deck.csv opponentdecks=C:\Users\Main\Documents\GitHub\Sabber_Work_2019F\thesis-decklists\NNDecks\nnagg.csv
+>dotnet run Program.cs playerdecks=C:\Users\Main\Documents\GitHub\Sabber_Work_2019F\thesis-decklists\player_deck.csv opponentdecks=C:\Users\Main\Documents\GitHub\Sabber_Work_2019F\thesis-decklists\opponent_deck.csv
 
-## Sample Runs from Kong:
+>dotnet run Program.cs playerdecks=C:\Users\Main\Documents\GitHub\Sabber_Work_2019F\thesis-decklists\player_deck.csv opponentdecks=C:\Users\Main\Documents\GitHub\Sabber_Work_2019F\thesis-decklists\NNDecks\nnagg.csv
 
-dotnet /home/c/cww5/SabberNewDir/bin/Debug/netcoreapp2.2/win-x64/publish/SabberTMTestCore.dll gpuid=$SGE_TASK_ID numGames=10 stepsize=2 log=true folder=ZLvsCL_1k0 playerdecks=/home/c/cww5/SabberNewDir/warlock_player.csv opponentdecks=/home/c/cww5/SabberNewDir/warlock_opponent.csv
+### Sample Runs from Kong:
+
+>dotnet /home/c/cww5/SabberNewDir/bin/Debug/netcoreapp2.2/win-x64/publish/SabberTMTestCore.dll gpuid=$SGE_TASK_ID numGames=10 stepsize=2 log=true folder=ZLvsNNA_1k02 playerdecks=/home/c/cww5/SabberNewDir/zoolock_decks.csv opponentdecks=/home/c/cww5/SabberNewDir/nncontrol.csv weights=/home/c/cww5/SabberNewDir/fittest_log_AA_sm.csv
+
