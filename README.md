@@ -5,8 +5,8 @@ For my Master's Thesis, I will be conducting research using Hearthone to compare
 
 - [x] Retrieve relevant turn information per player from Sabber
 - [ ] Format the tasks and cards into the data set (Optional?)
-- [ ] Confirm that the NeuralNetScore works
-- [ ] Run games to evolve Warlock Aggro and Warlock Control
+- [x] Confirm that the NeuralNetScore works
+- [x] Run games to evolve Warlock Aggro and Warlock Control
 - [ ] Compare the baseline strategy matchups against each other
 - [ ] Compare the baseline strategy matchups against the evolved ones
 - [ ] Type up Thesis document (ongoing)
@@ -14,6 +14,9 @@ For my Master's Thesis, I will be conducting research using Hearthone to compare
 # Getting Started
 ## Prerequisites
 .NetCore 2.0
+
+## How to Run
+Please note that the full instruction set lies in the file in [/SabberTMTestCore/README.md](https://github.com/cww5/Sabber_Work_2019F/tree/master/SabberTMTestCore)
 
 ## Benchmarks
 | Title | Time |
