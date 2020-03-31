@@ -27,12 +27,6 @@ https://www.ace-net.ca/wiki/FAQ#Eqw:_Job_waiting_in_error_state
 
 https://support.microsoft.com/en-us/help/890015/you-receive-a-the-process-cannot-access-the-file-because-it-is-being-u
 
-## Publish TMTestCore (Don't think this is correct)
-
-dotnet build SabberTMTestCore.sln 
-dotnet publish SabberTMTestCore.sln --runtime win-x64 --framework netcoreapp2.2
---framework netcoreapp2.2
-
 ## Sample Runs from Different Machines: 
 
 ### Sample Runs from Laptop:
