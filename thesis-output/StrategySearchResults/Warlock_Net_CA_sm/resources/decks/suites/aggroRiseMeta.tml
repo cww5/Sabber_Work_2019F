@@ -1,0 +1,35 @@
+[[Opponents]]
+Portion = 1
+Strategy = "Aggro"
+DeckPool = "Elite Decks"
+DeckName = "Aggro Warlock"
+
+[[Opponents]]
+Portion = 1
+Strategy = "Aggro"
+DeckPool = "Meta Decks"
+DeckName = "Omega Zoolock Legend 25-14"
+
+[[Opponents]]
+Portion = 1
+Strategy = "Aggro"
+DeckPool = "Meta Decks"
+DeckName = "Zoolock Early Legend Post Nerf"
+
+[[Opponents]]
+Portion = 1
+Strategy = "Aggro"
+DeckPool = "Meta Decks"
+DeckName = "Zoolock Legend 13 Post Buff"
+
+[[Opponents]]
+Portion = 1
+Strategy = "Aggro"
+DeckPool = "Meta Decks"
+DeckName = "Zoolock Legend #7 Post Nerf"
+
+[[Opponents]]
+Portion = 1
+Strategy = "Aggro"
+DeckPool = "Meta Decks"
+DeckName = "Budget Zoolock"
