@@ -4,7 +4,9 @@
 This repository is the newest updated code which is configured to run standalone in an HPC environment, and it is also configured to use the EvoStone NeuralNetScore for players. 
 
 ## Before Starting
-This is the directory for running N games against two simulated agents, either using the default Scoring functions, or the evolved scoring functions. To configure CMA-ME experiments for evolving strategies, visit [this repo: EvoStone-master/TestBed/StrategySearch](https://github.com/cww5/Sabber_Work_2019F/tree/master/EvoStone-master/TestBed/StrategySearch). 
+This is the directory for running N games against two simulated agents, either using the default Scoring functions, or the evolved Scoring Functions. To configure CMA-ME experiments for evolving Scoring Functions, visit the original template at [this repo: EvoStone-master/TestBed/StrategySearch](https://github.com/cww5/Sabber_Work_2019F/tree/master/EvoStone-master/TestBed/StrategySearch). 
+
+NOTE: The current running examples of evolving Scoring Functions using are in [this repo: /thesis-output/StrategySearchResults](https://github.com/cww5/Sabber_Work_2019F/tree/master/thesis-output/StrategySearchResults).
 
 ## Dependencies:
 
