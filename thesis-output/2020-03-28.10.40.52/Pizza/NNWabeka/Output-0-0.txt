@@ -1,9 +1,0 @@
-!!!!!!!!!!!!!!!!!!Error in the serial games
-System.IndexOutOfRangeException: Index was outside the bounds of the array.
-   at DeckEvaluator.NeuralNet.FullyConnectedNetwork.SetWeights(Double[] weightVector)
-   at SabberStoneCoreAi.Score.NeuralNetScore..ctor(Int32[] layerSizes, CustomStratWeights weights)
-   at SabberStoneCoreAi.Program.GetNNPlayerScore() in C:\Users\watson\Documents\GitHub\SabberStone-master\Sabber_Work_2019F\SabberTMTestCore\SabberTMTestCore\Program.cs:line 696
-   at SabberStoneCoreAi.Program.GetAIPlayerFromScore(String P1Scoring, String P2Scoring) in C:\Users\watson\Documents\GitHub\SabberStone-master\Sabber_Work_2019F\SabberTMTestCore\SabberTMTestCore\Program.cs:line 739
-   at SabberStoneCoreAi.Program.FullGame(Tuple`5 P1, Tuple`5 P2) in C:\Users\watson\Documents\GitHub\SabberStone-master\Sabber_Work_2019F\SabberTMTestCore\SabberTMTestCore\Program.cs:line 845
-   at SabberStoneCoreAi.Program.<>c__DisplayClass17_1.<PlayAllGames>b__0() in C:\Users\watson\Documents\GitHub\SabberStone-master\Sabber_Work_2019F\SabberTMTestCore\SabberTMTestCore\Program.cs:line 395
-!!!!!!!!!!!!!!!!!!End Error!

@@ -52,6 +52,7 @@ python game_filter.py laptop folder_name_with_all_output
 def parse_options():
 	parser = argparse.ArgumentParser(description='Class for parsing game data')
 	parser.add_argument('machine', help='configure to desktop, laptop, or mixr')
+	parser.add_argument('outf', help='this is the name of the sub-dir in thesis-output to dump the new _Compiled dir')
 	parser.add_argument('base', help='folder of output to analyze ex: 2020-02-10.12.48.53')
 	parser.add_argument('--sum', action='store_true', help='flag to print summary')
 	parser.add_argument('--oth', action='store_true', help='flag to print other lines')
@@ -86,19 +87,28 @@ def main():
 
 	machine = args.machine.lower()
 	sub_dir = args.base
+	output_folder = args.outf
 
 	if machine == 'laptop':
 		# laptop directory
-		directory = 'C:\\Users\\watson\\Documents\\GitHub\\SabberStone-master\\Sabber_Work_2019F\\thesis-output\\'
+		directory = 'C:\\Users\\watson\\Documents\\GitHub\\SabberStone-master\\Sabber_Work_2019F\\thesis-output\\' + output_folder + '\\'
 	elif machine == 'desktop':
 		# desktop directory
 		# directory = 'C:\\Users\\watson\\Documents\\SabberStone 2019\\Sabber_Work_2019F\\thesis-output\\'
-		directory = 'C:\\Users\\watson\\Documents\\SabberStone 2019\\Sabber_Work_2019F\\thesis-output\\'
+		directory = 'C:\\Users\\watson\\Documents\\SabberStone 2019\\Sabber_Work_2019F\\thesis-output\\' + output_folder + '\\'
 	elif machine == 'mixr':
-		directory = 'C:\\Users\\Main\\Documents\\GitHub\\Sabber_Work_2019F\\thesis-output\\'
+		directory = 'C:\\Users\\Main\\Documents\\GitHub\\Sabber_Work_2019F\\thesis-output\\' + output_folder + '\\'
 	else:
 		logging.warning('UNEXPECTED OPTION IN CMD, CONFIG PROPERLY')
 		sys.exit(0)
+
+	try:
+		os.mkdir(directory)
+	except OSError:
+		print("Creation of the directory %s failed" % directory)
+	else:
+		print("Successfully created the directory %s " % directory)
+
 	new_sub_dir = sub_dir.split('\\')[-1] + '_Compiled'
 	if sub_dir[:2] == 'C:':
 		full_directory = sub_dir

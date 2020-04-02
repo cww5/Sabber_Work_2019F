@@ -142,7 +142,9 @@ class MatchupData:
 
 	warlock = {
 		'aggro':['Roffle','Viper','Pizza','Solegit','Wabeka'],
-		'control':['Orasha','Thijs','Stonekeep','Slage','Krebs1996']
+		'control':['Orasha','Thijs','Stonekeep','Slage','Krebs1996'],
+		'nnaggro': ['NNRoffle', 'NNViper', 'NNPizza', 'NNSolegit', 'NNWabeka'],
+		'nncontrol': ['NNOrasha', 'NNThijs', 'NNStonekeep', 'NNSlage', 'NNKrebs1996']
 	}
 
 	def __init__(self, p1_strat, p2_strat, root_dir, max_num_games=None):
