@@ -198,7 +198,13 @@ class MatchupData:
 				'Median-Num-Turns': summary['Median-Num-Turns'],
 				'Var-Num-Turns': summary['Var-Num-Turns'],
 				'Std-Num-Turns': summary['Std-Num-Turns'],
-				'Num-Games': summary['Num-Games']
+				'Max-Num-Turns': summary['Max-Num-Turns'],
+				'Min-Num-Turns': summary['Min-Num-Turns'],
+				'Num-Games': summary['Num-Games'],
+				'P1-NWins':summary['P1-NWins'],
+				'P2-NWins': summary['P2-NWins'],
+				'P1-Win%': summary['P1-Win%'],
+				'P2-Win%': summary['P2-Win%'],
 			}
 			matchup_ = file.split('\\')[-1].strip('.csv')
 			d[matchup_] = d2
@@ -225,6 +231,23 @@ class MatchData:
 	def get_num_games(self):
 		return self.df['GAME_COUNTER'].max() + 1
 
+	def get_player_num_wins(self, player):
+		if player == 'P1':
+			return self.df.loc[(self.df['P2_HEALTH']<=0)].shape[0]
+		elif player == 'P2':
+			return self.df.loc[(self.df['P1_HEALTH']<=0)].shape[0]
+		else:
+			print('Player {} is an invalid choice. Use P1 or P2'.format(player))
+
+	def get_player_wins_ratio(self, player):
+		max_num_games = self.df['GAME_COUNTER'].max()
+		if player == 'P1':
+			return (self.df.loc[(self.df['P2_HEALTH']<=0)].shape[0] / max_num_games) * 100
+		elif player == 'P2':
+			return (self.df.loc[(self.df['P1_HEALTH']<=0)].shape[0] / max_num_games) * 100
+		else:
+			print('Player {} is an invalid choice. Use P1 or P2'.format(player))
+
 	def get_mean_num_turns(self):
 		""".max() instead of .count() both perform the same operation"""
 		return self.df.groupby('GAME_COUNTER').count()['TURN_NO'].mean()
@@ -240,6 +263,14 @@ class MatchData:
 	def get_var_num_turns(self):
 		""".max() instead of .count() both perform the same operation"""
 		return self.df.groupby('GAME_COUNTER').count()['TURN_NO'].var()
+
+	def get_max_num_turns(self):
+		""".max() instead of .count() both perform the same operation"""
+		return self.df.groupby('GAME_COUNTER').count()['TURN_NO'].max()
+
+	def get_min_num_turns(self):
+		""".max() instead of .count() both perform the same operation"""
+		return self.df.groupby('GAME_COUNTER').count()['TURN_NO'].min()
 
 	def get_eot_std(self):
 		turn_groups = self.df.groupby('TURN_NO')
@@ -261,12 +292,18 @@ class MatchData:
 
 	def get_summary(self):
 		data = {
-			'Mean-Num-Turns':self.get_mean_num_turns(),
-			'Median-Num-Turns':self.get_median_num_turns(),
+			'Mean-Num-Turns': self.get_mean_num_turns(),
+			'Median-Num-Turns': self.get_median_num_turns(),
 			'Var-Num-Turns': self.get_var_num_turns(),
 			'Std-Num-Turns': self.get_std_num_turns(),
-			'Num-Games':self.get_num_games(),
-			'EoT-Standard-Dev':self.get_eot_std(),
+			'Max-Num-Turns': self.get_max_num_turns(),
+			'Min-Num-Turns': self.get_min_num_turns(),
+			'Num-Games': self.get_num_games(),
+			'P1-NWins': self.get_player_num_wins('P1'),
+			'P2-NWins': self.get_player_num_wins('P2'),
+			'P1-Win%': self.get_player_wins_ratio('P1'),
+			'P2-Win%': self.get_player_wins_ratio('P2'),
+			'EoT-Standard-Dev': self.get_eot_std(),
 			'EoT-Mean': self.get_eot_mean()
 		}
 		return data
