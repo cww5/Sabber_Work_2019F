@@ -46,6 +46,8 @@ The two lines above with the >>>>>> don't begin with '#', added that there becau
 
 python game_filter.py laptop folder_name_with_all_output
 
+python game_filter.py laptop SabberGameMatchups C:\Users\watson\Documents\SabberMatchups\AvsNNA_1k02
+
 """
 
 
