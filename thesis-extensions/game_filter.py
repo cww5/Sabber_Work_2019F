@@ -45,14 +45,11 @@ shuold be range(i, i+26)
 The two lines above with the >>>>>> don't begin with '#', added that there because PyCharm threw errors on those lines.
 
 python game_filter.py laptop folder_name_with_all_output
-
-python game_filter.py laptop SabberGameMatchups C:\Users\watson\Documents\SabberMatchups\AvsNNA_1k02
-
 """
 
 
 def parse_options():
-	parser = argparse.ArgumentParser(description='Class for parsing game data')
+	parser = argparse.ArgumentParser(description='Class for parsing game data Example run: python game_filter.py laptop SabberGameMatchups C:\\Users\\watson\\Documents\\SabberMatchups\\AvsNNA_1k02')
 	parser.add_argument('machine', help='configure to desktop, laptop, or mixr')
 	parser.add_argument('outf', help='this is the name of the sub-dir in thesis-output to dump the new _Compiled dir')
 	parser.add_argument('base', help='folder of output to analyze ex: 2020-02-10.12.48.53')
