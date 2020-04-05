@@ -15,6 +15,6 @@ ConfigFilename = "config/cma_me_config.tml"
 LayerSizes = [15, 5, 4, 1]
 
 [Player]
-DeckPool = "Meta Decks"
-DeckName = "Budget Zoolock"
+DeckPool = "Elite Decks"
+DeckName = "Control Warlock"
 

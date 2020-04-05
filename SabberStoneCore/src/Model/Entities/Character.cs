@@ -639,8 +639,8 @@ namespace SabberStoneCore.Model.Entities
 			}
 			set
 			{
-				if (_logging)
-					Game.Log(LogLevel.DEBUG, BlockType.TRIGGER, "Entity", !Game.Logging ? "" : $"{this} set data {GameTag.ATK} to {value}");
+				//if (_logging)
+				//	Game.Log(LogLevel.DEBUG, BlockType.TRIGGER, "Entity", !Game.Logging ? "" : $"{this} set data {GameTag.ATK} to {value}");
 				if (_history && value + (AuraEffects?.ATK ?? 0) != AttackDamage)
 				{
 					Game.PowerHistory.Add(PowerHistoryBuilder.TagChange(Id, GameTag.ATK, value));
@@ -661,8 +661,8 @@ namespace SabberStoneCore.Model.Entities
 			}
 			set
 			{
-				if (_logging)
-					Game.Log(LogLevel.DEBUG, BlockType.TRIGGER, "Entity", !Game.Logging ? "" : $"{this} set data {GameTag.HEALTH} to {value}");
+				//if (_logging)
+				//	Game.Log(LogLevel.DEBUG, BlockType.TRIGGER, "Entity", !Game.Logging ? "" : $"{this} set data {GameTag.HEALTH} to {value}");
 				if (_history && value + (AuraEffects?.Health ?? 0) != AttackDamage)
 				{
 					Game.PowerHistory.Add(PowerHistoryBuilder.TagChange(Id, GameTag.HEALTH, value));
@@ -684,8 +684,8 @@ namespace SabberStoneCore.Model.Entities
 				else if (BaseHealth <= value)
 					ToBeDestroyed = true;
 
-				if (_logging)
-					Game.Log(LogLevel.DEBUG, BlockType.TRIGGER, "Entity", !Game.Logging ? "" : $"{this} set data {GameTag.DAMAGE} to {value}");
+				//if (_logging)
+				//	Game.Log(LogLevel.DEBUG, BlockType.TRIGGER, "Entity", !Game.Logging ? "" : $"{this} set data {GameTag.DAMAGE} to {value}");
 				if (_history && value != _damage)
 				{
 					Game.PowerHistory.Add(PowerHistoryBuilder.TagChange(Id, GameTag.DAMAGE, value));
@@ -709,11 +709,11 @@ namespace SabberStoneCore.Model.Entities
 				_modifiedHealth = value;
 				_damage = 0;
 
-				if (_logging)
-				{
-					Game.Log(LogLevel.DEBUG, BlockType.TRIGGER, "Entity", !Game.Logging ? "" : $"{this} set data {GameTag.HEALTH} to {value}");
-					Game.Log(LogLevel.DEBUG, BlockType.TRIGGER, "Entity", !Game.Logging ? "" : $"{this} set data {GameTag.DAMAGE} to {value}");
-				}
+				//if (_logging)
+				//{
+				//	Game.Log(LogLevel.DEBUG, BlockType.TRIGGER, "Entity", !Game.Logging ? "" : $"{this} set data {GameTag.HEALTH} to {value}");
+				//	Game.Log(LogLevel.DEBUG, BlockType.TRIGGER, "Entity", !Game.Logging ? "" : $"{this} set data {GameTag.DAMAGE} to {value}");
+				//}
 
 				if (_history)
 				{

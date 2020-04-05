@@ -160,8 +160,8 @@ namespace SabberStoneCore.Config
 		/// <summary>
 		/// Gets or sets a value indicating whether <see cref="Game"/> should store log entries.</summary>
 		/// <value><c>true</c> if logging is required; otherwise, <c>false</c>.</value>
-		public bool Logging { get; set; } = true;
-
+		public bool Logging { get; set; } = false; //20200405 Connor - turn this off pls
+		//public bool Logging { get; set; } = true;
 		/// <summary>
 		/// Gets or sets a value indicating whether <see cref="Game"/> should store POWER history
 		/// entries.

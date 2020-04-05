@@ -8,13 +8,13 @@ EndSize = 100
 
 [[Map.Features]]
 Name = "NumTurns"
-MinValue = 5.0
-MaxValue = 15.0
+MinValue = 25.0
+MaxValue = 35.0
 
 [[Map.Features]]
 Name = "HandSize"
 MinValue = 1.0
-MaxValue = 7.0
+MaxValue = 9.0
 
 [[Emitters]]
 Type = "Improvement"

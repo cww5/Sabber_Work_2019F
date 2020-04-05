@@ -156,8 +156,9 @@ namespace SabberStoneCore.Model.Entities
 			}
 			set
 			{
-				if (_logging)
-					Game.Log(LogLevel.DEBUG, BlockType.TRIGGER, "Entity", !Game.Logging ? "" : $"{this} set data {t} to {value}");
+				//20200405 Connor - Turning off the logging for now 
+				//if (_logging)
+				//	Game.Log(LogLevel.DEBUG, BlockType.TRIGGER, "Entity", !Game.Logging ? "" : $"{this} set data {t} to {value}");
 				if (_history && (int)t < 1000)
 					if (value + ControllerAuraEffects[t] != this[t])
 						Game.PowerHistory.Add(PowerHistoryBuilder.TagChange(Id, t, value));
