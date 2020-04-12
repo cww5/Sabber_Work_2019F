@@ -1,0 +1,20 @@
+,Card,Quantity,Mana-Cost,Card-Type,Card-Class
+0,Mortal Coil,2,1,Spell,Warlock
+1,Shriek,2,1,Spell,Warlock
+2,Curse of Weakness,2,2,Spell,Warlock
+3,Plot Twist,2,2,Spell,Warlock
+4,Reckless Diretroll,2,2,Minion,Warlock
+5,Sense Demons,2,3,Spell,Warlock
+6,Hellfire,2,4,Spell,Warlock
+7,High Priestess Jeklik,1,4,Minion,Warlock
+8,Aranasi Broodmother,2,6,Minion,Warlock
+9,Soulwarden,2,6,Minion,Warlock
+10,Arch-Villain Rafaam,1,7,Minion,Warlock
+11,Lord Godfrey,1,7,Minion,Warlock
+12,Fel Lord Betrug,1,8,Minion,Warlock
+13,Doomsayer,2,2,Minion,Neutral
+14,Augmented Elekk,1,3,Minion,Neutral
+15,Rotten Applebaum,2,5,Minion,Neutral
+16,Zilliax,1,5,Minion,Neutral
+17,Mossy Horror,1,6,Minion,Neutral
+18,"Hakkar, the Soulflayer",1,10,Minion,Neutral
