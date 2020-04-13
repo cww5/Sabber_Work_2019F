@@ -7,8 +7,8 @@ For my Master's Thesis, I will be conducting research using Hearthone to compare
 - [ ] Format the tasks and cards into the data set (Optional?)
 - [x] Confirm that the NeuralNetScore works
 - [x] Run games to evolve Warlock Aggro and Warlock Control
-- [ ] Compare the baseline strategy matchups against each other
-- [ ] Compare the baseline strategy matchups against the evolved ones
+- [x] Compare the baseline strategy matchups against each other
+- [x] Compare the baseline strategy matchups against the evolved ones
 - [ ] Type up Thesis document (ongoing)
  
 # Getting Started
