@@ -1,22 +1,105 @@
->>Name: Budget Zoolock
->>Author: Roffle
->>Hero: Warlock
->>Score: Aggro
->>Date: 20190416
->>Link:https://www.hearthstonetopdecks.com/decks/budget-zoo-warlock-deck-list-guide-rise-of-shadows/
-Flame Imp><2
-Grim Rally><2
-Soul Infusion><2
-Soulfire><2
-Voidwalker><2
-Witchwood Imp><2
-Fiendish Circle><2
-Doubling Imp><2
-Abusive Sergeant><2
-Argent Squire><2
-Mecharoo><2
-Saronite Taskmaster><2
-Dire Wolf Alpha><2
-Knife Juggler><2
-Scarab Egg><2
->>CSV:Budget Zoolock; Roffle; Warlock; Aggro;Flame Imp*Flame Imp*Grim Rally*Grim Rally*Soul Infusion*Soul Infusion*Soulfire*Soulfire*Voidwalker*Voidwalker*Witchwood Imp*Witchwood Imp*Fiendish Circle*Fiendish Circle*Doubling Imp*Doubling Imp*Abusive Sergeant*Abusive Sergeant*Argent Squire*Argent Squire*Mecharoo*Mecharoo*Saronite Taskmaster*Saronite Taskmaster*Dire Wolf Alpha*Dire Wolf Alpha*Knife Juggler*Knife Juggler*Scarab Egg*Scarab Egg;
+\rule{0pt}{1pt}& & & & \\
+\strut Flame Imp &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{1} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Warlock} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Grim Rally &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{1} &
+	\PBS\raggedright{Spell} &
+	\PBS\raggedright{Warlock} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Soul Infusion &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{1} &
+	\PBS\raggedright{Spell} &
+	\PBS\raggedright{Warlock} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Soulfire &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{1} &
+	\PBS\raggedright{Spell} &
+	\PBS\raggedright{Warlock} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Voidwalker &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{1} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Warlock} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Witchwood Imp &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{1} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Warlock} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Fiendish Circle &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{4} &
+	\PBS\raggedright{Spell} &
+	\PBS\raggedright{Warlock} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Doubling Imp &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{3} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Warlock} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Abusive Sergeant &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{1} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Neutral} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Argent Squire &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{1} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Neutral} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Mecharoo &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{1} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Neutral} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Saronite Taskmaster &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{1} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Neutral} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Dire Wolf Alpha &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Neutral} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Knife Juggler &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Neutral} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Scarab Egg &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Neutral} \\
+\rule{0pt}{1pt}& & & & \\ \hline

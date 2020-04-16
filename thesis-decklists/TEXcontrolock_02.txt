@@ -1,12 +1,5 @@
 \rule{0pt}{1pt}& & & & \\
-\strut Flame Imp &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{1} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Warlock} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Grim Rally &
+\strut Mortal Coil &
 	\PBS\raggedright{2} &
 	\PBS\raggedright{1} &
 	\PBS\raggedright{Spell} &
@@ -20,100 +13,128 @@
 	\PBS\raggedright{Warlock} \\
 \rule{0pt}{1pt}& & & & \\ \hline
 \rule{0pt}{1pt}& & & & \\
-\strut Voidwalker &
+\strut Plot Twist &
 	\PBS\raggedright{2} &
-	\PBS\raggedright{1} &
-	\PBS\raggedright{Minion} &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{Spell} &
 	\PBS\raggedright{Warlock} \\
 \rule{0pt}{1pt}& & & & \\ \hline
 \rule{0pt}{1pt}& & & & \\
-\strut Fiendish Circle &
+\strut Acidic Swamp Ooze &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Neutral} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Doomsayer &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Neutral} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Sense Demons &
+	\PBS\raggedright{1} &
+	\PBS\raggedright{3} &
+	\PBS\raggedright{Spell} &
+	\PBS\raggedright{Warlock} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Shadow Bolt &
+	\PBS\raggedright{1} &
+	\PBS\raggedright{3} &
+	\PBS\raggedright{Spell} &
+	\PBS\raggedright{Warlock} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Voodoo Doll &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{3} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Neutral} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Hellfire &
 	\PBS\raggedright{2} &
 	\PBS\raggedright{4} &
 	\PBS\raggedright{Spell} &
 	\PBS\raggedright{Warlock} \\
 \rule{0pt}{1pt}& & & & \\ \hline
 \rule{0pt}{1pt}& & & & \\
-\strut Omega Agent &
+\strut Zilliax &
+	\PBS\raggedright{1} &
+	\PBS\raggedright{5} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Neutral} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Rotten Applebaum &
 	\PBS\raggedright{2} &
 	\PBS\raggedright{5} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Neutral} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Aranasi Broodmother &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{6} &
 	\PBS\raggedright{Minion} &
 	\PBS\raggedright{Warlock} \\
 \rule{0pt}{1pt}& & & & \\ \hline
 \rule{0pt}{1pt}& & & & \\
-\strut Abusive Sergeant &
+\strut Siphon Soul &
 	\PBS\raggedright{2} &
+	\PBS\raggedright{6} &
+	\PBS\raggedright{Spell} &
+	\PBS\raggedright{Warlock} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Safeguard &
 	\PBS\raggedright{1} &
+	\PBS\raggedright{6} &
 	\PBS\raggedright{Minion} &
 	\PBS\raggedright{Neutral} \\
 \rule{0pt}{1pt}& & & & \\ \hline
 \rule{0pt}{1pt}& & & & \\
-\strut Mecharoo &
-	\PBS\raggedright{2} &
+\strut Lord Godfrey &
 	\PBS\raggedright{1} &
+	\PBS\raggedright{7} &
 	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
+	\PBS\raggedright{Warlock} \\
 \rule{0pt}{1pt}& & & & \\ \hline
 \rule{0pt}{1pt}& & & & \\
-\strut Dire Wolf Alpha &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Knife Juggler &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Scarab Egg &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Magic Carpet &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{3} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut SN1P-SN4P &
+\strut Arch-Villain Rafaam &
 	\PBS\raggedright{1} &
-	\PBS\raggedright{3} &
+	\PBS\raggedright{7} &
 	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
+	\PBS\raggedright{Warlock} \\
 \rule{0pt}{1pt}& & & & \\ \hline
 \rule{0pt}{1pt}& & & & \\
-\strut Explodinator &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{4} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Barista Lynchen &
+\strut Fel Lord Betrug &
 	\PBS\raggedright{1} &
-	\PBS\raggedright{5} &
+	\PBS\raggedright{8} &
 	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
+	\PBS\raggedright{Warlock} \\
 \rule{0pt}{1pt}& & & & \\ \hline
 \rule{0pt}{1pt}& & & & \\
-\strut Wargear &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{5} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Zilliax &
+\strut Deranged Doctor &
 	\PBS\raggedright{1} &
-	\PBS\raggedright{5} &
+	\PBS\raggedright{8} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Neutral} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Twisting Nether &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{8} &
+	\PBS\raggedright{Spell} &
+	\PBS\raggedright{Warlock} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Hakkar, the Soulflayer &
+	\PBS\raggedright{1} &
+	\PBS\raggedright{10} &
 	\PBS\raggedright{Minion} &
 	\PBS\raggedright{Neutral} \\
 \rule{0pt}{1pt}& & & & \\ \hline

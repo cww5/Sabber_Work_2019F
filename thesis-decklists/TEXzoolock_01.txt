@@ -13,8 +13,15 @@
 	\PBS\raggedright{Warlock} \\
 \rule{0pt}{1pt}& & & & \\ \hline
 \rule{0pt}{1pt}& & & & \\
-\strut The Soularium &
+\strut Soul Infusion &
+	\PBS\raggedright{2} &
 	\PBS\raggedright{1} &
+	\PBS\raggedright{Spell} &
+	\PBS\raggedright{Warlock} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Soulfire &
+	\PBS\raggedright{2} &
 	\PBS\raggedright{1} &
 	\PBS\raggedright{Spell} &
 	\PBS\raggedright{Warlock} \\
@@ -27,16 +34,9 @@
 	\PBS\raggedright{Warlock} \\
 \rule{0pt}{1pt}& & & & \\ \hline
 \rule{0pt}{1pt}& & & & \\
-\strut Fiendish Circle &
+\strut Witchwood Imp &
 	\PBS\raggedright{2} &
-	\PBS\raggedright{4} &
-	\PBS\raggedright{Spell} &
-	\PBS\raggedright{Warlock} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Omega Agent &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{5} &
+	\PBS\raggedright{1} &
 	\PBS\raggedright{Minion} &
 	\PBS\raggedright{Warlock} \\
 \rule{0pt}{1pt}& & & & \\ \hline
@@ -48,7 +48,21 @@
 	\PBS\raggedright{Neutral} \\
 \rule{0pt}{1pt}& & & & \\ \hline
 \rule{0pt}{1pt}& & & & \\
+\strut Argent Squire &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{1} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Neutral} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
 \strut Mecharoo &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{1} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Neutral} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Saronite Taskmaster &
 	\PBS\raggedright{2} &
 	\PBS\raggedright{1} &
 	\PBS\raggedright{Minion} &
@@ -76,44 +90,16 @@
 	\PBS\raggedright{Neutral} \\
 \rule{0pt}{1pt}& & & & \\ \hline
 \rule{0pt}{1pt}& & & & \\
-\strut Magic Carpet &
+\strut Doubling Imp &
 	\PBS\raggedright{2} &
 	\PBS\raggedright{3} &
 	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
+	\PBS\raggedright{Warlock} \\
 \rule{0pt}{1pt}& & & & \\ \hline
 \rule{0pt}{1pt}& & & & \\
-\strut SN1P-SN4P &
-	\PBS\raggedright{1} &
-	\PBS\raggedright{3} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Explodinator &
+\strut Fiendish Circle &
 	\PBS\raggedright{2} &
 	\PBS\raggedright{4} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Barista Lynchen &
-	\PBS\raggedright{1} &
-	\PBS\raggedright{5} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Wargear &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{5} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Zilliax &
-	\PBS\raggedright{1} &
-	\PBS\raggedright{5} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
+	\PBS\raggedright{Spell} &
+	\PBS\raggedright{Warlock} \\
 \rule{0pt}{1pt}& & & & \\ \hline

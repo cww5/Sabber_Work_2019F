@@ -27,20 +27,6 @@
 	\PBS\raggedright{Warlock} \\
 \rule{0pt}{1pt}& & & & \\ \hline
 \rule{0pt}{1pt}& & & & \\
-\strut Fiendish Circle &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{4} &
-	\PBS\raggedright{Spell} &
-	\PBS\raggedright{Warlock} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Omega Agent &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{5} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Warlock} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
 \strut Abusive Sergeant &
 	\PBS\raggedright{2} &
 	\PBS\raggedright{1} &
@@ -55,7 +41,7 @@
 	\PBS\raggedright{Neutral} \\
 \rule{0pt}{1pt}& & & & \\ \hline
 \rule{0pt}{1pt}& & & & \\
-\strut Dire Wolf Alpha &
+\strut Scarab Egg &
 	\PBS\raggedright{2} &
 	\PBS\raggedright{2} &
 	\PBS\raggedright{Minion} &
@@ -69,7 +55,7 @@
 	\PBS\raggedright{Neutral} \\
 \rule{0pt}{1pt}& & & & \\ \hline
 \rule{0pt}{1pt}& & & & \\
-\strut Scarab Egg &
+\strut Dire Wolf Alpha &
 	\PBS\raggedright{2} &
 	\PBS\raggedright{2} &
 	\PBS\raggedright{Minion} &
@@ -90,11 +76,25 @@
 	\PBS\raggedright{Neutral} \\
 \rule{0pt}{1pt}& & & & \\ \hline
 \rule{0pt}{1pt}& & & & \\
+\strut Fiendish Circle &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{4} &
+	\PBS\raggedright{Spell} &
+	\PBS\raggedright{Warlock} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
 \strut Explodinator &
 	\PBS\raggedright{2} &
 	\PBS\raggedright{4} &
 	\PBS\raggedright{Minion} &
 	\PBS\raggedright{Neutral} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Omega Agent &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{5} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Warlock} \\
 \rule{0pt}{1pt}& & & & \\ \hline
 \rule{0pt}{1pt}& & & & \\
 \strut Barista Lynchen &

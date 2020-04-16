@@ -1,23 +1,112 @@
->>Name: Zoolock Legend #7 Post Nerf
->>Author: Viper
->>Hero: Warlock
->>Score: Aggro
->>Date: 20190524
->>Link: https://www.hearthstonetopdecks.com/decks/zoo-warlock-shadows-post-nerf-7-legend-viper/
-Flame Imp><2
-Grim Rally><2
-The Soularium><1
-Voidwalker><2
-Witchwood Imp><2
-Fiendish Circle><2
-Abusive Sergeant><2
-Crystallizer><2
-Mecharoo><2
-Dire Wolf Alpha><2
-Knife Juggler><2
-Scarab Egg><2
-Magic Carpet><2
-Microtech Controller><2
-Defender of Argus><1
-Sea Giant><2
->>CSV:Zoolock Legend #7 Post Nerf; Viper; Warlock; Aggro;Flame Imp*Flame Imp*Grim Rally*Grim Rally*The Soularium*Voidwalker*Voidwalker*Witchwood Imp*Witchwood Imp*Fiendish Circle*Fiendish Circle*Abusive Sergeant*Abusive Sergeant*Crystallizer*Crystallizer*Mecharoo*Mecharoo*Dire Wolf Alpha*Dire Wolf Alpha*Knife Juggler*Knife Juggler*Scarab Egg*Scarab Egg*Magic Carpet*Magic Carpet*Microtech Controller*Microtech Controller*Defender of Argus*Sea Giant*Sea Giant;
+\rule{0pt}{1pt}& & & & \\
+\strut Flame Imp &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{1} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Warlock} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Grim Rally &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{1} &
+	\PBS\raggedright{Spell} &
+	\PBS\raggedright{Warlock} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut The Soularium &
+	\PBS\raggedright{1} &
+	\PBS\raggedright{1} &
+	\PBS\raggedright{Spell} &
+	\PBS\raggedright{Warlock} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Voidwalker &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{1} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Warlock} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Witchwood Imp &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{1} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Warlock} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Fiendish Circle &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{4} &
+	\PBS\raggedright{Spell} &
+	\PBS\raggedright{Warlock} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Abusive Sergeant &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{1} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Neutral} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Crystallizer &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{1} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Neutral} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Mecharoo &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{1} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Neutral} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Dire Wolf Alpha &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Neutral} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Knife Juggler &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Neutral} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Scarab Egg &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Neutral} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Magic Carpet &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{3} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Neutral} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Microtech Controller &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{3} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Neutral} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Defender of Argus &
+	\PBS\raggedright{1} &
+	\PBS\raggedright{4} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Neutral} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Sea Giant &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{10} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Neutral} \\
+\rule{0pt}{1pt}& & & & \\ \hline

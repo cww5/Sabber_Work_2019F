@@ -6,15 +6,57 @@
 	\PBS\raggedright{Warlock} \\
 \rule{0pt}{1pt}& & & & \\ \hline
 \rule{0pt}{1pt}& & & & \\
-\strut Grim Rally &
+\strut Mecharoo &
 	\PBS\raggedright{2} &
+	\PBS\raggedright{1} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Neutral} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Crystallizer &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{1} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Neutral} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Abusive Sergeant &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{1} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Neutral} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Witchwood Imp &
+	\PBS\raggedright{1} &
+	\PBS\raggedright{1} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Warlock} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Argent Squire &
+	\PBS\raggedright{2} &
+	\PBS\raggedright{1} &
+	\PBS\raggedright{Minion} &
+	\PBS\raggedright{Neutral} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut The Soularium &
+	\PBS\raggedright{1} &
 	\PBS\raggedright{1} &
 	\PBS\raggedright{Spell} &
 	\PBS\raggedright{Warlock} \\
 \rule{0pt}{1pt}& & & & \\ \hline
 \rule{0pt}{1pt}& & & & \\
-\strut The Soularium &
+\strut Soulfire &
 	\PBS\raggedright{1} &
+	\PBS\raggedright{1} &
+	\PBS\raggedright{Spell} &
+	\PBS\raggedright{Warlock} \\
+\rule{0pt}{1pt}& & & & \\ \hline
+\rule{0pt}{1pt}& & & & \\
+\strut Grim Rally &
+	\PBS\raggedright{2} &
 	\PBS\raggedright{1} &
 	\PBS\raggedright{Spell} &
 	\PBS\raggedright{Warlock} \\
@@ -25,34 +67,6 @@
 	\PBS\raggedright{1} &
 	\PBS\raggedright{Minion} &
 	\PBS\raggedright{Warlock} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Fiendish Circle &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{4} &
-	\PBS\raggedright{Spell} &
-	\PBS\raggedright{Warlock} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Omega Agent &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{5} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Warlock} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Abusive Sergeant &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{1} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Mecharoo &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{1} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
 \rule{0pt}{1pt}& & & & \\ \hline
 \rule{0pt}{1pt}& & & & \\
 \strut Dire Wolf Alpha &
@@ -83,37 +97,23 @@
 	\PBS\raggedright{Neutral} \\
 \rule{0pt}{1pt}& & & & \\ \hline
 \rule{0pt}{1pt}& & & & \\
-\strut SN1P-SN4P &
-	\PBS\raggedright{1} &
-	\PBS\raggedright{3} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Explodinator &
+\strut Fiendish Circle &
 	\PBS\raggedright{2} &
 	\PBS\raggedright{4} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
+	\PBS\raggedright{Spell} &
+	\PBS\raggedright{Warlock} \\
 \rule{0pt}{1pt}& & & & \\ \hline
 \rule{0pt}{1pt}& & & & \\
-\strut Barista Lynchen &
+\strut Leeroy Jenkins &
 	\PBS\raggedright{1} &
 	\PBS\raggedright{5} &
 	\PBS\raggedright{Minion} &
 	\PBS\raggedright{Neutral} \\
 \rule{0pt}{1pt}& & & & \\ \hline
 \rule{0pt}{1pt}& & & & \\
-\strut Wargear &
+\strut Sea Giant &
 	\PBS\raggedright{2} &
-	\PBS\raggedright{5} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Zilliax &
-	\PBS\raggedright{1} &
-	\PBS\raggedright{5} &
+	\PBS\raggedright{10} &
 	\PBS\raggedright{Minion} &
 	\PBS\raggedright{Neutral} \\
 \rule{0pt}{1pt}& & & & \\ \hline
