@@ -1,119 +1,24 @@
-\rule{0pt}{1pt}& & & & \\
-\strut Flame Imp &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{1} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Warlock} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Grim Rally &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{1} &
-	\PBS\raggedright{Spell} &
-	\PBS\raggedright{Warlock} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut The Soularium &
-	\PBS\raggedright{1} &
-	\PBS\raggedright{1} &
-	\PBS\raggedright{Spell} &
-	\PBS\raggedright{Warlock} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Voidwalker &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{1} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Warlock} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Fiendish Circle &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{4} &
-	\PBS\raggedright{Spell} &
-	\PBS\raggedright{Warlock} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Omega Agent &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{5} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Warlock} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Abusive Sergeant &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{1} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Mecharoo &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{1} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Dire Wolf Alpha &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Knife Juggler &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Scarab Egg &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Magic Carpet &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{3} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut SN1P-SN4P &
-	\PBS\raggedright{1} &
-	\PBS\raggedright{3} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Explodinator &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{4} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Barista Lynchen &
-	\PBS\raggedright{1} &
-	\PBS\raggedright{5} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Wargear &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{5} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Zilliax &
-	\PBS\raggedright{1} &
-	\PBS\raggedright{5} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
-\rule{0pt}{1pt}& & & & \\ \hline
+>>Name: Omega Zoolock Legend 25-14
+>>Author: Wabeka
+>>Hero: Warlock
+>>Score: Aggro
+>>Date: 20190711
+>>Link: https://www.hearthstonetopdecks.com/decks/omega-zoo-shadows-hof-25-14-wabeka/
+Flame Imp><2
+Grim Rally><2
+The Soularium><1
+Voidwalker><2
+Fiendish Circle><2
+Omega Agent><2
+Abusive Sergeant><2
+Mecharoo><2
+Dire Wolf Alpha><2
+Knife Juggler><2
+Scarab Egg><2
+Magic Carpet><2
+SN1P-SN4P><1
+Explodinator><2
+Barista Lynchen><1
+Wargear><2
+Zilliax><1
+>>CSV:Omega Zoolock Legend 25-14; Wabeka; Warlock; Network;Flame Imp*Flame Imp*Grim Rally*Grim Rally*The Soularium*Voidwalker*Voidwalker*Fiendish Circle*Fiendish Circle*Omega Agent*Omega Agent*Abusive Sergeant*Abusive Sergeant*Mecharoo*Mecharoo*Dire Wolf Alpha*Dire Wolf Alpha*Knife Juggler*Knife Juggler*Scarab Egg*Scarab Egg*Magic Carpet*Magic Carpet*SN1P-SN4P*Explodinator*Explodinator*Barista Lynchen*Wargear*Wargear*Zilliax;

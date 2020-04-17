@@ -1,119 +1,24 @@
-\rule{0pt}{1pt}& & & & \\
-\strut Flame Imp &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{1} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Warlock} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Grim Rally &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{1} &
-	\PBS\raggedright{Spell} &
-	\PBS\raggedright{Warlock} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Soulfire &
-	\PBS\raggedright{1} &
-	\PBS\raggedright{1} &
-	\PBS\raggedright{Spell} &
-	\PBS\raggedright{Warlock} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut The Soularium &
-	\PBS\raggedright{1} &
-	\PBS\raggedright{1} &
-	\PBS\raggedright{Spell} &
-	\PBS\raggedright{Warlock} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Voidwalker &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{1} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Warlock} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Witchwood Imp &
-	\PBS\raggedright{1} &
-	\PBS\raggedright{1} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Warlock} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Fiendish Circle &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{4} &
-	\PBS\raggedright{Spell} &
-	\PBS\raggedright{Warlock} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Abusive Sergeant &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{1} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Argent Squire &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{1} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Crystallizer &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{1} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Mecharoo &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{1} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Dire Wolf Alpha &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Knife Juggler &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Scarab Egg &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Magic Carpet &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{3} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Leeroy Jenkins &
-	\PBS\raggedright{1} &
-	\PBS\raggedright{5} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
-\rule{0pt}{1pt}& & & & \\ \hline
-\rule{0pt}{1pt}& & & & \\
-\strut Sea Giant &
-	\PBS\raggedright{2} &
-	\PBS\raggedright{10} &
-	\PBS\raggedright{Minion} &
-	\PBS\raggedright{Neutral} \\
-\rule{0pt}{1pt}& & & & \\ \hline
+>>Name: Zoolock Early Legend Post Nerf
+>>Author: Solegit
+>>Hero: Warlock
+>>Score: Aggro
+>>Date: 20190603
+>>Link: https://www.hearthstonetopdecks.com/decks/zoo-warlock-shadows-post-nerf-early-3-legend-solegit/
+Flame Imp><2
+Grim Rally><2
+Soulfire><1
+The Soularium><1
+Voidwalker><2
+Witchwood Imp><1
+Fiendish Circle><2
+Abusive Sergeant><2
+Argent Squire><2
+Crystallizer><2
+Mecharoo><2
+Dire Wolf Alpha><2
+Knife Juggler><2
+Scarab Egg><2
+Magic Carpet><2
+Leeroy Jenkins><1
+Sea Giant><2
+>>CSV:Zoolock Early Legend Post Nerf; Solegit; Warlock; Network;Flame Imp*Flame Imp*Grim Rally*Grim Rally*Soulfire*The Soularium*Voidwalker*Voidwalker*Witchwood Imp*Fiendish Circle*Fiendish Circle*Abusive Sergeant*Abusive Sergeant*Argent Squire*Argent Squire*Crystallizer*Crystallizer*Mecharoo*Mecharoo*Dire Wolf Alpha*Dire Wolf Alpha*Knife Juggler*Knife Juggler*Scarab Egg*Scarab Egg*Magic Carpet*Magic Carpet*Leeroy Jenkins*Sea Giant*Sea Giant;

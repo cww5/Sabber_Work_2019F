@@ -1,6 +1,6 @@
-Model,Accuracy,Recall,Precision,F1-Score,AUC
+,Accuracy,Recall,Precision,F1-Score,AUC
 Logistic-Regression,0.9986,0.9981,0.9992,0.9986,0.9986
-Random-Forest,0.9992,0.9988,0.9997,0.9992,0.9992
+Random-Forest,0.9992,0.999,0.9993,0.9992,0.9992
 Support-Vector-Classifier,0.9987,0.9983,0.9992,0.9987,0.9987
 Decision-Tree,0.9981,0.9978,0.9983,0.9981,0.9981
 SGD-Classifier,0.9988,0.9985,0.9992,0.9988,0.9988
