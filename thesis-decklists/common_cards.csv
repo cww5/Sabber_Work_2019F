@@ -1,0 +1,11 @@
+,controlock_01.txt,controlock_02.txt,controlock_03.txt,controlock_04.txt,controlock_05.txt,zoolock_01.txt,zoolock_02.txt,zoolock_03.txt,zoolock_04.txt,zoolock_05.txt
+controlock_01.txt,30,18,12,10,11,0,0,0,0,1
+controlock_02.txt,18,30,14,14,13,0,1,1,1,2
+controlock_03.txt,12,14,30,15,16,0,0,0,0,3
+controlock_04.txt,10,14,15,30,17,0,0,0,0,0
+controlock_05.txt,11,13,16,17,30,0,1,0,0,3
+zoolock_01.txt,0,0,0,0,0,30,20,22,22,18
+zoolock_02.txt,0,1,0,0,1,20,30,27,26,21
+zoolock_03.txt,0,1,0,0,0,22,27,30,28,22
+zoolock_04.txt,0,1,0,0,0,22,26,28,30,21
+zoolock_05.txt,1,2,3,0,3,18,21,22,21,30

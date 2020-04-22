@@ -1,0 +1,6 @@
+,Accuracy,Recall-Aggro,Recall-Control,Precision-Aggro,Precision-Control,AUC,F1-Aggro,F1-Control
+Logistic-Regression,0.9986,0.9992,0.9981,0.9981,0.9992,0.9986,0.9986,0.9986
+Random-Forest,0.999,0.9992,0.9988,0.9988,0.9992,0.999,0.999,0.999
+Support-Vector-Classifier,0.9987,0.9992,0.9983,0.9983,0.9992,0.9987,0.9987,0.9987
+Decision-Tree,0.9981,0.9983,0.9978,0.9978,0.9983,0.9981,0.9981,0.9981
+SGD-Classifier,0.9988,0.9992,0.9985,0.9985,0.9992,0.9988,0.9988,0.9988
