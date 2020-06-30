@@ -9,7 +9,7 @@ For my Master's Thesis, I will be conducting research using Hearthone to compare
 - [x] Run games to evolve Warlock Aggro and Warlock Control
 - [x] Compare the baseline strategy matchups against each other
 - [x] Compare the baseline strategy matchups against the evolved ones
-- [ ] Type up Thesis document (ongoing)
+- [x] Type up Thesis document (ongoing)
  
 # Getting Started
 ## Prerequisites
