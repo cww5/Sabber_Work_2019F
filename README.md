@@ -1,6 +1,11 @@
 # Sabber_Work_2019F
 For my Master's Thesis, I will be conducting research using Hearthone to compare common strategies. Because Hearthstone isn't open source, we are using an open source software developed by HearthSim called SabberStone (link below). SabberStone has an AI built in which will play a full game of Hearthstone against another AI, and output very detailed logs about the final decisions it makes. We can utilize these logs in order to investigate the high-level decisions made by each player in a study to quantify the strategies, and in fact compare if evolved strategies via Neural Networks perform better than these baseline agents. 
 
+## Final Presentation (PPT Form)
+The PDF is available in this repo. 
+
+The publicly available PPT is available in this [Drive Link](https://docs.google.com/presentation/d/1CmDJkEJGiCRlZxZFhQ7sxtBU6EGc7qcT9f041sCTgeM/edit?usp=sharing).
+
 ## TODO
 
 - [x] Retrieve relevant turn information per player from Sabber
